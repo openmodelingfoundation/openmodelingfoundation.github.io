@@ -1,7 +1,6 @@
 ---
 title: "Standards"
-date: 2020-03-16T10:51:38-07:00
-draft: true
+linkTitle: "Standards"
 menu:
   main:
     weight: 20
