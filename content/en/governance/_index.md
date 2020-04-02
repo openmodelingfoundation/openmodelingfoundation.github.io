@@ -5,3 +5,5 @@ menu:
   main:
     weight: 20
 ---
+
+## Charter
