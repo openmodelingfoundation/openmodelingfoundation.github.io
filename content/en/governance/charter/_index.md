@@ -24,7 +24,7 @@ can be realized through a common suite of standards, protocols, and best
 practices that enables modeling scientists to share knowledge and build
 on one another's research.
 
-====================================
+----
 
 ## Mission and Goals  
 
@@ -70,8 +70,7 @@ temporal scales. Through fostering innovative modeling science, the Open
 Modeling Foundation endeavors to help humanity confront rapidly changing
 and ever more complex and global issues, and improve human well-being.
 
-====================================
-
+-----
 
 ## Activities 
 
@@ -205,7 +204,7 @@ scientists. Identifying, prioritizing, and coordinating such activities
 will be the responsibility of the Executive Directorate and Activities
 Committees. The following are examples of such activities.
 
-============================
+-----
 
 ## Membership
 
@@ -217,7 +216,7 @@ Directorate and presented to the Membership Council for approval.
 Membership is supported by donations and assume active voluntary
 participation of members in the Foundation activities.
 
-============================
+-----
 
 ## Governance  
 
