@@ -4,4 +4,4 @@ linkTitle: "Accessibility"
 weight: 1
 ---
 
-Make it easy to find and discover models
+Standards to promote and enable discovery and access for model code
