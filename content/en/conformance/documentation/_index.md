@@ -2,7 +2,8 @@
 title: Documentation
 linkTitle: Documentation
 cascade:
-  type: accessibility
+  type: documentation
+  github_project_number: 3
 weight: 2
 ---
 
