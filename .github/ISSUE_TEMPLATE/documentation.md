@@ -1,7 +1,6 @@
----
-name: Documentation issue
+name: Documentation
 about: Use this template for documentation standards
-asignees: cmbarton
+assignees: MarcoAJanssen
 projects: openmodelingfoundation/openmodelingfoundation.github.io/3
 
 ---
