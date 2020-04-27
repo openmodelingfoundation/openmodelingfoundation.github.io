@@ -2,7 +2,7 @@
 title: "Accessibility"
 linkTitle: "Accessibility"
 cascade:
-  type: "accessiblity"
+  type: accessibility
 weight: 1
 ---
 
