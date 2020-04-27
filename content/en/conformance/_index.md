@@ -1,6 +1,7 @@
 ---
 title: "Standards"
 linkTitle: "Standards"
+type: site-wide
 menu:
   main:
     weight: 20

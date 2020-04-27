@@ -1,6 +1,8 @@
 ---
 title: "Accessibility"
 linkTitle: "Accessibility"
+cascade:
+  type: "accessiblity"
 weight: 1
 ---
 

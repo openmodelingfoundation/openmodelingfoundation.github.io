@@ -1,6 +1,8 @@
 ---
 title: Documentation
 linkTitle: Documentation
+cascade:
+  type: accessibility
 weight: 2
 ---
 
