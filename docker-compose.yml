@@ -1,0 +1,9 @@
+version: '3'
+services:
+  hugo:
+    build: .
+    ports:
+      - "127.0.0.1:1313:1313"
+    volumes:
+      - .:/src
+      - /src/node_modules
