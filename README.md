@@ -44,3 +44,5 @@ For example
 ```
 
 will make the web page accessible to your browser on `localhost:1313`
+
+`cli` is just a script to make the container function in a way similar to the hugo command line application.
