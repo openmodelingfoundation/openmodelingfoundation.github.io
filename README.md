@@ -35,14 +35,18 @@ docker-compose build
 
 Then use `cli` to run the server
 
-Note that you'll need to bind to `0.0.0.0` when running `hugo serve` for the port to be exposed
-
 For example
 
 ```
-./cli serve --bind 0.0.0.0
+./cli serve
 ```
 
 will make the web page accessible to your browser on `localhost:1313`
+
+```
+./cli shell
+```
+
+will open a shell into the container
 
 `cli` is just a script to make the container function in a way similar to the hugo command line application.

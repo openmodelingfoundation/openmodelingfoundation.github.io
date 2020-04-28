@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-docker-compose run --rm --service-ports hugo $@
+docker-compose run --rm --service-ports hugo --bind "0.0.0.0" $@
+
