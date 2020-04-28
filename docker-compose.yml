@@ -2,8 +2,6 @@ version: '3'
 services:
   hugo:
     build: .
-    environment:
-      HUGO_BIND: "0.0.0.0"
     ports:
       - "127.0.0.1:1313:1313"
     volumes:
