@@ -38,7 +38,7 @@ Then use `cli` to run the server
 For example
 
 ```
-./cli serve
+./cli server
 ```
 
 will make the web page accessible to your browser on `localhost:1313`

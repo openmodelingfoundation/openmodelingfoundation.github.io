@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
-docker-compose run --rm --service-ports hugo --bind "0.0.0.0" $@
+OPTS="$@"
+USERID="$(id -u)"
+GROUPID="$(id -g)"
+docker-compose run --rm --service-ports --user="$USERID:$GROUPID" hugo $OPTS
 
