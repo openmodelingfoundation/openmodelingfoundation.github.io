@@ -11,8 +11,8 @@ These standards promote and enable discovery and access for model code, document
 
 # Accessibility
 
-Model code and documentation should be archived in a durable digital repository that issues DOIs or other permanent identifiers. The archive should adhere to FORCE11 software citation principles (https://www.force11.org/software-citation-principles) and expose their metadata in open, interoperable formats like schema.org or codemeta.
+Model code and documentation should be archived in a searchable, open access, trusted digital repository. A DOI, permanent URL or other permanent digital resource locator for accessing the model code must be provided that links to the specific version of the code used. The archive should adhere to FORCE11 software citation principles (https://www.force11.org/software-citation-principles) and expose their metadata in open, interoperable formats like schema.org or codemeta.
 
-Examples of such archives include: CoMSES Model Library https://www.comses.net/codebases/; the Open Science Framework https://osf.io/; Zenodo https://zenodo.org; Figshare https://figshare.com; CSDMS Model Repository https://csdms.colorado.edu/wiki/Model_download_portal. 
+A list of trusted digital repositories can be found at https://www.comses.net/resources/trusted-digital-repositories/ [perhaps becoming part of OMF website?]
 
 Model code and documentation being available in a version control system’s repository such as github.com is not recommended as they do not have an explicit mission to serve as a permanent archive and there are no protections or mechanisms to guard against data removal.
