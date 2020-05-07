@@ -1,6 +1,10 @@
 ---
 name: Interoperability
 about: Use this template for interoperability standards
+title: ''
+labels: standards - interoperability
 assignees: gregtucker
-projects:  openmodelingfoundation/openmodelingfoundation.github.io/1
+
 ---
+
+
