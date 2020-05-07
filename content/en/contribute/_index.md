@@ -24,7 +24,7 @@ There are two ways to work with a document. You can you can make a comment or su
 
 ## How to Edit the Text
 1. In your browser navigate to the page that has text you would like to change.
-2. On this page, choose **Propose Edits** menu item (upper right corner). This will open a new page in a different tab.
+2. On this page, choose **Suggest Edits** menu item (upper right corner). This will open a new page in a different tab.
 3. The first time you attempt to edit a page you will be asked to create a ***forked repository*** – do so. (This is essentially where copies of your proposed edits will be recorded)
 4. You will then be taken to a plain text editor on the GitHub site where you can make changes. (Note the Preview Changes tab if you want to see the result of your edits)
 5. Once you have made all of your changes, scroll down to the “Propose file change” section. In the empty boxes you must include a title and provide a short text description
