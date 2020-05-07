@@ -3,15 +3,15 @@ title: Documentation
 linkTitle: Documentation
 cascade:
   type: documentation
-  github_project_number: 3
+  github_issue_filter: "label:\"standards - documentation\""
 weight: 2
 ---
 
-The standards below aim to be minimum standards for best practices in computational modeling. We focus on __minimum standards__  to reach a high level of adoption which will improve the quality of documentation a lot across the field. For purposes of this document, the word 'model' is shorthand for 'computational model program': a computer code that generates a numerical solution to one or more mathematical or algorithmic models of a natural and/or human system. 
+<div class="alert alert-warning">
+The standards below aim to be minimum standards for best practices in computational modeling. We focus on <i>minimum standards</i>  to reach a high level of adoption which will improve the quality of documentation a lot across the field. For purposes of this document, the word 'model' is shorthand for 'computational model program': a computer code that generates a numerical solution to one or more mathematical or algorithmic models of a natural and/or human system. 
 This is a living document and comments are welcomed and will be addressed by the OMF standards committee. The minimum standards aim to capture concerns and practices among the members of OMF. Individual application domains could design adjusted and enhanced standards that capture specifics of that application domain. 
+</div>
 
-
-# Documentation and Code
 Documentation of a model, together with the provided model code, needs to facilitate the understanding of the intentions of the developer, and make the model easier to test, use, and link to other models. What are the assumptions made and what information is used to create and test the model? The following items are requested for a model description:
 
 ### Preliminaries

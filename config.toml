@@ -102,6 +102,8 @@ github_repo = "https://github.com/openmodelingfoundation/openmodelingfoundation.
 # github_subdir = ""
 github_branch = "develop"
 
+# A filter to find issues and prs related to the current page
+github_issue_filter = ""
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 # gcs_engine_id = "011737558837375720776:fsdu1nryfng"
