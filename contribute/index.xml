@@ -1,1 +1,96 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omf – Contribute</title><link>/contribute/</link><description>Recent content in Contribute on omf</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 04 May 2020 10:03:13 -0700</lastBuildDate><atom:link href="/contribute/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omf – Contribute</title><link>/contribute/</link><description>Recent content in Contribute on omf</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 04 May 2020 10:03:13 -0700</lastBuildDate><atom:link href="/contribute/index.xml" rel="self" type="application/rss+xml"/><item><title>Contribute: Contributor Covenant Code of Conduct</title><link>/contribute/code-of-conduct/</link><pubDate>Thu, 07 May 2020 10:34:28 -0700</pubDate><guid>/contribute/code-of-conduct/</guid><description>
+&lt;h2 id="our-pledge">Our Pledge&lt;/h2>
+&lt;p>We as members, contributors, and leaders pledge to make participation in our
+community a harassment-free experience for everyone, regardless of age, body
+size, visible or invisible disability, ethnicity, sex characteristics, gender
+identity and expression, level of experience, education, socio-economic status,
+nationality, personal appearance, race, religion, or sexual identity
+and orientation.&lt;/p>
+&lt;p>We pledge to act and interact in ways that contribute to an open, welcoming,
+diverse, inclusive, and healthy community.&lt;/p>
+&lt;h2 id="our-standards">Our Standards&lt;/h2>
+&lt;p>Examples of behavior that contributes to a positive environment for our
+community include:&lt;/p>
+&lt;ul>
+&lt;li>Demonstrating empathy and kindness toward other people&lt;/li>
+&lt;li>Being respectful of differing opinions, viewpoints, and experiences&lt;/li>
+&lt;li>Giving and gracefully accepting constructive feedback&lt;/li>
+&lt;li>Accepting responsibility and apologizing to those affected by our mistakes,
+and learning from the experience&lt;/li>
+&lt;li>Focusing on what is best not just for us as individuals, but for the
+overall community&lt;/li>
+&lt;/ul>
+&lt;p>Examples of unacceptable behavior include:&lt;/p>
+&lt;ul>
+&lt;li>The use of sexualized language or imagery, and sexual attention or
+advances of any kind&lt;/li>
+&lt;li>Trolling, insulting or derogatory comments, and personal or political attacks&lt;/li>
+&lt;li>Public or private harassment&lt;/li>
+&lt;li>Publishing others&amp;rsquo; private information, such as a physical or email
+address, without their explicit permission&lt;/li>
+&lt;li>Other conduct which could reasonably be considered inappropriate in a
+professional setting&lt;/li>
+&lt;/ul>
+&lt;h2 id="enforcement-responsibilities">Enforcement Responsibilities&lt;/h2>
+&lt;p>Community leaders are responsible for clarifying and enforcing our standards of
+acceptable behavior and will take appropriate and fair corrective action in
+response to any behavior that they deem inappropriate, threatening, offensive,
+or harmful.&lt;/p>
+&lt;p>Community leaders have the right and responsibility to remove, edit, or reject
+comments, commits, code, wiki edits, issues, and other contributions that are
+not aligned to this Code of Conduct, and will communicate reasons for moderation
+decisions when appropriate.&lt;/p>
+&lt;h2 id="scope">Scope&lt;/h2>
+&lt;p>This Code of Conduct applies within all community spaces, and also applies when
+an individual is officially representing the community in public spaces.
+Examples of representing our community include using an official e-mail address,
+posting via an official social media account, or acting as an appointed
+representative at an online or offline event.&lt;/p>
+&lt;h2 id="enforcement">Enforcement&lt;/h2>
+&lt;p>Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported to the community leaders responsible for enforcement at
+&lt;a href="https://www.comses.net/about/contact/">https://www.comses.net/about/contact/&lt;/a>.
+All complaints will be reviewed and investigated promptly and fairly.&lt;/p>
+&lt;p>All community leaders are obligated to respect the privacy and security of the
+reporter of any incident.&lt;/p>
+&lt;h2 id="enforcement-guidelines">Enforcement Guidelines&lt;/h2>
+&lt;p>Community leaders will follow these Community Impact Guidelines in determining
+the consequences for any action they deem in violation of this Code of Conduct:&lt;/p>
+&lt;h3 id="1-correction">1. Correction&lt;/h3>
+&lt;p>&lt;strong>Community Impact&lt;/strong>: Use of inappropriate language or other behavior deemed
+unprofessional or unwelcome in the community.&lt;/p>
+&lt;p>&lt;strong>Consequence&lt;/strong>: A private, written warning from community leaders, providing
+clarity around the nature of the violation and an explanation of why the
+behavior was inappropriate. A public apology may be requested.&lt;/p>
+&lt;h3 id="2-warning">2. Warning&lt;/h3>
+&lt;p>&lt;strong>Community Impact&lt;/strong>: A violation through a single incident or series
+of actions.&lt;/p>
+&lt;p>&lt;strong>Consequence&lt;/strong>: A warning with consequences for continued behavior. No
+interaction with the people involved, including unsolicited interaction with
+those enforcing the Code of Conduct, for a specified period of time. This
+includes avoiding interactions in community spaces as well as external channels
+like social media. Violating these terms may lead to a temporary or
+permanent ban.&lt;/p>
+&lt;h3 id="3-temporary-ban">3. Temporary Ban&lt;/h3>
+&lt;p>&lt;strong>Community Impact&lt;/strong>: A serious violation of community standards, including
+sustained inappropriate behavior.&lt;/p>
+&lt;p>&lt;strong>Consequence&lt;/strong>: A temporary ban from any sort of interaction or public
+communication with the community for a specified period of time. No public or
+private interaction with the people involved, including unsolicited interaction
+with those enforcing the Code of Conduct, is allowed during this period.
+Violating these terms may lead to a permanent ban.&lt;/p>
+&lt;h3 id="4-permanent-ban">4. Permanent Ban&lt;/h3>
+&lt;p>&lt;strong>Community Impact&lt;/strong>: Demonstrating a pattern of violation of community
+standards, including sustained inappropriate behavior, harassment of an
+individual, or aggression toward or disparagement of classes of individuals.&lt;/p>
+&lt;p>&lt;strong>Consequence&lt;/strong>: A permanent ban from any sort of public interaction within
+the community.&lt;/p>
+&lt;h2 id="attribution">Attribution&lt;/h2>
+&lt;p>This Code of Conduct is adapted from the &lt;a href="https://www.contributor-covenant.org">Contributor Covenant&lt;/a>,
+version 2.0, available at
+&lt;a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct.html">https://www.contributor-covenant.org/version/2/0/code_of_conduct.html&lt;/a>.&lt;/p>
+&lt;p>Community Impact Guidelines were inspired by &lt;a href="https://github.com/mozilla/diversity">Mozilla&amp;rsquo;s code of conduct
+enforcement ladder&lt;/a>.&lt;/p>
+&lt;p>For answers to common questions about this code of conduct, see the FAQ at
+&lt;a href="https://www.contributor-covenant.org/faq">https://www.contributor-covenant.org/faq&lt;/a>. Translations are available at
+&lt;a href="https://www.contributor-covenant.org/translations">https://www.contributor-covenant.org/translations&lt;/a>.&lt;/p></description></item></channel></rss>
