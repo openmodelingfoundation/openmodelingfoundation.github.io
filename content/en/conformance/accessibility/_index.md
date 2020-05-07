@@ -3,7 +3,7 @@ title: "Accessibility"
 linkTitle: "Accessibility"
 cascade:
   type: accessibility
-  github_project_number: 2
+  github_issue_filter: "label:\"standards - accessibility\""
 weight: 1
 ---
 

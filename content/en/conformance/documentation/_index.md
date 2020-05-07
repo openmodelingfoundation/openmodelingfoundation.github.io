@@ -3,7 +3,7 @@ title: Documentation
 linkTitle: Documentation
 cascade:
   type: documentation
-  github_project_number: 3
+  github_issue_filter: "label:\"standards - documentation\""
 weight: 2
 ---
 

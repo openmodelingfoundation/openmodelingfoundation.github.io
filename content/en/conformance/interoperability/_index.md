@@ -3,7 +3,7 @@ title: Interoperability
 linkTitle: Interoperability
 cascade:
   type: interoperability
-  github_project_number: 1
+  github_issue_filter: "label:\"standards - interoperability\""
 weight: 2
 ---
 

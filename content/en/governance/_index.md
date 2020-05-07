@@ -3,7 +3,7 @@ title: Governance
 linkTitle: Governance
 cascade:
   type: governance
-  github_project_number: 5
+  github_issue_filter: "label:governance"
 menu:
   main:
     weight: 20

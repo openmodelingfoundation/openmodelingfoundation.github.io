@@ -2,7 +2,6 @@
 title: "Standards"
 linkTitle: "Standards"
 type: site-wide
-github_project_number: 6
 menu:
   main:
     weight: 20

@@ -3,7 +3,7 @@ title: Reproducibility
 linkTitle: Reproducibility
 cascade:
   type: reproducibility
-  github_project_number: 8
+  github_issue_filter: "label:\"standards - reproducibility\""
 weight: 2
 ---
 
