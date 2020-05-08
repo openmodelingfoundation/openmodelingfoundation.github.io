@@ -4,6 +4,7 @@ linkTitle: Documentation
 cascade:
   type: documentation
   github_issue_filter: "label:\"standards - documentation\""
+  github_issue_template: documentation.md
 weight: 2
 ---
 

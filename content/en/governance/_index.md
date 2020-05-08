@@ -4,6 +4,7 @@ linkTitle: Governance
 cascade:
   type: governance
   github_issue_filter: "label:governance"
+  github_issue_template: governance.md
 menu:
   main:
     weight: 20

@@ -4,6 +4,7 @@ linkTitle: Reproducibility
 cascade:
   type: reproducibility
   github_issue_filter: "label:\"standards - reproducibility\""
+  github_issue_template: reproducibility.md
 weight: 2
 ---
 

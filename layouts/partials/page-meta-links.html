@@ -1,11 +1,18 @@
 {{ if .Path }}
 {{ $pathFormatted := replace .Path "\\" "/" }}
+{{ $gh_issue_template := ($.Param "github_issue_template") }}
 {{ $gh_issue_filter := ($.Param "github_issue_filter") }}
 {{ $gh_repo := ($.Param "github_repo") }}
 {{ $gh_subdir := ($.Param "github_subdir") }}
 {{ $gh_project_repo := ($.Param "github_project_repo") }}
 {{ $gh_project_number := .Params.github_project_number }}
 {{ $gh_branch := (default "master" ($.Param "github_branch")) }}
+{{ $gh_repo := (.Param "github_repo") }}
+{{ $issueTemplatePageBundle := (.Site.GetPage "/issue_templates") }}
+{{ $page := ($issueTemplatePageBundle.Resources.GetMatch $gh_issue_template)}}
+{{ $queryString := (querify "assignees" ($page.Param "assignees") "labels" ($page.Param "labels") "projects" ($page.Param "projects" | default "") "template" $gh_issue_template) }}
+{{ $issueURL := (printf "%s/issues/new?%s" $gh_repo $queryString) }}
+
 {{ if $gh_repo }}
 <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
 {{ $editURL := printf "%s/edit/%s/content/%s" $gh_repo $gh_branch $pathFormatted }}
@@ -16,11 +23,10 @@
 {{ else if $gh_subdir }}
 {{ $editURL = printf "%s/edit/%s/%s/content/%s" $gh_repo $gh_branch $gh_subdir $pathFormatted }}
 {{ end }}
-{{ $issuesURL := printf "%s/issues/new?template=%s.md" $gh_repo $.Type }}
 {{ $qExpr := printf "is:open %s" $gh_issue_filter }}
 {{ $viewRelatedIssuesURL := printf "%s/issues?%s" $gh_repo (querify "q" $qExpr) }}
 <a href="{{ $editURL }}" target="_blank"><i class="fa fa-edit fa-fw"></i> {{ T "post_edit_this" }}</a>
-<a href="{{ $issuesURL }}" target="_blank"><i class="fab fa-github fa-fw"></i> {{ T "post_create_issue" }}</a>
+<a href="{{ $issueURL }}" target="_blank"><i class="fab fa-github fa-fw"></i> {{ T "post_create_issue" }}</a>
 <a href="{{ $viewRelatedIssuesURL }}" target="_blank"><i class="fas fa-eye fa-w"></i> View related issues</a>
 {{ if $gh_project_repo }}
 {{ $project_issueURL := printf "%s/issues/new" $gh_project_repo }}

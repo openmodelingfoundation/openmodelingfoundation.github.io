@@ -4,6 +4,7 @@ linkTitle: "Accessibility"
 cascade:
   type: accessibility
   github_issue_filter: "label:\"standards - accessibility\""
+  github_issue_template: accessibility.md
 weight: 1
 ---
 
