@@ -13,9 +13,50 @@ $secondary:       #f5fafd;
 $btn-primary:     #03a9f4;
 
 $font-weight-light: 200;
-$font-weight-normal: 380;
+$font-weight-normal: 400;
 $font-weight-bold: 550;
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .title {
-  font-size: 3.5rem;
+  font-size: 4rem;
+}
+
+.subtitle {
+  font-size: 2.35rem;
+}
+
+.arrow-scroll {
+  animation: fade-slide-up 1s 1s ease-out forwards,
+  pulse 3s 3s ease-out infinite;
+  opacity: 0;
+}
+
+@keyframes fade-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+  50% {
+    opacity: .8;
+    transform: scale(.9);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
