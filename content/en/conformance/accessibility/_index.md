@@ -17,3 +17,5 @@ Model code and documentation should be archived in a searchable, open access, tr
 A list of trusted digital repositories can be found at https://www.comses.net/resources/trusted-digital-repositories/ [perhaps becoming part of OMF website?]
 
 Model code and documentation being available in a version control system’s repository such as github.com is not recommended as they do not have an explicit mission to serve as a permanent archive and there are no protections or mechanisms to guard against data removal.
+
+Here is an edit
