@@ -13,10 +13,10 @@ The standards below aim to be minimum standards for best practices interoperabil
 </div>
 
 Can the model connect with another model (spatial and temporal synchronization)? Does the model confirm to a standard API (application programming interface)?
-Are the input and output variable described using a common vocabulary?
-Does the model pass an Interoperability test?
 
-
+- Are the input and output variable described using a common vocabulary?- 
+- Are the data types of input and output variables compatible?
+- Does the model pass an Interoperability test?
 
 
 
