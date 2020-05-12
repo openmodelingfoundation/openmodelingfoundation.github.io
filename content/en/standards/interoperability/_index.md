@@ -18,6 +18,8 @@ Can the model connect with another model (spatial and temporal synchronization)?
 - Are the data types of input and output variables compatible?
 - Does the model pass an Interoperability test?
 
+A worthless edit
+
 
 
 
