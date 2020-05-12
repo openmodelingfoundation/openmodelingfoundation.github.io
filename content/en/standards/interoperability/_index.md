@@ -12,11 +12,14 @@ weight: 2
 The standards below aim to be minimum standards for best practices interoperability between models. This is a living document and comments are welcomed and will be addressed by the OMF standards committee. The minimum standards aim to capture concerns and practices among the members of OMF. Individual application domains could design adjusted and enhanced standards that capture specifics of that application domain.
 </div>
 
-Can the model connect with another model (spatial and temporal synchronization)? Does the model confirm to a standard API (application programming interface)?
 
-- Are the input and output variable described using a common vocabulary?- 
+Interoperability standards aim to enable models, developed by a diverse scientific community, to be integrated into multi-component modeling environments to represent dynamics and interactions in complex social-natural systems at multiple scales. Standardized APIs and common ontologies, supplementing comprehensive documentation, are essential factors for achieving interoperability. Hence, the goals of interoperability standards include API compatibility and common ontologies so that models can be more readily interconnected as components in an open model ecosystem. 
+
+Relevant questions for assessing interoperability include: 
+- Can the model connect with another model (spatial and temporal synchronization)? 
+- Does the model confirm to a standard API (application programming interface)?
+- Are the input and output variable described using a common vocabulary? 
 - Are the data types of input and output variables compatible?
-- Does the model pass an Interoperability test?
 
 
 
