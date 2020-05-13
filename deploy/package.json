@@ -1,4 +1,7 @@
 {
+  "name": "omf-hugo-site",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
   "devDependencies": {
     "autoprefixer": "^9.7.4",
     "postcss-cli": "^7.1.0"
@@ -7,6 +10,8 @@
     "defaults"
   ],
   "dependencies": {
-    "bootstrap": "4.0.0-alpha.6"
+    "bootstrap": "^4.3",
+    "jquery": "^3.0",
+    "popper.js": "^1.16.0"
   }
 }

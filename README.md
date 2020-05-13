@@ -27,26 +27,17 @@ hugo serve -D  # dev server with drafts
 
 ### Docker
 
-To build the image run
+To build and run a hugo server using the Makefile you can run
 
 ```
-docker-compose build
+make serve
 ```
 
-Then use `cli` to run the server
-
-For example
-
-```
-./cli server
-```
-
-will make the web page accessible to your browser on `localhost:1313`
+This will build and start a docker container with a hot-reloading `hugo server` 
+that you can visit in your browser at `http://localhost:1313`
 
 ```
-./cli shell
+make shell
 ```
 
-will open a shell into the container
-
-`cli` is just a script to make the container function in a way similar to the hugo command line application.
+will open a shell into the hugo container

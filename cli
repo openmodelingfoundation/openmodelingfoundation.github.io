@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-OPTS="$@"
-USERID="$(id -u)"
-GROUPID="$(id -g)"
-docker-compose run --rm --service-ports --user="$USERID:$GROUPID" hugo $OPTS
-

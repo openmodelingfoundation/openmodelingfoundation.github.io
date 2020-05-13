@@ -1,7 +1,8 @@
 version: '3'
 services:
   hugo:
-    build: .
+    image: openmodelingfoundation/openmodelingfoundation.github.io:latest
+    build: ./deploy
     ports:
       - "127.0.0.1:1313:1313"
     volumes:
