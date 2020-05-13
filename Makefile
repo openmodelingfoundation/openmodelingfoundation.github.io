@@ -27,8 +27,8 @@ serve : build
 	docker-compose run --rm --service-ports --user="${UID}:${GID}" hugo
 
 ## shell            : open a hugo shell
-shell : serve
-	docker-compose exec --user="${UID}:${GID}" hugo shell
+shell : build
+	docker-compose run --rm --user="${UID}:${GID}" hugo shell
 
 ## stop             : stop the docker server and clean up
 stop :
