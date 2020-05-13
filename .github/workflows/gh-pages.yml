@@ -10,24 +10,20 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      
-      - name: Checkout Submodules
-        shell: bash
-        run: |
-          git config --global url."https://github.com/".insteadOf "github:"
-          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
-          git submodule sync --recursive
-          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+        with:
+          submodules: true
+          fetch-depth: 0
 
       - name: Setup Yarn
-        uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: install
+        uses: actions/setup-node@v1
+      - run: cd deploy && yarn install --modules-folder ../node_modules
 
       - name: Setup Hugo 
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 0.68.3
+          # should sync versions with docker-compose .env ala 
+          # https://github.com/marketplace/actions/hugo-setup#%EF%B8%8F-read-hugo-version-from-file
+          hugo-version: 'latest'
           extended: true
 
       - name: Build
