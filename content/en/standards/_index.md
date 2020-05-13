@@ -7,4 +7,10 @@ menu:
     weight: 20
 ---
 
-This page lists a number of discussion on standards, varying from standards about documentation to standards on interoperability. Click on one of the topics to see the current document of OMF standards on that topic. If you have comments send a comment via "Create issue" or if you have a specific suggestion you can click on "Suggest edits". After you have clicked on the "Suggest edits" button you have to click on the green button to "fork" the document and make your edits. AFter you submitted the proposed file changes, the standards committee (or representative) will decide on whether to include the proposed changes.
+These pages present current standards in development or adopted by the Open Modeling Foundation. Select a topic to see standards documents relevant to that topic. See the "How to Contribute" pages for details on how to participate in the development of community modeling standards. 
+
+In order to develop community wide standards for modeling, it is first necessary to specify the ***goals of the standards***. These state what goals will be met by following the standards. 
+
+Once the goals of a standard are described, a set of modeling practices, protocols, or technologies to ***implement*** those standards and achieve the specified goals can be recommended. It may be useful to differentiate between implementations that meet the standards goals at a *minimal level*, and could be widely adopted, and implementations that exceed the minimum goals of the standards. There may be more than one implementation that enable modeling to meet the specified goals. 
+
+As modeling technologies, uses, and practices evolve, modeling standards should also evolve--both goals and implementations. Hence, these should be considered as ***living documents*** that respond dynamically to the needs and aspirations of the scientific modeling community. Comments and suggestions are welcome and will be carefully considered by the OMF Working Groups and Membership. 
