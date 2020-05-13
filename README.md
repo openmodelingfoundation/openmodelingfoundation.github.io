@@ -1,43 +1,46 @@
-# standards
+# Open Modeling Foundation Standards and Governance Repository
 
-A repository for standards related to accessibility, interoperability, documentation, and reuse of computational models. 
+This repository is for establishing and disseminating standards related to accessibility, interoperability, documentation, and reuse of computational models. Please see our [mission and charter](https://openmodelingfoundation.org/mission-and-charter/) for more details.
+
+## How to Contribute
+
+You can contribute to this site by following the directions at https://openmodelingfoundation.github.io/contribute/ - the process of proposing and accepting changes to OMF standards will be finalized once we have established our [governance structure](https://openmodelingfoundation.github.io/governance/).
 
 ## About
 
-The site is generated with [hugo](https://gohugo.io) using the [docsy](https://www.docsy.dev) theme
+This GitHub pages site is generated with [hugo](https://gohugo.io) using the [docsy](https://www.docsy.dev) theme and can be built locally by following these instructions:
 
-## Setup
+### Setup
 
-### No Docker
+To create a local setup of this site you can install `Docker` and `docker-compose` or `hugo` and `yarn` on your local operating system.
 
-Clone this repository `git clone --recurse-submodules -j8 git@github.com:openmodelingfoundation/openmodelingfoundation.github.io.git`
+Clone this repository via `git clone --recurse-submodules -j8 https://github.com/openmodelingfoundation/openmodelingfoundation.github.io.git`
 
-Install the extended version of hugo from the [releases page](https://github.com/gohugoio/hugo/releases).
-
-Install yarn from your package manager or from the [yarn site](https://yarnpkg.com/getting-started/install).
-
-Run `yarn install` in the base directory.
-
-Use regular hugo commands to try visualize the site.
-
-```bash
-hugo serve     # dev server without drafts
-hugo serve -D  # dev server with drafts
-```
-
-### Docker
-
-To build and run a hugo server using the Makefile you can run
+#### Docker and docker-compose installed
+If you have Docker and docker-compose installed, you can use the Makefile in the repository to automatically serve a local copy of the site to test out any changes:
 
 ```
-make serve
+% make serve
 ```
 
-This will build and start a docker container with a hot-reloading `hugo server` 
-that you can visit in your browser at `http://localhost:1313`
+Build and start a docker container with a hot-reloading `hugo server` that you can visit in your browser at `http://localhost:1313`
+
 
 ```
 make shell
 ```
 
-will open a shell into the hugo container
+Open a shell into the hugo container
+
+#### Install hugo and yarn locally
+If you don't have docker installed and don't mind installing things in your operating system, you can do the following:
+
+- Install the extended version of hugo from the [releases page](https://github.com/gohugoio/hugo/releases).
+- Install yarn via your operating system's package manager or from the [yarn site](https://yarnpkg.com/getting-started/install).
+- Run `yarn install` in the base directory
+- Use hugo commands to render the site.
+
+```bash
+% hugo serve     # dev server without drafts
+% hugo serve -D  # dev server with drafts
+```
