@@ -19,18 +19,19 @@ Clone this repository via `git clone --recurse-submodules -j8 https://github.com
 #### Docker and docker-compose installed
 If you have Docker and docker-compose installed, you can use the Makefile in the repository to automatically serve a local copy of the site to test out any changes:
 
+Build and start a docker container with a hot-reloading `hugo server` that you can visit in your browser at `http://localhost:1313` via
+
 ```
 % make serve
 ```
 
-Build and start a docker container with a hot-reloading `hugo server` that you can visit in your browser at `http://localhost:1313`
-
+Open a hugo shell in the docker container
 
 ```
-make shell
+% make shell
 ```
 
-Open a shell into the hugo container
+
 
 #### Install hugo and yarn locally
 If you don't have docker installed and don't mind installing things in your operating system, you can do the following:
