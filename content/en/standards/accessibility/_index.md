@@ -9,7 +9,7 @@ weight: 1
 ---
 
 <div class="alert alert-warning">
-These standards promote and enable discovery and access for model code, documentation, and metadata. This is a living document and comments are welcomed and will be addressed by the OMF standards committee. The minimum standards aim to capture concerns and practices among the members of OMF. Individual application domains may extend these standards to capture additional context relevant to their domain.
+These standards promote and enable discovery and access for model code, documentation, and metadata. Comments and suggestions are welcomed, and will be carefully considered by the OMF Working Groups and Membership. The standards goals and  minimum implementation standards aim to capture concerns and practices among the members of OMF. Individual application domains may extend these standards to capture additional context relevant to their domain.
 </div>
 
 Model code and documentation should be archived in a searchable, open access, trusted digital repository. A DOI, permanent URL or other permanent digital resource locator for accessing the model code must be provided that links to the specific version of the code used. The archive should adhere to FORCE11 software citation principles (https://www.force11.org/software-citation-principles) and expose their metadata in open, interoperable formats like schema.org or codemeta.
