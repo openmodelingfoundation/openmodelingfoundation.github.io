@@ -12,58 +12,42 @@ weight: 2
 These standards promote documentation needed for others to understand a model and reproduce its results. Comments and suggestions are welcomed, and will be carefully considered by the OMF Working Groups and Membership. The standards goals and  minimum implementation standards aim to capture concerns and practices among the members of OMF. Individual application domains may extend these standards to capture additional context relevant to their domain.
 </div>
 
-Documentation of a model, together with the provided model code, needs to facilitate the understanding of the intentions of the developer, and make the model easier to test, use, and link to other models. What are the assumptions made and what information is used to create and test the model? The following items are requested for a model description:
+Documentation of a model, together with the provided model code, needs to facilitate the understanding of the intentions of the developer, and make the model easier to test, use, and link to other models. It should also describe assumptions made about phenomena being modeled and what information is used to create and test the model.  
+### Minimally, model documentation should include:
+- Name and version of the model
+- Description of the model, including its purpose or goals and the type or formalism of the model  (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords
+- Name(s) and contact information of the developer(s)/author(s)
+- Date of release
+- License
+- Location where the model is posted or published (e.g. URL or DOI)
+- Computer language or platform used for programming
+- Any other software and/or hardware requirements needed to run the model and replicate any published results
+- Any data dependencies needed to run the model  and replicate any published results
+- Information on how to install the model so that it can be run (e.g., compiling if needed)
+- Any references to reports or publications where the model is used.
 
-### Preliminaries
-Name and version of the model
-Name(s) of the developer(s)
-Contact information developer(s)
-Year of release
-License type
-Availability (DOI or URL)
-Language/Package used (programming)
-Computer requirements or mentioning which computer platform was used for testing
-Software requirements (operating system, parallel, serial, etc.)
-Information on how to install, and compile the model
+### For better understanding and reproducibility, documentation should also include: 
+#### Processes and scales
+- Assumptions: What are the key assumptions made that define the dynamics of the model?
+- Model structure: provide a flow diagram of the model.
+- Equations: What are the equations of the model?
+- Temporal resolution, time stepping, and units (astronomical, biological, states, etc.)  
+- Spatial dimensionality, resolution, extent, grid type if relevant  
+#### Input/Output and Variables (specifying units as appropriate)
+- Key input parameters and their values and domain ranges  
+- Initial conditions:.  
+- Forcing functions that affect the dynamics of the model.  
+- Control variables  
+- Key output variables and domain ranges  
+#### Associated data sets
+- Provide data used for calibration of the model and describe how calibration was performed. (If data cannot be shared due to embargos provide a synthetic data set in order to run the model).
+#### Model validation, uncertainty, and sensitivity
+- Describe any tests to verify the accuracy of the model
+- Provide data used for validation of the model and describe how validation was performed.
+- Provide sample runs that illustrate the dynamics of the model.
+#### Update information
+- New features since last version (if the model is an update)  
 
-Description of data dependencies (required input data, GIS, etc)
 
-Description of software dependencies (which software need to be installed)
-
-New features since last version (if the model is an update)
-
-### General features
-Purpose - what was the model built for
-Model type - System Dynamics, Agent-Based Modeling, Artificial Neural Networks, conceptual, etc.
-Scales
-	Time - resolution, time stepping (astronomical, biological, states, etc.)
-	Space - dimensionality, resolution, extent, grid type
-
-### Processes
-Assumptions: What are the key assumptions made that define the dynamics of the model?
-Model structure: provide a flow diagram of the model.
-Equations: What are the equations of the model?
-
-### Input (units)
-Parameters: Description of key parameters and their values (plus domain ranges)
-Initial conditions: Description of the initial conditions of the model.
-Forcing functions: What are, if any, forcings in the model that affect the dynamics of the model.
-Control variables. What are, if any, control variables of the model.
-
-### Variables, Output (units)
-Describe the key variables and outputs (and domain ranges) of the model.
-
-### Model characterization (accuracy, tests)
-What has been done to verify the accuracy of the model? Are there any tests performed to verify accurate implementation?
-
-### Data
-Provide data used for calibration of the model and describe how calibration was performed. (If data cannot be shared due to embargos provide a synthetic data set in order to run the model).
-Provide data used for validation of the model and describe how validation was performed.
-
-### Sample runs
-Provide some sample runs to describe the spatial and temporal dynamics of the model.
-
-### Publications
-Any references to reports or publications where the model is used.
 
 
