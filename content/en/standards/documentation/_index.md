@@ -8,9 +8,9 @@ cascade:
 weight: 2
 ---
 
-{{% alert title="Note" color="warning" %}}
-These standards promote documentation needed for others to understand a model and reproduce its results. Comments and suggestions are welcomed, and will be carefully considered by the OMF Working Groups and Membership. The standards goals and  minimum implementation standards aim to capture concerns and practices among the members of OMF. Individual application domains may extend these standards to capture additional context relevant to their domain.
-{{% /alert %}}
+{{% standards-preamble %}}
+These standards promote documentation needed for others to understand a model and reproduce its results.
+{{% /standards-preamble %}}
 
 Documentation of a model, together with the provided model code, needs to facilitate the understanding of the intentions of the developer, and make the model easier to test, use, and link to other models. What are the assumptions made and what information is used to create and test the model? The following items are requested for a model description:
 

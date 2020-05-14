@@ -8,9 +8,9 @@ cascade:
 weight: 2
 ---
 
-{{% alert title="Note" color="warning" %}}
-These standards promote interoperability between models. Comments and suggestions are welcomed, and will be carefully considered by the OMF Working Groups and Membership. The standards goals and  minimum implementation standards aim to capture concerns and practices among the members of OMF. Individual application domains may extend these standards to capture additional context relevant to their domain.
-{{% /alert %}}
+{{% standards-preamble %}}
+These standards promote interoperability between models.
+{{% /standards-preamble %}}
 
 
 Interoperability standards aim to enable models, developed by a diverse scientific community, to be integrated into multi-component modeling environments to represent dynamics and interactions in complex social-natural systems at multiple scales. Standardized APIs and common ontologies, supplementing comprehensive documentation, are essential factors for achieving interoperability. Hence, the goals of interoperability standards include API compatibility and common ontologies so that models can be more readily interconnected as components in an open model ecosystem. 
