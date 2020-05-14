@@ -9,7 +9,7 @@ weight: 2
 ---
 
 <div class="alert alert-warning">
-The standards below aim to be minimum standards for reproducibility of model results. This is a living document and comments are welcomed and will be addressed by the OMF standards committee. The minimum standards aim to capture concerns and practices among the members of OMF. Individual application domains could design adjusted and enhanced standards that capture specifics of that application domain.
+These standards promote the reuse of model code and reproducibility of model results. Comments and suggestions are welcomed, and will be carefully considered by the OMF Working Groups and Membership. The standards goals and  minimum implementation standards aim to capture concerns and practices among the members of OMF. Individual application domains may extend these standards to capture additional context relevant to their domain.
 </div>
 
 
