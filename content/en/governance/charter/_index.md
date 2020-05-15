@@ -320,18 +320,8 @@ Cyberinfrastructure Working Group also identifies ways to best deploy
 these tools and sufficient documentation to enable their use to modeling
 scientists. This Working Group also coordinates the development and
 management of the OMF Science Gateway. The CWG will be assisted by OMF
-technical staff in its mission. These OMF technical staff will be de
-faOutreach and Education Committee*.*
-
-The Outreach and Education Committee will coordinate collaborative
-efforts with journals, funding agencies, societies, institutions/labs,
-other software/modeling consortia to diseminate and administer OMF
-standards across the community of modeling science. Depending on
-available resources, it also may develop and deploy educational and
-training materials, organize workshops, symposia, clinics, and other
-promotional or engagement events to disseminate OMF standards and help
-modling scientists meet those standards. cto members of CWG, although
-membership in the CWG is open to others as well.
+technical staff in its mission. These OMF technical staff wll be de
+facto members of CWG, although membership in the CWG is open to others as well.
 
 #### Outreach and Education Working Group
 
