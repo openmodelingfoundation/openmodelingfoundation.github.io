@@ -18,7 +18,7 @@ Interoperability standards aim to enable models, developed by a diverse scientif
 Relevant questions for assessing interoperability include: 
 - Can the model connect with another model (spatial and temporal synchronization)? 
 - Does the model confirm to a standard API (application programming interface)?
-- Are the input and output variable described using a common vocabulary? 
+- Are the input and output variables described using a common vocabulary? 
 - Are the data types of input and output variables compatible?
 
 
