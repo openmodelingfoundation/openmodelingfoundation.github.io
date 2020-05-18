@@ -20,11 +20,12 @@ commands :
 
 ## build            : build files but do not run a server.
 build : 
+	git submodule update --init --recursive
 	docker-compose build --pull
 
 ## serve            : start and run a local server.
 serve : build
-	docker-compose run --rm --service-ports --user="${UID}:${GID}" hugo
+	@docker-compose run --rm --service-ports --user="${UID}:${GID}" hugo
 
 ## shell            : open a hugo shell
 shell : build
