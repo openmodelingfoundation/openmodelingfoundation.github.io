@@ -14,14 +14,21 @@ These standards promote documentation needed for others to understand a model an
 
 Documentation of a model, together with the provided model code, needs to facilitate the understanding of the intentions of the developer, and make the model easier to test, use, and link to other models. It should also describe assumptions made about phenomena being modeled and what information is used to create and test the model.
 
-### Minimally, model documentation should include:
+We suggest three main categories of documentation:
+- Metadata (required)
+- Methods (equations, algorithms, theoretical model description)
+- Implementation (numerical solution)
+
+### Metadata, minimal requirements for documentation:
 
 - Name and version of the model
+- Model project page (organizational website or repository, if available)
 - Description of the model, including its purpose or goals and the type or formalism of the model  (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords
 - Name(s) and contact information of the developer(s)/author(s)
 - Date of release
-- License
-- Location where the model is posted or published (e.g. URL or DOI)
+- Open source License
+- How to cite the software
+- Location where the model is posted or published (e.g. PID or DOI)
 - Computer language or platform used for programming
 - All software and/or hardware requirements needed to run the model and replicate any published results
 - All data dependencies needed to run the model and replicate any published results
@@ -40,7 +47,7 @@ Documentation of a model, together with the provided model code, needs to facili
 
 #### Input/Output and Variables (specifying units as appropriate)
 
-- Key input parameters and their values and domain ranges  
+- Key input parameters and their values and domain ranges and units  
 - Initial conditions  
 - Forcing functions that affect the dynamics of the model.  
 - Control variables  
