@@ -26,7 +26,7 @@ We suggest three main categories of documentation:
 - Description of the model, including its purpose or goals and the type or formalism of the model  (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords
 - Name(s) and contact information of the developer(s)/author(s)
 - Date of release
-- Open source license
+- OSI-approved license
 - How to cite the software
 - Location where the model is posted or published (e.g. PID or DOI)
 - Computer language or platform used for programming
