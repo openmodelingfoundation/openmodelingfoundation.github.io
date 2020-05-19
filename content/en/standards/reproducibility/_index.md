@@ -75,7 +75,7 @@ Archive computational pipelines:
 OMF may consider building some github template repositories or scaffolding for common modeling frameworks that reduce friction of adoption.
   - e.g., https://github.com/uwescience/shablona and https://github.com/geodynamics/software_template
   - a GitHub bot that submits PRs against a GitHub repository to improve compliance with minimal / ideal standards
-  - e.g. provide a cookiecutter that generates reproducible package structure like [Cookiecutter Data Science](http://drivendata.github.io/cookiecutter-data-science/) 
+  - e.g. provide a cookiecutter project structure that supports best practices for reproducibility and reusability like [Cookiecutter Data Science](http://drivendata.github.io/cookiecutter-data-science/) 
 
 ### Issues / Errata
 
