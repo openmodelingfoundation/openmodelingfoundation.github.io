@@ -12,19 +12,30 @@ weight: 1
 These standards promote and enable discovery and access for model code, documentation, and metadata.
 {{% /standards-preamble %}}
 
-Overarching goals for accessibility
-- Accessibility of model source code in an archive which adhere to FORCE11 software citation principles and expose their metadata in open, interoperable formats.
-- Model source code has an appropriate OSI approved license.
-- Model developers make their code of published academic work accessible. 
-- Sponsors require model code from sponsored research to be acccessible.
-- Journals require model code of published articles to be accessible.
-- Code archives make model code discoverable by humans and machines in the long term.
+## Overview of Accessibility Standards
+
+## Goals for Accessibility Standards
+- Human readable model source code should be openly accessible in archives which adhere to FORCE11 software citation principles and expose their metadata in open, interoperable formats.
+- Model source code should have an appropriate OSI approved license.
+- Authors of published model-based research should make model source code accessible.
+- Funding agencies should require model source code from sponsored research to be acccessible.
+- Journals require model source code to be accessible when it is the basis for published articles.
+- Repositories curating model source code should make that code discoverable by humans and machine search algorithms.
+
+## Minimal Accessibility Standards
 
 Model code and documentation should be archived in a searchable, open access, trusted digital repository. A DOI, permanent URL or other permanent digital resource locator for accessing the model code must be provided that links to the specific version of the code used. The archive should adhere to FORCE11 software citation principles (https://www.force11.org/software-citation-principles) and expose their metadata in open, interoperable formats like schema.org or codemeta.
 
-A list of trusted digital repositories can be found at https://www.comses.net/resources/trusted-digital-repositories/ [perhaps becoming part of OMF website?]
+## Ideal Accessibility Standards
 
-OSI approved licenses can be found at https://opensource.org/licenses
+## Cyberinfrastructure and Tools for Implementation of Accessibility Standards
+
+## Examples and References for Accessibility
+
+- A list of trusted digital repositories can be found at https://www.comses.net/resources/trusted-digital-repositories/ [perhaps becoming part of OMF website?]
+- OSI approved licenses can be found at https://opensource.org/licenses
+
+## Issues / Errata
 
 An open question is how to facilitate follow ups to archived versions, such as bug fixes.
 
