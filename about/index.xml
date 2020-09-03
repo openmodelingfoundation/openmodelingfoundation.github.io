@@ -1,1 +1,9 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omf – About</title><link>/about/</link><description>Recent content in About on omf</description><generator>Hugo -- gohugo.io</generator><atom:link href="/about/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omf – About</title><link>/about/</link><description>Recent content in About on omf</description><generator>Hugo -- gohugo.io</generator><atom:link href="/about/index.xml" rel="self" type="application/rss+xml"/><item><title>About: History</title><link>/about/history/</link><pubDate>Thu, 07 May 2020 10:34:28 -0700</pubDate><guid>/about/history/</guid><description>
+&lt;h2 id="upcoming-events">Upcoming Events&lt;/h2>
+&lt;p>&lt;strong>Virtual Workshop&lt;/strong>&lt;/p>
+&lt;p>October 5-7, 2020&lt;/p>
+&lt;p>Check back soon for more information!&lt;/p>
+&lt;h2 id="past-events">Past Events&lt;/h2>
+&lt;p>&lt;strong>Virtual Workshop&lt;/strong>&lt;/p>
+&lt;p>May 18-19, 2020&lt;/p>
+&lt;p>The Open Modeling Founding (OMF) Virtual Workshop provides a forum for the OMF community to learn and engage with each other throughout a variety of video conference sessions. During this workshop, participants ideate, collaborate and establish a foundation for the OMF community via a GitHub workflow.&lt;/p></description></item></channel></rss>
