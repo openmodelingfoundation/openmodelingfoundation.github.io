@@ -1,6 +1,6 @@
 ---
-name: Reproducibility
-about: Use this template for reproducibility standards
+name: Reusability
+about: Use this template for reusability standards
 title: ''
 labels: standards - reusability
 assignees: alee
