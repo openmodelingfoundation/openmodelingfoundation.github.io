@@ -18,7 +18,7 @@ These standards promote and enable discovery and access for model code, document
 - Human readable model source code should be openly accessible in archives which adhere to FORCE11 software citation principles and expose their metadata in open, interoperable formats.
 - Model source code should have an appropriate OSI approved license.
 - Authors of published model-based research should make model source code accessible.
-- Funding agencies should require model source code from sponsored research to be acccessible.
+- Funding agencies should require model source code developed in sponsored research to be acccessible and should discourage the use of inaccessible third-party code.
 - Journals require model source code to be accessible when it is the basis for published articles.
 - Repositories curating model source code should make that code discoverable by humans and machine search algorithms.
 
