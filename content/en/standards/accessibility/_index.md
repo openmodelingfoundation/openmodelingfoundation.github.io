@@ -19,7 +19,7 @@ These standards promote and enable discovery and access for model code, document
 - Model source code should have an appropriate OSI approved license.
 - Authors of published model-based research should make model source code accessible.
 - Funding agencies should require model source code from sponsored research to be acccessible.
-- Journals require model source code to be accessible when it is the basis for published articles.
+- Journals require new model source code to be accessible when it is the basis for published articles and should discourage use of inaccessible third-party code.
 - Repositories curating model source code should make that code discoverable by humans and machine search algorithms.
 
 ## Minimal Accessibility Standards
