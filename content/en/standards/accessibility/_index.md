@@ -21,6 +21,7 @@ These standards promote and enable discovery and access for model code, document
 - Funding agencies should require model source code from sponsored research to be acccessible.
 - Journals require model source code to be accessible when it is the basis for published articles.
 - Repositories curating model source code should make that code discoverable by humans and machine search algorithms.
+- The archived source code should contain all code necessary for reproducing the results, including config files, scripts for running and analysing scripts, etc.
 
 ## Minimal Accessibility Standards
 
