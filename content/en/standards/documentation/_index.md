@@ -31,7 +31,7 @@ We suggest three main categories of documentation:
 - Summary of structure
 - Processes modeled
 
-### Metadata
+### General Metadata
 - Name and version of the model
 - Model project page (organizational website or repository, if available)
 - Description of the model, including its purpose or goals and the type or formalism of the model  (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords
@@ -46,6 +46,8 @@ We suggest three main categories of documentation:
 - Information on how to install the model so that it can be run (e.g., compilation and/or execution instructions)
 - References to reports or publications where the model is used
 - Changes since the last version (if the model is an update) including bug fixes, new features, or other substantive modifications, where appropriate.
+- compliance with codemeta (?) https://codemeta.github.io/
+- Development status (e.g., experimental, deployed, peer-reviewed, ...)
 - Funding sources
 
 ### Model Documentation: Methods and theoretical foundation
