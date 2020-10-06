@@ -38,8 +38,13 @@ We suggest three main categories of documentation:
 - All software and/or hardware requirements needed to run the model and replicate any published results
 - All data dependencies needed to run the model and replicate any published results
 - Information on how to install the model so that it can be run (e.g., compilation and/or execution instructions)
-- References to reports or publications where the model is used
+- Use cases: References to reports or publications where the model is used
 - Changes since the last version (if the model is an update) including bug fixes, new features, or other substantive modifications, where appropriate.
+
+### Sample applications
+- Get-started guide
+- Use case narratives
+- link to publications overview (automated, ideally)
 
 ### Methods and theoretical foundation
 - Assumptions: What are the key assumptions made that define the dynamics of the model?
@@ -51,7 +56,7 @@ We suggest three main categories of documentation:
 
 ### Implementation 
 
-#### Input/Output and Variables 
+#### Interface: Input/Output and Variables 
 - Key input parameters and their values and domain ranges and units (minimum input requirements for model operation and default values, where appropriate) 
 - Initial conditions  
 - Forcing functions that affect the dynamics of the model.  
@@ -69,8 +74,12 @@ We suggest three main categories of documentation:
 - Describe or provide benchmarks for validation of your model
 
 ## Ideal Documentation Standards
+- ODD
 
 ## Cyberinfrastructure and Tools for Implementation of Documentation Standards
+- Cross-links between documentation sections
+- Bibliographic documentation / management system (e.g., Mendeley links)
+- Tagged content management system entry form (linkage between sections)
 
 ## Examples and References for Documentation
 
