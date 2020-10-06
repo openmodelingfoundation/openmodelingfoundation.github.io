@@ -39,4 +39,4 @@ Model code and documentation should be archived in a searchable, open access, tr
 
 An open question is how to facilitate follow ups to archived versions, such as bug fixes.
 
-Model code and documentation being available in a version control system’s repository such as github.com is not recommended as they do not have an explicit mission to serve as a permanent archive and there are no protections or mechanisms to guard against data removal.
+Model code and documentation being available in a version control system’s repository such as github.com is not recommended as they do not have an explicit mission to serve as a permanent archive and there are no protections or mechanisms to guard against data removal.  There is, however, an established workflow, e.g., from github to zenodo, that ensures permanent storage and version tracking.
