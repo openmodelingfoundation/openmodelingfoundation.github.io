@@ -44,7 +44,7 @@ We suggest three main categories of documentation:
 ### Methods and theoretical foundation
 - Assumptions: What are the key assumptions made that define the dynamics of the model?
 - Model structure: provide a flow diagram of the model.
-- Equations: What are the equations of the model?
+- Equations and rules: What are the equations of the model? What are agents' precise behavioral rules (e.g. represented as a decision tree)?
 - Temporal resolution, time stepping, and units 
 - Spatial dimensionality, resolution, extent, grid type if relevant
 - Limitations, domain ranges: What is this model specifically NOT intended to do.
