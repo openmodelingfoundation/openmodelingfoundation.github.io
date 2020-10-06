@@ -70,6 +70,8 @@ We suggest three main categories of documentation:
 
 ## Ideal Documentation Standards
 
+- Overview, Design, Detail 
+
 ## Cyberinfrastructure and Tools for Implementation of Documentation Standards
 
 ## Examples and References for Documentation
