@@ -72,6 +72,10 @@ We suggest three main categories of documentation:
 
 ## Cyberinfrastructure and Tools for Implementation of Documentation Standards
 
+- Python documentation standard PEP XXX, Sphinx
+- Doxygen, readthedocs.io
+
+
 ## Examples and References for Documentation
 
 
