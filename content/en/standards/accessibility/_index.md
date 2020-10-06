@@ -18,8 +18,8 @@ These standards promote and enable discovery and access for model code, document
 - Human readable model source code should be openly accessible in archives which adhere to FORCE11 software citation principles and expose their metadata in open, interoperable formats.
 - Model source code should have an appropriate OSI approved license.
 - Authors of published model-based research should make model source code accessible.
-- Funding agencies should require model source code from sponsored research to be acccessible.
-- Journals require model source code to be accessible when it is the basis for published articles.
+- Funding agencies should require model source code developed in sponsored research to be acccessible and should discourage the use of inaccessible third-party code.
+- Journals require new model source code to be accessible when it is the basis for published articles and should discourage use of inaccessible third-party code.
 - Repositories curating model source code should make that code discoverable by humans and machine search algorithms.
 
 ## Minimal Accessibility Standards
@@ -39,4 +39,4 @@ Model code and documentation should be archived in a searchable, open access, tr
 
 An open question is how to facilitate follow ups to archived versions, such as bug fixes.
 
-Model code and documentation being available in a version control system’s repository such as github.com is not recommended as they do not have an explicit mission to serve as a permanent archive and there are no protections or mechanisms to guard against data removal.
+Making model code and documentation available in a version control system’s repository such as github.com is not recommended as they do not have an explicit mission to serve as a permanent archive and there are no protections or mechanisms to guard against data removal. There is, however, an established workflow, e.g., from [GitHub to Zenodo](https://guides.github.com/activities/citable-code/), that ensures proper archival of a GitHub repository with permanent identifiers that resolve to the specific version of archived code.

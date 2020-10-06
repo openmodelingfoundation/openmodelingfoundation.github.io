@@ -25,7 +25,13 @@ We suggest three main categories of documentation:
 
 ## Minimal Documentation Standards
 
-### Metadata
+### Overview
+- "1-pager"
+- Purpose
+- Summary of structure
+- Processes modeled
+
+### General Metadata
 - Name and version of the model
 - Model project page (organizational website or repository, if available)
 - Description of the model, including its purpose or goals and the type or formalism of the model  (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords
@@ -35,24 +41,28 @@ We suggest three main categories of documentation:
 - How to cite the software
 - Location where the model is posted or published (e.g. PID or DOI)
 - Computer language or platform used for programming
-- All software and/or hardware requirements needed to run the model and replicate any published results
+- Software and/or hardware requirements needed to run the model and replicate any published results
 - All data dependencies needed to run the model and replicate any published results
 - Information on how to install the model so that it can be run (e.g., compilation and/or execution instructions)
 - Use cases: References to reports or publications where the model is used
 - Changes since the last version (if the model is an update) including bug fixes, new features, or other substantive modifications, where appropriate.
+- compliance with codemeta (?) https://codemeta.github.io/
+- Development status (e.g., experimental, deployed, peer-reviewed, ...)
+- Funding sources
 
 ### Sample applications
 - Get-started guide
 - Use case narratives
 - link to publications overview (automated, ideally)
 
-### Methods and theoretical foundation
+### Model Documentation: Methods and theoretical foundation
 - Assumptions: What are the key assumptions made that define the dynamics of the model?
 - Model structure: provide a flow diagram of the model.
-- Equations: What are the equations of the model?
+- Equations and rules: What are the equations of the model? What are agents' precise behavioral rules (e.g. represented as a decision tree)?
 - Temporal resolution, time stepping, and units 
 - Spatial dimensionality, resolution, extent, grid type if relevant
 - Limitations, domain ranges: What is this model specifically NOT intended to do.
+- Links to open access resources
 
 ### Implementation 
 
@@ -72,6 +82,7 @@ We suggest three main categories of documentation:
 - Describe how calibration and evaluation to verify the accuracy of the model were performed. 
 - List of publications on evaluation, uncertainty, sensitivity analyses for your model
 - Describe or provide benchmarks for validation of your model
+- Links to open access resources
 
 ## Ideal Documentation Standards
 - ODD
