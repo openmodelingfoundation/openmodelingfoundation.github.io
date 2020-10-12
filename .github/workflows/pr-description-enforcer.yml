@@ -1,0 +1,13 @@
+name: 'PR description validator'
+on:
+  pull_request:
+    types: [opened, edited, reopened]
+
+jobs:
+  enforce:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: openmodelingfoundation/pr-description-enforcer
+        with:
+          repo-token: '${{ secrets.GITHUB_TOKEN }}'
