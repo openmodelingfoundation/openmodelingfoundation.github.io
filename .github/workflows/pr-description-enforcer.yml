@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: openmodelingfoundation/pr-description-enforcer@1.3.2
+      - uses: openmodelingfoundation/pr-description-enforcer@v1.3.2
         with:
           repo-token: '${{ secrets.GITHUB_TOKEN }}'
