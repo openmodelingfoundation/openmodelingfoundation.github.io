@@ -15,12 +15,11 @@ These standards promote and enable discovery and access for model code, document
 ## Overview of Accessibility Standards
 
 ## Goals for Accessibility Standards
-- Human readable model source code should be openly accessible in archives which adhere to FORCE11 software citation principles and expose their metadata in open, interoperable formats.
-- Model source code should have an appropriate OSI approved license.
-- Authors of published model-based research should make model source code accessible.
-- Funding agencies should require model source code developed in sponsored research to be acccessible and should discourage the use of inaccessible third-party code.
-- Journals require new model source code to be accessible when it is the basis for published articles and should discourage use of inaccessible third-party code.
-- Repositories curating model source code should make that code discoverable by humans and machine search algorithms.
+•	Humans can read the model source code 
+•	Machines can read the model source code 
+•	Models are accessible by a proper citation
+•	Models expose their metadata in interoperable format -> link to accessibility and interoperability
+•	Models should be available in findable archives.
 
 ## Minimal Accessibility Standards
 
@@ -28,15 +27,22 @@ Model code and documentation should be archived in a searchable, open access, tr
 
 ## Ideal Accessibility Standards
 
+•	sponsors require model source code publicly available in archive
+•	journals require model source code publicly available in archive.
+•	using programming tools that facilitate accessibility (example: Python PIP)
+•	 Availability of models independent of platforms via containerization
+
 ## Cyberinfrastructure and Tools for Implementation of Accessibility Standards
+
+Create a  checklist for the OMF website (and for training). Code for openness from the start.
+•	Can you run your model on another computer/operating system?
+•	Is your model code readable by somebody else (variable names, comments, description procedures, cleaned up)?
+•	where can we find your code in 3 to 5 years (link to archives), and know the specific version?
+•	can you run your model in 3 to 5 years (containerization (what to do with prop. software - advise open software)?
+•	Is the model publicly available? 
 
 ## Examples and References for Accessibility
 
 - A list of trusted digital repositories can be found at https://www.comses.net/resources/trusted-digital-repositories/ [perhaps becoming part of OMF website?]
 - OSI approved licenses can be found at https://opensource.org/licenses
 
-## Issues / Errata
-
-An open question is how to facilitate follow ups to archived versions, such as bug fixes.
-
-Making model code and documentation available in a version control system’s repository such as github.com is not recommended as they do not have an explicit mission to serve as a permanent archive and there are no protections or mechanisms to guard against data removal. There is, however, an established workflow, e.g., from [GitHub to Zenodo](https://guides.github.com/activities/citable-code/), that ensures proper archival of a GitHub repository with permanent identifiers that resolve to the specific version of archived code.
