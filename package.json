@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "license": "CC0-1.0",
   "devDependencies": {
-    "autoprefixer": "^9.7.4",
-    "postcss-cli": "^7.1.0"
+    "autoprefixer": "^10.2.5",
+    "postcss-cli": "^8.3.1"
   },
   "browserlist": [
     "defaults"
   ],
   "dependencies": {
-    "bootstrap": "^4.3",
+    "bootstrap": "^5.0.0",
     "jquery": "^3.0",
     "popper.js": "^1.16.0"
   }
