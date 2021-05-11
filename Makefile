@@ -4,8 +4,6 @@
 
 # Settings
 MAKEFILES=Makefile $(wildcard *.mk)
-HUGO_VERSION=0.69.2-ext-nodejs
-HUGO_IMAGE="klakegg/hugo:${HUGO_VERSION}"
 UID=$(shell id -u)
 GID=$(shell id -g)
 

@@ -1,4 +1,8 @@
-FROM klakegg/hugo:0.69.2-ext-nodejs
+ARG HUGO_VERSION=0.82.0
+ARG DIST_TAG=-ext-ubuntu
+FROM klakegg/hugo:${HUGO_VERSION}${DIST_TAG}
+
+LABEL maintainer="CoMSES Net <support@comses.net"
 
 WORKDIR /src
 COPY ./package.json ./yarn.lock /src/
