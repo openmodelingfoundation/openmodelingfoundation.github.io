@@ -6,7 +6,7 @@
 {{ $gh_subdir := ($.Param "github_subdir") }}
 {{ $gh_project_repo := ($.Param "github_project_repo") }}
 {{ $gh_project_number := .Params.github_project_number }}
-{{ $gh_branch := (default "master" ($.Param "github_branch")) }}
+{{ $gh_branch := (default "develop" ($.Param "github_branch")) }}
 {{ $gh_repo := (.Param "github_repo") }}
 {{ $issue_template_page := (.Site.GetPage "/issue_templates") }}
 {{ $issue_metadata := ($issue_template_page.Resources.GetMatch $gh_issue_template)}}
