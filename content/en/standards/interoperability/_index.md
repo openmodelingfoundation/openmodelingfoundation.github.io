@@ -5,6 +5,7 @@ cascade:
   type: interoperability
   github_issue_filter: "label:\"standards - interoperability\""
   github_issue_template: interoperability.md
+  github_discuss_category: "interoperability-standards"
 weight: 2
 ---
 

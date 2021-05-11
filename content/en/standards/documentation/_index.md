@@ -5,6 +5,7 @@ cascade:
   type: documentation
   github_issue_filter: "label:\"standards - documentation\""
   github_issue_template: documentation.md
+  github_discuss_category: "documentation-standards"
 weight: 2
 ---
 

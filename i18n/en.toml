@@ -41,3 +41,5 @@ other = "Create issue"
 other = "Create project issue"
 [post_posts_in]
 other = "Posts in"
+[post_discuss_this]
+other = "Discuss this"
