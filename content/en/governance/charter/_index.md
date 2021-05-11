@@ -1,12 +1,12 @@
 ---
 title: "Charter"
-date: 2020-03-16T10:51:38-07:00
+date: 
 ---
 
 
 # Open Modeling Foundation  
 
-# *Organizational Charter - Draft 0.8*  
+# *Organizational Charter - Draft 0.9*  
 
 ## Vision  
 
@@ -206,141 +206,87 @@ Committees. The following are examples of such activities.
 
 -----
 
-## Membership
+## Organization and Governance
 
-The Open Modeling Foundation is comprised of organizations that include
-and represent modeling scientists anywhere in the world. Any such
-organization can be nominated for membership in the OMF or
-self-nominate. Nominations will be evaluated by the Executive
-Directorate and presented to the Membership Council for approval.
-Membership is supported by donations and assume active voluntary
-participation of members in the Foundation activities.
-
------
-
-## Governance  
-
-Governance of the Open Modeling Foundation should be organized to
-achieve four primary goals:
+The Open Modeling Foundation is comprised of organizations, individual modeling scientists, and students preparing for careers in modeling science. The organization and governance of the Open Modeling Foundation is designed to achieve four primary goals:
 
 * It should enable the foundation to carry out its mission and goals, and realize its vision in the most effective way possible and with  the least necessary intervention on the part of OMF governance.
-
 * It should provide a free and fair voice to all member scientific  communities it represents.
-
 * It should offer opportunities for all modeling scientists to  participate and contribute to the goals and activities of the OMF.
-
 * It should seek to maximize benefits for the scientific communities it represents and promote modeling science that benefits both human and natural systems on our planet.
 
-The policies and activities of Open Modeling Foundation will be
-administered by shared, multi-level governance, consisting on a Members
-Council, Working Groups, and Executive Directorate.
+The policies and activities of Open Modeling Foundation are administered by shared, multi-level governance that includes an **Executive Director** (ED), an **Executive Committee** (EC), a **Members Council** (MC), and several **Working Groups**. The Members Council is the primary OMF governing body, approving policies, procedures, and standards. The Executive Committee manages and administers the OMF activities, following policies, procedures, and standards approved by the Members Council. The Director and Executive committee are assisted by a Project Coordinator and a Cyberinfrastructure Support team. The working groups will organize key activity sets of the OMF. Additionally, next-generation scientists can participate in the activities of the OMF through an **Affiliated Student Association**, organizations that do not wish to become full members, and individuals who do not wish to join a working group to still be associated with the OMF to a more limited extent as OMF **Affiliates**. This organization is represented schematically in the attached diagram.
 
 ### Members Council  
+The Open Modeling Foundation Members Council represents formally constituted organizations composed of or representing communities of modelers in the social and natural sciences. Examples of such organizations include scientific networks, professional societies, research institutes, national laboratories, other government agencies, universities, or commercial enterprises. Any such organization can be nominated for membership in the OMF or self-nominate. Any organization seeking membership in the OMF MC, must agree to support the mission and goals of the network, as described in this charter, promote OMF approved standards, and provide professional recognition to researchers engaged in standards-based modeling. Nominations for membership will be evaluated by the Executive Committee and presented to the Membership Council for approval by a majority of the Council.
 
-The Members Council is composed of 1 representative from each member
-organization. The Members Council reviews and approves OMF policies and
-modeling standards. It provide advices and support to the Executive
-Directorate and Working Groups for carrying out governance policies,
-creating and administering standards, and carrying out other activities.
-It also]{style="background: transparent"} facilitates communication
-between the Open Modeling Foundation and modeling scientists represented
-by OMF member organization. Nominations for new members must be approved
-by a majority of the Members Council.
+**Each member organization is represented on the Members Council by a single voting individual**. The MC will review and approve OMF policies and modeling standards. It will also provide advice and support to the Executive Committee and Working Groups for carrying out governance policies, creating and administering standards, and carrying out other activities. The Members Council reviews and approves OMF policies and modeling standards. It provides advices and support to the Executive Director, Executive Committee, and Working Groups for carrying out governance policies, creating and administering standards, and carrying out other activities. It also facilitates communication between the Open Modeling Foundation and modeling scientists represented by OMF member organization. 
 
-The Members Council will meet annually in person and quarterly
-virtually.
+The Members Council will meet annually in person and quarterly virtually.
 
-Changes to the OMF Charter requires approval by a vote of 2/3 of the
-Members Council.
+Changes to the OMF Charter requires approval by a vote of 2/3 of the Members Council.
 
-### Executive Directorate
+### Executive Director
 
-Regular activities and financial management of the OMF is guided by the
-Executive Directorate. The Executive Directorate is composed of an
-Executive Director, two representatives elected by the Members Council,
-and the Chairs of the Working Groups. The two Members Council
-representatives are elected in staggered two year terms. The Executive
-Director serves for renewable five year terms. The other members of the
-Executive Directorate and the Members Council will create a process for
-selecting an Executive Director.
+The Executive Director must be a member of an OMF member organization and is elected by a majority vote of the Members Council to serve for renewable five year terms. The Executive Director oversees and administers the daily activities and fiscal management of the Open Modeling Foundation. These Executive Director responsibilities are shared with the Executive Committe. The Executive Director calls and chairs meeetings of the Executive Committee and Members Council, or identifies a substitute from the EC if unable to do so.  
 
-The Executive Directorate ensures that the activities of the Open
-Modeling Foundation are furthering its vision, mission, and goals as
-expressed in this charter. It oversees all elections and any other
-selection of individuals involved in foundation activities to ensure
-that qualified, ethical individuals who are dedicated to the
-foundation's vision, mission, and goals are chosen to fill their roles
-in the foundation. It also oversees the activities committees to ensure
-that they are carrying out their assigned tasks in an appropriate and
-effective manner, consistent with the vision, mission, and goals of the
-foundation. The Executive Directorate receives and evaluates all
-nominations for membership in the Open Modeling Foundation, and submits
-them to the Members Council for review and approval vote. The Executive
-Directorate also manages funding and financial expenditures of the OMF,
-in accordance with the foundation's vision, mission, and goals. The
-Executive Directorate may propose changes to the OMF Charter for review
-and approval by the Membership Council.
+### Executive Committee
 
-The Executive Directorate will meet at least quarterly each year. It
-will organize Members Council meetings. The Executive Director will
-chair Directorate meetings and Members Council meetings, or identify a
-substitute from the Directorate if s/he is unable to do so. The
-Executive Directorate may be supported by OMF staff including an
-Administrative Coordinator and technical staff.
+Voting members of the Executive Committee are comprised of:  
+* the leaders of each Working Group and 
+* three representatives elected from the Members Council. 
+
+Elected members of the EC serve staggered three-year terms. 
+
+Non-voting members of the Executive Committee are comprise of: 
+* the Executive Director (who may vote to break ties in the EC),
+* the Assistant Director,
+* a representative of the Cyberinfrastructure and Education Support team, and 
+* a representative from the OMF Affiliated Students Association. 
+
+The Executive Committee ensures that the activities of the Open Modeling Foundation further its vision, mission, and goals as expressed in this charter. It oversees all elections and any other selection of individuals involved in OMF activities to ensure that qualified, ethical individuals who are dedicated to the foundation's vision, mission, and goals are chosen to fill their roles in the OMF. It also oversees the Working Group activities to ensure that they are carrying out their respective responsibilities in an appropriate and effective manner, consistent with the vision, mission, and goals of the OMF. The Executive Committee receives and evaluates all nominations for membership in the Open Modeling Foundation, and submits them to the Members Council for review and approval vote. The Executive Committee identifies potential ED candidates and proposes them to the MC. The Executive Committee also assists the ED in managing funding and financial expenditures of the OMF, in accordance with the OM vision, mission, and goals. The Executive Committee may propose changes to the OMF Charter for review and approval by the Membership Council.
+
+The Executive Committee will meet at least quarterly each year. The Executive Committee is supported by OMF staff including an Administrative Coordinator and technical staff.
+
+### Administrative Coordinator
+The Executive Director and EC are supported by an Administrative Coordinator (AC) who coordinates OMF activities and helps the ED evaluate their effectiveness. The AD is chosing by the ED, with approval of the EC. The AC facilitates communication among OMF member organizations, including organizing in-person and virtual meetings, and disseminating the results of these meetings. S/he also disseminates OMF draft and final approved documents (e.g.,modeling standards) and compiles information about the OMF activities for dissemination on the OMF Science Gateway. The AC helps the ED to compile evaluation metrics to report to the MC, and facilitates communication between Working Groups, EC, the MC, and stakeholders.
 
 ### Working Groups 
 
-In addition to the Executive Directorate, OMF activities are guided by
-Working Groups. Any modeling scientist can join a Working Group. Working
-Groups will self organize, and nominate a Working Group Chair, for
-approval by the Members Council. Working Group Chairs serve for a
-three-year, renewable term.
+Open Modeling Foundation Working Groups coordinate key activities, enabling a diverse spectrum of modeling scientists to participate directly in OMF activities and self-governance and ensuring that it can fullfill its vision, mission, and goals. Three Working Groups are initially established and described below; additional Working Groups may be established subsequenty with approval of the Members Council.
+
+Any modeling scientist can join a Working Group. Working Groups self organize, with support from the Executive Committee, and nominate a Working Group Chair, for
+approval by the Members Council. Working Group Chairs serve for a three-year, renewable term.
+
+Working Groups as needed, at least annually, in person or via videoconferencing
 
 #### Standards Working Group
 
-The Standards Working Group oversees the adoption, dissemination, and
-administration of OMF standards for access, documentation, reusability,
-and interoperability; it may also propose additional standards. It
-proposes standards to be reviewed, revised, and approved by the OMF
-Members Council. The SWG works with the Executive Directorate and
-Administrative Coordinator to communicate OMF standards to OMF member
-organizations and other stakeholders, and solicit input from the
-modeling community. It also establishs procedures to evaluate and
-certify model code that meets OFM standards, working with code
-repositories and scientific software journals to ensure that code review
-includes OMF criteria and that OMF digital badges are awarded for models
-that comply with these standards.
+The Standards Working Group (SWG) oversees the adoption, dissemination, and administration of Open Modeling Foundation standards for access, documentation, reusability, and interoperability. It proposes standards to be reviewed, revised, and approved by the OMF Members Council. The SWG works with Administrative Coordinator to communicate proposed and adopted OMF standards to OMF member organizations and other stakeholders, and solicit input about proposed standards from the modeling community. In coordination with the Certification Working Group, it helps OMF member (and other) code repositories implement OMF standards for access, discoverability, and recognition of model developers who implement OMF best practice standards.
 
-#### Cyberinfrastructure Working Group
+#### Education and Outreach Working Group
 
-The Cyberinfrastructure Working Group serves to identify or develop
-tools and processes which serve to lower the technical barriers towards
-adoption of the standards developed by the Standards Working Group. The
-Cyberinfrastructure Working Group also identifies ways to best deploy
-these tools and sufficient documentation to enable their use to modeling
-scientists. This Working Group also coordinates the development and
-management of the OMF Science Gateway. The CWG will be assisted by OMF
-technical staff in its mission. These OMF technical staff wll be de
-facto members of CWG, although membership in the CWG is open to others as well.
+The Education and Outreach Working Group (EOWG) helps OMF member organizations reach and train next generation scholars and ensure proactive outreach to groups and nationalities that are underrepresented in modeling science. Depending on available resources, it may develop and deploy educational and training materials, organize workshops, symposia, clinics, and other promotional or engagement events to disseminate OMF standards and help modeling scientists meet those standards. The EOWG coordinates with the SWG to ensure that standards adopted by the OMF are supported by appropriate training and educational programs, and accessible via the OMF Science Gateway. The EOWG coordinates with the OMF Affiliated Students Association to develop programs to support early-career scientists. Depending on available resources, such programs may include scholarships to attend trainings in standards-based modeling or presenting standards-based modeling research at professional meetings. 
 
-#### Outreach and Education Working Group
-
-The Outreach and Education Working Group will coordinate collaborative
-efforts with journals, funding agencies, societies, institutions/labs,
-other software/modeling consortia to diseminate and administer OMF
-standards across the community of modeling science. Depending on
-available resources, it also may develop and deploy educational and
-training materials, organize workshops, symposia, clinics, and other
-promotional or engagement events to disseminate OMF standards and help
-modling scientists meet those standards. It it is specifically charged
-with helping the OMF members reach and train next generation scholars
-and ensure proactive outreach to groups and nationalities that are
-underrepresented in modeling science This working group is supported by
-the Administrative Coordinator and may be supported by OMF educational
-staff.
+#### Certification Working Group
+The Certification Working Group (CWG) develops and administers programs to certify model code that meets OMF standards for modeling best practices, and officially recognize model developers who apply these standards. CWG activities include developing and administering a community-wide program for model code peer review, establishing metrics for standards compliance, creating and assigning digital certification badges that follow guidelines being developed by the National Information Standards Organization (NISO). The CWG helps OMF member (and other) code repositories to ensure that models meeting OMF standards are clearly identified and developers who create standards-based models are publicly recognized. The CWG coordinates collaborative efforts with journals, funding agencies, societies, institutions/labs, other software/modeling consortia, and professional bodies to diseminate and administer OMF standards across the community of modeling science, and to promote recognition of OMF standards.
 
 #### Additional Working Groups 
 
-Other Working Groups may be proposed by the Executive Directorate to
-oversee and coordinate additional OMF activities. The establishment of
+Other Working Groups may be proposed by the Executive Committee to oversee and coordinate additional OMF activities. The establishment of
 any new working groups must be approved by the Members Council.
+
+### Cyberinfrastructure and Technical Support Staff
+
+The Cyberinfrastructure and Technical Support (CTS) staff coordinates development and management of the OMF Science Gateway, and online platform for collaborativec governance and standards. CTS works to to identify or develop tools and processes which serve to lower the technical barriers towards
+adoption of OMF standards, and ways to best deploy these tools to enable their use by modeling scientists. CTS staff assist the EOWG in developing online training modules and making them available on the OMF Gateway
+
+### Affiliated Students Association
+
+The Affiliated Students Association helps the Open Modeling Foundation to support student and early career development. The ASA is open to any student in an institution of higher learning (e.g., college or university). The ASA provides input to Working Groups and the Executive Committee. The ASA can organize student-focused programs and events, assisted iby the Administrative Coordinator and EOWG. Members of the ASA elect a leader to represent the ASA on the Executive Committee.
+
+### Open Modeling Foundation Affiliates
+
+While the OMF encourages the modeling community and other stakeholders to participate through a member organization or belonging to Working Group, these options may not be possible for all organizations (e.g., organizations who share OMF goals but are focused on other forms of data or software) or individuals (e.g, individuals who do not belong to a member organization and cannot participate in a Working Group for professional or other limitations). OMF Affiliates offers a formal way to receive regular information about OMF activities (e.g., mailing list or newsletter) and communicate with different components of the OMF. OMF Affiliates can chose a representative to attend Members Council meeting, but do not have voting rights and are not represented in the Executive Committee.
+
+[Open Modeling Foundation organization schematic diagram](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/files/6462528/OMF_org.pdf)
