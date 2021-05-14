@@ -75,7 +75,7 @@ and ever more complex and global issues, and improve human well-being.
 
 The Open Modeling Foundation carries out a series of coordinated
 activities to further its vision, mission, and goals under the guidance
-and with the support of the OMF Executive Directorate, Members Council, Working Groups, and member
+and with the support of the OMF Executive Committee, Members Council, Working Groups, and member
 organizations. These activities include, but are not limited to the
 following.
 
@@ -191,7 +191,7 @@ public recognition of authors who do so.
 
 ### Seeking Funding  
 
-The Open Modeling Foundation, through its Administrative Directorate and
+The Open Modeling Foundation, through its Executive Committee, Working Groups, and
 its member organizations, will seek external funding to support the
 activities of the foundation.
 
@@ -200,8 +200,7 @@ activities of the foundation.
 Depending on resource availability, the Open Modeling Foundation may
 undertake other activities in support of modeling science and
 scientists. Identifying, prioritizing, and coordinating such activities
-will be the responsibility of the Executive Directorate and Activities
-Committees. The following are examples of such activities.
+will be the responsibility of the Executive Committee, Members Council, and Working Groups. The following are examples of such activities.
 
 -----
 
@@ -239,7 +238,7 @@ Elected members of the EC serve staggered three-year terms.
 
 Non-voting members of the Executive Committee are comprise of: 
 * the Executive Director (who may vote to break ties in the EC),
-* the Assistant Director,
+* the Administrative Coordinator,
 * a representative of the Cyberinfrastructure and Education Support team, and 
 * a representative from the OMF Affiliated Students Association. 
 
