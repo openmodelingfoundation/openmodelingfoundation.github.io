@@ -1,6 +1,6 @@
 # Open Modeling Foundation Standards and Governance Repository
 
-This repository is for establishing and disseminating standards related to accessibility, interoperability, documentation, and reuse of computational models. Please see our [mission and charter](https://openmodelingfoundation.org/mission-and-charter/) for more details.
+This repository is for establishing and disseminating standards related to accessibility, interoperability, documentation, and reuse of computational models. Please see our [mission and charter](https://openmodelingfoundation.github.io/governance/charter/) for more details.
 
 ## How to Contribute
 
