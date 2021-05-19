@@ -5,22 +5,30 @@ date: 2020-05-04T09:43:26-07:00
 
 ## Working Groups
 
-Many Open Modeling Foundation activities are guided by Working Groups. Any modeling scientist can join a Working Group. Working Groups will self organize, and nominate a Working Group Chair, for approval by the Members Council. Working Group Chairs serve for a three-year, renewable term.
+Open Modeling Foundation Working Groups coordinate key activities, enabling a diverse spectrum of modeling scientists to participate directly in OMF activities and self-governance and ensuring that it can fullfill its vision, mission, and goals. Three Working Groups are initially established and described below; additional Working Groups may be established subsequenty with approval of the Members Council.
+
+Any modeling scientist can join a Working Group. Working Groups self organize, with support from the Executive Committee, and nominate a Working Group Chair, for approval by the Members Council. Working Group Chairs serve for a three-year, renewable term.
+
+Working Groups as needed, at least annually, in person or via videoconferencing
 
 ### Standards Working Group
 
-The Standards Working Group oversees the adoption, dissemination, and administration of Open Modeling Foundation standards for access, documentation, reusability, and interoperability; it may also propose additional standards. It proposes standards to be reviewed, revised, and approved by the Open Modeling Foundation membership. The Standards Working Group helps to communicate Open Modeling Foundation standards to member organizations and other stakeholders, and solicit input from the modeling community. It also establishes procedures to evaluate and certify model code that meets Open Modeling Foundation standards, working with code repositories and scientific software journals to ensure that code review includes Open Modeling Foundation criteria and that any Open Modeling Foundation digital badges are awarded for models that comply with these standards.
+The Standards Working Group (SWG) oversees the adoption, dissemination, and administration of Open Modeling Foundation standards for access, documentation, reusability, and interoperability. It proposes standards to be reviewed, revised, and approved by the OMF Members Council. The SWG works with Administrative Coordinator to communicate proposed and adopted OMF standards to OMF member organizations and other stakeholders, and solicit input about proposed standards from the modeling community. In coordination with the Certification Working Group, it helps OMF member (and other) code repositories implement OMF standards for access, discoverability, and recognition of model developers who implement OMF best practice standards.
 
 Schematic of potential standards-making workflow: [standards_workflow.pdf](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/files/6481459/standards_workflow.pdf)
 
+### Certification Working Group
+
+The Certification Working Group (CWG) develops and administers programs to certify model code that meets OMF standards for modeling best practices, and officially recognize model developers who apply these standards. CWG activities include developing and administering a community-wide program for model code peer review, establishing metrics for standards compliance, creating and assigning digital certification badges that follow guidelines being developed by the National Information Standards Organization (NISO). The CWG helps OMF member (and other) code repositories to ensure that models meeting OMF standards are clearly identified and developers who create standards-based models are publicly recognized. The CWG coordinates collaborative efforts with journals, funding agencies, societies, institutions/labs, other software/modeling consortia, and professional bodies to diseminate and administer OMF standards across the community of modeling science, and to promote recognition of OMF standards.
+
+### Education and Outreach Working Group
+
+The Education and Outreach Working Group (EOWG) helps OMF member organizations reach and train next generation scholars and ensure proactive outreach to groups and nationalities that are underrepresented in modeling science. Depending on available resources, it may develop and deploy educational and training materials, organize workshops, symposia, clinics, and other promotional or engagement events to disseminate OMF standards and help modeling scientists meet those standards. The EOWG coordinates with the SWG to ensure that standards adopted by the OMF are supported by appropriate training and educational programs, and accessible via the OMF Science Gateway. The EOWG coordinates with the OMF Affiliated Students Association to develop programs to support early-career scientists. Depending on available resources, such programs may include scholarships to attend trainings in standards-based modeling or presenting standards-based modeling research at professional meetings.
+
 ### Cyberinfrastructure Working Group
 
-The Cyberinfrastructure Working Group serves to identify or develop tools and processes which serve to lower the technical barriers towards adoption of the standards developed by the Standards Working Group. The Cyberinfrastructure Working Group also identifies ways to best deploy these tools and sufficient documentation to enable their use to modeling scientists. This Working Group also coordinates the development and management of the Open Modeling Foundation Science Gateway. The Cyberinfrastructure Working Group may be assisted by Open Modeling Foundation technical staff in its mission. Open Modeling Foundation technical staff will be defacto members of the Cyberinfrastructure Working Group.
-
-### Outreach and Education Working Group
-
-The Outreach and Education Working Group coordinates collaborative efforts with journals, funding agencies, societies, institutions/labs, other software/modeling consortia to disseminate and administer Open Modeling Foundation standards across the community of modeling science. Depending on available resources, it also may develop and deploy educational and training materials, organize workshops, symposia, clinics, and other promotional or engagement events to disseminate Open Modeling Foundation standards and help modeling scientists meet those standards. It is specifically charged with helping the Open Modeling Foundation members reach and train next generation scholars and ensure proactive outreach to groups and nationalities that are underrepresented in modeling science.
+The Cyberinfrastructure Working Group (CWG) coordinates development and management of the OMF Science Gateway, and online platform for collaborativec governance and standards. CTS works to to identify or develop tools and processes which serve to lower the technical barriers towards adoption of OMF standards, and ways to best deploy these tools to enable their use by modeling scientists. CTS staff assist the EOWG in developing online training modules and making them available on the OMF Gateway
 
 ### Additional Working Groups
 
-Other Working Groups may be proposed by the Executive Directorate to oversee and coordinate additional Open Modeling Foundation activities. The establishment of any new working groups must be approved by the Open Modeling Foundation membership.
+Other Working Groups may be proposed by the Executive Committee to oversee and coordinate additional OMF activities. The establishment of any new working groups must be approved by the Members Council.
