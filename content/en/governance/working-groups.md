@@ -5,11 +5,11 @@ date: 2020-05-04T09:43:26-07:00
 
 ## Working Groups
 
-Open Modeling Foundation Working Groups coordinate key activities, enabling a diverse spectrum of modeling scientists to participate directly in OMF activities and self-governance and ensuring that it can fullfill its vision, mission, and goals. Three Working Groups are initially established and described below; additional Working Groups may be established subsequenty with approval of the Members Council.
+Open Modeling Foundation Working Groups coordinate key activities, enabling a diverse spectrum of modeling scientists to participate directly in OMF activities and self-governance and ensuring that it can fulfill its vision, mission, and goals. Three Working Groups are initially established and described below; additional Working Groups may be established with approval of the Members Council.
 
-Any modeling scientist can join a Working Group. Working Groups self organize, with support from the Executive Committee, and nominate a Working Group Chair, for approval by the Members Council. Working Group Chairs serve for a three-year, renewable term.
+Any modeling scientist can join a Working Group. Working Groups self organize, with support from the Executive Committee, and nominate a Working Group Chair for approval by the Members Council. Working Group Chairs serve for a three-year, renewable term.
 
-Working Groups as needed, at least annually, in person or via videoconferencing
+Working Groups meet as needed at least once per year either virtually or in person.
 
 ### Standards Working Group
 
@@ -27,7 +27,7 @@ The Education and Outreach Working Group (EOWG) helps OMF member organizations r
 
 ### Cyberinfrastructure Working Group
 
-The Cyberinfrastructure Working Group (CWG) coordinates development and management of the OMF Science Gateway, and online platform for collaborativec governance and standards. CTS works to to identify or develop tools and processes which serve to lower the technical barriers towards adoption of OMF standards, and ways to best deploy these tools to enable their use by modeling scientists. CTS staff assist the EOWG in developing online training modules and making them available on the OMF Gateway
+The Cyberinfrastructure Working Group (CYWG) coordinates development and management of the OMF Science Gateway, an online platform for collaborative governance and standards. CYWG works to to identify, develop, and enhance tools and processes that lower the technical barriers towards adoption of OMF standards and facilitate their use by modeling scientists. CYWG staff assist the EOWG in developing online training modules and making them available on the OMF Science Gateway.
 
 ### Additional Working Groups
 
