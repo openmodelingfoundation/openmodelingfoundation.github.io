@@ -13,13 +13,20 @@ The Open Modeling Foundation is using GitHub as a platform for members to contri
 
 You do not need a lot of experience (or any) with Git or GitHub to use this system but this step by step description should help if you find yourself confused. First, **you must have a GitHub account to comment or propose changes**. If you don’t have an account, you can create one for free at https://github.com/join and additional [benefits are available to users affiliated with an academic institution](https://education.github.com/benefits).
 
-There are two ways to work with any given page in the site. You can **Create an issue** to make a comment or suggestion, note a problem, or start a discussion or you can **Suggest Changes** to propose specific textual changes to a document. For substantive changes, we recommend that you first create an issue to discuss any proposed changes to the site with the community, and then **Suggest Changes** to submit your proposed changes for review. For minor edits like typos, feel free to simply **Suggest Changes** to fix them.
+There are three ways to contribute to the information presented on this site. You can **Discuss this** to make a comment or suggestion, note a problem, or start a discussion. For substantive changes, we recommend that you first **Create an issue** to discuss any proposed changes to the site with the community, and then **Suggest Changes** to submit your proposed changes for review. For minor edits like typos, feel free to simply **Suggest Changes** to fix them.
 
 If you would like to be notified about other people's comments or suggestions, you can **Watch** this repository by clicking on the **Watch** button at the upper right corner of the [main repository page.](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io)
 
 
-## How to Make a Comment or Suggestion
-1. If you want to make a comment but do not have specific textual changes that you would like to propose, choose the **Create Issue** menu item at the upper right corner.
+## How to Make a Comment or Start a Discussion
+1. If you want to make a comment but do not have specific textual changes that you would like to propose, choose the **Discuss This** menu item at the upper irght corner.
+2. This will open a new tab in Github's discussion section. If you are not signed into GitHub, you will be prompted to login to GitHub. Discussion relating to specific topics, or discussion related to working groups within OMF can be chosen from the menu on the left under the heading of Channel.  
+3. To begin a new discussion, select the green **New Discussion** button located in the upper right corner. A new page will open in which you can enter the text of your comment. Be sure to use the **select a category** menu to choose which discussion channel your comment should be associated with. If you would like to get the attention of a team member click the @ symbol in the editor for a list of team members.
+4. When you have finished the text of your comment, choose the green **Start discussion** button.
+
+
+## How to Make a Specific Suggestion
+1. If you have specific textual changes that you would like to propose, choose the **Create Issue** menu item at the upper right corner.
 2. This will open up a new tab and take you to our GitHub repository's issue tracker. If you are not signed into GitHub, you will be prompted to login to GitHub. Once you are signed in, you'll have a form available for you to submit a brief title and description for your comment. If you would like to get the attention of a team member click the @ symbol in the editor for a list of team members. The comment will be automatically labeled based on which section of the site you were viewing.
 3. Once you have finished your comment, click the green **Submit new issue** button. 
 4. You can [track the status of your issue on our GitHub issue tracker](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/issues). You will also be notified via email if someone responds to your comment on GitHub.
