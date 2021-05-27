@@ -15,12 +15,16 @@ You do not need a lot of experience (or any) with Git or GitHub to use this syst
 
 There are three ways to contribute to the information presented on this site. You can **Discuss this** to make a comment or suggestion, note a problem, or start a discussion. For substantive changes, we recommend that you first **Create an issue** to discuss any proposed changes to the site with the community, and then **Suggest edits** to submit your proposed changes for review. For minor edits like typos, feel free to simply **Suggest edits** to fix them.
 
+Adding content to GitHub (discussions and issues) use [GitHub's Markdown syntax](https://guides.github.com/features/mastering-markdown/#intro).
+
+The [OMF site](https://openmodelingfoundation.github.io/) itself is built with [Hugo](https://gohugo.io/) so content on our actual pages use [Hugo Markdown syntax](https://www.markdownguide.org/tools/hugo/).
+
 If you would like to be notified about other people's comments or suggestions, you can **Watch** this repository by clicking on the **Watch** button at the upper right corner of the [main repository page.](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io)
 
 
 ## How to Make a Comment or Start a Discussion
-1. If you'd like to comment on a given page or start a discussion, click on the **Discuss This** link at the top right corner of each page.
-2. This will open a new tab in Github's discussion section. If you are not signed into GitHub, you will be prompted to login to GitHub. Discussions for the different Standards and for each working group are grouped by Categories shown in the left sidebar. Discussions for the general Standards Working Group should go into the [General category](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/general).
+1. If you'd like to comment on a given page or start a discussion, click on the **Discuss this** link at the top right corner of each page.
+2. This will open a new tab with a simple form to post to our [GitHub discussion section](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions). If you are not signed into GitHub, you will be prompted to login to GitHub. Discussions for the different Standards and for each working group are grouped by Categories shown in the left sidebar. Discussions for the general Standards Working Group should go into the [General category](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/general).
 3. To begin a new discussion, select the green **New Discussion** button located in the upper right corner. This should bring up a form where you can submit a comment using [GitHub's Markdown syntax](https://guides.github.com/features/mastering-markdown/#intro). Be sure to use the **select a category** menu to choose which discussion category your comment should be placed in. If you would like to get the attention of a team member click the @ symbol in the editor for a list of team members.
 4. When you have finished, click the green **Start discussion** button.
 
