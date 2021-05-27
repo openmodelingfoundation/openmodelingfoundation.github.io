@@ -6,17 +6,18 @@ date: 2020-05-07T10:34:28-07:00
 
 ## Upcoming Events
 
-**Virtual Workshop**
-
-October 5-7, 2020
-
-Check back soon for more information!
-
+**Strategic Planning Workshop IV:** 31 May - 3 June 2021, online videoconference
 
 ## Past Events
 
-**Virtual Workshop**
+**Planning Workshops**  
+The series of strategic planning workshops provided the opportunity for broad community input on the organization and modeling standards goals of the OMF by modeling organizations around the world.  
 
-May 18-19, 2020
+Strategic Planning Workshop I:    6-7 May 2019, Institute for Advanced Sustainability Studies  
+Strategic Planning Workshop II:   18-19 May 2020, online videoconference  
+Strategic Planning Workshop III:  5-7 October 2020, online videoconference  
 
-The Open Modeling Founding (OMF) Virtual Workshop provides a forum for the OMF community to learn and engage with each other throughout a variety of video conference sessions. During this workshop, participants ideate, collaborate and establish a foundation for the OMF community via a GitHub workflow.
+**Other Events**  
+27 April 2021, Webinar at Community Surface Dyanmics Modeling System: https://csdms.colorado.edu/wiki/Presenters-0543   
+3 November 2020, Symposium on Large Scale Behavioural Models of Land Use Change (Global Land Project & Future Earth)  
+15 October 2020, Role of Modelers Panel at AgMIP8 (Eighth AgMIP Global Workshop series)  
