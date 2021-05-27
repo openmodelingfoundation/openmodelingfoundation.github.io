@@ -12,9 +12,11 @@
 {{ $issue_metadata := ($issue_template_page.Resources.GetMatch $gh_issue_template)}}
 {{ $queryString := (querify "assignees" ($issue_metadata.Param "assignees") "labels" ($issue_metadata.Param "labels") "projects" ($issue_metadata.Param "projects" | default "") "template" $gh_issue_template) }}
 {{ $issueURL := (printf "%s/issues/new?%s" $gh_repo $queryString) }}
+{{ $github_discuss_category := ($.Param "github_discuss_category" | default "general") }}
 
 {{ if $gh_repo }}
-{{ $discussURL := (printf "%s/discussions/categories/%s" $gh_repo ($.Param "github_discuss_category" | default "general")) }}
+{{ $discussionURL := (printf "%s/discussions/categories/%s" $gh_repo $github_discuss_category) }}
+{{ $newDiscussionURL := (printf "%s/discussions/new?category=%s" $gh_repo $github_discuss_category) }}
 <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
 {{ $editURL := printf "%s/edit/%s/content/%s" $gh_repo $gh_branch $pathFormatted }}
 {{ if and ($gh_subdir) (.Site.Language.Lang) }}
@@ -28,7 +30,7 @@
 {{ $viewRelatedIssuesURL := printf "%s/issues?%s" $gh_repo (querify "q" $qExpr) }}
 <a href="{{ $issueURL }}" target="_blank"><i class="fab fa-github"></i> {{ T "post_create_issue" }}</a>
 <a href="{{ $editURL }}" target="_blank"><i class="fa fa-edit"></i> {{ T "post_edit_this" }}</a>
-<a href="{{ $discussURL }}" target="_blank"><i class="fas fa-comments"></i> {{ T "post_discuss_this" }}</a>
+<a href="{{ $newDiscussionURL }}" target="_blank"><i class="fas fa-comments"></i> {{ T "post_discuss_this" }}</a>
 <a href="{{ $viewRelatedIssuesURL }}" target="_blank"><i class="fas fa-eye"></i> View related issues</a>
 {{ if $gh_project_repo }}
 {{ $project_issueURL := printf "%s/issues/new" $gh_project_repo }}
