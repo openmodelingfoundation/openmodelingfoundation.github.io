@@ -21,3 +21,4 @@ Strategic Planning Workshop III:  5-7 October 2020, online videoconference
 27 April 2021, Webinar at Community Surface Dyanmics Modeling System: https://csdms.colorado.edu/wiki/Presenters-0543   
 3 November 2020, Symposium on Large Scale Behavioural Models of Land Use Change (Global Land Project & Future Earth)  
 15 October 2020, Role of Modelers Panel at AgMIP8 (Eighth AgMIP Global Workshop series)  
+3 December 2019, Standards for Model Documentation, Commonwealth Scientific and Industrial Research Organisation, Canberra, Australia
