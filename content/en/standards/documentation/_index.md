@@ -38,7 +38,7 @@ We suggest three main categories of documentation:
 - Description of the model, including its purpose or goals and the type or formalism of the model  (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords
 - Name(s) and contact information of the developer(s)/author(s)
 - Date of release
-- OSI-approved license
+- OSI-approved license https://opensource.org/licenses
 - How to cite the software
 - Location where the model is posted or published (e.g. PID or DOI)
 - Computer language or platform used for programming
@@ -86,7 +86,7 @@ We suggest three main categories of documentation:
 - Links to open access resources
 
 ## Ideal Documentation Standards
-- ODD
+- ODD Protocol for Describing Agent-Based and Other Simulation Models (see http://jasss.soc.surrey.ac.uk/23/2/7.html)
 
 ## Cyberinfrastructure and Tools for Implementation of Documentation Standards
 - Cross-links between documentation sections
