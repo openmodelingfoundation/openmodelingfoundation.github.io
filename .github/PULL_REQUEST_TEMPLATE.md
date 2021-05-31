@@ -1,13 +1,9 @@
-Thank you for contributing to the `develop` branch of the **Open Modeling Foundation repo**. 
+## Pull Request Template Instructions
 
-### How to Submit Draft Pull Request (PR)
-If your changes are still a work in progress, submit a draft PR:
-
-![52671177-5d0e0100-2ee8-11e9-8645-bdd923b7d93b](https://user-images.githubusercontent.com/8737685/95248831-b2d5a200-07cc-11eb-879b-0d67c42f38b5.gif)
+Thank you for contributing to the **Open Modeling Foundation Standards Repository**. Please delete this Instructions section and replace the below _italicized text_ with details specific to your pull request.
 
 ### Objective
- _Briefly describe objective(s) for proposed changes._
-
+ _Briefly describe the objective(s) of the proposed changes._
 
 
 ### Changes
@@ -22,7 +18,7 @@ _Briefly list the changes that you made._
 `keywords: close, fix, resolve`
 
 
- _Does this resolve any issues? Preceding issue numbers with_ `keywords` _will automatically close the issue if a PR is approved._
+ _Does this resolve any issues? Preceding issue numbers with_ `keywords` _will automatically close the issue if this PR is merged._
 
 - close #[issue number]
 
@@ -30,9 +26,10 @@ _Briefly list the changes that you made._
 ### Contributors
 _Use_ **@** _to mention contributors._
 
+_You can also enter [`Co-authored-by: name <email>`](https://docs.github.com/en/github/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors) in your commit messages to explicitly mark co-authors in this commit._
+
 - @[contributor1_username]
 - @[contributor2_username]
-
 
 ### Additional Info
 _Additional information, link attachments, or photo attachments._
