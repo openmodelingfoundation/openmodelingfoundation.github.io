@@ -35,11 +35,11 @@ We suggest three main categories of documentation:
 ### General Metadata
 - Name and version of the model
 - Model project page (organizational website or repository, if available)
-- Description of the model, including its purpose or goals and the type or formalism of the model  (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords
+- Description of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords
 - Name(s) and contact information of the developer(s)/author(s)
 - Date of release
-- OSI-approved license https://opensource.org/licenses
-- How to cite the software
+- [OSI-approved license](https://opensource.org/licenses)
+- [How to cite the software](https://www.force11.org/software-citation-principles)
 - Location where the model is posted or published (e.g. PID or DOI)
 - Computer language or platform used for programming
 - Software and/or hardware requirements needed to run the model and replicate any published results
@@ -47,7 +47,7 @@ We suggest three main categories of documentation:
 - Information on how to install the model so that it can be run (e.g., compilation and/or execution instructions)
 - Use cases: References to reports or publications where the model is used
 - Changes since the last version (if the model is an update) including bug fixes, new features, or other substantive modifications, where appropriate.
-- compliance with codemeta (?) https://codemeta.github.io/
+- [Harmonization with schema.org and codemeta metadata vocabularies](https://codemeta.github.io/)
 - Development status (e.g., experimental, deployed, peer-reviewed, ...)
 - Funding sources
 
@@ -86,7 +86,7 @@ We suggest three main categories of documentation:
 - Links to open access resources
 
 ## Ideal Documentation Standards
-- ODD Protocol for Describing Agent-Based and Other Simulation Models (see http://jasss.soc.surrey.ac.uk/23/2/7.html)
+- [ODD Protocol for Describing Agent-Based and Other Simulation Models](http://jasss.soc.surrey.ac.uk/23/2/7.html)
 
 ## Cyberinfrastructure and Tools for Implementation of Documentation Standards
 - Cross-links between documentation sections
@@ -94,6 +94,6 @@ We suggest three main categories of documentation:
 - Tagged content management system entry form (linkage between sections)
 
 ## Examples and References for Documentation
-
+- TBD
 
 
