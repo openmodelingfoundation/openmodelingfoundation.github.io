@@ -30,7 +30,7 @@
 {{ $viewRelatedIssuesURL := printf "%s/issues?%s" $gh_repo (querify "q" $qExpr) }}
 <a href="{{ $issueURL }}" target="_blank"><i class="fab fa-github"></i> {{ T "post_create_issue" }}</a>
 <a href="{{ $editURL }}" target="_blank"><i class="fa fa-edit"></i> {{ T "post_edit_this" }}</a>
-<a href="{{ $newDiscussionURL }}" target="_blank"><i class="fas fa-comments"></i> {{ T "post_discuss_this" }}</a>
+<a href="{{ $discussionURL }}" target="_blank"><i class="fas fa-comments"></i> {{ T "post_discuss_this" }}</a>
 <a href="{{ $viewRelatedIssuesURL }}" target="_blank"><i class="fas fa-eye"></i> View related issues</a>
 {{ if $gh_project_repo }}
 {{ $project_issueURL := printf "%s/issues/new" $gh_project_repo }}
