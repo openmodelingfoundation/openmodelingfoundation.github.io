@@ -15,8 +15,8 @@ In order to develop community wide standards for modeling, it is first necessary
 
 Once the goals of a standard are described, a set of modeling practices, protocols, or technologies to ***implement*** those standards and achieve the specified goals can be recommended. It may be useful to differentiate between implementations that meet the standards goals at a *minimal level*, and could be widely adopted, and *ideal* implementations that exceed the minimum goals of the standards. There may be more than one implementation that enable modeling to meet the specified goals. 
 
-As modeling technologies, uses, and practices evolve, modeling standards should also evolve--both goals and implementations. Hence, these should be considered as ***living documents*** that are extensible and evolve to meet the needs and aspirations of the scientific modeling community. They should be versioned to indicate this evolution.  
+As modeling technologies, uses, and practices evolve, modeling standards should also evolve--both goals and implementations. Hence, these standards should be considered ***living documents*** that evolve to meet the needs and aspirations of the scientific modeling community and **versioned** to indicate this evolution.  
 
-Modeling standards should encourage and support innovation and new ideas in modeling. They should be designed so as to be be applicable to legacy models (making them more useful) as well as new models. To the extent possible, they should be language agnostic to enable wide adoption. They should be accompanied by best practice guidelines, examples, and use cases to test and drive standards development. 
+Modeling standards should encourage and support innovation and new ideas in modeling, be applicable to legacy models as well as new models, and to the extent possible, language and technology agnostic to enable wide adoption for the long-term. They should also be accompanied by best practice guidelines, examples, and use cases to test and drive standards development. 
 
-Comments and suggestions are welcome and will be carefully considered by the OMF Working Groups and Membership. 
+Comments and suggestions are welcome and will be carefully considered by the OMF Working Groups and Membership.
