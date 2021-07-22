@@ -22,7 +22,7 @@ These standards promote and enable discovery and access for model code, document
 -	Models follow [FAIR standards for research software](https://fair-software.eu/) (ongoing work at https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)
 -	Models are available in findable, trusted digital repositories
 -	Citations lead to the exact version of a model used in the citing publication
--	Models expose metadata publicly using interoperable standards
+-	Models need to be published/archived in a trusted, FAIR-aligned, digital repository that exposes metadata publicly
 
 ## Minimal Accessibility Standards
 
