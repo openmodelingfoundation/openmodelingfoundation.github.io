@@ -261,9 +261,10 @@ Open Modeling Foundation Working Groups coordinate key activities, enabling a di
 Any modeling scientist can join a Working Group. Working Groups self organize, with support from the Executive Committee, and nominate a Working Group Chair, for
 approval by the Members Council. Working Group Chairs serve for a three-year, renewable term.
 
-**ADD PROCEDURES TO JOIN AND LEAVE WORKING GROUPS**
+Working Groups meet as needed, at least annually, in person or via videoconferencing
 
-Working Groups as needed, at least annually, in person or via videoconferencing
+#### Joining and Leaving the Members Council
+**ADD PROCEDURES TO JOIN AND LEAVE WORKING GROUPS**
 
 #### Standards Working Group
 
@@ -290,12 +291,14 @@ adoption of OMF standards, and ways to best deploy these tools to enable their u
 
 The Affiliated Students Association helps the Open Modeling Foundation to support student and early career development. The ASA is open to any student in an institution of higher learning (e.g., college or university). The ASA provides input to Working Groups and the Executive Committee. The ASA can organize student-focused programs and events, assisted iby the Administrative Coordinator and EOWG. Members of the ASA elect a leader to represent the ASA on the Executive Committee.
 
+#### Joining and Leaving the Affiliated Students Association
 **ADD PROCEDURES TO JOIN AND LEAVE AFFILIATED STUDENTS ASSOCIATION**
 
 ### Open Modeling Foundation Affiliates
 
 While the OMF encourages the modeling community and other stakeholders to participate through a member organization or belonging to Working Group, these options may not be possible for all organizations (e.g., organizations who share OMF goals but are focused on other forms of data or software) or individuals (e.g, individuals who do not belong to a member organization and cannot participate in a Working Group for professional or other limitations). OMF Affiliates offers a formal way to receive regular information about OMF activities (e.g., mailing list or newsletter) and communicate with different components of the OMF. OMF Affiliates can chose a representative to attend Members Council meeting, but do not have voting rights and are not represented in the Executive Committee.
 
+#### Joining and Leaving the Open Modeling Foundation Affiliates
 **ADD PROCEDURES TO JOIN AND LEAVE OMF AFFILIATES**
 
 [Open Modeling Foundation organization schematic diagram](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/files/6462528/OMF_org.pdf)
