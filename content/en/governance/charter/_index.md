@@ -220,9 +220,14 @@ The Open Modeling Foundation Members Council represents formally constituted org
 
 **Each member organization is represented on the Members Council by a single voting individual**. The MC will review and approve OMF policies and modeling standards. It will also provide advice and support to the Executive Committee and Working Groups for carrying out governance policies, creating and administering standards, and carrying out other activities. The Members Council reviews and approves OMF policies and modeling standards. It provides advices and support to the Executive Director, Executive Committee, and Working Groups for carrying out governance policies, creating and administering standards, and carrying out other activities. It also facilitates communication between the Open Modeling Foundation and modeling scientists represented by OMF member organization. 
 
-The Members Council will meet annually in person and quarterly virtually.
+The Members Council will meet annually in person and quarterly virtually.  
 
-Changes to the OMF Charter requires approval by a vote of 2/3 of the Members Council.
+Changes to the OMF Charter requires approval by a vote of 2/3 of the Members Council.  
+
+#### Joining and Leaving the Members Council
+Any formally constituted organization representing at least ???? modeling scientists may request to join the Open Modeling Foundation. Qualified organizations may request to become a memeber of the Open Modeling Foundation and join the members council by addressing a letter of request to the Executive Committee. The Executive Committee will review the request and decide whether or not to refer the request to join to the Members Council for approval. If a majority of the Member Council vote to approve the request, the organization becomes a member of the Open Modeling Foundation and allowed to send a voting representative to the Members Council. 
+
+An organization can leave the Open Modeling Foundation by addressing a letter to the Executive Committee expressing its intent to leave the OMF, specifying the effective date of leaving. An organization can be suspended or permanently removed from the Open Modeling Foundation if it is found to engage in illegal or unethical practice, violates the Contributor [Covenant Code of Conduct](https://openmodelingfoundation.github.io/contribute/code-of-conduct/), or becomes inactive by failing to participate in Members Council meetings for two consecutive years, without excused absence. A request to consider removing a member organization can be made by a minimum of 10% of the Members Council in the form of a letter to the Executive Committee. The Executive Committee will review this request, compile relevant information from all parties, and refer the matter to a vote of the Members Council with a recommendation to approve or deny the request. A vote of 2/3 of the Members Council is needed to remove an organization from the Opening Model Foundation. If the Members Council votes to remove an organization from the Open Modeling Foundation, removal is effective immediately. There is no appeal to this vote of removal. However, after a period of not less than one year, an organization can request to rejoin the Open Modeling Foundation. Such a request will be considered like any new request to join the Open Modeling Foundation.  
 
 ### Executive Director
 
@@ -256,6 +261,8 @@ Open Modeling Foundation Working Groups coordinate key activities, enabling a di
 Any modeling scientist can join a Working Group. Working Groups self organize, with support from the Executive Committee, and nominate a Working Group Chair, for
 approval by the Members Council. Working Group Chairs serve for a three-year, renewable term.
 
+**ADD PROCEDURES TO JOIN AND LEAVE WORKING GROUPS**
+
 Working Groups as needed, at least annually, in person or via videoconferencing
 
 #### Standards Working Group
@@ -283,8 +290,12 @@ adoption of OMF standards, and ways to best deploy these tools to enable their u
 
 The Affiliated Students Association helps the Open Modeling Foundation to support student and early career development. The ASA is open to any student in an institution of higher learning (e.g., college or university). The ASA provides input to Working Groups and the Executive Committee. The ASA can organize student-focused programs and events, assisted iby the Administrative Coordinator and EOWG. Members of the ASA elect a leader to represent the ASA on the Executive Committee.
 
+**ADD PROCEDURES TO JOIN AND LEAVE AFFILIATED STUDENTS ASSOCIATION**
+
 ### Open Modeling Foundation Affiliates
 
 While the OMF encourages the modeling community and other stakeholders to participate through a member organization or belonging to Working Group, these options may not be possible for all organizations (e.g., organizations who share OMF goals but are focused on other forms of data or software) or individuals (e.g, individuals who do not belong to a member organization and cannot participate in a Working Group for professional or other limitations). OMF Affiliates offers a formal way to receive regular information about OMF activities (e.g., mailing list or newsletter) and communicate with different components of the OMF. OMF Affiliates can chose a representative to attend Members Council meeting, but do not have voting rights and are not represented in the Executive Committee.
+
+**ADD PROCEDURES TO JOIN AND LEAVE OMF AFFILIATES**
 
 [Open Modeling Foundation organization schematic diagram](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/files/6462528/OMF_org.pdf)
