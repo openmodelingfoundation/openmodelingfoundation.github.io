@@ -55,7 +55,7 @@ they need.
 The OMF endeavors to accelerate modeling science by making models more
 easily **discoverable** and globally **accessible**. It also develops
 and administers a suite of common standards and technology for model
-**reusability, reproducibility, and interoperability**. The foundation
+**reusability, reproducibility, and interoperability**.The OMF also promotes the **recognition** of those who endeavor to apply these standards and best practices through the ethical practice of fully citing models and model authors, whenever their work is used by others. The OMF
 supports training and educational programs that help modeling scientists
 develop their skills, learn best practices, and share expertise. OMF
 member organizations promote transparency and ethical practice of
@@ -84,7 +84,7 @@ following.
 The OMF coordinates and administers the development or adoption of
 pan-community standards that accelerate knowledge scaffolding among
 modeling scientists, and promote the creation and use of more reusable,
-replicable, interoperable, and reliable models. These standards include:
+replicable, interoperable, and reliable models. These standards include, but are not limited to:
 
 -   **Discoverability and Accessibility:** Standards for accessibility
     ensure that model code is available in FAIR-aligned digital
@@ -107,6 +107,8 @@ replicable, interoperable, and reliable models. These standards include:
 -   **Interoperability:** Standards to enable potential interoperability
     among different models include pan-community external API and
     vocabulary (ontology) specifications.
+    
+-   **Recognition:** Standards for the proper citation of model authors and model code in publications, any other public documents, datasets, and software whenever a model is referred to or contributes to any other research, work, or product.  
 
 The OMF coordinates and administers the certification of models that
 meet these standards and the assignment of badges or other public
@@ -197,10 +199,7 @@ activities of the foundation.
 
 ### Additional Activities  
 
-Depending on resource availability, the Open Modeling Foundation may
-undertake other activities in support of modeling science and
-scientists. Identifying, prioritizing, and coordinating such activities
-will be the responsibility of the Executive Committee, Members Council, and Working Groups. The following are examples of such activities.
+Depending on resource availability, the Open Modeling Foundation may undertake other activities in support of modeling science and scientists. Identifying, prioritizing, and coordinating such activities will be the responsibility of the Executive Committee, Members Council, and Working Groups. The following are examples of such activities.
 
 -----
 
@@ -216,7 +215,7 @@ The Open Modeling Foundation is comprised of organizations, individual modeling 
 The policies and activities of Open Modeling Foundation are administered by shared, multi-level governance that includes an **Executive Director** (ED), an **Executive Committee** (EC), a **Members Council** (MC), and several **Working Groups**. The Members Council is the primary OMF governing body, responsible for approving policies, procedures, and standards. The Executive Committee manages and administers OMF activities, following policies, procedures, and standards approved by the Members Council. The Director and Executive committee are assisted by a Project Coordinator and a Cyberinfrastructure Support team. The working groups will organize key activity sets of the OMF. Additionally, next-generation scientists can participate in the activities of the OMF through an **Affiliated Student Association**. Organizations that do not wish to become full members, and individuals who do not wish to join a working group can still be associated with the OMF to a more limited extent as OMF **Affiliates**. This organization is represented schematically in the [attached diagram](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/files/6462528/OMF_org.pdf).
 
 ### Members Council  
-The Open Modeling Foundation Members Council represents formally constituted organizations composed of or representing communities of modelers in the social and natural sciences. Examples of such organizations include scientific networks, professional societies, research institutes, national laboratories, other government agencies, universities, or commercial enterprises. Any such organization can be nominated for membership in the OMF or self-nominate. Any organization seeking membership in the OMF MC, must agree to support the mission and goals of the network, as described in this charter, to promote OMF approved standards, and to provide professional recognition to researchers engaged in standards-based modeling. Nominations for membership will be evaluated by the Executive Committee and presented to the Membership Council for approval by a majority of the Council.
+The Open Modeling Foundation Members Council represents formally constituted organizations composed of or representing communities of modelers in the social and natural sciences. Examples of such organizations include scientific networks, professional societies, research institutes, national laboratories, other government agencies, universities, or commercial enterprises. Any such organization can be nominated for membership in the OMF or self-nominate. Any organization seeking membership in the OMF MC, **must agree to support the mission and goals of the network**, as described in this charter, to promote OMF approved standards, and to provide professional recognition to researchers engaged in standards-based modeling. Nominations for membership will be evaluated by the Executive Committee and presented to the Membership Council for approval by a majority of the Council.
 
 **Each member organization is represented on the Members Council by a single voting individual**. The MC will review and approve OMF policies and modeling standards. It will also provide advice and support to the Executive Committee and Working Groups for carrying out governance policies, creating and administering standards, and carrying out other activities. The Members Council reviews and approves OMF policies and modeling standards. It provides advices and support to the Executive Director, Executive Committee, and Working Groups for carrying out governance policies, creating and administering standards, and carrying out other activities. It also facilitates communication between the Open Modeling Foundation and modeling scientists represented by OMF member organization. 
 
@@ -263,9 +262,6 @@ approval by the Members Council. Working Group Chairs serve for a three-year, re
 
 Working Groups meet as needed, at least annually, in person or via videoconferencing
 
-#### Joining and Leaving the Members Council
-**ADD PROCEDURES TO JOIN AND LEAVE WORKING GROUPS**
-
 #### Standards Working Group
 
 The Standards Working Group (SWG) oversees the adoption, dissemination, and administration of Open Modeling Foundation standards for access, documentation, reusability, and interoperability. It proposes standards to be reviewed, revised, and approved by the OMF Members Council. The SWG works with Administrative Coordinator to communicate proposed and adopted OMF standards to OMF member organizations and other stakeholders, and solicit input about proposed standards from the modeling community. In coordination with the Certification Working Group, it helps OMF member (and other) code repositories implement OMF standards for access, discoverability, and recognition of model developers who implement OMF best practice standards.
@@ -281,6 +277,9 @@ The Certification Working Group (CWG) develops and administers programs to certi
 
 Other Working Groups may be proposed by the Executive Committee to oversee and coordinate additional OMF activities. The establishment of
 any new working groups must be approved by the Members Council.
+
+#### Joining and Leaving Working Groups
+**ADD PROCEDURES TO JOIN AND LEAVE WORKING GROUPS**
 
 ### Cyberinfrastructure and Technical Support Staff
 
