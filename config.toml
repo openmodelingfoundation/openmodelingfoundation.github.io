@@ -53,7 +53,7 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "The Open Modeling Foundation"
+title = ""
 description = "The Open Modeling Foundation is an alliance of modeling organizations that coordinates and administers a common, community developed body of standards and best practices among diverse communities of modeling scientists."
 languageName ="English"
 # Weight used for sorting.
