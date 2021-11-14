@@ -35,6 +35,11 @@
 footer {
     min-height: 150px;
 
+    a:hover {
+        color: white !important;
+        text-decoration: underline;
+    }
+
     @include media-breakpoint-down(md) {
          min-height: 200px;
     }
