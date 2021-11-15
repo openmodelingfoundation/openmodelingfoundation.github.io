@@ -15,7 +15,7 @@ Working Groups meet as needed at least once per year either virtually or in pers
 
 The Standards Working Group (SWG) oversees the adoption, dissemination, and administration of Open Modeling Foundation standards for access, documentation, reusability, and interoperability. It proposes standards to be reviewed, revised, and approved by the OMF Members Council. The SWG works with Administrative Coordinator to communicate proposed and adopted OMF standards to OMF member organizations and other stakeholders, and solicit input about proposed standards from the modeling community. In coordination with the Certification Working Group, it helps OMF member (and other) code repositories implement OMF standards for access, discoverability, and recognition of model developers who implement OMF best practice standards.
 
-Schematic of potential standards-making workflow: [standards_workflow.pdf](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/files/6481459/standards_workflow.pdf)
+[View schematic of potential standards-making workflow](https://docs.google.com/viewer?url=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/files/6481459/standards_workflow.pdf)
 
 ### Certification Working Group
 
