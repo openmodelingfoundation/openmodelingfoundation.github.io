@@ -1,1 +1,6 @@
+<!-- 
+    create hook for links that adds target=_blank to external links ending in .pdf 
+    for any external pdf links, open the pdf to a new tab 
+    https://gohugo.io/getting-started/configuration-markup/#link-with-title-markdown-example
+-->
 <a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if (strings.HasSuffix .Destination ".pdf") }} target="_blank"{{ end }}>{{ .Text }}</a>
