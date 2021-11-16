@@ -52,7 +52,7 @@
 </ul>
 </div>
 <div class="navbar-nav d-none d-lg-block">
-<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.36db7c77fa4d733831ede41fb699fa60222f42ab3cbc64fb7a9a3fbb4024f01362d9b44b08e79babdca128b407b18596735f7f88b3ff430fcc3e65d3fab9114a.json data-offline-search-base-href=/>
+<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.d34351b42c288cfcbe3596c5e8f68676fcbbfde0cb7051682d092d95bd8f09ebae8e210d68b7e9b0532f390d54f78bc6187a5721453ff283833c117a24e490ca.json data-offline-search-base-href=/>
 </div>
 </nav>
 </header>
@@ -62,7 +62,7 @@
 <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
 <div id=td-sidebar-menu class=td-sidebar__inner>
 <form class="td-sidebar__search d-flex align-items-center">
-<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.36db7c77fa4d733831ede41fb699fa60222f42ab3cbc64fb7a9a3fbb4024f01362d9b44b08e79babdca128b407b18596735f7f88b3ff430fcc3e65d3fab9114a.json data-offline-search-base-href=/>
+<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.d34351b42c288cfcbe3596c5e8f68676fcbbfde0cb7051682d092d95bd8f09ebae8e210d68b7e9b0532f390d54f78bc6187a5721453ff283833c117a24e490ca.json data-offline-search-base-href=/>
 <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type=button data-toggle=collapse data-target=#td-section-nav aria-controls=td-docs-nav aria-expanded=false aria-label="Toggle section navigation">
 </button>
 </form>
@@ -163,18 +163,24 @@ These standards promote and enable discovery and access for model code, document
 <ul>
 <li>Humans can read the model source code</li>
 <li>Machines can read the model source code</li>
-<li>Models follow <a href=https://fair-software.eu/>FAIR standards for research software</a> (ongoing work at <a href=https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg>https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg</a>)</li>
+<li>Models follow
+<a href=https://fair-software.eu/>FAIR standards for research software</a> (ongoing work at
+<a href=https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg>https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg</a>)</li>
 <li>Models are available in findable, trusted digital repositories</li>
 <li>Citations lead to the exact version of a model used in the citing publication</li>
 <li>Models need to be published/archived in a trusted, FAIR-aligned, digital repository that exposes metadata publicly</li>
 </ul>
 <h2 id=minimal-accessibility-standards>Minimal Accessibility Standards</h2>
-<p>Model code and documentation should be archived in a searchable, open access, trusted digital repository. A DOI, permanent URL or other permanent digital resource locator for accessing the model code must be provided that links to the specific version of the code used. The archive should adhere to FORCE11 software citation principles (<a href=https://www.force11.org/software-citation-principles>https://www.force11.org/software-citation-principles</a>) and expose their metadata in open, interoperable formats like schema.org or codemeta.</p>
+<p>Model code and documentation should be archived in a searchable, open access, trusted digital repository. A DOI, permanent URL or other permanent digital resource locator for accessing the model code must be provided that links to the specific version of the code used. The archive should adhere to FORCE11 software citation principles (
+<a href=https://www.force11.org/software-citation-principles>https://www.force11.org/software-citation-principles</a>) and expose their metadata in open, interoperable formats like schema.org or codemeta.</p>
 <h2 id=ideal-accessibility-standards>Ideal Accessibility Standards</h2>
 <ul>
 <li>sponsors require model source code to be made publicly available in a trusted digital repository</li>
 <li>journals require model source code publicly available in a trusted digital repository</li>
-<li>model source code uses build and packaging tools that facilitate accessibility (examples: <a href=https://packaging.python.org/guides/tool-recommendations/>pipenv / pip / poetry in Python</a>, <a href=https://ant.apache.org>ant</a> / <a href=https://maven.apache.org>maven</a> in Java, Makefiles)</li>
+<li>model source code uses build and packaging tools that facilitate accessibility (examples:
+<a href=https://packaging.python.org/guides/tool-recommendations/>pipenv / pip / poetry in Python</a>,
+<a href=https://ant.apache.org>ant</a> /
+<a href=https://maven.apache.org>maven</a> in Java, Makefiles)</li>
 <li>model source code has a Dockerfile or other containerization support so it can be run on multiple platforms</li>
 </ul>
 <h2 id=cyberinfrastructure-and-tools-for-implementation-of-accessibility-standards>Cyberinfrastructure and Tools for Implementation of Accessibility Standards</h2>
@@ -183,13 +189,17 @@ These standards promote and enable discovery and access for model code, document
 <ul>
 <li>Can you run your model on another computer/operating system?</li>
 <li>Is your model code readable to others e.g., clean code that is well structured with clear and self-documenting variable names, well-commented and documented procedures, algorithms, and assumptions</li>
-<li>Does your archived model live in a digital repository that follows <a href=https://fair-software.eu/>FAIR principles for research software</a></li>
+<li>Does your archived model live in a digital repository that follows
+<a href=https://fair-software.eu/>FAIR principles for research software</a></li>
 <li>Can you run your model in 5 years (containerization helps but there are still open issues with dependencies on proprietary software)</li>
 </ul>
 <h2 id=examples-and-references-for-accessibility>Examples and References for Accessibility</h2>
 <ul>
-<li>An initial list of digital repositories for software can be found at <a href=https://www.comses.net/resources/trusted-digital-repositories/>https://www.comses.net/resources/trusted-digital-repositories/</a> [perhaps this will become part of the OMF website?]</li>
-<li>full list of OSI approved licenses at <a href=https://opensource.org/licenses>https://opensource.org/licenses</a> and more useful guidance at <a href=https://choosealicense.com/>https://choosealicense.com/</a></li>
+<li>An initial list of digital repositories for software can be found at
+<a href=https://www.comses.net/resources/trusted-digital-repositories/>https://www.comses.net/resources/trusted-digital-repositories/</a> [perhaps this will become part of the OMF website?]</li>
+<li>full list of OSI approved licenses at
+<a href=https://opensource.org/licenses>https://opensource.org/licenses</a> and more useful guidance at
+<a href=https://choosealicense.com/>https://choosealicense.com/</a></li>
 </ul>
 <div class=section-index>
 <hr class=panel-line>
