@@ -6,13 +6,14 @@ date: 2020-05-07T10:34:28-07:00
 
 ## Upcoming Events
 
-**Strategic Planning Workshop IV:** 31 May - 3 June 2021, online videoconference
+**Meeting to formally establish the Open Modeling Foundation:** 6-7 December, 2021, hybrid meeting at ASU in Washington DC and online videoconference
 
 ## Past Events
 
 **Planning Workshops**  
 The series of strategic planning workshops provided the opportunity for broad community input on the organization and modeling standards goals of the OMF by modeling organizations around the world.  
 
+Strategic Planning Workshop IV: 31 May - 3 June 2021, online videoconference
 Strategic Planning Workshop III:  5-7 October 2020, online videoconference  
 Strategic Planning Workshop II:   18-19 May 2020, online videoconference  
 Strategic Planning Workshop I:    6-7 May 2019, Institute for Advanced Sustainability Studies  
