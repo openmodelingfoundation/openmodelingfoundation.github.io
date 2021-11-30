@@ -48,5 +48,19 @@ If you would like to be notified about other people's comments or suggestions, y
 9. Representatives from the Open Modeling Foundation will review your changes for inclusion in the public version of the document.
 10. You can [track the status of your pull request and its proposed changes on the GitHub pull requests tab](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/pulls). You should receive email notifications when the proposed change has received additional comments or questions, been reviewed, or been merged into the main document.
 
+## How to Vote on a Pull Request
+
+1.	If you would like to vote on a pull request, you can do so using the **_thumbs up_** or **_thumbs down_** emoji.
+2.	From the list of pull requests select the specific topic you wish to vote on.
+3.	The initial comment in a thread (in the conversation tab) lists the author on the left side of the banner and a small happy, **_smiling face_** on the right side. A menu of potential emoji reactions is available once you select the happy face. 
+4.	In order to vote, select the thumb up for yes or the downward facing thumb for no. If needed, you can modify your vote by selecting the thumb you wish to remove from the **_reaction_** menu.
+
+## How to Find a Specific Pull Request
+
+1.	All of the pull requests which have been submitted to the OMF site are available [from the pull requests tab](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/pulls).
+2.	By default, the page lists open requests with the most recent at the top of the list.
+3.	The table which lists pull requests allows you to sort using several approaches. Each sorting method is accompanied by a small downward arrow. For example, **_author_** will allow you to select pull requests by a specific author. The **_sort_** menu will enable you to sort pull requests chronologically or by the number of comments or reactions.
+
+
 For more details on creating a pull request please check out
 [GitHub\'s guide for creating a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
