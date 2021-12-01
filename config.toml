@@ -19,6 +19,9 @@ enableMissingTranslationPlaceholders = true
 # google analytics v4
 googleAnalytics = 'G-QWJVV9K9Y1'
 
+# ignore
+# ignoreFiles = [ ".github" ]
+
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 # Highlighting config
@@ -94,7 +97,7 @@ version = "0.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://standards.openmodelingfoundation.org"
+url_latest_version = "https://www.openmodelingfoundation.org"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/openmodelingfoundation/openmodelingfoundation.github.io"
