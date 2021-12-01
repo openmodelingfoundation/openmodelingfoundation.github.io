@@ -50,15 +50,16 @@ If you would like to be notified about other people's comments or suggestions, y
 
 ## How to Vote on a Pull Request
 
-1.	If you would like to vote on a pull request, you can do so using the **_thumbs up_** or **_thumbs down_** emoji.
-2.	From the list of pull requests select the specific topic you wish to vote on.
-3.	The initial comment in a thread (in the conversation tab) lists the author on the left side of the banner and a small happy, **_smiling face_** on the right side. A menu of potential emoji reactions is available once you select the happy face. 
-4.	In order to vote, select the thumb up for yes or the downward facing thumb for no. If needed, you can modify your vote by selecting the thumb you wish to remove from the **_reaction_** menu.
+OMF Members Council Representatives are eligible to `vote` on proposed changes. For the interim we are using GitHub's simple thumbs up / thumbs down emojis to record yays or nays on a pull request representing a set of proposed changes.
+
+1. Select the specific pull request you wish to vote on by clicking on its title.
+2. The first comment in the `Conversation` tab is the one where we will be collecting votes. This comment will display the author submitting the pull request on the left side of the banner and a small happy, **_smiling face_** on the right side next to a dropdown with ellipsis `...`. A menu of potential emoji reactions is available after clicking on the happy face. 
+3. To vote on a pull request, use the **_thumbs up_** 👍 for a yes vote or **_thumbs down_** 👎 emoji for a no vote. You can modify your vote by selecting the thumb you wish to remove from the **_reaction_** menu at the bottom of the comment.
 
 ## How to Find a Specific Pull Request
 
-1.	All of the pull requests which have been submitted to the OMF site are available [from the pull requests tab](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/pulls).
-2.	By default, the page lists open requests with the most recent at the top of the list.
+1.	All of the pull requests which have been submitted to the OMF site are available [on the pull requests tab](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/pulls).
+2.	By default, this page lists open requests with the most recent at the top of the list. You can change this by clicking on the `Filters` dropdown at the top left.
 3.	The table which lists pull requests allows you to sort using several approaches. Each sorting method is accompanied by a small downward arrow. For example, **_author_** will allow you to select pull requests by a specific author. The **_sort_** menu will enable you to sort pull requests chronologically or by the number of comments or reactions.
 
 
