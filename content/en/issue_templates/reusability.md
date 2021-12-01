@@ -1,1 +1,1 @@
-../../../.github/ISSUE_TEMPLATE/reproducibility.md
+../../../.github/ISSUE_TEMPLATE/reusability.md
