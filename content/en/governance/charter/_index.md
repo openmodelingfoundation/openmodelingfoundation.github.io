@@ -70,7 +70,7 @@ and ever more complex and global issues, and improve human well-being.
 
 ---
 
-## Activities
+### Activities
 
 The Open Modeling Foundation carries out a series of coordinated
 activities to further its vision, mission, and goals under the guidance
@@ -78,7 +78,7 @@ and with the support of the OMF Executive Committee, Members Council, Working Gr
 organizations. These activities include, but are not limited to the
 following.
 
-### Community Standards for Modeling Science
+#### Community Standards for Modeling Science
 
 The OMF coordinates and administers the development or adoption of
 pan-community standards that accelerate knowledge scaffolding among
@@ -140,7 +140,7 @@ These standards for models and modeling science practice are
 disseminated to all member organizations and publicly displayed on the
 OMF website.
 
-### Resources to Facilitate Model Discoverability, Accessibility, Reuse and Interoperability
+#### Resources to Facilitate Model Discoverability, Accessibility, Reuse and Interoperability
 
 The OMF may coordinate or develop technologies and databases to help
 modeling scientists make their models more easily reusable by others and
@@ -163,7 +163,7 @@ The OMF may make available to modeling scientists information and
 guidance about Open Source licensing and other practices for making
 their work globally accessible.
 
-### Training and Education
+#### Training and Education
 
 The OMF will provide a forum for disseminating materials for teaching
 best practices for model documentation, transparency, reuse, and
@@ -174,7 +174,7 @@ others, or interoperable with other models. This training could involve
 in-person workshops, webinars and virtual conferences, or training
 videos.
 
-### Coordination and Partnerships with Other Organizations
+#### Coordination and Partnerships with Other Organizations
 
 The OMF will actively engage with other organizations supporting open,
 ethical science. It will do so in order to support and promote best
@@ -189,13 +189,13 @@ support OMF standards by requiring scientists to meet these standards in
 order to publish their work, and assigning digital badges or other
 public recognition of authors who do so.
 
-### Seeking Funding
+#### Seeking Funding
 
 The Open Modeling Foundation, through its Executive Committee, Working Groups, and
 its member organizations, will seek external funding to support the
 activities of the foundation.
 
-### Additional Activities
+#### Additional Activities
 
 Depending on resource availability, the Open Modeling Foundation may undertake other activities in support of modeling science and scientists. Identifying, prioritizing, and coordinating such activities will be the responsibility of the Executive Committee, Members Council, and Working Groups. The following are examples of such activities.
 
