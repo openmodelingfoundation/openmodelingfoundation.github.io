@@ -19,7 +19,7 @@ These standards promote and enable discovery and access for model code, document
 
 -	Humans can read the model source code
 -	Machines can read the model source code
--	Models follow [FAIR standards for research software](https://fair-software.eu/) (ongoing work at https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)
+-	Models follow Accessibility standards from the [emerging FAIR standards for research software](https://fair-software.eu/) (ongoing work at https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)
 -	Models are available in findable, trusted digital repositories
 -	Citations lead to the exact version of a model used in the citing publication
 -	Models need to be published/archived in a trusted, FAIR-aligned, digital repository that exposes metadata publicly
@@ -49,4 +49,3 @@ Example:
 ## Examples and References for Accessibility
 
 - An initial list of digital repositories for software can be found at https://www.comses.net/resources/trusted-digital-repositories/ [perhaps this will become part of the OMF website?]
-- full list of OSI approved licenses at https://opensource.org/licenses and more useful guidance at https://choosealicense.com/

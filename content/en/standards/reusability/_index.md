@@ -34,7 +34,7 @@ This set of minimal standards also can be adopted by journals to ensure that sub
 Computational models must:
 
 - meet OMF minimal standards for <a href='{{< relref "/standards/accessibility" >}}'>Accessibility</a> and <a href='{{< relref "/standards/documentation" >}}'>Documentation</a>
-- include a minimal set of metadata describing the model including: name, version, description, authors and contributors, [OSI approved license](https://choosealicense.com/), a permanent link to a versioned codebase landing page that broadly follows the [FORCE11 software citation guidelines](https://www.force11.org/software-citation-principles)
+- include a minimal set of metadata describing the model including: name, version, description, authors and contributors, [OSI approved license](https://choosealicense.com/), a permanent link to a computational model landing page that broadly follows the [FORCE11 software citation guidelines](https://www.force11.org/software-citation-principles) and [FAIR practices for research software](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)
 - include provenance of all input datasets: permanent links to versioned input data dependencies (and outputs where possible)
 - favor open file formats for data inputs and outputs (e.g., CSV, netCDF, YAML/JSON)
 - provide information on all versioned software and system dependencies (operating system, software and system libraries) with relevant software citations for key dependencies
