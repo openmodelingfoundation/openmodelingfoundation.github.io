@@ -1,8 +1,8 @@
-{{ if and (hugo.IsProduction) (.Site.Params.googleAnalytics) }}
-{{ template "_internal/google_analytics.html" . }}
-{{ end }}
 
 <footer class="-bg-dark py-3 row d-print-none">
+    {{ if (.Site.GoogleAnalytics) }}
+    {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
     <div class="container-fluid">
         <div class='row'>
             <div class="col">

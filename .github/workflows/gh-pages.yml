@@ -29,8 +29,6 @@ jobs:
 
       - name: Setup Hugo 
         uses: peaceiris/actions-hugo@v2
-        env:
-          HUGO_ENV: "production"
         with:
           # sync versions with docker-compose .env ala 
           # https://github.com/marketplace/actions/hugo-setup#%EF%B8%8F-read-hugo-version-from-file
