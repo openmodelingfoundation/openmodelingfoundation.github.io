@@ -56,7 +56,7 @@
 </ul>
 </div>
 <div class="navbar-nav d-none d-lg-block">
-<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.8cb60669f3351d401499e32b9f4ebeca64bf91642850a241223b3e846220f81914af1aae53ccbd95d2cf2bd3a8e858f86748a0e8071390141a5e0424da7055ff.json data-offline-search-base-href=/>
+<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.3f12d5e39e27ecf99a2c888fd6fbbe98572a27e0f9e38dfa1fcdcbf8cc15f08f37fb2d5c56ec7494e4394643adb8a83fb195b0135e7af9db5e16a7853c43f62a.json data-offline-search-base-href=/>
 </div>
 </nav>
 </header>
@@ -66,7 +66,7 @@
 <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
 <div id=td-sidebar-menu class=td-sidebar__inner>
 <form class="td-sidebar__search d-flex align-items-center">
-<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.8cb60669f3351d401499e32b9f4ebeca64bf91642850a241223b3e846220f81914af1aae53ccbd95d2cf2bd3a8e858f86748a0e8071390141a5e0424da7055ff.json data-offline-search-base-href=/>
+<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.3f12d5e39e27ecf99a2c888fd6fbbe98572a27e0f9e38dfa1fcdcbf8cc15f08f37fb2d5c56ec7494e4394643adb8a83fb195b0135e7af9db5e16a7853c43f62a.json data-offline-search-base-href=/>
 <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type=button data-toggle=collapse data-target=#td-section-nav aria-controls=td-docs-nav aria-expanded=false aria-label="Toggle section navigation">
 </button>
 </form>
@@ -104,6 +104,8 @@
 <li><a href=#how-to-make-a-comment-or-start-a-discussion>How to Make a Comment or Start a Discussion</a></li>
 <li><a href=#how-to-create-an-issue-to-propose-and-discuss-specific-text-changes>How to create an issue to propose and discuss specific text changes</a></li>
 <li><a href=#how-to-create-a-pull-request-with-specific-text-changes>How to create a pull request with specific text changes</a></li>
+<li><a href=#how-to-vote-on-a-pull-request>How to Vote on a Pull Request</a></li>
+<li><a href=#how-to-find-a-specific-pull-request>How to Find a Specific Pull Request</a></li>
 </ul>
 </nav>
 </div>
@@ -162,6 +164,20 @@
 <li>You can
 <a href=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/pulls>track the status of your pull request and its proposed changes on the GitHub pull requests tab</a>. You should receive email notifications when the proposed change has received additional comments or questions, been reviewed, or been merged into the main document.</li>
 </ol>
+<h2 id=how-to-vote-on-a-pull-request>How to Vote on a Pull Request</h2>
+<p>OMF Members Council Representatives are eligible to <code>vote</code> on proposed changes. For the interim we are using GitHub&rsquo;s simple thumbs up / thumbs down emojis to record yays or nays on a pull request representing a set of proposed changes.</p>
+<ol>
+<li>Select the specific pull request you wish to vote on by clicking on its title.</li>
+<li>The first comment in the <code>Conversation</code> tab is the one where we will be collecting votes. This comment will display the author submitting the pull request on the left side of the banner and a small face 🙂 on the right side of the banner, next to a dropdown with ellipsis <code>...</code> A menu of potential emoji reactions is available after clicking on 🙂.</li>
+<li>To vote on a pull request, use the <strong><em>thumbs up</em></strong> 👍 for a yes vote or <strong><em>thumbs down</em></strong> 👎 emoji for a no vote. You can modify your vote by selecting the thumb you wish to remove from the 🙂 <strong><em>reaction</em></strong> menu at the bottom left of the comment.</li>
+</ol>
+<h2 id=how-to-find-a-specific-pull-request>How to Find a Specific Pull Request</h2>
+<ol>
+<li>All pull requests submitted to the OMF GitHub site can be viewed
+<a href=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/pulls>on the &lt;code>Pull requests&lt;/code> tab</a>.</li>
+<li>By default this page only displays open requests, ordered by the most recent at the top.</li>
+<li>You can sort and filter the pull requests table by clicking on the table header names (Author, Label, Projects, etc.). For example, clicking on <strong><em>Author</em></strong> will allow you to select pull requests by a specific author. The <strong><em>sort</em></strong> menu lets you sort pull requests chronologically or by the number of comments or reactions.</li>
+</ol>
 <p>For more details on creating a pull request please check out
 <a href=https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request>GitHub's guide for creating a pull request</a>.</p>
 <div class=section-index>
@@ -186,7 +202,7 @@ Sorry to hear that. Please <a href="https://github.com/openmodelingfoundation/op
 </p>
 <script>const yesButton=document.querySelector('.feedback--answer-yes'),noButton=document.querySelector('.feedback--answer-no'),yesResponse=document.querySelector('.feedback--response-yes'),noResponse=document.querySelector('.feedback--response-no'),disableButtons=()=>{yesButton.disabled=!0,noButton.disabled=!0},sendFeedback=b=>{if(typeof ga!='function')return;const a={command:'send',hitType:'event',category:'Helpful',action:'click',label:window.location.pathname,value:b};ga(a.command,a.hitType,a.category,a.action,a.label,a.value)};yesButton.addEventListener('click',()=>{yesResponse.classList.add('feedback--response__visible'),disableButtons(),sendFeedback(1)}),noButton.addEventListener('click',()=>{noResponse.classList.add('feedback--response__visible'),disableButtons(),sendFeedback(0)})</script>
 <br>
-<div class="text-muted mt-5 pt-3 border-top">Last modified 16.11.2021: <a href=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/commit/6f8d107603eff0fdb31fd1a8526a5d2d17f0ce8c>fix: use escape sequences for apostrophes (6f8d107)</a>
+<div class="text-muted mt-5 pt-3 border-top">Last modified 03.12.2021: <a href=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/commit/d660c25cf4ffd16898364e71e4a2587434decda2>How to Vote and How to Sort Pull Requests (d660c25)</a>
 </div>
 </div>
 </main>
