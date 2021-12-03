@@ -48,5 +48,20 @@ If you would like to be notified about other people's comments or suggestions, y
 9. Representatives from the Open Modeling Foundation will review your changes for inclusion in the public version of the document.
 10. You can [track the status of your pull request and its proposed changes on the GitHub pull requests tab](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/pulls). You should receive email notifications when the proposed change has received additional comments or questions, been reviewed, or been merged into the main document.
 
+## How to Vote on a Pull Request
+
+OMF Members Council Representatives are eligible to `vote` on proposed changes. For the interim we are using GitHub's simple thumbs up / thumbs down emojis to record yays or nays on a pull request representing a set of proposed changes.
+
+1. Select the specific pull request you wish to vote on by clicking on its title.
+2. The first comment in the `Conversation` tab is the one where we will be collecting votes. This comment will display the author submitting the pull request on the left side of the banner and a small face 🙂 on the right side of the banner, next to a dropdown with ellipsis `...` A menu of potential emoji reactions is available after clicking on 🙂. 
+3. To vote on a pull request, use the **_thumbs up_** 👍 for a yes vote or **_thumbs down_** 👎 emoji for a no vote. You can modify your vote by selecting the thumb you wish to remove from the 🙂 **_reaction_** menu at the bottom left of the comment.
+
+## How to Find a Specific Pull Request
+
+1.	All pull requests submitted to the OMF GitHub site can be viewed [on the `Pull requests` tab](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/pulls).
+2.	By default this page only displays open requests, ordered by the most recent at the top.
+3.	You can sort and filter the pull requests table by clicking on the table header names (Author, Label, Projects, etc.). For example, clicking on **_Author_** will allow you to select pull requests by a specific author. The **_sort_** menu lets you sort pull requests chronologically or by the number of comments or reactions.
+
+
 For more details on creating a pull request please check out
 [GitHub\'s guide for creating a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
