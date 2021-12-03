@@ -56,7 +56,7 @@
 </ul>
 </div>
 <div class="navbar-nav d-none d-lg-block">
-<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.bac6b767d6d12a21d21065ca7483a9a5f9b357e64c905ad5ae4c3dd3da12848892d41a13ba933e9f6ce4c19fbda2ef6666ab3ed203ce5a87d326dd001861f4a6.json data-offline-search-base-href=/>
+<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.dd25760fc68f8509d24e7f0bba693c6a89b723958f8a4aa6b021804e702ece53405748df5ee727c44ed8bd28875be65cbee1b1a636f1311ea821c3c530a1986b.json data-offline-search-base-href=/>
 </div>
 </nav>
 </header>
@@ -66,7 +66,7 @@
 <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
 <div id=td-sidebar-menu class=td-sidebar__inner>
 <form class="td-sidebar__search d-flex align-items-center">
-<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.bac6b767d6d12a21d21065ca7483a9a5f9b357e64c905ad5ae4c3dd3da12848892d41a13ba933e9f6ce4c19fbda2ef6666ab3ed203ce5a87d326dd001861f4a6.json data-offline-search-base-href=/>
+<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.dd25760fc68f8509d24e7f0bba693c6a89b723958f8a4aa6b021804e702ece53405748df5ee727c44ed8bd28875be65cbee1b1a636f1311ea821c3c530a1986b.json data-offline-search-base-href=/>
 <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type=button data-toggle=collapse data-target=#td-section-nav aria-controls=td-docs-nav aria-expanded=false aria-label="Toggle section navigation">
 </button>
 </form>
@@ -140,8 +140,8 @@
 <li><a href=#goals-for-reusability-standards>Goals for Reusability Standards</a></li>
 <li><a href=#minimal-reusability-standards>Minimal Reusability Standards</a></li>
 <li><a href=#ideal-reusability-standards>Ideal Reusability Standards</a></li>
-<li><a href=#cyberinfrastructure-and-tools-for-implementation-of-reusability-standards>Cyberinfrastructure and Tools for Implementation of Reusability Standards</a></li>
-<li><a href=#examples-and-references-for-reusability>Examples and References for Reusability</a></li>
+<li><a href=#cyberinfrastructure-and-tools-to-support-reusability-standards>Cyberinfrastructure and Tools to Support Reusability Standards</a></li>
+<li><a href=#examples-and-references>Examples and References</a></li>
 <li><a href=#issues--errata>Issues / Errata</a></li>
 </ul>
 </nav>
@@ -161,60 +161,42 @@
 <h1>Reusability</h1>
 <div class="alert alert-warning" role=alert>
 <h4 class=alert-heading>Note</h4>
-These standards promote the reusability of model code and reproducibility of model results. Comments and suggestions are welcomed, and will be carefully considered by the OMF Working Groups and Membership. The standards goals and minimum implementation standards aim to capture concerns and practices among the members of OMF. Individual application domains may extend these standards to capture additional context relevant to their domain.
+These standards are designed to facilitate reuse of model code which in principle supports reproducibility claims and verification of model results. Comments and suggestions are welcomed, and will be carefully considered by the OMF Working Groups and Membership. The standards goals and minimum implementation standards aim to capture concerns and practices among the members of OMF. Individual application domains may extend these standards to capture additional context relevant to their domain.
 </div>
 <h2 id=overview-of-reusability-standards>Overview of Reusability Standards</h2>
-<p>In this document we are adopting the
-<a href=https://doi.org/10.17226/25303>National Academies of Sciences, Engineering and Medicine 2019 report on Reproducibility and Replicability in Science</a> definitions of reproducibility and replicability.</p>
+<p>In this document we adopt the <em>reuse</em> terminology defined in the
+<a href=https://www.rd-alliance.org/group/fair-research-software-fair4rs-wg/outcomes/fair-principles-research-software-fair4rs>FAIR Principles for Research Software</a>.</p>
 <blockquote>
-<p>Reproducibility means obtaining consistent computational results using the same input data, computational steps, methods, code, and conditions of analysis. Replicability means obtaining consistent results across studies aimed at answering the same scientific question, each of which has obtained its own data.</p>
+<p>Reusability implicitly includes usability and focuses on the ability of humans and machines to execute, inspect, and understand the software so that it can be modified, built upon, or incorporated into other software.</p>
 </blockquote>
-<p>Reproducibility is a cornerstone of scientific research, especially for transparent evaluation of research claims. Equally important is the potential for scientific procedures to be reused and modified in order to carry out new research. While clear documentation is essential to reusability, new technologies also offer the potential to increase the reproducibility and reusability of model code.</p>
-<p>A critical metric of reproducibility is whether a model can consistently reproduce the published results that claim to have been generated by the model. Reproducibility and reusability can also be enhanced if model code is accompanied by explicit workflows that demonstrate how the model generates and transforms its output data into its published findings.</p>
 <h2 id=goals-for-reusability-standards>Goals for Reusability Standards</h2>
-<p>An independent reviewer should be able to easily download, build, and execute a computational model and verify that it meets the reproducibility claims stated by the model author(s).</p>
+<blockquote>
+<p>A <em>reusable</em> computational model can be <b>executed, understood, modified, built upon, or incorporated</b> into other software.</p>
+</blockquote>
 <h2 id=minimal-reusability-standards>Minimal Reusability Standards</h2>
-<p>This set of minimal standards also can be adopted by journals to ensure that submitted publications meet baseline reproducibility and reusability requirements.</p>
-<p>Computational models must:</p>
+<p>A minimal set of guidelines that can be adopted by journals to ensure that submitted publications meet baseline reproducibility and reusability requirements.</p>
+<p>Reusable computational models must:</p>
 <ul>
 <li>meet OMF minimal standards for <a href=/standards/accessibility/>Accessibility</a> and <a href=/standards/documentation/>Documentation</a></li>
-<li>include a minimal set of metadata describing the model including: name, version, description, authors and contributors,
-<a href=https://choosealicense.com/>OSI approved license</a>, a permanent link to a computational model landing page that broadly follows the
-<a href=https://www.force11.org/software-citation-principles>FORCE11 software citation guidelines</a> and
-<a href=https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg>FAIR practices for research software</a></li>
-<li>include provenance of all input datasets: permanent links to versioned input data dependencies (and outputs where possible)</li>
-<li>favor open file formats for data inputs and outputs (e.g., CSV, netCDF, YAML/JSON)</li>
-<li>provide information on all versioned software and system dependencies (operating system, software and system libraries) with relevant software citations for key dependencies</li>
-<li>include instructions on how to set up a compute environment to compile / interpret / execute the software
-<ul>
-<li>software with large compute or data requirements can be problematic:
-<ul>
-<li>provide representative input data samples along with sampling methodology</li>
-<li>provide durable link to wholetale or other provenance-tracked computation</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>clearly describe what reproducibility measures or metrics are applicable to the given software</li>
-<li>provide range of acceptable outcomes for software with stochastic components</li>
-<li>provide descriptions of possible input parameters and expected outputs with units and format (e.g., shape, data type, etc.)</li>
-<li>include output analyses and workflows
-<ul>
-<li>scripts to transform raw data -> intermediate -> figures</li>
-<li>subsets of intermediate data if prohibitive to generate</li>
-</ul>
-</li>
+<li>have a clear and accessible
+<a href=https://choosealicense.com/>open source, OSI approved license</a></li>
+<li>include detailed metadata that facilitate reuse (e.g., input and output semantics, data types, units)</li>
+<li>include detailed provenance on authorship and contributions</li>
+<li>provide qualified information on all software and system dependencies with versions (operating system, software and system libraries)</li>
+<li>provide clear instructions on how to execute the software</li>
 </ul>
 <h2 id=ideal-reusability-standards>Ideal Reusability Standards</h2>
 <p>In order to meet the ideal standards, computational models should:</p>
 <ul>
-<li>provide durable containerization that follows archival best practices with archived container images</li>
-<li>provide a link to an active source code repository if still in active development</li>
-<li>have continuous integration services that compile and run automated unit or integration test suites on a periodic basis</li>
+<li>favor open file formats for data inputs and outputs (e.g., CSV, netCDF, geoJSON, Parquet, Feather)</li>
+<li>provide durable containerization recipes (i.e., archival quality container images)</li>
+<li>include relevant output analyses, data pipelines, and/or workflows</li>
 <li>include metadata on related research outputs (publications, other software, relationship)</li>
-<li>additional domain specific standards if any (examples?)</li>
+<li>use continuous integration services that run automated tests on the software</li>
+<li>for software with large compute or data requirements, representative input data samples along with sampling methodology</li>
+<li>provide additional community established domain specific standards</li>
 </ul>
-<h2 id=cyberinfrastructure-and-tools-for-implementation-of-reusability-standards>Cyberinfrastructure and Tools for Implementation of Reusability Standards</h2>
+<h2 id=cyberinfrastructure-and-tools-to-support-reusability-standards>Cyberinfrastructure and Tools to Support Reusability Standards</h2>
 <p>Build Docker images from research code:</p>
 <ul>
 <li>stencila/dockta
@@ -228,23 +210,23 @@ These standards promote the reusability of model code and reproducibility of mod
 <li>repo2docker
 <a href=https://repo2docker.readthedocs.io>https://repo2docker.readthedocs.io</a> (used by binder)</li>
 </ul>
-<p>Archive computational pipelines:</p>
+<p>Computational Archives:</p>
 <ul>
 <li>
 <a href=https://wholetale.org/>Whole Tale</a></li>
 <li>
 <a href=https://codeocean.com/>Code Ocean</a></li>
 </ul>
-<p>OMF may consider building some github template repositories or scaffolding for common modeling frameworks that reduce friction of adoption.</p>
+<p>OMF may consider developing scaffolding for common modeling frameworks that reduce friction of adoption</p>
 <ul>
-<li>e.g.,
+<li>examples:
 <a href=https://github.com/uwescience/shablona>https://github.com/uwescience/shablona</a> and
 <a href=https://github.com/geodynamics/software_template>https://github.com/geodynamics/software_template</a></li>
-<li>a GitHub bot that submits PRs against a GitHub repository to improve compliance with minimal / ideal standards</li>
-<li>e.g. provide a cookiecutter project structure that supports best practices for reproducibility and reusability like
-<a href=http://drivendata.github.io/cookiecutter-data-science/>Cookiecutter Data Science</a></li>
+<li>GitHub bot that can help improve compliance with minimal / ideal standards</li>
+<li>cookiecutter project structure that supports best practices for reproducibility and reusability (e.g.,
+<a href=http://drivendata.github.io/cookiecutter-data-science/>Cookiecutter Data Science</a>)</li>
 </ul>
-<h2 id=examples-and-references-for-reusability>Examples and References for Reusability</h2>
+<h2 id=examples-and-references>Examples and References</h2>
 <ul>
 <li>
 <a href=https://doi.org/10.5281/zenodo.2642710>Lorena Barba&amp;rsquo;s reproducible workflow for computational fluid dynamics</a>
@@ -257,12 +239,10 @@ These standards promote the reusability of model code and reproducibility of mod
 <a href=https://softwaresaved.github.io/software-deposit-guidance/HowToDescribeSoftwareDeposit.html>Software Deposit Guidelines from SSI</a></li>
 <li>
 <a href=https://doi.org/10.2134/agronj2015.0481>Proposed Standards for Peer-Reviewed Publication of Computer Code</a></li>
-<li>find example codebases that meet minimal and ideal standards</li>
+<li>TODO: find or build example codebases that meet minimal and ideal standards</li>
 </ul>
 <h2 id=issues--errata>Issues / Errata</h2>
-<ul>
-<li>It is fine to use commercial and / or closed source products so long as the researchers' source code is available and the version of the product is specified (e.g., matlab 9.5, AnyLogic 8.4, ArcGIS 10.8)</li>
-</ul>
+<p>Dependencies on commercial / closed source products are fine so long as they are clearly qualified with version and operating system e.g., MATLAB R2016b (Windows 10), AnyLogic 8.7 (Windows 10), ArcGIS 10.8.1 (macOS 10.15), NetLogo 6.2.1 (Ubuntu 20.04LTS)</p>
 <div class=section-index>
 <hr class=panel-line>
 </div>
@@ -279,7 +259,7 @@ Sorry to hear that. Please <a href="https://github.com/openmodelingfoundation/op
 </p>
 <script>const yesButton=document.querySelector('.feedback--answer-yes'),noButton=document.querySelector('.feedback--answer-no'),yesResponse=document.querySelector('.feedback--response-yes'),noResponse=document.querySelector('.feedback--response-no'),disableButtons=()=>{yesButton.disabled=!0,noButton.disabled=!0},sendFeedback=b=>{if(typeof ga!='function')return;const a={command:'send',hitType:'event',category:'Helpful',action:'click',label:window.location.pathname,value:b};ga(a.command,a.hitType,a.category,a.action,a.label,a.value)};yesButton.addEventListener('click',()=>{yesResponse.classList.add('feedback--response__visible'),disableButtons(),sendFeedback(1)}),noButton.addEventListener('click',()=>{noResponse.classList.add('feedback--response__visible'),disableButtons(),sendFeedback(0)})</script>
 <br>
-<div class="text-muted mt-5 pt-3 border-top">Last modified 01.12.2021: <a href=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/commit/12bb0570dd0284bdaf4b98b54ba21f220ebd5ede>remove last license vestiges from accessibility (12bb057)</a>
+<div class="text-muted mt-5 pt-3 border-top">Last modified 02.12.2021: <a href=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/commit/76ff079f5ef468a12b7c7edd188a4a021d53e2cf>refine reusability standards based on workshop discussions (76ff079)</a>
 </div>
 </div>
 </main>
