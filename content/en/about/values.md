@@ -1,18 +1,18 @@
 ---
-title: "Open Modeling Foundation Code of Conduct"
-linkTitle: "Code of Conduct"
+title: "Open Modeling Foundation Values"
+linkTitle: "Values"
 date: 2020-05-07T10:34:28-07:00
 ---
 
-## Open Modeling Foundation Values
+## Our Values
 
-The Open Modeling Foundation is an international open science community made up of diverse scientists and teams from around the world who seek to meet the planetary, social, and environmental challenges we face in our complex and rapidly changing world.  As members of the Open Modeling Foundation, we champion collaborative and open science.  Our community and our mission are strengthened through diverse perspectives and the exchange of ideas in an inclusive environment.  
+The Open Modeling Foundation is an international open science community made up of diverse scientists and teams from around the world who seek to meet the planetary, social, and environmental challenges we face in our complex and rapidly changing world. As members of the Open Modeling Foundation, we champion collaborative and open science. Our community and our mission are strengthened through diverse perspectives and the exchange of ideas in an inclusive environment.
 
-To maintain diversity, inclusivity and equity within this community, we as members, contributors, and leaders pledge to empower each other to contribute.  Through our actions, we ensure a harassment-free experience for everyone regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion or sexual identity and orientation.  We pledge to make our community open, welcoming, diverse, inclusive, and healthy.   
+To maintain diversity, inclusivity and equity within this community, we as members, contributors, and leaders pledge to empower each other to contribute. Through our actions, we ensure a harassment-free experience for everyone regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion or sexual identity and orientation. We pledge to make our community open, welcoming, diverse, inclusive, and healthy.
 
-We recognize that our efforts will need to evolve.  We pledge to continuously improve, self-reflect, and listen to maintain the diverse and inclusive community that is essential for the advancement of science and for meeting the challenges of our our complex world.
+We recognize that our efforts will need to evolve. We pledge to continuously improve, self-reflect, and listen to maintain the diverse and inclusive community that is essential for the advancement of science and for meeting the challenges of our our complex world.
 
-##  Our Commitment to Diversity, Equity and Inclusion
+## Our Commitment to Diversity, Equity and Inclusion
 
 Examples of behavior that contributes to creating a positive environment include:
 
