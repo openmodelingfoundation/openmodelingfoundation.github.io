@@ -10,19 +10,19 @@ The Open Modeling Foundation is an international open science community made up 
 
 To maintain diversity, inclusivity and equity within this community, we as members, contributors, and leaders pledge to empower each other to contribute. Through our actions, we ensure a harassment-free experience for everyone regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion or sexual identity and orientation. We pledge to make our community open, welcoming, diverse, inclusive, and healthy.
 
-We recognize that our efforts will need to evolve. We pledge to continuously improve, self-reflect, and listen to maintain the diverse and inclusive community that is essential for the advancement of science and for meeting the challenges of our our complex world.
+We recognize that our efforts will need to evolve. We pledge to continuously improve, self-reflect, and listen to maintain the diverse and inclusive community that is essential for the advancement of science and for meeting the challenges of our complex world.
 
 ## Our Commitment to Diversity, Equity and Inclusion
 
-Examples of behavior that contributes to creating a positive environment include:
+Behaviors that help create a positive environment include:
 
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
+- Use welcoming and inclusive language
+- Be respectful of differing viewpoints and experiences
+- Gracefully accept constructive criticism
+- Focus on what is best for the community
+- Show empathy towards other community members
 
-Examples of unacceptable behavior by participants include:
+Examples of unacceptable behavior include:
 
 - The use of sexualized language or imagery and unwelcome sexual attention or advances
 - Trolling, insulting/derogatory comments, and personal or political attacks
@@ -34,7 +34,7 @@ Examples of unacceptable behavior by participants include:
 
 OMF Leadership are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
-OMF Leadership have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+OMF Leadership have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to temporarily or permanently ban any contributor for other behaviors they deem inappropriate, threatening, offensive, or harmful.
 
 ## Scope
 
