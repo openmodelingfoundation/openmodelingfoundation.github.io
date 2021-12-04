@@ -10,19 +10,19 @@ The Open Modeling Foundation is an international open science community made up 
 
 To maintain diversity, inclusivity and equity within this community, we as members, contributors, and leaders pledge to empower each other to contribute. Through our actions, we ensure a harassment-free experience for everyone regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion or sexual identity and orientation. We pledge to make our community open, welcoming, diverse, inclusive, and healthy.
 
-We recognize that our efforts will need to evolve. We pledge to continuously improve, self-reflect, and listen to maintain the diverse and inclusive community that is essential for the advancement of science and for meeting the challenges of our our complex world.
+We recognize that our efforts will need to evolve. We pledge to continuously improve, self-reflect, and listen to maintain the diverse and inclusive community that is essential for the advancement of science and for meeting the challenges of our complex world.
 
 ## Our Commitment to Diversity, Equity and Inclusion
 
-Examples of behavior that contributes to creating a positive environment include:
+Behaviors that help create a positive environment include:
 
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
+- Use welcoming and inclusive language
+- Be respectful of differing viewpoints and experiences
+- Gracefully accept constructive criticism
+- Focus on what is best for the community
+- Show empathy towards other community members
 
-Examples of unacceptable behavior by participants include:
+Examples of unacceptable behavior include:
 
 - The use of sexualized language or imagery and unwelcome sexual attention or advances
 - Trolling, insulting/derogatory comments, and personal or political attacks
@@ -34,17 +34,17 @@ Examples of unacceptable behavior by participants include:
 
 OMF Leadership are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
-OMF Leadership have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+OMF Leadership have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to temporarily or permanently ban any contributor for other behaviors they deem inappropriate, threatening, offensive, or harmful.
 
 ## Scope
 
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
+This Code of Conduct applies both within the OMF science gateway and in public spaces when an individual is representing the OMF or its community. Examples of representing the OMF or community include using an official OMF e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of the OMF may be further defined and clarified by the OMF Leadership.
 
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by [contacting OMF support](mailto:support@openmodelingfoundation.org). The OMF Leadership will review and investigate all complaints and will respond in a way that it deems appropriate to the circumstances. The OMF Leadership is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
-Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the OMF Leadership.
+OMF Leadership and members who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the OMF Leadership.
 
 ## Attribution
 
