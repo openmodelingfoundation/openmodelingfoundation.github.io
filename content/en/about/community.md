@@ -1,6 +1,7 @@
 ---
 title: "Community"
 linkTitle: "Community"
+weight: 100
 ---
 
 ## Member Organizations and Representatives
