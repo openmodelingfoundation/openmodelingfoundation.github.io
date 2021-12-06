@@ -87,7 +87,7 @@ replicable, interoperable, and reliable models. These standards include, but are
 
 - **Discoverability and Accessibility:** Standards for accessibility
   ensure that model code is available in FAIR-aligned digital
-  repositories (Findable, Accessible, Interoperable, Reproducible) and
+  repositories (Findable, Accessible, Interoperable, Reusable) and
   that model developers receive public recognition and professional
   credit for code they make accessible in this way.
 
