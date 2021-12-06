@@ -226,7 +226,7 @@ A quorum of members must vote in order for the vote to be valid. Unless explicit
 
 #### Joining and Leaving the Members Council
 
-Any formally constituted organization representing at least `TBD` modeling scientists may request to join the Open Modeling Foundation. Qualifying organizations may request to become a memeber of the Open Modeling Foundation and join the Members Council by addressing a letter of request to the Executive Committee. The Executive Committee will review the request and decide whether or not to refer the request to the Members Council for final approval. If a majority of the Member Council votes to approve the request, the organization becomes a member of the Open Modeling Foundation and can send a voting representative to the Members Council. 
+Qualifying organizations may request to become a memeber of the Open Modeling Foundation and join the Members Council by addressing a letter of request to the Executive Committee. The Executive Committee will review the request and decide whether or not to refer the request to the Members Council for final approval. If a majority of the Member Council votes to approve the request, the organization becomes a member of the Open Modeling Foundation and can send a voting representative to the Members Council. 
 
 Every five years, each member organization in good standing must reaffirm in writing its intent to remain a member of the Open Modeling Foundation. This written affirmation of intent to remain a member in good standing should be addressed to the Executive Committee.   
 
