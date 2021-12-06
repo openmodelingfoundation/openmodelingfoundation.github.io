@@ -8,7 +8,7 @@ title: "Charter"
 
 ## Vision
 
-A globally connected humanity is now a major driver of diverse earth
+A globally connected humanity is now a major driver of diverse Earth
 system processes, creating a complex, planetary socio-ecological system
 that exceeds our innate capacity to anticipate the consequences of
 societal decisions and actions. Modeling is critical to enhancing
