@@ -222,11 +222,11 @@ The Open Modeling Foundation Members Council represents formally constituted org
 The Members Council will meet annually in person and quarterly virtually.
 
 #### Voting
-In order for a Members Council vote to be valid, it must be approved by a majority of a quorum of members. Unless explicitly specified otherwise in this charter, a quorum is at least 51% of the representatives in the Members Council. Changes to the OMF Charter must be approved by a vote of at least 2/3 of the representatives in the Members Council.
+In order for a Members Council vote to be valid, it must be approved by a majority of a quorum of members. Unless explicitly specified otherwise in this charter, a quorum is at least 51% of the representatives in the Members Council. Changes to the OMF Charter must be approved by a vote of at least 2/3 of the representatives in the Members Council. Voting may be conducted over a pre-determined time period with votes cast in person, electronically, or both.
 
 #### Joining and Leaving the Members Council
 
-Qualifying organizations may request to become a memeber of the Open Modeling Foundation and join the Members Council by addressing a letter of request to the Executive Committee. The Executive Committee will review the request and decide whether or not to refer the request to the Members Council for final approval. If a majority of the Member Council votes to approve the request, the organization becomes a member of the Open Modeling Foundation and can send a voting representative to the Members Council. 
+Qualifying organizations may request to become a member of the Open Modeling Foundation and join the Members Council by addressing a letter of request to the Executive Committee. The Executive Committee will review the request and decide whether or not to refer the request to the Members Council for final approval. If a majority of the Member Council votes to approve the request, the organization becomes a member of the Open Modeling Foundation and can send a voting representative to the Members Council. 
 
 Every five years, each member organization in good standing must reaffirm in writing its intent to remain a member of the Open Modeling Foundation. This written affirmation of intent to remain a member in good standing should be addressed to the Executive Committee.   
 
