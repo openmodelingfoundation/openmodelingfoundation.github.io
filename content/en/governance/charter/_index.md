@@ -9,19 +9,9 @@ weight: 1
 
 ## Vision
 
-A globally connected humanity is now a major driver of diverse earth
-system processes, creating a complex, planetary socio-ecological system
-that exceeds our innate capacity to anticipate the consequences of
-societal decisions and actions. Modeling is critical to enhancing
-analytical and decision-making capabilities for policy and planning,
-environmental management, resource investment, and security
-preparedness. We need a new generation of scientific computational
-models drawn from the social, ecological, biological, environmental, and
-geophysical sciences that can work together to provide an integrated
-representation of the complex world in which we now live. This vision
-can be realized through a common suite of standards, protocols, and best
-practices that enables modeling scientists to share knowledge and build
-on one another's research.
+A globally connected humanity is now a major driver of diverse earth system processes, creating a complex, planetary socio-ecological-technological system that exceeds our innate capacity to anticipate the consequences of societal decisions and actions. Modeling is critical to enhancing ethical analytical and decision-making capabilities for policy and planning, environmental management, resource investment, and security preparedness.
+
+Our vision is to enable open and ethical modeling efforts across domains of human and Earth systems sciences and engineering to work together to provide an integrated representation of the complex world in which we now live. This vision can be realized through a common suite of standards, protocols, and best practices that enables modeling scientists to share knowledge and build on one another’s research.
 
 ---
 
