@@ -34,21 +34,14 @@ Examples of unacceptable behavior include:
 
 OMF Leadership are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
-OMF Leadership have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to temporarily or permanently ban any contributor for other behaviors they deem inappropriate, threatening, offensive, or harmful.
+OMF Leadership have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this statement of Values, or to temporarily or permanently ban any contributor for other behaviors they deem inappropriate, threatening, offensive, or harmful.
 
 ## Scope
 
-This Code of Conduct applies both within the OMF science gateway and in public spaces when an individual is representing the OMF or its community. Examples of representing the OMF or community include using an official OMF e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of the OMF may be further defined and clarified by the OMF Leadership.
+This statement of Values applies both within the OMF science gateway and in public spaces when an individual is representing the OMF or its community. Examples of representing the OMF or community include using an official OMF e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of the OMF may be further defined and clarified by the OMF Leadership.
 
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by [contacting OMF support](mailto:support@openmodelingfoundation.org). The OMF Leadership will review and investigate all complaints and will respond in a way that it deems appropriate to the circumstances. The OMF Leadership is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
-OMF Leadership and members who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the OMF Leadership.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4, available at [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html][version]
-
-[homepage]: https://www.contributor-covenant.org/
-[version]: https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+OMF Leadership and members who do not follow or enforce this statement of Values in good faith may face temporary or permanent repercussions as determined by other members of the OMF Leadership.
