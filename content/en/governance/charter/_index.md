@@ -1,5 +1,6 @@
 ---
 title: "Charter"
+weight: 1
 ---
 
 # Open Modeling Foundation
@@ -197,7 +198,7 @@ activities of the foundation.
 
 #### Additional Activities
 
-Depending on resource availability, the Open Modeling Foundation may undertake other activities in support of modeling science and scientists. Identifying, prioritizing, and coordinating such activities will be the responsibility of the Executive Committee, Members Council, and Working Groups. 
+Depending on resource availability, the Open Modeling Foundation may undertake other activities in support of modeling science and scientists. Identifying, prioritizing, and coordinating such activities will be the responsibility of the Executive Committee, Members Council, and Working Groups.
 
 ---
 
