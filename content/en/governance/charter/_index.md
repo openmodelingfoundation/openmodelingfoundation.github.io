@@ -11,7 +11,7 @@ weight: 1
 
 A globally connected humanity is now a major driver of diverse Earth system processes, creating a complex, planetary socio-ecological-technological system that exceeds our innate capacity to anticipate the consequences of societal decisions and actions. Modeling is critical to enhancing ethical analytical and decision-making capabilities for policy and planning, environmental management, resource investment, and security preparedness.
 
-Our vision is to enable open and ethical modeling efforts across domains of human and Earth systems sciences and engineering to work together to provide an integrated representation of the complex world in which we now live. This vision can be realized through a common suite of standards, protocols, and best practices that enables modeling scientists to share knowledge and build on one another’s research.
+Our vision is to enable open and ethical modeling efforts across domains of human and Earth systems sciences and engineering to work together to provide an integrated representation of the complex world in which we now live. This vision can be realized through a common suite of ethics, standards, protocols, and best practices that enables modeling scientists to share knowledge and build on one another’s research.
 
 ---
 
@@ -24,7 +24,7 @@ organizations that coordinates and administers a common, community
 developed body of standards and best practices among diverse communities
 of modeling scientists. It also provides informational, data, and
 technological resources to facilitate the implementation of common
-standards and best practices among the scientific communities it serves.
+standards and best practices among the scientific communities it serves. We seek to promote a diverse, equitable and inclusive modeling science community as expressly articulated in our values statement
 
 The OMF supports the work of all modeling scientists endeavoring to
 advance the understanding of diverse dimensions of our complexly
@@ -194,11 +194,12 @@ Depending on resource availability, the Open Modeling Foundation may undertake o
 
 ## Organization and Governance
 
-The Open Modeling Foundation is comprised of organizations, individual modeling scientists, and students preparing for careers in modeling science. The organization and governance of the Open Modeling Foundation is designed to achieve four primary goals:
+The Open Modeling Foundation is comprised of organizations, individual modeling scientists, and students preparing for careers in modeling science. The organization and governance of the Open Modeling Foundation is designed to achieve the following goals:
 
 - It should enable the foundation to carry out its mission and goals, and realize its vision in the most effective way possible and with the least necessary intervention on the part of OMF governance.
-- It should provide a free and fair voice to all member scientific communities it represents.
+- It should provide an open and equitable voice to all member communities it represents.
 - It should offer opportunities for all modeling scientists to participate and contribute to the goals and activities of the OMF.
+- It should represent the diversity of individuals within the broad modeling community, and intentionally facilitate participation of diverse communities historically underrepresented within modeling science.
 - It should enable and promote modeling science that benefits both human and natural systems on our planet.
 
 The policies and activities of Open Modeling Foundation are administered by shared, multi-level governance that includes an **Executive Director** (ED), an **Executive Committee** (EC), a **Members Council** (MC), and several **Working Groups**. The Members Council is the primary OMF governing body, responsible for approving policies, procedures, and standards. The Executive Committee manages and administers OMF activities, following policies, procedures, and standards approved by the Members Council. The Director and Executive committee are assisted by a Project Coordinator and a Cyberinfrastructure Support team. The working groups will organize key activity sets of the OMF. Additionally, next-generation scientists can participate in the activities of the OMF through an **Affiliated Student Association**. Organizations that do not wish to become full members, and individuals who do not wish to join a working group can still be associated with the OMF to a more limited extent as OMF **Affiliates**. This organization is represented schematically in the [attached diagram](https://docs.google.com/viewer?url=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/files/6462528/OMF_org.pdf).
