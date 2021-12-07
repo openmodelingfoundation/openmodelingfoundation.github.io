@@ -285,9 +285,9 @@ any new working groups must be approved by the Members Council.
 The Cyberinfrastructure and Technical Support (CTS) staff coordinates development and management of the OMF Science Gateway, and online platform for collaborativec governance and standards. CTS works to to identify or develop tools and processes which serve to lower the technical barriers towards
 adoption of OMF standards, and ways to best deploy these tools to enable their use by modeling scientists. CTS staff assist the EOWG in developing online training modules and making them available on the OMF Gateway
 
-### Affiliated Students Association
+### Affiliated Early Career Scholars
 
-The Affiliated Students Association helps the Open Modeling Foundation to support student and early career development. The ASA is open to any student in an institution of higher learning (e.g., college or university). The ASA provides input to Working Groups and the Executive Committee. The ASA can organize student-focused programs and events, assisted iby the Administrative Coordinator and EOWG. Members of the ASA elect a leader to represent the ASA on the Executive Committee.
+The Affiliated Early Career Scholars helps the Open Modeling Foundation to support student and early career development. The AECS is open to any student in an institution of higher learning (e.g., college or university) or early career scholar. The AECS provides input to Working Groups and the Executive Committee. The AECS can organize student-focused programs and events, assisted iby the Administrative Coordinator and EOWG. Members of the AECS elect a leader to represent the AECS on the Executive Committee.
 
 #### Joining and Leaving the Affiliated Students Association
 
