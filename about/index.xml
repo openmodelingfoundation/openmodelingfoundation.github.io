@@ -1,4 +1,14 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>– About</title><link>/about/</link><description>Recent content in About on</description><generator>Hugo -- gohugo.io</generator><atom:link href="/about/index.xml" rel="self" type="application/rss+xml"/><item><title>About: History</title><link>/about/history/</link><pubDate>Thu, 07 May 2020 10:34:28 -0700</pubDate><guid>/about/history/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>– About</title><link>/about/</link><description>Recent content in About on</description><generator>Hugo -- gohugo.io</generator><atom:link href="/about/index.xml" rel="self" type="application/rss+xml"/><item><title>About: Community</title><link>/about/community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/community/</guid><description>
+&lt;h2 id="member-organizations-and-representatives">Member Organizations and Representatives&lt;/h2>
+&lt;h2 id="executive-committee">Executive Committee&lt;/h2>
+&lt;h2 id="working-groups-and-working-group-chairs">Working Groups and Working Group Chairs&lt;/h2>
+&lt;h3 id="certificationhttpsgithubcomopenmodelingfoundationopenmodelingfoundationgithubiodiscussionscategoriescertification-and-incentives-wg">
+&lt;a href="https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/certification-and-incentives-wg">Certification&lt;/a>&lt;/h3>
+&lt;h3 id="education-and-outreachhttpsgithubcomopenmodelingfoundationopenmodelingfoundationgithubiodiscussionscategorieseducation-and-outreach-wg">
+&lt;a href="https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/education-and-outreach-wg">Education and Outreach&lt;/a>&lt;/h3>
+&lt;h3 id="standardshttpsgithubcomopenmodelingfoundationopenmodelingfoundationgithubiodiscussionsdiscussions_qcategory3a22accessibilitystandards22category3a22documentationstandards22category3a22interoperabilitystandards22category3a22reusabilitystandards22page1">
+&lt;a href="https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions?discussions_q=category%3A%22Accessibility&amp;#43;Standards%22&amp;#43;category%3A%22Documentation&amp;#43;Standards%22&amp;#43;category%3A%22Interoperability&amp;#43;Standards%22&amp;#43;category%3A%22Reusability&amp;#43;Standards%22&amp;#43;&amp;amp;page=1">Standards&lt;/a>&lt;/h3>
+&lt;h2 id="affiliated-students">Affiliated Students&lt;/h2></description></item><item><title>About: History</title><link>/about/history/</link><pubDate>Thu, 07 May 2020 10:34:28 -0700</pubDate><guid>/about/history/</guid><description>
 &lt;h2 id="upcoming-events">Upcoming Events&lt;/h2>
 &lt;p>&lt;strong>Meeting to formally establish the Open Modeling Foundation:&lt;/strong> 6-7 December, 2021, hybrid meeting at ASU in Washington DC and online videoconference&lt;/p>
 &lt;h2 id="past-events">Past Events&lt;/h2>
@@ -16,9 +26,10 @@ Strategic Planning Workshop I: 6-7 May 2019, Institute for Advanced Sustainabili
 3 December 2019, Standards for Model Documentation, Commonwealth Scientific and Industrial Research Organisation, Canberra, Australia&lt;/p></description></item><item><title>About: Open Modeling Foundation Values</title><link>/about/values/</link><pubDate>Thu, 07 May 2020 10:34:28 -0700</pubDate><guid>/about/values/</guid><description>
 &lt;h2 id="our-values">Our Values&lt;/h2>
 &lt;p>The Open Modeling Foundation is an international open science community made up of diverse scientists and teams from around the world who seek to meet the planetary, social, and environmental challenges we face in our complex and rapidly changing world. As members of the Open Modeling Foundation, we champion collaborative and open science. Our community and our mission are strengthened through diverse perspectives and the exchange of ideas in an inclusive environment.&lt;/p>
+&lt;h2 id="our-commitment-to-diversity-equity-and-inclusion">Our Commitment to Diversity, Equity and Inclusion&lt;/h2>
 &lt;p>To maintain diversity, inclusivity and equity within this community, we as members, contributors, and leaders pledge to empower each other to contribute. Through our actions, we ensure a harassment-free experience for everyone regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion or sexual identity and orientation. We pledge to make our community open, welcoming, diverse, inclusive, and healthy.&lt;/p>
 &lt;p>We recognize that our efforts will need to evolve. We pledge to continuously improve, self-reflect, and listen to maintain the diverse and inclusive community that is essential for the advancement of science and for meeting the challenges of our complex world.&lt;/p>
-&lt;h2 id="our-commitment-to-diversity-equity-and-inclusion">Our Commitment to Diversity, Equity and Inclusion&lt;/h2>
+&lt;h2 id="code-of-conduct">Code of Conduct&lt;/h2>
 &lt;p>Behaviors that help create a positive environment include:&lt;/p>
 &lt;ul>
 &lt;li>Use welcoming and inclusive language&lt;/li>
@@ -35,22 +46,10 @@ Strategic Planning Workshop I: 6-7 May 2019, Institute for Advanced Sustainabili
 &lt;li>Publishing others' private information, such as a physical or electronic address, without explicit permission&lt;/li>
 &lt;li>Other conduct which could reasonably be considered inappropriate in a professional setting&lt;/li>
 &lt;/ul>
-&lt;h2 id="our-responsibilities">Our Responsibilities&lt;/h2>
+&lt;p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by
+&lt;a href="mailto:support@openmodelingfoundation.org">contacting OMF support&lt;/a>. The OMF Leadership will review and investigate all complaints and will respond in a way that it deems appropriate to the circumstances. The OMF Leadership is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.&lt;/p>
+&lt;p>OMF Leadership and members who do not follow or enforce this statement of Values in good faith may face temporary or permanent repercussions as determined by other members of the OMF Leadership.&lt;/p>
 &lt;p>OMF Leadership are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.&lt;/p>
 &lt;p>OMF Leadership have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this statement of Values, or to temporarily or permanently ban any contributor for other behaviors they deem inappropriate, threatening, offensive, or harmful.&lt;/p>
 &lt;h2 id="scope">Scope&lt;/h2>
-&lt;p>This statement of Values applies both within the OMF science gateway and in public spaces when an individual is representing the OMF or its community. Examples of representing the OMF or community include using an official OMF e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of the OMF may be further defined and clarified by the OMF Leadership.&lt;/p>
-&lt;h2 id="enforcement">Enforcement&lt;/h2>
-&lt;p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by
-&lt;a href="mailto:support@openmodelingfoundation.org">contacting OMF support&lt;/a>. The OMF Leadership will review and investigate all complaints and will respond in a way that it deems appropriate to the circumstances. The OMF Leadership is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.&lt;/p>
-&lt;p>OMF Leadership and members who do not follow or enforce this statement of Values in good faith may face temporary or permanent repercussions as determined by other members of the OMF Leadership.&lt;/p></description></item><item><title>About: Community</title><link>/about/community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/community/</guid><description>
-&lt;h2 id="member-organizations-and-representatives">Member Organizations and Representatives&lt;/h2>
-&lt;h2 id="executive-committee">Executive Committee&lt;/h2>
-&lt;h2 id="working-groups-and-working-group-chairs">Working Groups and Working Group Chairs&lt;/h2>
-&lt;h3 id="certificationhttpsgithubcomopenmodelingfoundationopenmodelingfoundationgithubiodiscussionscategoriescertification-and-incentives-wg">
-&lt;a href="https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/certification-and-incentives-wg">Certification&lt;/a>&lt;/h3>
-&lt;h3 id="education-and-outreachhttpsgithubcomopenmodelingfoundationopenmodelingfoundationgithubiodiscussionscategorieseducation-and-outreach-wg">
-&lt;a href="https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/education-and-outreach-wg">Education and Outreach&lt;/a>&lt;/h3>
-&lt;h3 id="standardshttpsgithubcomopenmodelingfoundationopenmodelingfoundationgithubiodiscussionsdiscussions_qcategory3a22accessibilitystandards22category3a22documentationstandards22category3a22interoperabilitystandards22category3a22reusabilitystandards22page1">
-&lt;a href="https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions?discussions_q=category%3A%22Accessibility&amp;#43;Standards%22&amp;#43;category%3A%22Documentation&amp;#43;Standards%22&amp;#43;category%3A%22Interoperability&amp;#43;Standards%22&amp;#43;category%3A%22Reusability&amp;#43;Standards%22&amp;#43;&amp;amp;page=1">Standards&lt;/a>&lt;/h3>
-&lt;h2 id="affiliated-students">Affiliated Students&lt;/h2></description></item></channel></rss>
+&lt;p>This statement of Values applies both within the OMF science gateway and in public spaces when an individual is representing the OMF or its community. Examples of representing the OMF or community include using an official OMF e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of the OMF may be further defined and clarified by the OMF Leadership.&lt;/p></description></item></channel></rss>
