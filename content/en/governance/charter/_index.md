@@ -212,7 +212,7 @@ The Open Modeling Foundation Members Council represents formally constituted org
 The Members Council will meet at least semi-annually in person and/or virtually.
 
 #### Voting
-In order for a Members Council vote to be valid, it must be approved by a majority of a quorum of members. Unless explicitly specified otherwise in this charter, a quorum is at least 51% of the representatives in the Members Council. Changes to the OMF Charter must be approved by a vote of at least 2/3 of the representatives in the Members Council. Voting may be conducted over a pre-determined time period with votes cast in person, electronically, or both.
+In order for a Members Council vote to be valid, it must be approved by a majority of a quorum of members. Unless explicitly specified otherwise in this charter, a quorum is at least 51% of the representatives in the Members Council. A resolution for any amendment to the Charter can only be adopted with a majority of at least two/thirds of the valid votes cast in a meeting at which at least two/thirds of the Members Council participates. Voting may be conducted over a pre-determined time period with votes cast in person, electronically, or both in order to allow for asynchronous voting.
 
 #### Joining and Leaving the Members Council
 
