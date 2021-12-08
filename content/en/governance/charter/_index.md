@@ -247,7 +247,7 @@ The Executive Committee will meet at least quarterly each year. The Executive Co
 
 ### Administrative Coordinator
 
-The Executive Director and EC are supported by an Administrative Coordinator (AC) who coordinates OMF activities and helps the ED evaluate their effectiveness. The AD is appointed by the ED, with approval from the EC. The AC facilitates communication among OMF member organizations, including organizing in-person and virtual meetings, and disseminates the results of these meetings. They also disseminate OMF draft and final approved documents (e.g., modeling standards) and compile information about OMF activities for dissemination on the OMF Science Gateway. The AC helps the ED to compile evaluation metrics to report to the MC, and facilitates communication between Working Groups, the EC, the MC, and stakeholders.
+The Executive Director and EC are supported by an Administrative Coordinator (AC) who coordinates OMF activities and helps the ED evaluate their effectiveness. The AC is appointed by the ED, with approval from the EC. The AC facilitates communication among OMF member organizations, including organizing in-person and virtual meetings, and disseminates the results of these meetings. They also disseminate OMF draft and final approved documents (e.g., modeling standards) and compile information about OMF activities for dissemination on the OMF Science Gateway. The AC helps the ED to compile evaluation metrics to report to the MC, and facilitates communication between Working Groups, the EC, the MC, and stakeholders.
 
 ### Working Groups
 
