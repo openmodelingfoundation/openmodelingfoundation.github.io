@@ -2,10 +2,9 @@
 title: "Charter"
 weight: 1
 ---
+# Open Modeling Foundation Charter
 
-# Open Modeling Foundation
-
-# _Organizational Charter - Draft 0.9_
+# _Adopted across the world, 7/8 December 2021_
 
 ## Vision
 
