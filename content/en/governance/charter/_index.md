@@ -4,7 +4,7 @@ weight: 1
 ---
 # Open Modeling Foundation Charter
 
-# _Adopted across the world, 7/8 December 2021_
+# _Version 2021.12 adopted at international founding meeting 7/8 December 2021_
 
 ## Vision
 
