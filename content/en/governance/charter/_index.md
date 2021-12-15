@@ -1,10 +1,13 @@
 ---
-title: "Charter"
-weight: 1
----
-# Open Modeling Foundation Charter
 
-# _Version 2021.12 adopted at international founding meeting 7/8 December 2021_
+title: "Open Modeling Foundation Charter v2021.12"
+linkTitle: "Charter"
+weight: 1
+keywords: "Open Modeling Foundation Charter Governance"
+
+---
+
+_Adopted at international founding meeting December 7-8, 2021_
 
 ## Vision
 
