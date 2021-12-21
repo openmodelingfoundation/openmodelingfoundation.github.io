@@ -1,20 +1,7 @@
 name: vote
 on:
-  # trigger workflow on pr events
-  pull_request:
-    types:
-      - closed
-
-    branches:
-      - votes
-
   # manually trigger workflow
-  workflow_dispatch:
-    inputs:
-      name:
-        description: "Enter description"
-        required: false
-        default: "Describe what you are testing"
+  workflow_dispatch
 
 jobs:
   count-votes:
@@ -34,5 +21,5 @@ jobs:
       # Run list-reactions.js with Node and pass the authentication token
       - name: Pass the received secret to an action
         run: node .github/actions/list-reactions.js
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
