@@ -5,6 +5,8 @@ on:
 
 jobs:
   count-votes:
+  # if conditional that runs job only if PR has label Vote
+    if: contains(github.event.pull_request.labels.*.name, 'Vote')
     runs-on: ubuntu-latest
     steps:
       # Check out code using git
