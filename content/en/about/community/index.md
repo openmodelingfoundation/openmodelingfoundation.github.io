@@ -6,6 +6,10 @@ weight: 100
 
 ## Member Organizations and Representatives
 
+{{< imgproc ufz Fit "300x300" >}}
+Sloan Foundation
+{{< /imgproc >}}
+
 ## Executive Committee
 
 ## Working Groups and Working Group Chairs
