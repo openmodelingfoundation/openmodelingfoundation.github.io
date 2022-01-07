@@ -6,10 +6,11 @@ weight: 101
 ---
 
 ## Upcoming Events
-
-**Meeting to formally establish the Open Modeling Foundation:** 6-7 December, 2021, hybrid meeting at ASU in Washington DC and online videoconference
+**Election of Executive Committee representatives** 7-21 January, 2022
 
 ## Past Events
+**Founding Meeting of the Open Modeling Foundation**
+Meeting to formally establish the Open Modeling Foundation: 6-8 December, 2021, hybrid meeting at ASU in Washington DC and online videoconference
 
 **Planning Workshops**  
 The series of strategic planning workshops provided the opportunity for broad community input on the organization and modeling standards goals of the OMF by modeling organizations around the world.  
