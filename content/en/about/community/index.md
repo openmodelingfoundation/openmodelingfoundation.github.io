@@ -292,7 +292,7 @@ weight: 100
 {{< /imgproc >}}
 </a>
 
-{{< imgproc sipher Fit "200x200" >}}
+{{< imgproc blank Fit "200x200" >}}
 <center><p><strong>University of Twente and the Participatory Modeling Community of Practice</strong></p></center>
 {{< /imgproc >}}
 
