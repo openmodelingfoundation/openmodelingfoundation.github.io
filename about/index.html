@@ -56,7 +56,7 @@
 </ul>
 </div>
 <div class="navbar-nav d-none d-lg-block">
-<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.192a95f030d2ebd139ce8223f208b0a9c30968071f2b96683af29a414b5ac90bae1fd55453de89f37172072289028527c0fdd0bc416092ee369013aa4bfd7382.json data-offline-search-base-href=/>
+<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.2171d5be23673ae18dc78572231280312b54b4ad99aa72dbc126623a99c2d57e1c6b55642364d18c7a4ba6b8df82347e2da899b7dad9ffe7db122c2b44b18eb0.json data-offline-search-base-href=/>
 </div>
 </nav>
 </header>
@@ -66,7 +66,7 @@
 <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
 <div id=td-sidebar-menu class=td-sidebar__inner>
 <form class="td-sidebar__search d-flex align-items-center">
-<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.192a95f030d2ebd139ce8223f208b0a9c30968071f2b96683af29a414b5ac90bae1fd55453de89f37172072289028527c0fdd0bc416092ee369013aa4bfd7382.json data-offline-search-base-href=/>
+<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.2171d5be23673ae18dc78572231280312b54b4ad99aa72dbc126623a99c2d57e1c6b55642364d18c7a4ba6b8df82347e2da899b7dad9ffe7db122c2b44b18eb0.json data-offline-search-base-href=/>
 <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type=button data-toggle=collapse data-target=#td-section-nav aria-controls=td-docs-nav aria-expanded=false aria-label="Toggle section navigation">
 </button>
 </form>
@@ -86,6 +86,7 @@
 <ul>
 <li class="collapse show" id=about>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-aboutcommunity href=/about/community/>Community</a>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-abouttest href=/about/test/>Test Community</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-abouthistory href=/about/history/>History</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-aboutvalues href=/about/values/>Values</a>
 </li>
@@ -129,6 +130,12 @@
 </div>
 <div class=entry>
 <h5>
+<a href=/about/test/>Test Community</a>
+</h5>
+<p></p>
+</div>
+<div class=entry>
+<h5>
 <a href=/about/history/>History</a>
 </h5>
 <p></p>
@@ -153,7 +160,7 @@ Sorry to hear that. Please <a href="https://github.com/openmodelingfoundation/op
 </p>
 <script>const yesButton=document.querySelector('.feedback--answer-yes'),noButton=document.querySelector('.feedback--answer-no'),yesResponse=document.querySelector('.feedback--response-yes'),noResponse=document.querySelector('.feedback--response-no'),disableButtons=()=>{yesButton.disabled=!0,noButton.disabled=!0},sendFeedback=b=>{if(typeof ga!='function')return;const a={command:'send',hitType:'event',category:'Helpful',action:'click',label:window.location.pathname,value:b};ga(a.command,a.hitType,a.category,a.action,a.label,a.value)};yesButton.addEventListener('click',()=>{yesResponse.classList.add('feedback--response__visible'),disableButtons(),sendFeedback(1)}),noButton.addEventListener('click',()=>{noResponse.classList.add('feedback--response__visible'),disableButtons(),sendFeedback(0)})</script>
 <br>
-<div class="text-muted mt-5 pt-3 border-top">Last modified 08.12.2021: <a href=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/commit/eac331982311b6dfa4d6025f09ba1ab25f9ec122>fix: use less brittle relref (eac3319)</a>
+<div class="text-muted mt-5 pt-3 border-top">Last modified 07.01.2022: <a href=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/commit/b39a2addb0277f0cebf7d41305278969c9b404cf>feat: add images via page bundle to community page (b39a2ad)</a>
 </div>
 </div>
 </main>
