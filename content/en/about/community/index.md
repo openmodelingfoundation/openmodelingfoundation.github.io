@@ -6,14 +6,48 @@ weight: 100
 
 ## Member Organizations and Representatives
 
+Representatives of member organizations make up the Members Council, the primary governing body of the Open Modeling Foundation. They are responsible for approving policies, procedures, and standards.
+
+##### __[How to Become a Member](https://openmodelingfoundation.github.io/governance/charter/#joining-and-leaving-the-members-council)__
+
+##### __[More Information about Membership](https://openmodelingfoundation.github.io/governance/charter/#members-council)__
+
+##### __[Current Members Council](https://openmodelingfoundation.github.io/about/mc/)__
+
 ## Executive Committee
 
-## Working Groups and Working Group Chairs
+The Executive Committee ensures that the activities of the Open Modeling Foundation further its vision, mission, and goals as expressed in the charter and values statement.
 
-### [Certification](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/certification-and-incentives-wg)
+##### __[More Information about the Executive Committee](https://openmodelingfoundation.github.io/governance/charter/#executive-committee)__
 
-### [Education and Outreach](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/education-and-outreach-wg)
+##### __[Current Executive Committee](https://openmodelingfoundation.github.io/about/ec/)__
 
-### [Standards](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions?discussions_q=category%3A%22Accessibility+Standards%22+category%3A%22Documentation+Standards%22+category%3A%22Interoperability+Standards%22+category%3A%22Reusability+Standards%22+&page=1)
+## Working Groups
 
-## Affiliated Students
+##### __[Standards](https://openmodelingfoundation.github.io/governance/working-groups/#standards-working-group)__
+
+Join the discussion on GitHub [here](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-standards)!
+
+##### __[Certification](https://openmodelingfoundation.github.io/governance/working-groups/#certification-working-group)__
+
+Join the discussion on GitHub [here](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-certification)!
+
+##### __[Education and Outreach](https://openmodelingfoundation.github.io/governance/working-groups/#education-and-outreach-working-group)__
+
+Join the discussion on GitHub [here](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-education-and-outreach)!
+
+##### __[Cyberinfrastructure](https://openmodelingfoundation.github.io/governance/working-groups/#cyberinfrastructure-working-group)__
+
+Join the discussion on GitHub [here](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/cyberinfrastructure)!
+
+## Affiliated Early Career Scholars
+
+The Affiliated Early Career Scholars helps the Open Modeling Foundation to support student and early career development.
+
+##### __More information on how to join coming soon!__
+
+## Open Modeling Foundation Affiliates
+
+Membership in the Open Modeling Foundation Affiliates offers a formal way for individuals, not represented by a member organization, to receive regular information about OMF activities and communicate with different components of the OMF.
+
+##### __More information on how to join coming soon!__
