@@ -1,11 +1,10 @@
 ---
-title: "Current Members Council"
+title: "Members Council"
 linkTitle: "Members Council"
 weight: 100
 ---
 
-## Member Organizations and Representatives
-
+_Last updated: January 2022_
 <!-- ROW 1 -->
 
 <div class="card-deck">
@@ -167,7 +166,7 @@ weight: 100
    href="https://www.hrwallingford.com/">
 {{< imgproc hrwallingford Fit "200x200" >}}
 
-<center><p><strong>HR Wallingford</strong></p></center>
+<center><p><strong>HR Wallingford (HRW)</strong></p></center>
 {{< /imgproc >}}
 </a>
 
@@ -267,6 +266,14 @@ weight: 100
 <div class="card-deck">
 
 <a style=color:inherit
+   href="https://www.pik-potsdam.de/en">
+{{< imgproc pik Fit "200x200" >}}
+
+<center><p><strong>Potsdam Institute for Climate Impact Research (PIK)</strong></p></center>
+{{< /imgproc >}}
+</a>
+
+<a style=color:inherit
    href="https://bridgingbarriers.utexas.edu/planet-texas-2050/">
 {{< imgproc ut-barriers Fit "200x200" >}}
 
@@ -290,6 +297,11 @@ weight: 100
 {{< /imgproc >}}
 </a>
 
+</div>
+
+<!-- ROW 9 -->
+<div class="card-deck">
+
 <a style=color:inherit
    href="https://sipher.ac.uk/">
 {{< imgproc sipher Fit "200x200" >}}
@@ -297,11 +309,6 @@ weight: 100
 <center><p><strong>Systems Science in Public Health and Health Economics Research Consortium (SIPHER)</strong></p></center>
 {{< /imgproc >}}
 </a>
-
-</div>
-
-<!-- ROW 9 -->
-<div class="card-deck">
 
 <a style=color:inherit
    href="https://ese.sustech.edu.cn/index.html?locale=en_US">
@@ -327,15 +334,15 @@ weight: 100
 {{< /imgproc >}}
 </a>
 
-{{< imgproc blank Fit "200x200" >}}
-
-<center><p><strong>University of Twente and the Participatory Modeling Community of Practice</strong></p></center>
-{{< /imgproc >}}
-
 </div>
 
 <!-- ROW 10 -->
 <div class="card-deck">
+
+{{< imgproc blank Fit "200x200" >}}
+
+<center><p><strong>University of Twente and the Participatory Modeling Community of Practice</strong></p></center>
+{{< /imgproc >}}
 
 <a style=color:inherit
    href="https://wegcenter.uni-graz.at/en/research/research-group-soco/field-of-research/">
@@ -360,8 +367,5 @@ weight: 100
 <center><p><strong>Young Geographer Working Group of AGA (Asian Geographical Association)</strong></p></center>
 {{< /imgproc >}}
 </a>
-
-{{< imgproc blank Fit "200x200" >}}
-{{< /imgproc >}}
 
 </div>
