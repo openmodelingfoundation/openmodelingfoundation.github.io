@@ -48,7 +48,7 @@ _Last updated: January 2022_
 
 <a style=color:inherit
    href="https://www.usgs.gov/centers/community-for-data-integration-cdi">
-{{< imgproc blank Fit "200x200" >}}
+{{< imgproc usgs-cdi Fit "200x200" >}}
 
 <center><p><strong>Community for Data Integration and Model Catalog, US Geological Survey (CDI-USGS)</strong></p></center>
 {{< /imgproc >}}
@@ -84,18 +84,18 @@ _Last updated: January 2022_
 <div class="card-deck">
 
 <a style=color:inherit
-   href="https://www.csh.ac.at/">
-{{< imgproc csh Fit "200x200" >}}
-
-<center><p><strong>Complexity Science Hub Vienna (CSH)</strong></p></center>
-{{< /imgproc >}}
-</a>
-
-<a style=color:inherit
    href="https://csdms.colorado.edu">
 {{< imgproc csdms Fit "200x200" >}}
 
 <center><p><strong>Community Surface Dynamics Modeling System (CSDMS)</strong></p></center>
+{{< /imgproc >}}
+</a>
+
+<a style=color:inherit
+   href="https://www.csh.ac.at/">
+{{< imgproc csh Fit "200x200" >}}
+
+<center><p><strong>Complexity Science Hub Vienna (CSH)</strong></p></center>
 {{< /imgproc >}}
 </a>
 
@@ -192,6 +192,14 @@ _Last updated: January 2022_
 <div class="card-deck">
 
 <a style=color:inherit
+   href="https://www.iemss.org/">
+{{< imgproc iemss Fit "200x200" >}}
+
+<center><p><strong>International Environmental Modelling and Software Society (iEMSs)</strong></p></center>
+{{< /imgproc >}}
+</a>
+
+<a style=color:inherit
    href="https://iiasa.ac.at">
 {{< imgproc iiasa Fit "200x200" >}}
 
@@ -215,6 +223,11 @@ _Last updated: January 2022_
 {{< /imgproc >}}
 </a>
 
+</div>
+
+<!-- ROW 7 -->
+<div class="card-deck">
+
 <a style=color:inherit
    href="http://en.njnu.edu.cn/research/key-laboratory-of-virtual-geographic-environment-nanjing-normal-university-ministry-of">
 {{< imgproc vge Fit "200x200" >}}
@@ -222,11 +235,6 @@ _Last updated: January 2022_
 <center><p><strong>Key Laboratory of Virtual Geographic Environment, Ministry of Education of PRC, Nanjing Normal University</strong></p></center>
 {{< /imgproc >}}
 </a>
-
-</div>
-
-<!-- ROW 7 -->
-<div class="card-deck">
 
 <a style=color:inherit
    href="http://grupsderecerca.uab.cat/laqu/en">
@@ -252,24 +260,16 @@ _Last updated: January 2022_
 {{< /imgproc >}}
 </a>
 
-<a style=color:inherit
-   href="https://www.mssanz.org.au/">
-{{< imgproc mssanz Fit "200x200" >}}
-
-<center><p><strong>Modelling and Simulation Society of Australia and New Zealand Inc. (MSSANZ)</strong></p></center>
-{{< /imgproc >}}
-</a>
-
 </div>
 
 <!-- ROW 8 -->
 <div class="card-deck">
 
 <a style=color:inherit
-   href="https://geomodeling.njnu.edu.cn/">
-{{< imgproc opengms Fit "200x200" >}}
+   href="https://www.mssanz.org.au/">
+{{< imgproc mssanz Fit "200x200" >}}
 
-<center><p><strong>Open Geographic Modeling and Simulation (OpenGMS)</strong></p></center>
+<center><p><strong>Modelling and Simulation Society of Australia and New Zealand Inc. (MSSANZ)</strong></p></center>
 {{< /imgproc >}}
 </a>
 
