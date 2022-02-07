@@ -4,7 +4,6 @@ linkTitle: "Members Council"
 weight: 100
 ---
 
-_Last updated: January 2022_
 <!-- ROW 1 -->
 
 <div class="card-deck">
