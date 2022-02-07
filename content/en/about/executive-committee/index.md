@@ -14,7 +14,7 @@ Elected members of the EC serve staggered three-year terms.
 
 <div class="card-deck">
 
-{{< imgproc barton Fit "200x200" >}}
+{{< imgproc michaelbarton Resize "200x" >}}
 <center><strong>Michael Barton</strong></center>
 {{< /imgproc >}}
 
@@ -27,7 +27,7 @@ Elected members of the EC serve staggered three-year terms.
 ##### __Administrative Coordinator__
 <div class="card-deck">
 
-{{< imgproc blank Fit "200x200" >}}
+{{< imgproc blank Resize "200x" >}}
 <center><strong>Laura Swantek</strong></center>
 {{< /imgproc >}}
 
@@ -40,7 +40,7 @@ Elected members of the EC serve staggered three-year terms.
 ##### __Cyberinfrastructure Representative__
 <div class="card-deck">
 
-{{< imgproc blank Fit "200x200" >}}
+{{< imgproc blank Resize "200x" >}}
 <center><strong>Allen Lee</strong></center>
 {{< /imgproc >}}
 
@@ -63,7 +63,7 @@ _To be announced later_
 ##### __Members Council Representatives__
 <div class="card-deck">
 
-{{< imgproc chen Fit "200x200" >}}
+{{< imgproc minchen Resize "200x" >}}
 <center><strong>Min Chen</strong></center>
 {{< /imgproc >}}
 
@@ -82,7 +82,7 @@ During recent years, Dr. Chen has published 140+ journal papers, including these
 
 <div class="card-deck">
 
-{{< imgproc blank Fit "200x200" >}}
+{{< imgproc blank Resize "200x" >}}
 <center><strong>Karin Frank</strong></center>
 {{< /imgproc >}}
 
@@ -94,7 +94,7 @@ During recent years, Dr. Chen has published 140+ journal papers, including these
 
 <div class="card-deck">
 
-{{< imgproc blank Fit "200x200" >}}
+{{< imgproc blank Resize "200x" >}}
 <center><strong>Bert Jagers</strong></center>
 {{< /imgproc >}}
 
