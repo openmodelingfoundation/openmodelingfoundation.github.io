@@ -44,10 +44,12 @@ Join the discussion on GitHub [here](https://github.com/openmodelingfoundation/o
 
 The Affiliated Early Career Scholars helps the Open Modeling Foundation to support student and early career development.
 
-##### __More information on how to join coming soon!__
+##### __[More information](https://openmodelingfoundation.github.io/governance/charter/#affiliated-early-career-scholars)__
+##### __[Contact OMF to join](mailto:support@openmodelingfoundation.org)__
 
 ## Open Modeling Foundation Affiliates
 
 Membership in the Open Modeling Foundation Affiliates offers a formal way for individuals, not represented by a member organization, to receive regular information about OMF activities and communicate with different components of the OMF.
 
-##### __More information on how to join coming soon!__
+##### __[More information](https://openmodelingfoundation.github.io/governance/charter/#open-modeling-foundation-affiliates)__
+##### __[Contact OMF to join](mailto:support@openmodelingfoundation.org)__
