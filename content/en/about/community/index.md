@@ -24,25 +24,27 @@ The Executive Committee ensures that the activities of the Open Modeling Foundat
 
 ## Working Groups
 
+Join a working group by [contacting us](mailto:support@openmodelingfoundation.org) or posting in the relevant GitHub Discussions category.
+
 ##### __[Standards]({{< ref "/governance/working-groups#standards-working-group" >}})__
 
-Join the discussion on GitHub [here](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-standards)!
+[Join the Standards Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-standards)
 
 ##### __[Certification]({{< ref "/governance/working-groups#certification-working-group" >}})__
 
-Join the discussion on GitHub [here](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-certification)!
+[Join the Certification Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-certification)
 
 ##### __[Education and Outreach]({{< ref "/governance/working-groups#education-and-outreach-working-group" >}})__
 
-Join the discussion on GitHub [here](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-education-and-outreach)!
+[Join the Education and Outreach discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-education-and-outreach)
 
 ##### __[Cyberinfrastructure]({{< ref "/governance/working-groups#cyberinfrastructure-working-group" >}})__
 
-Join the discussion on GitHub [here](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/cyberinfrastructure)!
+[Join the Cyberinfrastructure Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/cyberinfrastructure)
 
 ## Affiliated Early Career Scholars
 
-The Affiliated Early Career Scholars helps the Open Modeling Foundation to support student and early career development.
+The Affiliated Early Career Scholars program helps the Open Modeling Foundation support student and early career development.
 
 ##### __[More information]({{< ref "/governance/charter/#affiliated-early-career-scholars" >}})__
 ##### __[Contact OMF to join](mailto:support@openmodelingfoundation.org)__
