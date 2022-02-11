@@ -41,6 +41,7 @@ Join a working group by [contacting us](mailto:support@openmodelingfoundation.or
 ##### __[Cyberinfrastructure]({{< ref "/governance/working-groups#cyberinfrastructure-working-group" >}})__
 
 [Join the Cyberinfrastructure Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/cyberinfrastructure)
+##### __[Contact OMF to join a Working Group](mailto:support@openmodelingfoundation.org)__
 
 ## Affiliated Early Career Scholars
 
