@@ -24,8 +24,6 @@ The Executive Committee ensures that the activities of the Open Modeling Foundat
 
 ## Working Groups
 
-Join a working group by [contacting us](mailto:support@openmodelingfoundation.org) or posting in the relevant GitHub Discussions category.
-
 ##### __[Standards]({{< ref "/governance/working-groups#standards-working-group" >}})__
 
 [Join the Standards Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-standards)
