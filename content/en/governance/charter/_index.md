@@ -195,7 +195,7 @@ Depending on resource availability, the Open Modeling Foundation may undertake o
 
 ## Organization and Governance
 
-The Open Modeling Foundation is comprised of organizations, individual modeling scientists, and students preparing for careers in modeling science. The organization and governance of the Open Modeling Foundation is designed to achieve the following goals:
+The Open Modeling Foundation is composed of organizations, individual modeling scientists, and students preparing for careers in modeling science. The organization and governance of the Open Modeling Foundation is designed to achieve the following goals:
 
 - It should enable the foundation to carry out its mission and goals, and realize its vision in the most effective way possible and with the least necessary intervention on the part of OMF governance.
 - It should provide an open and equitable voice to all member communities it represents.
@@ -230,14 +230,14 @@ The Executive Director must be a member of an OMF member organization and is ele
 
 ### Executive Committee
 
-Voting members of the Executive Committee are comprised of:
+Voting members of the Executive Committee are composed of:
 
 - the leaders of each Working Group and
 - three representatives elected from the Members Council.
 
 Elected members of the EC serve staggered three-year terms.
 
-Non-voting members of the Executive Committee are comprised of:
+Non-voting members of the Executive Committee are composed of:
 
 - the Executive Director (who may vote to break ties in the EC),
 - the Administrative Coordinator,
