@@ -119,7 +119,7 @@ procedures.
 In addition to standards applicable to model code, the OMF also
 develops, adopts, and administers community-wide standards for ethical
 practice by modeling scientists. In order to encourage knowledge
-exchanges and scaffolding, all modeling scientists should publically
+exchanges and scaffolding, all modeling scientists should publicly
 credit (normally through citation) the work of any other scientists that
 they use. In order to maintain the reliability and public reputation of
 modeling science, practitioners must document accurately model purposes,
