@@ -194,6 +194,7 @@ Depending on resource availability, the Open Modeling Foundation may undertake o
 ---
 
 ## Organization and Governance
+[Open Modeling Foundation organization schematic diagram](https://docs.google.com/viewer?url=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/files/6462528/OMF_org.pdf)
 
 The Open Modeling Foundation is composed of organizations, individual modeling scientists, and students preparing for careers in modeling science. The organization and governance of the Open Modeling Foundation is designed to achieve the following goals:
 
@@ -292,4 +293,3 @@ While the OMF encourages the modeling community and other stakeholders to partic
 
 **ADD PROCEDURES TO JOIN AND LEAVE OMF AFFILIATES**
 
-[View Open Modeling Foundation organization schematic diagram](https://docs.google.com/viewer?url=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/files/6462528/OMF_org.pdf)
