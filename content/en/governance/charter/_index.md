@@ -290,6 +290,8 @@ While the OMF encourages the modeling community and other stakeholders to partic
 
 #### Joining and Leaving the Open Modeling Foundation Affiliates
 
-**ADD PROCEDURES TO JOIN AND LEAVE OMF AFFILIATES**
+Individuals may request to become a member of the Open Modeling Foundation Affiliates by a written notification of request to the OMF Administrative Coordinator. Any individuals seeking to join the OMF Affiliates, must agree to support the mission, goals, ethics, and values of the OMF, as described in this charter and the OMF values statement, to promote OMF approved standards, and to provide professional recognition to researchers engaged in standards-based modeling. An individual intending to formally leave the Affiliates should notify the Administrative Coordinator in writing of this intent. 
+
+An individual can be suspended or permanently removed from the Open Modeling Foundation Affiliates if they are found to engage in illegal or unethical practice or violate the Open Modeling Foundation Values. A request to consider removing an Affiliate can be made by any OMF member in good standing in the form of a letter to the Executive Committee, describing the reasons why removal should be considered. The Executive Committee will review the request, compile relevant information from all parties, and decide to remove the individual from the Affiliates list. A removal is effective immediately without appeal. However, after a period of not less than one year, an individual can request to rejoin the Open Modeling Foundation Affiliates. Such a request will be considered like any new request to join the Affiliates.
 
 [View Open Modeling Foundation organization schematic diagram](https://docs.google.com/viewer?url=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/files/6462528/OMF_org.pdf)
