@@ -26,19 +26,19 @@ The Executive Committee ensures that the activities of the Open Modeling Foundat
 
 ##### __[Standards]({{< ref "/governance/working-groups#standards-working-group" >}})__
 
-[Join the Standards Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-standards)
+[Contribute to the Standards Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-standards)
 
 ##### __[Certification]({{< ref "/governance/working-groups#certification-working-group" >}})__
 
-[Join the Certification Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-certification)
+[Contribute to the Certification Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-certification)
 
 ##### __[Education and Outreach]({{< ref "/governance/working-groups#education-and-outreach-working-group" >}})__
 
-[Join the Education and Outreach discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-education-and-outreach)
+[Contribute to the Education and Outreach discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-education-and-outreach)
 
 ##### __[Cyberinfrastructure]({{< ref "/governance/working-groups#cyberinfrastructure-working-group" >}})__
 
-[Join the Cyberinfrastructure Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/cyberinfrastructure)
+[Contribute to the Cyberinfrastructure Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/cyberinfrastructure)
 ##### __[Contact OMF to join a Working Group](mailto:support@openmodelingfoundation.org)__
 
 ## Affiliated Early Career Scholars
