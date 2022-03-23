@@ -119,7 +119,7 @@ procedures.
 In addition to standards applicable to model code, the OMF also
 develops, adopts, and administers community-wide standards for ethical
 practice by modeling scientists. In order to encourage knowledge
-exchanges and scaffolding, all modeling scientists should publically
+exchanges and scaffolding, all modeling scientists should publicly
 credit (normally through citation) the work of any other scientists that
 they use. In order to maintain the reliability and public reputation of
 modeling science, practitioners must document accurately model purposes,
@@ -195,7 +195,7 @@ Depending on resource availability, the Open Modeling Foundation may undertake o
 
 ## Organization and Governance
 
-The Open Modeling Foundation is comprised of organizations, individual modeling scientists, and students preparing for careers in modeling science. The organization and governance of the Open Modeling Foundation is designed to achieve the following goals:
+The Open Modeling Foundation is composed of organizations, individual modeling scientists, and students preparing for careers in modeling science. The organization and governance of the Open Modeling Foundation is designed to achieve the following goals:
 
 - It should enable the foundation to carry out its mission and goals, and realize its vision in the most effective way possible and with the least necessary intervention on the part of OMF governance.
 - It should provide an open and equitable voice to all member communities it represents.
@@ -230,14 +230,14 @@ The Executive Director must be a member of an OMF member organization and is ele
 
 ### Executive Committee
 
-Voting members of the Executive Committee are comprised of:
+Voting members of the Executive Committee are composed of:
 
 - the leaders of each Working Group and
 - three representatives elected from the Members Council.
 
 Elected members of the EC serve staggered three-year terms.
 
-Non-voting members of the Executive Committee are comprised of:
+Non-voting members of the Executive Committee are composed of:
 
 - the Executive Director (who may vote to break ties in the EC),
 - the Administrative Coordinator,
