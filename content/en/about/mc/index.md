@@ -374,6 +374,14 @@ weight: 100
 <div class="card-deck">
 
 <a style=color:inherit
+   href="http://www.wici.ca ">
+{{< imgproc wici Fit "200x200" >}}
+
+<center><p><strong>University of Waterloo, Waterloo Institute for Complexity and Innovation (WICI)</strong></p></center>
+{{< /imgproc >}}
+</a>
+
+<a style=color:inherit
    href="http://www.wur.eu/ ">
 {{< imgproc blank Fit "200x200" >}}
 
