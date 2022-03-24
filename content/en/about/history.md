@@ -12,7 +12,7 @@ weight: 101
 ## Past Events
 ##### **Founding Meeting of the Open Modeling Foundation**
 _Meeting to formally establish the Open Modeling Foundation_  
-6 - 8 December 2021, hybrid meeting at ASU in Washington DC and online videoconference
+**[6 - 8 December 2021](https://openmodelingfoundation.github.io/history/agenda_org_meeting_20211206.pdf)**: Hybrid meeting at ASU in Washington DC and online videoconference
 
 
 ##### **Planning Workshops**
