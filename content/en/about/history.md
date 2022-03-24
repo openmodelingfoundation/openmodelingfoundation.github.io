@@ -7,28 +7,28 @@ weight: 101
 
 ## Upcoming Events
 ##### **Election of Executive Committee representatives**
-7 - 21 January 2022
+**2022, January 7 - 21**
 
 ## Past Events
 ##### **Founding Meeting of the Open Modeling Foundation**
+
 _Meeting to formally establish the Open Modeling Foundation_  
-**[6 - 8 December 2021](/history/agenda_org_meeting_20211206.pdf)**: Hybrid meeting at ASU in Washington DC and online videoconference
+
+**[2021, December 6 - 8](/history/agenda_org_meeting_20211206.pdf)**: Hybrid meeting at ASU in Washington DC and online videoconference
 
 
 ##### **Planning Workshops**
-The series of strategic planning workshops provided the opportunity for broad community input on the organization and modeling standards goals of the OMF by modeling organizations around the world.  
 
-**[Strategic Planning Workshop IV](/history/workshop_agenda_20210601.pdf)**: 31 May - 3 June 2021, online videoconference  
-**[Strategic Planning Workshop III](/history/workshop_agenda_20201005.pdf)**:  5 - 7 October 2020, online videoconference  
-**[Strategic Planning Workshop II](/history/workshop_agenda_20200518.pdf)**:   18 - 19 May 2020, online videoconference  
-**[Strategic Planning Workshop I](/history/workshop_agenda_20190506.pdf)**:    6 - 7 May 2019, Institute for Advanced Sustainability Studies  
+This series of strategic planning workshops provided opportunities for broad community input into the organization and modeling standards goals of the OMF with participation from modeling organizations around the world.  
 
+- **[Strategic Planning Workshop IV](/history/workshop_agenda_20210601.pdf)**: 2021, May 31 - June 3, online videoconference  
+- **[Strategic Planning Workshop III](/history/workshop_agenda_20201005.pdf)**: 2020, October 5 - 7, online videoconference  
+- **[Strategic Planning Workshop II](/history/workshop_agenda_20200518.pdf)**: 2020, May 18 - 19, online videoconference  
+- **[Strategic Planning Workshop I](/history/workshop_agenda_20190506.pdf)**: 2019, May 6 - 7, [Institute for Advanced Sustainability Studies at Potsdam, Germany](https://www.iass-potsdam.de/)
 
 ## Other Events
-**27 April 2021**: [Webinar at Community Surface Dyanmics Modeling System](https://csdms.colorado.edu/wiki/Presenters-0543)     
-<br>
-**3 November 2020**: Symposium on Large Scale Behavioural Models of Land Use Change (Global Land Project & Future Earth)  
-<br>
-**15 October 2020**: Role of Modelers Panel at AgMIP8 (Eighth AgMIP Global Workshop series)  
-<br>
-**[4 December 2019](/history/workshop_agenda_20191204.pdf)**: Standards for Model Documentation, Commonwealth Scientific and Industrial Research Organisation, Canberra, Australia
+
+- **2021, April 27**: [Webinar at CSDMS (Community Surface Dynamics Modeling System)](https://csdms.colorado.edu/wiki/Presenters-0543)     
+- **2020, November 3**: Symposium on Large Scale Behavioural Models of Land Use Change (Global Land Project & Future Earth)  
+- **2020, October 15**: Role of Modelers Panel at AgMIP8 (Eighth AgMIP Global Workshop series)  
+- **2019, December 4**: [Standards for Model Documentation, Commonwealth Scientific and Industrial Research Organisation, Canberra, Australia](/history/workshop_agenda_20191204.pdf)
