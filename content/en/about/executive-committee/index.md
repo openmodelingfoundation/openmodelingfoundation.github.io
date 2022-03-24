@@ -32,7 +32,7 @@ Elected members of the EC serve staggered three-year terms.
 {{< /imgproc >}}
 
 <div class="card mb-4 border-0">
-<p> <br> Laura Swantek is the project coordinator for the Network for Computational Modeling in Social and Ecological Sciences (<a href="https://comses.net">CoMSES.Net</a>). She received her MA from University at Albany in Classics and her PhD from Arizona State University in Anthropology/Archaeology.</p>
+<p> <br> Laura Swantek is the project coordinator for the Network for Computation Modeling in Social and Ecological Sciences (<a href="https://comses.net">CoMSES.Net</a>) and an assistant research scientist in the School of Complex Adaptive Systems at Arizona State University.  She received her BA and MA from the University at Albany in Classical Archaeology and her PhD from Arizona State University in Anthropology/Archaeology.  She conducts research on the emergence of social and economic inequality in middle-range society and directs an archaeological field project on the impacts of natural disasters on social systems in a Roman-period city on the island of Cyprus. </p>
 </div>
 
 </div>
