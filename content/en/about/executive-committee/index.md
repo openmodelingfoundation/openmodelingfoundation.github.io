@@ -10,11 +10,12 @@ Elected members of the EC serve staggered three-year terms.
 
 ## Non-voting Members
 
-##### __Executive Director__
+##### **Executive Director**
 
 <div class="card-deck">
 
 {{< imgproc michaelbarton Resize "200x" >}}
+
 <center><strong>Michael Barton</strong></center>
 {{< /imgproc >}}
 
@@ -24,10 +25,12 @@ Elected members of the EC serve staggered three-year terms.
 
 </div>
 
-##### __Administrative Coordinator__
+##### **Administrative Coordinator**
+
 <div class="card-deck">
 
-{{< imgproc blank Resize "200x" >}}
+{{< imgproc lauraswantek Resize "200x" >}}
+
 <center><strong>Laura Swantek</strong></center>
 {{< /imgproc >}}
 
@@ -37,10 +40,12 @@ Elected members of the EC serve staggered three-year terms.
 
 </div>
 
-##### __Cyberinfrastructure Representative__
+##### **Cyberinfrastructure Representative**
+
 <div class="card-deck">
 
 {{< imgproc blank Resize "200x" >}}
+
 <center><strong>Allen Lee</strong></center>
 {{< /imgproc >}}
 
@@ -48,22 +53,27 @@ Elected members of the EC serve staggered three-year terms.
 <p> <br> Allen Lee is a full stack software engineer who has been building cyberinfrastructure for computational social science at Arizona State University since 2006; projects include <a href="https://www.tdar.org">the Digital Archaeological Record</a>, <a href="https://commons.asu.edu">the Virtual Commons</a>, <a href="https://seslibrary.asu.edu">the Social Ecological Systems Library</a>, <a href="https://openskope.org">Synthesizing Knowledge of Past Environments (SKOPE)</a>, <a href="https://interplanetary.asu.edu/port-of-mars">the Port of Mars</a>, and <a href="https://comses.net">CoMSES Net</a>, where he serves as co-director and technical lead.
 
 Allen also works to improve the state of open, transparent, reusable, and reproducible computational science as a <a href="https://carpentries.org">Carpentries certified instructor</a> and maintainer for the <a href="https://github.com/swcarpentry/python-novice-gapminder">Python Novice Gapminder lesson</a>, and member of the <a href="https://github.com/force11/force11-sciwg">Force 11 Software Citation Implementation Working Group</a> and <a href="https://github.com/scicodes">Consortium of Scientific Software Registries and Repositories</a>. </p>
-</div>
 
 </div>
 
-##### __Affiliated Early Career Scholars Representative__
+</div>
+
+##### **Affiliated Early Career Scholars Representative**
+
 _To be announced later_
 
 <br>
 
 ## Voting Members
+
 <br>
 
-##### __Members Council Representatives__
+##### **Members Council Representatives**
+
 <div class="card-deck">
 
 {{< imgproc minchen Resize "200x" >}}
+
 <center><strong>Min Chen</strong></center>
 {{< /imgproc >}}
 
@@ -72,10 +82,10 @@ _To be announced later_
 
 He is the executive editor of Annals of GIS (an official journal of International Association of Chinese Professionals in Geographic Information Sciences (CPGIS))(ESCI), an editor of Environmental Modelling & Software (an official journal of International Environmental Modelling and Software Society (iEMSs)). He also serves as the Vice-President of iEMSs (2020-), Chair of Modeling Geographic System Committee of International Geographical Union (IGU) (2020-), Co-Chair of Education and Capacity Building for Digital Earth committee of the International Society for Digital Earth (ISDE) (2019-), Chair of Exploring interoperability of open modeling platforms Initiative in Community Surface Dynamic Modeling System (CSDMS)(2019-), Chair of Young Scientist Working Group in Asian Geographic Associate (AGA)(2019-), Co-Chair of National VGE committee of ISDE (2016-), a member of board of directors of The Modelling and Simulation Society of Australia and New Zealand Inc. (MSSANZ,2021-). Most important, he is a Fellow of International Environmental Modelling and Software Society, and a Fellow of Royal Geographical Society (with the Institute of British Geographers. He is also the PI of National Young Talents Program China (Funded as the key level), PI of NSF for Excellent Young Scholars of China, Distinguished professor of Jiangsu province, group leader of Innovative and entrepreneurial talent group of Jiangsu Province, the Innovative personality of Jiangsu province.
 
-He has won the “Waldo Tobler Young Researcher Award” in GIScience awarded by Austrian Academy of Sciences, 1 First Prize and 1 Second Prize in Natural Science awarded by the Ministry of Education of China, 1 Second Prize in Natural Science awarded by Jiangxi Province, 1 Second Prize in Natural Science awarded by the Education department of Jiangsu province, Grand Prize of Progress award in Geographic Information Technology by China Association for Geospatial Information Society,  Global Frontier Science and Technology Young Scientist, the 6th university innovative personality in GIS in China, the Youth Science and Technology Award of Jiangsu Province, the Youth science and technology award in the Geographical Society of China.
-
+He has won the “Waldo Tobler Young Researcher Award” in GIScience awarded by Austrian Academy of Sciences, 1 First Prize and 1 Second Prize in Natural Science awarded by the Ministry of Education of China, 1 Second Prize in Natural Science awarded by Jiangxi Province, 1 Second Prize in Natural Science awarded by the Education department of Jiangsu province, Grand Prize of Progress award in Geographic Information Technology by China Association for Geospatial Information Society, Global Frontier Science and Technology Young Scientist, the 6th university innovative personality in GIS in China, the Youth Science and Technology Award of Jiangsu Province, the Youth science and technology award in the Geographical Society of China.
 
 During recent years, Dr. Chen has published 140+ journal papers, including these in top journals such as Science, Earth-Science Review, Annals of AAG, EMS, IJGIS. Dr. Chen has published more than 20 conference papers and book chapters. He was the first author of the VGE definition chapters for The International Encyclopedia of Geography and Encyclopedia of China. He has more than 10 patents issued and 10 software copyright.
+
 </div>
 
 </div>
@@ -83,6 +93,7 @@ During recent years, Dr. Chen has published 140+ journal papers, including these
 <div class="card-deck">
 
 {{< imgproc blank Resize "200x" >}}
+
 <center><strong>Karin Frank</strong></center>
 {{< /imgproc >}}
 
@@ -95,6 +106,7 @@ During recent years, Dr. Chen has published 140+ journal papers, including these
 <div class="card-deck">
 
 {{< imgproc blank Resize "200x" >}}
+
 <center><strong>Bert Jagers</strong></center>
 {{< /imgproc >}}
 
@@ -104,5 +116,6 @@ During recent years, Dr. Chen has published 140+ journal papers, including these
 
 </div>
 
-##### __Working Group Chairs__
+##### **Working Group Chairs**
+
 _To be announced later_
