@@ -277,9 +277,9 @@ An individual can be suspended or permanently removed from an Open Modeling Foun
 The Cyberinfrastructure and Technical Support (CTS) staff coordinates development and management of the OMF Science Gateway, and online platform for collaborative governance and standards. CTS works to identify or develop tools and processes which serve to lower the technical barriers towards
 adoption of OMF standards, and ways to best deploy these tools to enable their use by modeling scientists. CTS staff assist the EOWG in developing online training modules and disseminating them on the OMF Gateway.
 
-### Affiliated Early Career Scholars
+### Early Career Scholars
 
-The Affiliated Early Career Scholars helps the Open Modeling Foundation to support student and early career development. The AECS is open to any student enrolled in an institution of higher learning (e.g., college or university) or early career scholar. The AECS provides input to Working Groups and the Executive Committee. The AECS can organize student-focused programs and events, assisted by the Administrative Coordinator and EOWG. Members of the AECS elect a leader to represent the AECS on the Executive Committee.
+The Early Career Scholars helps the Open Modeling Foundation to support student and early career development. The ECS is open to any student enrolled in an institution of higher learning (e.g., college or university) or early career scholar. The ECS provides input to Working Groups and the Executive Committee. The ECS can organize student-focused programs and events, assisted by the Administrative Coordinator and EOWG. Members of the ECS elect a leader to represent the ECS on the Executive Committee.
 
 #### Joining and Leaving the Affiliated Early Career Scholars
 
