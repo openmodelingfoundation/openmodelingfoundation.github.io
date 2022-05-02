@@ -41,11 +41,11 @@ The Executive Committee ensures that the activities of the Open Modeling Foundat
 [Contribute to the Cyberinfrastructure Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/cyberinfrastructure)
 ##### __[Contact OMF to join a Working Group](mailto:support@openmodelingfoundation.org)__
 
-## Affiliated Early Career Scholars
+## Early Career Scholars
 
-The Affiliated Early Career Scholars program helps the Open Modeling Foundation support student and early career development.
+The Early Career Scholars program helps the Open Modeling Foundation support student and early career development.
 
-##### __[More information]({{< ref "/governance/charter/#affiliated-early-career-scholars" >}})__
+##### __[More information]({{< ref "/governance/charter/#early-career-scholars" >}})__
 ##### __[Contact OMF to join](mailto:support@openmodelingfoundation.org)__
 
 ## Open Modeling Foundation Affiliates

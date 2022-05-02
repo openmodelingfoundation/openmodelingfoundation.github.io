@@ -58,8 +58,7 @@ Allen also works to improve the state of open, transparent, reusable, and reprod
 
 </div>
 
-##### **Affiliated Early Career Scholars Representative**
-
+##### __Early Career Scholars Representative__
 _To be announced later_
 
 <br>
