@@ -254,7 +254,6 @@ The Executive Director and EC are supported by an Administrative Coordinator (AC
 
 ### Working Groups
 
-
 Open Modeling Foundation Working Groups coordinate key activities, enabling a diverse spectrum of modeling scientists to participate directly in OMF activities and self-governance and ensuring that it can fullfill its vision, mission, and goals. Working Groups and their activities are described in a separate document. 
 
 Any modeling scientist can join a Working Group. Working Groups self organize, with support from the Executive Committee, and nominate at least two Working Group Co-Chairs, for approval by the Members Council. Working Group Chairs serve for a three-year, renewable term. Working Groups meet as needed, at least annually, in person and/or via videoconferencing.
@@ -269,7 +268,9 @@ Special Task Groups to address specific issues over a limited time frame can be 
 
 #### Joining and Leaving Working Groups
 
-**ADD PROCEDURES TO JOIN AND LEAVE WORKING GROUPS**
+Individuals may request to become a member of an Open Modeling Foundation Working Group by a written notification of request to the Working Group leaders, with approval by the Executive Committee. Any individuals seeking to join a Working Group must agree to support the mission, goals, ethics, and values of the OMF as described in this charter and the OMF values statement, to promote OMF approved standards, and to provide professional recognition to researchers engaged in standards-based modeling. An individual intending to leave a Working Group should notify Working Group leaders in writing of this intent. Working Group leaders are expected to maintain an up-to-date listing of Working Group membership. 
+
+An individual can be suspended or permanently removed from an Open Modeling Foundation Working Group if they are found to engage in illegal or unethical practice, violate the Open Modeling Foundation Values, or become inactive by failing to participate in Working Group meetings for two consecutive years without excused absence. A request to consider removing a Working Group member can be made by the Working Group leaders in the form of a letter to the Executive Committee, describing the reasons why removal should be considered. The Executive Committee will review the request, compile relevant information from all parties, and refer the matter to a vote of the Members Council with a recommendation to approve or deny the request. A vote of the majority of at least two-thirds of the valid votes cast in a meeting at which at least two-thirds of the Members Council participates is needed to remove an individual from an Open Modeling Foundation Working Group. If the Members Council votes to remove an individual from a Working Group, removal is effective immediately. There is no appeal to this vote of removal. However, after a period of not less than one year, an individual can request to rejoin an Open Modeling Foundation Working Group. Such a request will be considered like any new request to join a Working Group.
 
 ### Cyberinfrastructure and Technical Support Staff
 
