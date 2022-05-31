@@ -5,11 +5,12 @@ date: 2020-05-07T10:34:28-07:00
 weight: 101
 ---
 
-## Upcoming Events
-##### **Election of Executive Committee representatives**
-**2022, January 7 - 21**
+## Upcoming Activities
+**Setting up Working Groups**
 
-## Past Events
+## Past Activities
+##### **Election of initial Executive Committee representatives (January 2022)**
+
 ##### **Founding Meeting of the Open Modeling Foundation**
 
 _Meeting to formally establish the Open Modeling Foundation_  
