@@ -24,7 +24,7 @@ The Executive Committee ensures that the activities of the Open Modeling Foundat
 
 ## Working Groups  
 
-### __[Click here to join a working group](https://asu.questionpro.com/omf-wg-joinrequest)__
+### __[Click here to join a working group]({{< param working_group_request_form >}})__
 ### Follow the links below for more information
 
 ##### __[Standards]({{< ref "/governance/working-groups#standards-working-group" >}})__
@@ -47,7 +47,7 @@ The Executive Committee ensures that the activities of the Open Modeling Foundat
 
 The Early Career Scholars program helps the Open Modeling Foundation support student and early career development.
 
-#### __[Click here to join the Early Career Scholars](https://asu.questionpro.com/omf-wg-joinrequest)__
+#### __[Click here to join the Early Career Scholars]({{< param working_group_request_form >}})__
 ##### __[More information]({{< ref "/governance/charter/#early-career-scholars" >}})__
 
 ## Open Modeling Foundation Affiliates
