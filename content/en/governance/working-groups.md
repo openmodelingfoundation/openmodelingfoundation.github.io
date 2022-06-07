@@ -12,7 +12,7 @@ Any modeling scientist can join a Working Group. Working Groups self organize, w
 
 Working Groups meet as needed at least once per year either virtually or in person.  
 
-#### [Click here to join a Working Group](https://asu.questionpro.com/omf-wg-joinrequest)
+#### [Click here to join a Working Group]({{< param working_group_request_form >}})
 
 ### Standards Working Group
 
