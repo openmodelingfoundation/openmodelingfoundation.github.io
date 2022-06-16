@@ -94,7 +94,7 @@ _To be announced later_
 
 <div class="card-deck">
 
-{{< imgproc blank Resize "200x" >}}
+{{< imgproc bertjagers Resize "200x" >}}
 
 <center><strong>Bert Jagers</strong></center>
 {{< /imgproc >}}
