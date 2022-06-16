@@ -100,7 +100,7 @@ _To be announced later_
 {{< /imgproc >}}
 
 <div class="card mb-4 border-0">
-<p> <br> Bert Jagers is a Senior Advisor and Researcher at <a href="https://www.deltares.nl/en/">Deltares</a>. His research focuses on software development that combines satellite data, machine learning, and numerical modeling to simulate and study earth surface processes–particular lyhydrology and biogeomorphology. He has worked at Delft Hydraulics and Deltares  linking process knowledge to impact in rural, urban and coastal applications and helped lead development of the Deltares Delft3D open source modelling suite. He has also been active in international efforts initiatives for model coupling and data standardization. </p>
+<p> <br> Bert Jagers is a Senior Advisor and Researcher at <a href="https://www.deltares.nl/en/">Deltares</a>, the Netherlands. He works in software development that combines satellite data, machine learning, and numerical modeling to simulate and study earth surface processes with a focus on hydrology and biogeomorphology. He aims for impact in rural, urban and coastal challenges by making process knowledge accessible via state-of-the-art software. He plays a leading role in the development of the Deltares Delft3D open source modelling suite, and is active in various international initiatives for model coupling and data standardization such as OpenMI, BMI, and netCDF UGRID. He is member of the Steering Committee of the Community Surface Dynamics Modeling System. </p>
 </div>
 
 </div>
