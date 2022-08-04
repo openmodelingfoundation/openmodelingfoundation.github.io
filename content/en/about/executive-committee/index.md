@@ -56,7 +56,16 @@ Elected members of the EC serve staggered three-year terms.
 </div>
 
 ##### __Early Career Scholars Representative__
-_To be announced later_
+
+<div class="card-deck">
+  
+{{< imgproc blank Resize "200x" >}}
+  
+<center><strong>Takuya Iwanaga</strong></center>
+{{< /imgproc >}}
+ 
+<div class="card mb-4 border-0">
+<p> <br> Dr Takuya Iwanaga is a Research Software Developer with the Institute of Water Futures. His research investigates methods and approaches for the development of integrated socio-environmental models for decision making and policy development under deep uncertainty. He has worked in a range of interdisciplinary contexts combining software and model development expertise and is an active contributor to several open-source software for scientific research. Takuya was recently awarded the Early Career Researcher Excellence Prize from the International Environmental Modeling and Software Society for his work.  </p>
 
 <br>
 
@@ -107,5 +116,40 @@ _To be announced later_
 </div>
 
 ##### **Working Group Chairs**
+  
+###### **Standards Working Group** 
 
-_To be announced later_
+<div class="card-deck">
+
+{{< imgproc blank Resize "200x" >}}
+
+<center><strong>Volker Grimm</strong></center>
+{{< /imgproc >}}
+
+<div class="card mb-4 border-0">
+<p> <br> Dr. Volker Grimm has been working as an ecological modeler at the UFZ since 1992 and teaching at the University of Potsdam since 1999, where I also hold a professorship in Theoretical Ecology since 2012. Since 1999, he has been trying to improve the practice of agent-based modeling (ABM), resulting in a monograph for ecologists and a textbook for all ABM users. In 2006, he and others proposed a general format for describing ABM, the ODD protocol, which was updated in 2010 and 2020. He has also introduced a standard format for documenting the entire modeling process, called TRACE documents. He is currently working on a clone of ODD for model integration and on establishing "Reusable Building Blocks" for ABMs.  </p>
+  
+ ###### **Certification Working Group** 
+  
+<div class="card-deck">
+
+{{< imgproc blank Resize "200x" >}}
+
+<center><strong>Christopher Erdmann</strong></center>
+{{< /imgproc >}}
+
+<div class="card mb-4 border-0">
+<p> <br> Christopher Erdmann is an author, developer, and experimenter in the areas of digital libraries, social networking, library UX, interactive technologies, bibliometrics, and data services in libraries. Prior to joining the American Geophysical Union as the Assistant Director for Data Stewardship, he was an engagement, support, and training expert for the NHLBI BioData Catalyst project at University of North Carolina Renaissance Computing Institute. He has previously worked for organizations such as California Digital Library (Library Carpentry), North Carolina State University, Harvard-Smithsonian Center for Astrophysics, European Southern Observatory, Supreme Court of the US, United Nations, University of Washington, Smithsonian, and CNET. Christopher holds an MLIS from the University of Washington iSchool and a BA from the University of California, Davis.   </p>
+
+###### **Education and Outreach Working Group** 
+  
+<div class="card-deck">
+
+{{< imgproc blank Resize "200x" >}}
+
+<center><strong>Junzhi Liu</strong></center>
+{{< /imgproc >}}
+
+<div class="card mb-4 border-0">
+<p> <br> Dr. Junzhi Liu is a professor in the Center for the Pan-Third Pole Environment, Lanzhou University (TOP 5 in China in Geography). His research interests mainly include land surface modeling and spatio-temporal data mining. He has published 86 peer reviewed papers, including 9 ESI highly cited papers, and has more than 3000 citations with a h-index of 24. He and his team developed the Spatially Explicit Integrated Modeling System (<a href="https://github.com/lreis2415/SEIMS">SEIMS</a>) watershed modeling framework, which has been widely used in different types of watersheds. He won the second prize of natural science from the Ministry of Education, China, in 2017, and the special prize of geographic information technology progress from the China Association for Geospatial Information Society in 2021.
+
