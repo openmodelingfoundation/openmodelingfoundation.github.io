@@ -14,7 +14,7 @@ Elected members of the EC serve staggered three-year terms.
 
 <div class="card-deck">
 
-{{< imgproc michaelbarton Resize "200x" >}}
+{{< imgproc michael-barton Resize "200x" >}}
 
 <center><strong>Michael Barton</strong></center>
 {{< /imgproc >}}
@@ -29,7 +29,7 @@ Elected members of the EC serve staggered three-year terms.
 
 <div class="card-deck">
 
-{{< imgproc lauraswantek Resize "200x" >}}
+{{< imgproc laura-swantek Resize "200x" >}}
 
 <center><strong>Laura Swantek</strong></center>
 {{< /imgproc >}}
@@ -44,7 +44,7 @@ Elected members of the EC serve staggered three-year terms.
 
 <div class="card-deck">
 
-{{< imgproc blank Resize "200x" >}}
+{{< imgproc allen-lee Resize "200x" >}}
 
 <center><strong>Allen Lee</strong></center>
 {{< /imgproc >}}
@@ -75,7 +75,7 @@ Elected members of the EC serve staggered three-year terms.
 
 <div class="card-deck">
 
-{{< imgproc minchen Resize "200x" >}}
+{{< imgproc min-chen Resize "200x" >}}
 
 <center><strong>Min Chen</strong></center>
 {{< /imgproc >}}
@@ -88,7 +88,7 @@ Elected members of the EC serve staggered three-year terms.
 
 <div class="card-deck">
 
-{{< imgproc karinfrank Resize "200x" >}}
+{{< imgproc karin-frank Resize "200x" >}}
 <center><strong>Karin Frank</strong></center>
 {{< /imgproc >}}
 
@@ -100,7 +100,7 @@ Elected members of the EC serve staggered three-year terms.
 
 <div class="card-deck">
 
-{{< imgproc bertjagers Resize "200x" >}}
+{{< imgproc bert-jagers Resize "200x" >}}
 <center><strong>Bert Jagers</strong></center>
 {{< /imgproc >}}
 
@@ -116,7 +116,7 @@ Elected members of the EC serve staggered three-year terms.
 
 <div class="card-deck">
 
-{{< imgproc blank Resize "200x" >}}
+{{< imgproc volker-grimm Resize "200x" >}}
 <center><strong>Volker Grimm</strong></center>
 {{< /imgproc >}}
 
@@ -128,7 +128,7 @@ Elected members of the EC serve staggered three-year terms.
  ###### **Certification Working Group** 
   
 <div class="card-deck">
-{{< imgproc blank Resize "200x" >}}
+{{< imgproc chris-erdmann Resize "200x" >}}
 <center><strong>Christopher Erdmann</strong></center>
 {{< /imgproc >}}
 
@@ -141,7 +141,7 @@ Elected members of the EC serve staggered three-year terms.
   
 <div class="card-deck">
 
-{{< imgproc blank Resize "200x" >}}
+{{< imgproc junzhi-liu Resize "200x" >}}
 <center><strong>Junzhi Liu</strong></center>
 {{< /imgproc >}}
 
