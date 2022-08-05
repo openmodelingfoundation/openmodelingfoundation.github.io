@@ -60,7 +60,7 @@
 &lt;/div>
 &lt;/div>
 &lt;div class="card mb-4 border-0">
-&lt;p> &lt;br> Michael Barton is a Professor in the School of Complex Adaptive Systems and in the School of Human Evolution &amp; Social Change, and Director of the Center for Social Dynamics &amp; Complexity at Arizona State University (USA). He also directs the Network for Computational Modeling in Social and Ecological Sciences (&lt;a href="https://comses.net">CoMSES.Net&lt;/a>), an international scientific network to enable accessibility, open science, and best practices for computation in the socio-ecological sciences. His research centers around long-term human ecology and landscape dynamics, integrating computational modeling, geospatial technologies, and data science with geoarchaeological field studies. Barton has directed transdisciplinary research on hunter-gatherers and small-holder farmers in the Mediterranean and North America for over three decades, and collaborates on research on human-environmental interactions in the modern world. He is a member of the open-source &lt;a href="https://grass.osgeo.org">GRASS GIS&lt;/a> Development Team and Project Steering Committee, dedicated to making advanced geospatial technologies openly accessible to the world. Web page and CV at: &lt;a href="http://www.public.asu.edu/~cmbarton"> http://www.public.asu.edu/~cmbarton &lt;/a> &lt;/p>
+&lt;p class='mt-4'>Michael Barton is a Professor in the School of Complex Adaptive Systems and in the School of Human Evolution &amp; Social Change, and Director of the Center for Social Dynamics &amp; Complexity at Arizona State University (USA). He also directs the Network for Computational Modeling in Social and Ecological Sciences (&lt;a href="https://comses.net">CoMSES.Net&lt;/a>), an international scientific network to enable accessibility, open science, and best practices for computation in the socio-ecological sciences. His research centers around long-term human ecology and landscape dynamics, integrating computational modeling, geospatial technologies, and data science with geoarchaeological field studies. Barton has directed transdisciplinary research on hunter-gatherers and small-holder farmers in the Mediterranean and North America for over three decades, and collaborates on research on human-environmental interactions in the modern world. He is a member of the open-source &lt;a href="https://grass.osgeo.org">GRASS GIS&lt;/a> Development Team and Project Steering Committee, dedicated to making advanced geospatial technologies openly accessible to the world. Web page and CV at: &lt;a href="http://www.public.asu.edu/~cmbarton"> http://www.public.asu.edu/~cmbarton &lt;/a> &lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;h5 id="administrative-coordinator">&lt;strong>Administrative Coordinator&lt;/strong>&lt;/h5>
@@ -74,7 +74,7 @@
 &lt;/div>
 &lt;/div>
 &lt;div class="card mb-4 border-0">
-&lt;p> &lt;br> Laura Swantek is the project coordinator for the Network for Computation Modeling in Social and Ecological Sciences (&lt;a href="https://comses.net">CoMSES.Net&lt;/a>) and an assistant research scientist in the School of Complex Adaptive Systems at Arizona State University. She conducts research on the emergence of social and economic inequality in middle-range society using small world network analysis and theory derived from complex adaptive systems. She also co-directs the Kourion Urban Space Project, an archaeological field project that addresses the impacts of natural disasters and social change in a 4th century AD city on the south coast of Cyprus. &lt;/p>
+&lt;p class='mt-4'>Laura Swantek is the project coordinator for the Network for Computation Modeling in Social and Ecological Sciences (&lt;a href="https://comses.net">CoMSES.Net&lt;/a>) and an assistant research scientist in the School of Complex Adaptive Systems at Arizona State University. She conducts research on the emergence of social and economic inequality in middle-range society using small world network analysis and theory derived from complex adaptive systems. She also co-directs the Kourion Urban Space Project, an archaeological field project that addresses the impacts of natural disasters and social change in a 4th century AD city on the south coast of Cyprus. &lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;h5 id="cyberinfrastructure-representative">&lt;strong>Cyberinfrastructure Representative&lt;/strong>&lt;/h5>
@@ -88,14 +88,25 @@
 &lt;/div>
 &lt;/div>
 &lt;div class="card mb-4 border-0">
-&lt;p> &lt;br> Allen Lee is a full stack software engineer who has been building cyberinfrastructure for computational social science at Arizona State University since 2006; projects include &lt;a href="https://www.tdar.org">the Digital Archaeological Record&lt;/a>, &lt;a href="https://commons.asu.edu">the Virtual Commons&lt;/a>, &lt;a href="https://seslibrary.asu.edu">the Social Ecological Systems Library&lt;/a>, &lt;a href="https://openskope.org">Synthesizing Knowledge of Past Environments (SKOPE)&lt;/a>, &lt;a href="https://interplanetary.asu.edu/port-of-mars">the Port of Mars&lt;/a>, and &lt;a href="https://comses.net">CoMSES Net&lt;/a>, where he serves as co-director and technical lead. He also works to improve the state of open, transparent, reusable, and reproducible computational science as a &lt;a href="https://carpentries.org">Carpentries certified instructor&lt;/a> and maintainer for the &lt;a href="https://github.com/swcarpentry/python-novice-gapminder">Python Novice Gapminder lesson&lt;/a>, and member of the &lt;a href="https://github.com/force11/force11-sciwg">Force 11 Software Citation Implementation Working Group&lt;/a> and &lt;a href="https://github.com/scicodes">Consortium of Scientific Software Registries and Repositories&lt;/a>. &lt;/p>
+&lt;p class='mt-4'>Allen Lee is a full stack software engineer who has been building cyberinfrastructure for computational social science at Arizona State University since 2006; projects include &lt;a href="https://www.tdar.org">the Digital Archaeological Record&lt;/a>, &lt;a href="https://commons.asu.edu">the Virtual Commons&lt;/a>, &lt;a href="https://seslibrary.asu.edu">the Social Ecological Systems Library&lt;/a>, &lt;a href="https://openskope.org">Synthesizing Knowledge of Past Environments (SKOPE)&lt;/a>, &lt;a href="https://interplanetary.asu.edu/port-of-mars">the Port of Mars&lt;/a>, and &lt;a href="https://comses.net">CoMSES Net&lt;/a>, where he serves as co-director and technical lead. He also works to improve the state of open, transparent, reusable, and reproducible computational science as a &lt;a href="https://carpentries.org">Carpentries certified instructor&lt;/a> and maintainer for the &lt;a href="https://github.com/swcarpentry/python-novice-gapminder">Python Novice Gapminder lesson&lt;/a>, and member of the &lt;a href="https://github.com/force11/force11-sciwg">Force 11 Software Citation Implementation Working Group&lt;/a> and &lt;a href="https://github.com/scicodes">Consortium of Scientific Software Registries and Repositories&lt;/a>. &lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;h5 id="__early-career-scholars-representative__">&lt;strong>Early Career Scholars Representative&lt;/strong>&lt;/h5>
-&lt;p>&lt;em>To be announced later&lt;/em>&lt;/p>
-&lt;br>
+&lt;div class="card-deck">
+&lt;div class="card rounded td-post-card mb-4 mt-4" style="max-width: 210px">
+&lt;img class="card-img-top p-3 mt-2" src="/about/executive-committee/blank_hua251c3ad6d040f91ba65e0b4204c1f02_18169_200x0_resize_catmullrom_3.png" width="200" height="74">
+&lt;div class="card-body px-1 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;center>&lt;strong>Takuya Iwanaga&lt;/strong>&lt;/center>
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="card mb-4 border-0">
+&lt;p class='mt-4'>Dr. Takuya Iwanaga is a Research Software Developer with the Institute of Water Futures. His research investigates methods and approaches for the development of integrated socio-environmental models for decision making and policy development under deep uncertainty. He has worked in a range of interdisciplinary contexts combining software and model development expertise and is an active contributor to several open-source software for scientific research. Takuya was recently awarded the Early Career Researcher Excellence Prize from the International Environmental Modeling and Software Society for his work.
+&lt;/p>
+&lt;/div>
+&lt;/div>
 &lt;h2 id="voting-members">Voting Members&lt;/h2>
-&lt;br>
 &lt;h5 id="members-council-representatives">&lt;strong>Members Council Representatives&lt;/strong>&lt;/h5>
 &lt;div class="card-deck">
 &lt;div class="card rounded td-post-card mb-4 mt-4" style="max-width: 210px">
@@ -107,7 +118,7 @@
 &lt;/div>
 &lt;/div>
 &lt;div class="card mb-4 border-0">
-&lt;p> &lt;br> Min Chen is a professor and the Vice Director of Key Lab of Virtual Geographic Environment at Nanjing Normal University, China. His research interests are geographic modeling and simulation, virtual geographic environment. His research interests are geographic modeling and simulation, virtual geographic environment. He is the group leader of the Open Geographic Modeling and Simulation System (&lt;a href="http://geomodeling.njnu.edu.cn/">OpenGMS&lt;/a>) team. OpenGMS supports sharing of modeling and simulation resources for geographic applications. This platform provides a virtual community for collaboration among researchers from various domains. Through open web-distributed resource sharing and collaboration, this platform further contributes to open geographic modelling and simulation to enable broader participation and exploration. Chen is also Chair of Modeling Geographic System Committee of International Geographical Union, Co-Chair of Education and Capacity Building for Digital Earth committee of the International Society for Digital Earth, Fellow of International Environmental Modelling and Software Society, and a Fellow of Royal Geographical Society. &lt;/p>
+&lt;p class='mt-4'>Min Chen is a professor and the Vice Director of Key Lab of Virtual Geographic Environment at Nanjing Normal University, China. His research interests are geographic modeling and simulation and virtual geographic environments. He is the group leader of the Open Geographic Modeling and Simulation System (&lt;a href="http://geomodeling.njnu.edu.cn/">OpenGMS&lt;/a>) team which supports sharing of modeling and simulation resources for geographic applications. Chen is also Chair of the Modeling Geographic System Committee of the International Geographical Union, Co-Chair of Education and Capacity Building for Digital Earth committee of the International Society for Digital Earth, Fellow of International Environmental Modelling and Software Society, and a Fellow of the Royal Geographical Society.&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;div class="card-deck">
@@ -120,7 +131,7 @@
 &lt;/div>
 &lt;/div>
 &lt;div class="card mb-4 border-0">
-&lt;p>&lt;br> Karin Frank is an expert for ecological and social-ecological modeling with a PhD in Mathematics and a habilitation in Applied System Sciences. Since 2010, she is heading the Department for Ecological Modeling (&lt;a href="https://www.ufz.de/index.php?en=34213">OESA&lt;/a>) at the Helmholtz-Centre for Environmental Research – UFZ in Leipzig (Germany) and holding a Professorship in the same field in joint appointment with the Institute for Environmental Systems Research at the University of Osnabrück (Germany). She is active in research and teaching in these fields.&lt;/p>
+&lt;p class='mt-4'>Karin Frank is an expert for ecological and social-ecological modeling with a PhD in Mathematics and a habilitation in Applied System Sciences. She has headed the Department for Ecological Modeling (&lt;a href="https://www.ufz.de/index.php?en=34213">OESA&lt;/a>) at the Helmholtz-Centre for Environmental Research – UFZ in Leipzig (Germany) since 2010 and holds a Professorship in the same field in joint appointment with the Institute for Environmental Systems Research at the University of Osnabrück (Germany). She is active in research and teaching in these fields.&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;div class="card-deck">
@@ -133,11 +144,54 @@
 &lt;/div>
 &lt;/div>
 &lt;div class="card mb-4 border-0">
-&lt;p> &lt;br> Bert Jagers is a Senior Advisor and Researcher at &lt;a href="https://www.deltares.nl/en/">Deltares&lt;/a>, the Netherlands. He works in software development that combines satellite data, machine learning, and numerical modeling to simulate and study earth surface processes with a focus on hydrology and biogeomorphology. He aims for impact in rural, urban and coastal challenges by making process knowledge accessible via state-of-the-art software. He plays a leading role in the development of the Deltares Delft3D open source modelling suite, and is active in various international initiatives for model coupling and data standardization such as OpenMI, BMI, and netCDF UGRID. He is member of the Steering Committee of the Community Surface Dynamics Modeling System. &lt;/p>
+&lt;p class='mt-4'>Bert Jagers is a Senior Advisor and Researcher at &lt;a href="https://www.deltares.nl/en/">Deltares&lt;/a>, the Netherlands. He works in software development that combines satellite data, machine learning, and numerical modeling to simulate and study earth surface processes with a focus on hydrology and biogeomorphology. He aims for impact in rural, urban and coastal challenges by making process knowledge accessible via state-of-the-art software. He plays a leading role in the development of the Deltares Delft3D open source modelling suite, and is active in various international initiatives for model coupling and data standardization such as OpenMI, BMI, and netCDF UGRID. He is member of the Steering Committee of the Community Surface Dynamics Modeling System.
+&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;h5 id="working-group-chairs">&lt;strong>Working Group Chairs&lt;/strong>&lt;/h5>
-&lt;p>&lt;em>To be announced later&lt;/em>&lt;/p></description></item><item><title>About: Members Council</title><link>/about/members-council/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/members-council/</guid><description>
+&lt;h6 id="standards-working-group">&lt;strong>Standards Working Group&lt;/strong>&lt;/h6>
+&lt;div class="card-deck">
+&lt;div class="card rounded td-post-card mb-4 mt-4" style="max-width: 210px">
+&lt;img class="card-img-top p-3 mt-2" src="/about/executive-committee/blank_hua251c3ad6d040f91ba65e0b4204c1f02_18169_200x0_resize_catmullrom_3.png" width="200" height="74">
+&lt;div class="card-body px-1 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;center>&lt;strong>Volker Grimm&lt;/strong>&lt;/center>
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="card mb-4 border-0">
+&lt;p class='mt-4'>Dr. Volker Grimm has been working as an ecological modeler at the UFZ since 1992 and teaching at the University of Potsdam since 1999, where he also holds a professorship in Theoretical Ecology since 2012. Since 1999, he has been trying to improve the practice of agent-based modeling (ABM), resulting in a monograph for ecologists and a textbook for all ABM users. In 2006, he and others proposed a general format for describing ABM, the ODD protocol, which was updated in 2010 and 2020. He has also developed a standard format for documenting the entire modeling process, called TRACE documents. He is currently working on a clone of ODD for model integration and on establishing "Reusable Building Blocks" for ABMs.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;h6 id="certification-working-group">&lt;strong>Certification Working Group&lt;/strong>&lt;/h6>
+&lt;div class="card-deck">
+&lt;div class="card rounded td-post-card mb-4 mt-4" style="max-width: 210px">
+&lt;img class="card-img-top p-3 mt-2" src="/about/executive-committee/blank_hua251c3ad6d040f91ba65e0b4204c1f02_18169_200x0_resize_catmullrom_3.png" width="200" height="74">
+&lt;div class="card-body px-1 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;center>&lt;strong>Christopher Erdmann&lt;/strong>&lt;/center>
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="card mb-4 border-0">
+&lt;p class='mt-4'>Christopher Erdmann is an author, developer, and experimenter in the areas of digital libraries, social networking, library UX, interactive technologies, bibliometrics, and data services in libraries. Prior to joining the American Geophysical Union as the Assistant Director for Data Stewardship, he was an engagement, support, and training expert for the NHLBI BioData Catalyst project at University of North Carolina Renaissance Computing Institute. He has previously worked for organizations such as California Digital Library (Library Carpentry), North Carolina State University, Harvard-Smithsonian Center for Astrophysics, European Southern Observatory, Supreme Court of the US, United Nations, University of Washington, Smithsonian, and CNET. Christopher holds an MLIS from the University of Washington iSchool and a BA from the University of California, Davis.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;h6 id="education-and-outreach-working-group">&lt;strong>Education and Outreach Working Group&lt;/strong>&lt;/h6>
+&lt;div class="card-deck">
+&lt;div class="card rounded td-post-card mb-4 mt-4" style="max-width: 210px">
+&lt;img class="card-img-top p-3 mt-2" src="/about/executive-committee/blank_hua251c3ad6d040f91ba65e0b4204c1f02_18169_200x0_resize_catmullrom_3.png" width="200" height="74">
+&lt;div class="card-body px-1 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;center>&lt;strong>Junzhi Liu&lt;/strong>&lt;/center>
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="card mb-4 border-0">
+&lt;p class='mt-4'>Dr. Junzhi Liu is a professor in the Center for the Pan-Third Pole Environment, Lanzhou University (TOP 5 in China in Geography). His research interests mainly include land surface modeling and spatio-temporal data mining. He has published 86 peer reviewed papers, including 9 ESI highly cited papers, and has more than 3000 citations with a h-index of 24. He and his team developed the Spatially Explicit Integrated Modeling System (&lt;a href="https://github.com/lreis2415/SEIMS">SEIMS&lt;/a>) watershed modeling framework, which has been widely used in different types of watersheds. He won the second prize of natural science from the Ministry of Education, China, in 2017, and the special prize of geographic information technology progress from the China Association for Geospatial Information Society in 2021.
+&lt;/p>
+&lt;/div>
+&lt;/div></description></item><item><title>About: Members Council</title><link>/about/members-council/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/members-council/</guid><description>
 &lt;!-- ROW 1 -->
 &lt;div class="card-deck">
 &lt;p>&lt;a style=color:inherit
