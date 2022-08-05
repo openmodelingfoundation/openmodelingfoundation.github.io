@@ -44,7 +44,7 @@ Elected members of the EC serve staggered three-year terms.
 
 <div class="card-deck">
 
-{{< imgproc blank Resize "200x" >}}
+{{< imgproc allen-lee Resize "200x" >}}
 
 <center><strong>Allen Lee</strong></center>
 {{< /imgproc >}}
