@@ -59,7 +59,7 @@ Elected members of the EC serve staggered three-year terms.
 
 <div class="card-deck">
   
-{{< imgproc blank Resize "200x" >}}
+{{< imgproc Takuya-Iwanaga Resize "200x" >}}
 <center><strong>Takuya Iwanaga</strong></center>
 {{< /imgproc >}}
  
