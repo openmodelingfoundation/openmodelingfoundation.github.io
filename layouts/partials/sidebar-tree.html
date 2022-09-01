@@ -25,7 +25,7 @@
 {{ $p := .page }}
 {{ $shouldDelayActive := .delayActive }}
 {{ $active := eq $p.CurrentSection $s }}
-{{ $show := or (and (not $p.Site.Params.ui.sidebar_menu_compact) ($p.IsAncestor $s)) ($p.IsDescendant $s) }}
+{{ $show := or (and (not $p.Site.Params.ui.sidebar_menu_compact) ($p.IsAncestor $s)) ($p.IsDescendant $s) (eq $s.Parent $p.Parent) ($p.IsDescendant $s.Parent) }}
 {{ $sid := $s.RelPermalink | anchorize }}
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
