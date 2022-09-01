@@ -8,7 +8,7 @@ weight: 100
 
 Representatives of member organizations make up the Members Council, the primary governing body of the Open Modeling Foundation. They are responsible for approving policies, procedures, and standards.
 
-##### __[How to Become a Member]({{< ref "/governance/charter/#joining-and-leaving-the-members-council" >}})__
+Any formally constituted organization composed of or representing an active community of modelers in the social and natural sciences may request to become a member of the Open Modeling Foundation and join the Members Council by addressing a letter of request to the Executive Committee. Letters requesting membership can be sent to __[support@openmodelingfoundation.org](mailto:support@openmodelingfoundation.org)__. All requests for membership must be submitted to the Members Council for review and approval. 
 
 ##### __[More Information about Membership]({{< ref "/governance/charter/#members-council" >}})__
 
@@ -25,7 +25,7 @@ The Executive Committee ensures that the activities of the Open Modeling Foundat
 ## Working Groups  
 
 ### __[Click here to join a working group]({{< param working_group_request_form >}})__
-### Follow the links below for more information
+#### Follow the links below for more information
 
 ##### __[Standards]({{< ref "/governance/working-groups#standards-working-group" >}})__
 
