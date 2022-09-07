@@ -2,10 +2,10 @@
 title: Governance
 linkTitle: Governance
 cascade:
-  type: governance
-  github_issue_filter: "label:governance"
-  github_issue_template: governance.md
-  github_discuss_category: governance
+  - type: "docs"
+  - github_issue_filter: "label:governance"
+  - github_issue_template: governance.md
+  - github_discuss_category: governance
 menu:
   main:
     weight: 20

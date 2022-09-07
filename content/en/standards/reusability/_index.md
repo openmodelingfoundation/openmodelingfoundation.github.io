@@ -2,7 +2,6 @@
 title: Reusability
 linkTitle: Reusability
 cascade:
-  type:  reusability
   github_issue_filter: "label:\"standards -  reusability\""
   github_issue_template: reusability.md
   github_discuss_category: "reusability-standards"

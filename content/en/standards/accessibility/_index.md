@@ -2,7 +2,6 @@
 title: "Accessibility"
 linkTitle: "Accessibility"
 cascade:
-  type: accessibility
   github_issue_filter: "label:\"standards - accessibility\""
   github_issue_template: accessibility.md
   github_discuss_category: "accessibility-standards"

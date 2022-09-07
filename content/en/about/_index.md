@@ -1,6 +1,8 @@
 ---
 title: About
 linkTitle: About
+cascade:
+- type: "docs"
 menu:
   main:
     weight: 20
