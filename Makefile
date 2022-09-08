@@ -18,7 +18,6 @@ commands :
 
 ## build            : build files but do not run a server.
 build : 
-	git submodule update --init --recursive
 	docker-compose build --pull
 
 ## serve            : start and run a local server.

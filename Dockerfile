@@ -7,10 +7,12 @@ ARG DOCSY_VERSION=v0.4.0
 LABEL maintainer="CoMSES Net <support@comses.net>"
 
 WORKDIR /src
-COPY . /src/
+COPY config.toml /src/
 
 RUN git config --global --add safe.directory /src \
     && hugo mod init github.com/openmodelingfoundation/openmodelingfoundation.github.io \
     && hugo mod get github.com/google/docsy@${DOCSY_VERSION}
+
+COPY . /src/
 
 CMD ["server"]

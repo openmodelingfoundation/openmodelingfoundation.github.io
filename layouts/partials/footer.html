@@ -1,20 +1,17 @@
-<footer class="-bg-dark py-3 row d-print-none">
-    <div class="container-fluid">
+<footer class="-bg-gray py-5 row d-print-none">
+    <div class="container-fluid mx-sm-5">
         <div class='row'>
-            <div class="col my-auto">
-                <a target="_blank" href='https://alliancecan.ca/en'><img class="logo" height="60" src="/images/digital-research-alliance-canada.svg" /></a>
+            <div class="col-3 col-sm-4 order-sm-2">
+                <a target="_blank" href='https://alliancecan.ca/en'><img class="img-fluid" src="/images/digital-research-alliance-canada.svg" /></a>
             </div>
-            <div class='col text-center my-auto'>
-                &copy; 2021 The Open Modeling Foundation. 
-                <p>
-                This work was enabled in part by support from 
-                <a target="_blank" href='https://alliancecan.ca/en'><u>the Digital Research Alliance</u></a> of Canada's 
-                Research Portals and Platforms program as well as generous support from the 
-                <a target="_blank" href='https://sloan.org'><u>Alfred P. Sloan Foundation</u></a>.
-                </p>
+            <div class='col-6 col-sm-4 text-center my-0 py-0 order-sm-2'>
+                This work was enabled in part by generous support from 
+                <a target="_blank" href='https://alliancecan.ca/en'><u>the Digital Research Alliance</u></a> of Canada
+                and the <a target="_blank" href='https://sloan.org'><u>Alfred P. Sloan Foundation</u></a>.
+                {{ with .Site.Params.copyright }}&copy; {{ now.Year }} {{ .}} {{ T "footer_all_rights_reserved" }}{{ end }}
             </div>
-            <div class='col my-auto text-right'>
-                <a target="_blank" href='https://sloan.org'><img class="logo" height="60" src="/images/alfred-p-sloan-logo.png" /></a>
+            <div class='col-3 col-sm-4 text-xs-center text-right order-sm-3'>
+                <a target="_blank" href='https://sloan.org'><img class="logo" src="/images/alfred-p-sloan-logo.png" /></a>
             </div>
         </div>
     </div>

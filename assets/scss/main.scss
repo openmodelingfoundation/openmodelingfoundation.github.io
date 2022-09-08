@@ -33,7 +33,16 @@
 }
 
 footer {
-    min-height: 150px;
+    min-height: 160px;
+
+    .logo {
+        max-width: 100%;
+        height: 60%;
+    }
+
+    a {
+        color: orange !important;
+    }
 
     a:hover {
         color: white !important;

@@ -1,11 +1,10 @@
-{{ if .Path }}
-    {{ $pathFormatted := replace .Path "\\" "/" }}
+{{ if .File }}
+    {{ $pathFormatted := replace .File.Path "\\" "/" }}
     {{ $gh_issue_template := ($.Param "github_issue_template") }}
     {{ $gh_issue_filter := ($.Param "github_issue_filter") }}
     {{ $gh_repo := ($.Param "github_repo") }}
     {{ $gh_subdir := ($.Param "github_subdir") }}
     {{ $gh_project_repo := ($.Param "github_project_repo") }}
-    {{ $gh_project_number := .Params.github_project_number }}
     {{ $gh_branch := (default "develop" ($.Param "github_branch")) }}
     {{ $gh_repo := (.Param "github_repo") }}
     {{ $issue_template_page := (.Site.GetPage "/issue_templates") }}
@@ -14,10 +13,10 @@
     {{ $issueURL := (printf "%s/issues/new?%s" $gh_repo $queryString) }}
     {{ $github_discuss_category := ($.Param "github_discuss_category" | default "general") }}
 
+    <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
     {{ if $gh_repo }}
         {{ $discussionURL := (printf "%s/discussions/categories/%s" $gh_repo $github_discuss_category) }}
         {{ $newDiscussionURL := (printf "%s/discussions/new?category=%s" $gh_repo $github_discuss_category) }}
-        <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
         {{ $editURL := printf "%s/edit/%s/content/%s" $gh_repo $gh_branch $pathFormatted }}
         {{ if and ($gh_subdir) (.Site.Language.Lang) }}
             {{ $editURL = printf "%s/edit/%s/%s/content/%s/%s" $gh_repo $gh_branch $gh_subdir ($.Site.Language.Lang) $pathFormatted }}
@@ -25,7 +24,7 @@
             {{ $editURL = printf "%s/edit/%s/content/%s/%s" $gh_repo $gh_branch ($.Site.Language.Lang) $pathFormatted }}
         {{ else if $gh_subdir }}
             {{ $editURL = printf "%s/edit/%s/%s/content/%s" $gh_repo $gh_branch $gh_subdir $pathFormatted }}
-        {{ end }}
+        {{ end -}}
         {{ $qExpr := printf "is:open %s" $gh_issue_filter }}
         {{ $viewRelatedIssuesURL := printf "%s/issues?%s" $gh_repo (querify "q" $qExpr) }}
         <a href="{{ $issueURL }}" target="_blank"><i class="fab fa-github"></i> {{ T "post_create_issue" }}</a>
@@ -35,7 +34,11 @@
         {{ if $gh_project_repo }}
             {{ $project_issueURL := printf "%s/issues/new" $gh_project_repo }}
             <a href="{{ $project_issueURL }}" target="_blank"><i class="fas fa-tasks"></i> {{ T "post_create_project_issue" }}</a>
-        {{ end }}
-        </div>
-    {{ end }}
+        {{ end -}}
+    {{ end -}}
+    {{ with .CurrentSection.AlternativeOutputFormats.Get "print" -}}
+    <a id="print" href="{{ .Permalink | safeURL }}"><i class="fa-solid fa-print fa-fw"></i> {{ T "print_entire_section" }}</a>
+    {{ end -}}
+    </div>
+
 {{ end }}
