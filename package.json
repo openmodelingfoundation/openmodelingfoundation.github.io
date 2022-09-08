@@ -1,5 +1,5 @@
 {
-  "name": "omf-hugo-site",
+  "name": "omf-site",
   "version": "1.0.0",
   "license": "CC0-1.0",
   "devDependencies": {
@@ -7,9 +7,6 @@
     "postcss": "^8.4.14",
     "postcss-cli": "^8.3.1"
   },
-  "browserlist": [
-    "defaults"
-  ],
   "dependencies": {
     "@octokit/action": "^3.18.0",
     "bootstrap": "^5.0.0",

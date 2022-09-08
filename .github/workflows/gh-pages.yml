@@ -10,16 +10,9 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: 'recursive'
-          fetch-depth: 0
-
-      - name: Setup Yarn
-        uses: actions/setup-node@v2
-      - run: yarn install
+      - uses: actions/checkout@v3
 
       - name: Read .env hugo version
         id: hugo-version
@@ -27,18 +20,27 @@ jobs:
           . ./.env
           echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
 
-      - name: Setup Hugo 
+      - name: Add hugo nodejs dependencies
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          # sync versions with docker-compose .env ala 
+          # sync versions with docker-compose .env ala
           # https://github.com/marketplace/actions/hugo-setup#%EF%B8%8F-read-hugo-version-from-file
-          hugo-version: '${{ steps.hugo-version.outputs.HUGO_VERSION }}'
+          hugo-version: "${{ steps.hugo-version.outputs.HUGO_VERSION }}"
           extended: true
 
-      - name: Build
+      - name: Build Hugo site
         env:
           HUGO_ENV: "production"
-        run: hugo --minify
+        run: |
+          yarn install
+          hugo mod init github.com/openmodelingfoundation/openmodelingfoundation.github.io
+          hugo mod get github.com/google/docsy@v0.4.0
+          hugo --minify
 
       - name: Deploy
         if: github.event_name == 'push'
