@@ -19,8 +19,6 @@ jobs:
         run: |
           . ./.env
           echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
-          hugo mod init github.com/openmodelingfoundation/openmodelingfoundation.github.io
-          hugo mod get github.com/google/docsy@v0.4.0
 
       - name: Setup Hugo 
         uses: peaceiris/actions-hugo@v2
@@ -33,7 +31,10 @@ jobs:
       - name: Build
         env:
           HUGO_ENV: "production"
-        run: hugo --minify
+        run: |
+          hugo mod init github.com/openmodelingfoundation/openmodelingfoundation.github.io
+          hugo mod get github.com/google/docsy@v0.4.0
+          hugo --minify
 
       - name: Deploy
         if: github.event_name == 'push'
