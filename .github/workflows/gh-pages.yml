@@ -23,15 +23,15 @@ jobs:
       - name: Add hugo nodejs dependencies
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: "16"
         run: yarn add -D postcss autoprefixer postcss-cli
 
-      - name: Setup Hugo 
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          # sync versions with docker-compose .env ala 
+          # sync versions with docker-compose .env ala
           # https://github.com/marketplace/actions/hugo-setup#%EF%B8%8F-read-hugo-version-from-file
-          hugo-version: '${{ steps.hugo-version.outputs.HUGO_VERSION }}'
+          hugo-version: "${{ steps.hugo-version.outputs.HUGO_VERSION }}"
           extended: true
         run: |
           hugo mod init github.com/openmodelingfoundation/openmodelingfoundation.github.io
