@@ -20,12 +20,11 @@ jobs:
           . ./.env
           echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
 
-      - name: Setup Yarn
+      - name: Add hugo nodejs dependencies
         uses: actions/setup-node@v3
         with:
           node-version: '16'
-        run: |
-          yarn add -D postcss autoprefixer postcss-cli
+        run: yarn add -D postcss autoprefixer postcss-cli
 
       - name: Setup Hugo 
         uses: peaceiris/actions-hugo@v2
@@ -34,14 +33,14 @@ jobs:
           # https://github.com/marketplace/actions/hugo-setup#%EF%B8%8F-read-hugo-version-from-file
           hugo-version: '${{ steps.hugo-version.outputs.HUGO_VERSION }}'
           extended: true
-
-      - name: Build
-        env:
-          HUGO_ENV: "production"
         run: |
           hugo mod init github.com/openmodelingfoundation/openmodelingfoundation.github.io
           hugo mod get github.com/google/docsy@v0.4.0
-          hugo --minify
+
+      - name: Build Hugo site
+        env:
+          HUGO_ENV: "production"
+        run: hugo --minify
 
       - name: Deploy
         if: github.event_name == 'push'
