@@ -26,23 +26,23 @@ The Executive Committee ensures that the activities of the Open Modeling Foundat
 
 [Open Modeling Foundation Working Groups]({{< ref "/governance/working-groups" >}}) coordinate and enable a diverse spectrum of modeling scientists to participate directly in OMF activities and self-governance and help OMF fulfill its vision, mission, and goals.
 
-### Request to join a Working Group or the Early Career Scholars program by __[filling out and submitting this online form]({{< param working_group_request_form >}})__
+#### __[Request to join a Working Group]({{< param working_group_request_form >}})__
 
 For more information on each Working Group please follow the links below.
 
-#### __[Standards]({{< ref "/governance/working-groups#standards-working-group" >}})__
+#### __[Standards WG]({{< ref "/governance/working-groups#standards-working-group" >}})__
 
 [Contribute to the Standards Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-standards)
 
-#### __[Certification]({{< ref "/governance/working-groups#certification-working-group" >}})__
+#### __[Certification WG]({{< ref "/governance/working-groups#certification-working-group" >}})__
 
 [Contribute to the Certification Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-certification)
 
-#### __[Education and Outreach]({{< ref "/governance/working-groups#education-and-outreach-working-group" >}})__
+#### __[Education and Outreach WG]({{< ref "/governance/working-groups#education-and-outreach-working-group" >}})__
 
 [Contribute to the Education and Outreach discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-education-and-outreach)
 
-#### __[Cyberinfrastructure]({{< ref "/governance/working-groups#cyberinfrastructure-working-group" >}})__
+#### __[Cyberinfrastructure WG]({{< ref "/governance/working-groups#cyberinfrastructure-working-group" >}})__
 
 [Contribute to the Cyberinfrastructure Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/cyberinfrastructure)
 
@@ -50,7 +50,7 @@ For more information on each Working Group please follow the links below.
 
 The Early Career Scholars program helps the Open Modeling Foundation support student and early career development.
 
-### Request to join the Early Career Scholars program by [filling out and submitting this online form.]({{< param working_group_request_form >}})__
+#### __[Request to join the Early Career Scholars program]({{< param working_group_request_form >}})__
 
 Please [click here for more information on Early Career Scholars]({{< ref "/governance/charter/#early-career-scholars" >}})
 
