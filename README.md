@@ -1,10 +1,10 @@
 # Open Modeling Foundation Standards and Governance Repository
 
-This repository is for establishing and disseminating standards related to accessibility, interoperability, documentation, and reuse of computational models. Please see our [mission and charter](https://openmodelingfoundation.github.io/governance/charter/) for more details.
+This repository is for establishing and disseminating standards related to accessibility, interoperability, documentation, and reuse of computational models. Please see our [mission and charter](https://openmodelingfoundation.org/governance/charter/) for more details.
 
 ## How to Contribute
 
-You can contribute to this site by following the directions at https://openmodelingfoundation.github.io/contribute/ - the process of proposing and accepting changes to OMF standards will be finalized once we have established our [governance structure](https://openmodelingfoundation.github.io/governance/).
+You can contribute to this site by following the directions at https://openmodelingfoundation.org/contribute/ - the process of proposing and accepting changes to OMF standards will be finalized once we have established our [governance structure](https://openmodelingfoundation.org/governance/).
 
 ## About
 
