@@ -57,13 +57,25 @@ Elected members of the EC serve staggered three-year terms.
 ##### __Early Career Scholars Representative__
 
 <div class="card-deck">
-  
+
 {{< imgproc takuya-iwanaga Resize "200x" >}}
 <center><strong>Takuya Iwanaga</strong></center>
 {{< /imgproc >}}
- 
+
 <div class="card mb-4 border-0">
 <p class='mt-4'>Dr. Takuya Iwanaga is a Research Software Developer with the Institute of Water Futures. His research investigates methods and approaches for the development of integrated socio-environmental models for decision making and policy development under deep uncertainty. He has worked in a range of interdisciplinary contexts combining software and model development expertise and is an active contributor to several open-source software for scientific research. Takuya was recently awarded the Early Career Researcher Excellence Prize from the International Environmental Modeling and Software Society for his work.
+</p>
+</div>
+</div>
+
+<div class="card-deck">
+
+{{< imgproc jazmin-salazar Resize "200x" >}}
+<center><strong>Jazmin Zatarain Salazar</strong></center>
+{{< /imgproc >}}
+
+<div class="card mb-4 border-0">
+<p class='mt-4'>Dr. Jazmin Zatarain Salazar is an Assistant Professor in the Faculty of Technology Policy and Management in the Policy Analysis at Delft University of Technology, where she leads an artificial intelligence lab to support policy analysis. Her research interests lie in advancing multiobjective decision support for environmental and water systems under climate and socio-economic uncertainty. This work requires bridging hydrologic and climate sciences, artificial intelligence, high performance computing, economics, control theory, visual analytics and participatory policy design. She holds a PhD in Civil and Environmental Engineering from Cornell University, U.S.A., with an emphasis in Environmental and Water Resources Systems Engineering.
 </p>
 </div>
 </div>
@@ -80,7 +92,7 @@ Elected members of the EC serve staggered three-year terms.
 {{< /imgproc >}}
 
 <div class="card mb-4 border-0">
-<p class='mt-4'>Min Chen is a professor and the Vice Director of Key Lab of Virtual Geographic Environment at Nanjing Normal University, China. His research interests are geographic modeling and simulation and virtual geographic environments. He is the group leader of the Open Geographic Modeling and Simulation System (<a href="http://geomodeling.njnu.edu.cn/">OpenGMS</a>) team which supports sharing of modeling and simulation resources for geographic applications. Chen is also Chair of the Modeling Geographic System Committee of the International Geographical Union, Co-Chair of Education and Capacity Building for Digital Earth committee of the International Society for Digital Earth, Fellow of International Environmental Modelling and Software Society, and a Fellow of the Royal Geographical Society.</p> 
+<p class='mt-4'>Min Chen is a professor and the Vice Director of Key Lab of Virtual Geographic Environment at Nanjing Normal University, China. His research interests are geographic modeling and simulation and virtual geographic environments. He is the group leader of the Open Geographic Modeling and Simulation System (<a href="http://geomodeling.njnu.edu.cn/">OpenGMS</a>) team which supports sharing of modeling and simulation resources for geographic applications. Chen is also Chair of the Modeling Geographic System Committee of the International Geographical Union, Co-Chair of Education and Capacity Building for Digital Earth committee of the International Society for Digital Earth, Fellow of International Environmental Modelling and Software Society, and a Fellow of the Royal Geographical Society.</p>
 </div>
 
 </div>
@@ -110,8 +122,8 @@ Elected members of the EC serve staggered three-year terms.
 </div>
 
 ##### **Working Group Chairs**
-  
-###### **Standards Working Group** 
+
+###### **Standards Working Group**
 
 <div class="card-deck">
 
@@ -120,12 +132,35 @@ Elected members of the EC serve staggered three-year terms.
 {{< /imgproc >}}
 
 <div class="card mb-4 border-0">
-<p class='mt-4'>Dr. Volker Grimm has been working as an ecological modeler at the UFZ since 1992 and teaching at the University of Potsdam since 1999, where he also holds a professorship in Theoretical Ecology since 2012. Since 1999, he has been trying to improve the practice of agent-based modeling (ABM), resulting in a monograph for ecologists and a textbook for all ABM users. In 2006, he and others proposed a general format for describing ABM, the ODD protocol, which was updated in 2010 and 2020. He has also developed a standard format for documenting the entire modeling process, called TRACE documents. He is currently working on a clone of ODD for model integration and on establishing "Reusable Building Blocks" for ABMs.</p>
+<p class='mt-4'>Volker Grimm has been working as an ecological modeler at the UFZ since 1992 and teaching at the University of Potsdam since 1999, where he also holds a professorship in Theoretical Ecology since 2012. Since 1999, he has been trying to improve the practice of agent-based modeling (ABM), resulting in a monograph for ecologists and a textbook for all ABM users. In 2006, he and others proposed a general format for describing ABM, the ODD protocol, which was updated in 2010 and 2020. He has also developed a standard format for documenting the entire modeling process, called TRACE documents. He is currently working on a clone of ODD for model integration and on establishing "Reusable Building Blocks" for ABMs.</p>
 </div>
 </div>
-  
- ###### **Certification Working Group** 
-  
+
+<div class="card-deck">
+
+{{< imgproc serena-hamilton Resize "200x" >}}
+<center><strong>Serena Hamilton</strong></center>
+{{< /imgproc >}}
+
+<div class="card mb-4 border-0">
+<p class='mt-4'>Serena Hamilton is a senior research fellow at the Fenner School of Environment & Society and Institute for Water Futures at the Australian National University (ANU). Her research focuses on the use of model-based approaches to make better informed decisions about socio-environmental problems. She is particularly interested in integrated assessment and modelling for co-production of knowledge in
+transdisciplinary research, and identifying and promoting best practices in modelling development and evaluation. Her recent work includes: designing integrated models for understanding socially inclusive and sustainable pathways in agricultural development in developing countries; and developing and using future scenarios in participatory processes to improve decision making in water.Dr Hamilton is also the managing editor of the open access journal Socio-Environmental Systems Modelling (SESMO).</p>
+</div>
+</div>
+
+<div class="card-deck">
+
+{{< imgproc blank Resize "200x" >}}
+<center><strong>Andrew Bell</strong></center>
+{{< /imgproc >}}
+
+<div class="card mb-4 border-0">
+<p class='mt-4'>Andrew Bell is an assistant professor in the Department of Earth & Environment at Boston University.  His research profile is focused on co-producing agent-based models of resource systems (irrigation, deforestation, ranching, migration) with non-academic stakeholders and informing them with expert knowledge, surveys, and behavioral experiments. He is also coordinating an initiative to encourage the sharing of reusable building blocks for agent-based models.</p>
+</div>
+</div>
+
+ ###### **Certification Working Group**
+
 <div class="card-deck">
 {{< imgproc chris-erdmann Resize "200x" >}}
 <center><strong>Christopher Erdmann</strong></center>
@@ -136,8 +171,20 @@ Elected members of the EC serve staggered three-year terms.
 </div>
 </div>
 
-###### **Education and Outreach Working Group** 
-  
+<div class="card-deck">
+{{< imgproc sandra-gesing Resize "200x" >}}
+<center><strong>Sandra Gesing</strong></center>
+{{< /imgproc >}}
+
+<div class="card mb-4 border-0">
+<p class='mt-4'>CSandra Gesing is a senior research scientist, the Scientific Outreach and DEI Lead at the Discovery Partners Institute at University of Illinois System, Chicago. She is especially interested in sustainability of research software, usability of computational methods and reproducibility of research results.
+Prior to the position at DPI, she was an associate research professor in the Department of Computer Science and Engineering and a computational scientist in the Center for Research Computing at the University of Notre Dame, Indiana, US. Before she moved to the US, she was a research associate at the University of Edinburgh, UK, and in the Applied Bioinformatics Group at the University of Tübingen, Germany. Additionally, she has perennial experience as a project manager and system developer in industry in the US and Germany. She received her German diploma (equivalent to a Master’s degree) in computer science from extramural studies at the FernUniversität Hagen and her PhD in computer science from the University of Tübingen, Germany
+</p>
+</div>
+</div>
+
+###### **Education and Outreach Working Group**
+
 <div class="card-deck">
 
 {{< imgproc junzhi-liu Resize "200x" >}}
@@ -145,7 +192,19 @@ Elected members of the EC serve staggered three-year terms.
 {{< /imgproc >}}
 
 <div class="card mb-4 border-0">
-<p class='mt-4'>Dr. Junzhi Liu is a professor in the Center for the Pan-Third Pole Environment, Lanzhou University (TOP 5 in China in Geography). His research interests mainly include land surface modeling and spatio-temporal data mining. He has published 86 peer reviewed papers, including 9 ESI highly cited papers, and has more than 3000 citations with a h-index of 24. He and his team developed the Spatially Explicit Integrated Modeling System (<a href="https://github.com/lreis2415/SEIMS">SEIMS</a>) watershed modeling framework, which has been widely used in different types of watersheds. He won the second prize of natural science from the Ministry of Education, China, in 2017, and the special prize of geographic information technology progress from the China Association for Geospatial Information Society in 2021.
+<p class='mt-4'>Junzhi Liu is a professor in the Center for the Pan-Third Pole Environment, Lanzhou University (TOP 5 in China in Geography). His research interests mainly include land surface modeling and spatio-temporal data mining. He has published 86 peer reviewed papers, including 9 ESI highly cited papers, and has more than 3000 citations with a h-index of 24. He and his team developed the Spatially Explicit Integrated Modeling System (<a href="https://github.com/lreis2415/SEIMS">SEIMS</a>) watershed modeling framework, which has been widely used in different types of watersheds. He won the second prize of natural science from the Ministry of Education, China, in 2017, and the special prize of geographic information technology progress from the China Association for Geospatial Information Society in 2021.
+</p>
+</div>
+</div>
+
+<div class="card-deck">
+
+{{< imgproc iestyn-woolway Resize "200x" >}}
+<center><strong>Iestyn Woolway</strong></center>
+{{< /imgproc >}}
+
+<div class="card mb-4 border-0">
+<p class='mt-4'>Iestyn Woolway is a Reader at Bangor University, School of Ocean Sciences in Wales. His research focuses on the physical interactions between climate and water, with a particular interest in the physics and hydrology of lakes worldwide. This includes aspects such as climate-induced variations in lake evaporation, water temperature, ice cover and energy fluxes. Using a combination of in-situ, satellite, and modelled data, his research aims to answer key questions that relate to climate-related changes of inland waters. Dr. Woolway graduated from University College London in 2015 with a PhD in Physical Limnology. 
 </p>
 </div>
 </div>
