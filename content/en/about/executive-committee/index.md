@@ -177,7 +177,7 @@ transdisciplinary research, and identifying and promoting best practices in mode
 {{< /imgproc >}}
 
 <div class="card mb-4 border-0">
-<p class='mt-4'>CSandra Gesing is a senior research scientist, the Scientific Outreach and DEI Lead at the Discovery Partners Institute at University of Illinois System, Chicago. She is especially interested in sustainability of research software, usability of computational methods and reproducibility of research results.
+<p class='mt-4'>Sandra Gesing is a senior research scientist, the Scientific Outreach and DEI Lead at the Discovery Partners Institute at University of Illinois System, Chicago. She is especially interested in sustainability of research software, usability of computational methods and reproducibility of research results.
 Prior to the position at DPI, she was an associate research professor in the Department of Computer Science and Engineering and a computational scientist in the Center for Research Computing at the University of Notre Dame, Indiana, US. Before she moved to the US, she was a research associate at the University of Edinburgh, UK, and in the Applied Bioinformatics Group at the University of Tübingen, Germany. Additionally, she has perennial experience as a project manager and system developer in industry in the US and Germany. She received her German diploma (equivalent to a Master’s degree) in computer science from extramural studies at the FernUniversität Hagen and her PhD in computer science from the University of Tübingen, Germany
 </p>
 </div>
