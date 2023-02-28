@@ -1,8 +1,12 @@
-# *DRAFT February 2023*
+---
+title: "Code of Conduct"
+date: 2023-02-28T19:20:23Z
+weight: 104
+---
 
-# Code of Conduct
-
+{{% alert title="Draft (February 2023)" color="warning" %}}
 This Code of Conduct was last updated on February 25, 2023.
+{{% /alert %}}
 
 The Open Modeling Foundation (OMF) is an international open science community of diverse scientists and teams from around the world seeking to meet the planetary, social, and environmental challenges we face in our complex and rapidly changing world. As members of the Open Modeling Foundation, we champion collaborative and open science. We strengthen our community and mission through diverse perspectives and exchanging ideas in an inclusive environment.
 
@@ -18,7 +22,7 @@ These guidelines outline the behaviors expected from the members of the OMF com
 
 ## Expected Behavior
 
-### Appreciate and Accommodate Our Similarities and Differences###
+### Appreciate and Accommodate Our Similarities and Differences
 
 OMF members come from many cultures and backgrounds. Be respectful of people with different cultural practices and beliefs. Work to acknowledge your own biases, prejudices, and discriminatory practices. Think of others’ needs and learn to appreciate their point of view. Use preferred titles (including preferred pronouns). Respect people’s right to privacy and confidentiality. Be open to both learning from and educating others.
 
