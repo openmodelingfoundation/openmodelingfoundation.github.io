@@ -150,7 +150,7 @@ transdisciplinary research, and identifying and promoting best practices in mode
 
 <div class="card-deck">
 
-{{< imgproc blank Resize "200x" >}}
+{{< imgproc andrew-bell Resize "200x" >}}
 <center><strong>Andrew Bell</strong></center>
 {{< /imgproc >}}
 
@@ -204,7 +204,7 @@ Prior to the position at DPI, she was an associate research professor in the Dep
 {{< /imgproc >}}
 
 <div class="card mb-4 border-0">
-<p class='mt-4'>Iestyn Woolway is a Reader at Bangor University, School of Ocean Sciences in Wales. His research focuses on the physical interactions between climate and water, with a particular interest in the physics and hydrology of lakes worldwide. This includes aspects such as climate-induced variations in lake evaporation, water temperature, ice cover and energy fluxes. Using a combination of in-situ, satellite, and modelled data, his research aims to answer key questions that relate to climate-related changes of inland waters. Dr. Woolway graduated from University College London in 2015 with a PhD in Physical Limnology. 
+<p class='mt-4'>Iestyn Woolway is a Reader at Bangor University, School of Ocean Sciences in Wales. His research focuses on the physical interactions between climate and water, with a particular interest in the physics and hydrology of lakes worldwide. This includes aspects such as climate-induced variations in lake evaporation, water temperature, ice cover and energy fluxes. Using a combination of in-situ, satellite, and modelled data, his research aims to answer key questions that relate to climate-related changes of inland waters. Dr. Woolway graduated from University College London in 2015 with a PhD in Physical Limnology.
 </p>
 </div>
 </div>
