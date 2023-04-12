@@ -39,7 +39,7 @@ jobs:
         run: |
           yarn install
           hugo mod init github.com/openmodelingfoundation/openmodelingfoundation.github.io
-          hugo mod get github.com/google/docsy@v0.4.0
+          hugo mod get github.com/google/docsy@v0.6.0
           hugo --minify
 
       - name: Deploy
