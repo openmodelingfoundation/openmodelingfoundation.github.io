@@ -195,7 +195,7 @@ accessible, documented governance structure. Examples of such organizations incl
 societies, research institutes, national laboratories, other government agencies, research centers or laboratories
 recognized by academic institutions, or commercial enterprises. Any such organization can be nominated for membership in
 the OMF or self-nominate. Any organization seeking membership in the OMF MC, **must agree to support the mission, goals,
-ethics, and values of the OMF**, as described in this charter and the [OMF values statement]({{< relref "values" >}}>),
+ethics, and values of the OMF**, as described in this charter and the [OMF values statement]({{< relref "values" >}}),
 to promote [OMF approved standards]({{< relref "standards" >}}), and to provide professional recognition to researchers
 engaged in standards-based modeling. Members are expected to provide a representative to participate and vote in all
 Members Council meetings. Nominations for membership will be evaluated by the Executive Committee and presented to the
