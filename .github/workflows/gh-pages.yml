@@ -4,13 +4,10 @@ on:
   push:
     branches:
       - develop
-  pull_request:
-    branches:
-      - develop
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
@@ -19,11 +16,12 @@ jobs:
         run: |
           . ./.env
           echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
+          echo "::set-output name=DOCSY_VERSION::${DOCSY_VERSION}"
 
       - name: Add hugo nodejs dependencies
         uses: actions/setup-node@v3
         with:
-          node-version: "16"
+          node-version: "18"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -39,10 +37,10 @@ jobs:
         run: |
           yarn install
           hugo mod init github.com/openmodelingfoundation/openmodelingfoundation.github.io
-          hugo mod get github.com/google/docsy@v0.6.0
+          hugo mod get github.com/google/docsy@${{ steps.hugo-version.outputs.DOCSY_VERSION }}
           hugo --minify
 
-      - name: Deploy
+      - name: Deploy to Pages
         if: github.event_name == 'push'
         uses: peaceiris/actions-gh-pages@v3
         env:
