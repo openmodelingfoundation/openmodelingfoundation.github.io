@@ -52,7 +52,7 @@ In order to meet the ideal standards, computational models should:
 Build Docker images from research code:
 - stencila/dockta https://github.com/stencila/dockta
 - ReproZip https://www.reprozip.org/
-- SciUnit https://sciunit.run/
+- SciUnit https://github.com/scidash/sciunit
 - binder https://mybinder.org/
 - repo2docker https://repo2docker.readthedocs.io (used by binder)
 
@@ -68,8 +68,8 @@ OMF may consider developing scaffolding for common modeling frameworks that redu
 ## Examples and References
 
 - [Lorena Barba's reproducible workflow for computational fluid dynamics](https://doi.org/10.5281/zenodo.2642710) https://github.com/barbagroup/cloud-repro 
-- https://www.practicereproducibleresearch.org/
-- https://reproduciblescience.org/directory/
+- https://carpentries-incubator.github.io/good-enough-practices/
+- http://www.practicereproducibleresearch.org/
 - [Software Deposit Guidelines from SSI](https://softwaresaved.github.io/software-deposit-guidance/HowToDescribeSoftwareDeposit.html)
 - [Proposed Standards for Peer-Reviewed Publication of Computer Code](https://doi.org/10.2134/agronj2015.0481)
 - TODO: find or build example codebases that meet minimal and ideal standards 

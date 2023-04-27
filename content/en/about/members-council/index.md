@@ -128,7 +128,7 @@ weight: 100
 </a>
 
 <a style=color:inherit
-   href="https://www.journals.elsevier.com/environmental-modelling-and-software">
+   href="https://www.sciencedirect.com/journal/environmental-modelling-and-software">
 {{< imgproc blank Fit "200x200" >}}
 
 <center><p><strong>Environmental Modelling and Software Journal</strong></p></center>
