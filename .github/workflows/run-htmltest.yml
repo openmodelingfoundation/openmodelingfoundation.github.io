@@ -1,0 +1,43 @@
+name: Run htmltest over rendered content
+on:
+  push:
+  pull_request:
+    branches: [ "develop" ]
+
+jobs:
+  htmltest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Read .env hugo version
+        id: hugo-version
+        run: |
+          . ./.env
+          echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
+          echo "::set-output name=DOCSY_VERSION::${DOCSY_VERSION}"
+
+      - name: Add hugo nodejs dependencies
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          # sync versions with docker-compose .env ala
+          # https://github.com/marketplace/actions/hugo-setup#%EF%B8%8F-read-hugo-version-from-file
+          hugo-version: "${{ steps.hugo-version.outputs.HUGO_VERSION }}"
+          extended: true
+
+      - name: Build Hugo site
+        env:
+          HUGO_ENV: "production"
+        run: |
+          yarn install
+          hugo mod init github.com/openmodelingfoundation/openmodelingfoundation.github.io
+          hugo mod get github.com/google/docsy@${{ steps.hugo-version.outputs.DOCSY_VERSION }}
+          hugo --minify -d $GITHUB_WORKSPACE/dist
+      - name: run htmltest
+        continue-on-error: true
+        uses: wjdp/htmltest-action@master
