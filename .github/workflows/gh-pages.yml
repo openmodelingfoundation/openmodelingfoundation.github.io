@@ -22,6 +22,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "18"
+          cache: 'npm'
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -36,9 +37,7 @@ jobs:
           HUGO_ENV: "production"
         run: |
           yarn install
-          hugo mod init github.com/openmodelingfoundation/openmodelingfoundation.github.io
-          hugo mod get github.com/google/docsy@${{ steps.hugo-version.outputs.DOCSY_VERSION }}
-          hugo --minify
+          hugo --minify --gc
 
       - name: Deploy to Pages
         if: github.event_name == 'push'
