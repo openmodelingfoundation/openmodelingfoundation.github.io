@@ -64,5 +64,5 @@ OMF Members Council Representatives are eligible to `vote` on proposed changes. 
 3.	You can sort and filter the pull requests table by clicking on the table header names (Author, Label, Projects, etc.). For example, clicking on **_Author_** will allow you to select pull requests by a specific author. The **_sort_** menu lets you sort pull requests chronologically or by the number of comments or reactions.
 
 
-For more details on creating a pull request please check out
-[GitHub\'s guide for creating a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+For more details on creating a pull request refer to
+[GitHub\'s guide for creating a pull request](https://docs.github.com/en/pull-requests).

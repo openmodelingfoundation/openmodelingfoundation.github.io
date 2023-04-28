@@ -1,12 +1,12 @@
-name: Build and deploy to GitHub Pages
-
+name: Run htmltest over rendered content
 on:
   push:
-    branches:
-      - develop
+    branches: [ "develop" ]
+  pull_request:
+    branches: [ "develop" ]
 
 jobs:
-  deploy:
+  htmltest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -37,14 +37,15 @@ jobs:
           HUGO_ENV: "production"
         run: |
           yarn install
-          hugo --minify --gc
-
-      - name: Deploy to Pages
-        if: github.event_name == 'push'
-        uses: peaceiris/actions-gh-pages@v3
-        env:
-          HUGO_ENV: "production"
+          hugo --minify --gc -d $GITHUB_WORKSPACE/dist
+      - name: run htmltest
+        continue-on-error: true
+        uses: wjdp/htmltest-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: main
+          config: .htmltest.yml
+      - name: archive htmltest results
+        uses: actions/upload-artifact@v3
+        with:
+          name: htmltest-report
+          path: tmp/.htmltest/htmltest.log
+          retention-days: 5
