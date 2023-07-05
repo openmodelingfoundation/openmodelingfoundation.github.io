@@ -54,6 +54,17 @@ footer {
     }
 }
 
+.td-toc a {
+    font-size: 0.9rem;
+    font-weight: normal;
+    line-height: 1.35;
+    padding-bottom: 0.5rem;
+}
+
+.td-search {
+    width: 100%;
+}
+
 // Adjust anchors vs the fixed menu.
 @include media-breakpoint-up(md) {
     .td-offset-anchor:target {
