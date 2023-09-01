@@ -54,6 +54,49 @@ footer {
     }
 }
 
+.td-toc a {
+    font-size: 0.9rem;
+    font-weight: normal;
+    line-height: 1.35;
+    padding-bottom: 0.5rem;
+}
+
+// active page indicator
+.td-sidebar-nav-active-item {
+    color: $primary;
+    &:before {
+        position: relative;
+        left: -0.5rem;
+        content: "";
+        border-left: 3px solid $btn-primary;
+        margin-left: -3px;
+    }
+}
+
+// normalize links that appear to be top-level regardless of whether they are
+// one page or a section with 1 index page
+.td-sidebar-nav .td-sidebar-link__page {
+    font-weight: 400;
+    color: #222;
+    line-height: 1.35;
+    padding-bottom: 0.75rem;
+}
+
+.td-sidebar-nav .td-sidebar-link__section {
+    font-weight: 400;
+    color: #222;
+    line-height: 1.35;
+    padding-bottom: 0.75rem;
+}
+
+.foldable .td-sidebar-link {
+    font-weight: 200;
+}
+
+.td-search {
+    width: 100%;
+}
+
 // Adjust anchors vs the fixed menu.
 @include media-breakpoint-up(md) {
     .td-offset-anchor:target {

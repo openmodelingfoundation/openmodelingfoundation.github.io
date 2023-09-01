@@ -3,50 +3,53 @@ title = "The Open Modeling Foundation"
 linkTitle = "Open Modeling Foundation"
 +++
 
-{{< blocks/cover image_anchor="bottom" color="primary" height="full" >}}
-<h1>The Open Modeling Foundation</h1>
-<h3 class="mb-3 pt-3 font-weight-light">Enabling next generation modeling of human and natural systems</h3>
-
-<div class="mx-auto py-5">
-    <a class="btn btn-lg btn-outline-light mr-3 mb-4" href="{{< relref "/about" >}}">
-    About <i class="fas fa-info-circle ml-2"></i>
-    </a>
-    <a class="btn btn-lg btn-outline-light mr-3 mb-4" href="{{< relref "/governance" >}}">
-    Organization & Governance <i class="fas fa-gavel ml-2"></i>
-    </a>
-    <a class="btn btn-lg btn-outline-light mb-4" href="{{< relref "/standards" >}}">
-    Standards <i class="fas fa-lightbulb ml-2"></i>
-    </a>
-    <div class="mx-auto mt-5">
-        {{< blocks/link-down color="info" >}}
+{{< blocks/section color="primary" >}}
+  <div class="row justify-content-center mt-5 mb-3">
+    <div class="col-md-10 col-lg-8 d-flex flex-column align-items-center">
+      <img src="/images/logo.svg" alt="OMF Logo" class="w-50 img-fluid mb-5">
+      <h3 class="font-weight-light text-center">
+        The <b class="text-secondary">Open Modeling Foundation</b> is an alliance of modeling organizations that coordinates
+        and administers a common, community developed body of <b>standards</b> and <b>best practices</b> among
+        diverse communities of modeling scientists.
+      </h3>
     </div>
-</div>
+  </div>
+{{< /blocks/section >}}
+
+{{< blocks/section color="dark" >}}
+  <div class="col-12 text-center mb-5"><h2><b>Standards</b></h2></div>
+  {{% blocks/standard icon="fas fa-search" title="Accessibility" url="/standards/accessibility" %}}
+  Support best practices for discovery and access to model code, documentation, and metadata.
+  {{% /blocks/standard %}}
+
+  {{% blocks/standard icon="fas fa-book" title="Documentation" url="/standards/documentation" %}}
+  Help others understand a model, replicate its results, reuse or extend it with a combination of narrative
+  documentation protocols and visual diagrams that clearly and comprehensively describe the model, how it works, its
+  assumptions and limitations, etc.
+  {{% /blocks/standard %}}
+
+  {{% blocks/standard icon="fas fa-circle-nodes" title="Interoperability" url="/standards/interoperability" %}}
+  Enable models to be composed or integrated into larger scale models while maintaining scientific rigor.
+  {{% /blocks/standard %}}
+
+  {{% blocks/standard icon="fas fa-recycle" title="Reusability" url="/standards/reusability" %}}
+  Facilitate reuse of high quality model code for reproducibility, replication, extension, and integration into larger
+  scale models.
+  {{% /blocks/standard %}}
+{{< /blocks/section >}}
 
 
-{{< /blocks/cover >}}
-
-
-{{% blocks/lead color="white" %}}
-<div class="mx-auto">
-    <h3 class="mt-5 font-weight-light text-left">The Open Modeling Foundation is an alliance of modeling organizations that coordinates and administers a common, community developed body of standards and best practices among diverse communities of modeling scientists.
-    </h3>
-</div>
-{{% /blocks/lead %}}
-
-{{< blocks/section color="secondary" >}}
-
-{{% blocks/feature icon="fas fa-project-diagram" title="How to Participate" url="/contribute" url_text="How to contribute" %}}
-You can [contribute to OMF activities](/contribute/) as a representative of a member organization or
-as an individual in a [Working Group](/governance/working-groups/).
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fas fa-users" title="Community" url="/about/community" %}}
-The OMF community is committed to providing a welcoming, civil and constructive environment to improve modeling science.
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fab fa-github" title="Latest updates" url="https://github.com/openmodelingfoundation/openmodelingfoundation.github.io" %}}
-Follow the latest in OMF developments on our [GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io) repository and [GitHub discussion forums](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions).
-{{% /blocks/feature %}}
-
-
+{{< blocks/section color="light" >}}
+  {{% blocks/feature icon="fas fa-project-diagram" title="How to Participate" url="/contribute" url_text="How to contribute" %}}
+  You can [contribute to OMF activities](/contribute/) as a representative of a member organization or
+  as an individual in a [Working Group](/governance/working-groups/).
+  {{% /blocks/feature %}}
+  
+  {{% blocks/feature icon="fas fa-users" title="Community" url="/about/community" %}}
+  The OMF community is committed to providing a welcoming, civil and constructive environment to improve modeling science.
+  {{% /blocks/feature %}}
+  
+  {{% blocks/feature icon="fab fa-github" title="Latest updates" url="https://github.com/openmodelingfoundation/openmodelingfoundation.github.io" %}}
+  Follow the latest in OMF developments on our [GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io) repository and [GitHub discussion forums](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions).
+  {{% /blocks/feature %}}
 {{< /blocks/section >}}
