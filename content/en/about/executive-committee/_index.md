@@ -29,13 +29,13 @@ Elected members of the EC serve staggered three-year terms.
 
 <div class="card-deck">
 
-{{< imgproc laura-swantek Resize "200x" >}}
+{{< imgproc charlotte-till Resize "200x" >}}
 
-<center><strong>Laura Swantek</strong></center>
+<center><strong>Charlotte Till</strong></center>
 {{< /imgproc >}}
 
 <div class="card mb-4 border-0">
-<p class='mt-4'>Laura Swantek is the project coordinator for the Network for Computation Modeling in Social and Ecological Sciences (<a href="https://comses.net">CoMSES.Net</a>) and an assistant research scientist in the School of Complex Adaptive Systems at Arizona State University. She conducts research on the emergence of social and economic inequality in middle-range society using small world network analysis and theory derived from complex adaptive systems. She also co-directs the Kourion Urban Space Project, an archaeological field project that addresses the impacts of natural disasters and social change in a 4th century AD city on the south coast of Cyprus. </p>
+<p class='mt-4'>Charlotte Till is an assistant research scientist in the School of Complex Adaptive Systems at Arizona State University. She graduated from ASU with her PhD in Anthropology in Dec 2022 after conducting research to better understand the role of the environment in human migration decision making - principally within areas designated as "at-risk" from physical environmental threats such as sea level rise, subsidence, hurricanes, and flooding. Her research focused on individuals and communities across the US Gulf Coast, with a specific focus on those living in Terrebonne Parish, Louisiana. Originally from New Zealand, she has called Arizona home for the past decade. She is deeply interested in how computational tools and technologies can be used to explore complex adaptive systems, explore possible futures, and better inform policy and decision makers at the leading edge of change. </p>
 </div>
 
 </div>
