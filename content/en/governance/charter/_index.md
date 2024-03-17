@@ -256,17 +256,15 @@ identifies a substitute from the EC if unable to do so.
 
 Voting members of the Executive Committee are composed of:
 
-- the leaders of each Working Group and
+- no more than two co-chairs of each Working Group and
 - three representatives elected from the Members Council.
 
-Elected members of the EC serve staggered three-year terms.
+Elected representatives to the EC from the Members Council serve staggered three-year terms.
 
 Non-voting members of the Executive Committee are composed of:
 
 - the Executive Director (who may vote to break ties in the EC),
 - the Administrative Coordinator,
-- a representative of the Cyberinfrastructure and Education Support team, and
-- a representative from the OMF Early Career Scholars
 
 The Executive Committee ensures that the activities of the Open Modeling Foundation further its vision, mission, and
 goals as expressed in this charter. It oversees all elections and any other selection of individuals involved in OMF
@@ -337,44 +335,6 @@ Open Modeling Foundation Working Group. If the Members Council votes to remove a
 removal is effective immediately. There is no appeal to this vote of removal. However, after a period of not less than
 one year, an individual can request to rejoin an Open Modeling Foundation Working Group. Such a request will be
 considered like any new request to join a Working Group.
-
-### Cyberinfrastructure and Technical Support Staff
-
-The Cyberinfrastructure and Technical Support (CTS) staff coordinates development and management of the OMF Science
-Gateway, and online platform for collaborative governance and standards. CTS works to identify or develop tools and
-processes which serve to lower the technical barriers towards adoption of OMF standards, and ways to best deploy these
-tools to enable their use by modeling scientists. CTS staff assist the EOWG in developing online training modules and
-disseminating them on the OMF Gateway.
-
-### Early Career Scholars
-
-The Early Career Scholars helps the Open Modeling Foundation to support student and early career development. The ECS is
-open to any student enrolled in an institution of higher learning (e.g., college or university) or early career scholar.
-The ECS provides input to Working Groups and the Executive Committee. The ECS can organize student-focused programs and
-events, assisted by the Administrative Coordinator and EOWG. Members of the ECS elect a leader to represent the ECS on
-the Executive Committee.
-
-#### Joining and Leaving the Early Career Scholars
-
-Individuals may request to become a member of the Open Modeling Foundation Early Career Scholars by a 
-[written notification of request]({{< param working_group_request_form >}}) to the OMF Administrative Coordinator, with
-approval of the Executive Committee. Any individuals seeking to join the ECS must agree to support the mission, goals,
-ethics, and values of the OMF, as described in this charter and the OMF values statement, to promote OMF approved
-standards, and to provide professional recognition to researchers engaged in standards-based modeling. An individual
-intending to leave the ECS should notify the Administrative Coordinator in writing of this intent.
-
-An individual can be suspended or permanently removed from the Open Modeling Foundation ECS if they are found to engage
-in illegal or unethical practice, violate the Open Modeling Foundation Values, become inactive by failing to participate
-in ECS meetings or other activities for two consecutive years without excused absence, or becoming no longer qualified
-for membership as an ECS. A request to consider removing an ECS member can be made by the ECS leadership in the form of
-a letter to the Executive Committee, describing the reasons why removal should be considered. The Executive Committee
-will review the request, compile relevant information from all parties, and refer the matter to a vote of the Members
-Council with a recommendation to approve or deny the request. A vote of the majority of at least two-thirds of the valid
-votes cast in a meeting at which at least two-thirds of the Members Council participates is needed to remove an
-individual from the Open Modeling Foundation ECS. If the Members Council votes to remove an individual from the ECS,
-removal is effective immediately. There is no appeal to this vote of removal. However, after a period of not less than
-one year, an individual can request to rejoin the Open Modeling Foundation ECS. Such a request will be considered like
-any new request to join the ECS.
 
 ### Open Modeling Foundation Affiliates
 
