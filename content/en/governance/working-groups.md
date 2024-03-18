@@ -12,7 +12,7 @@ Any modeling scientist can join a Working Group. Working Groups self organize, w
 
 Working Groups meet as needed at least once per year either virtually or in person.
 
-Working Groups are led by chairs, nominated by the Executive Committee and approved by the Members Council. Working Groups can be led by multiple co-chairs. However, each Working Group only provides a single vote as voting members of the Executive Committee and should either find unanimous consensus for their votes across all co-chairs or abstain.
+Working Groups are led by chairs, nominated by the Executive Committee and approved by the Members Council. Working Groups can be led by multiple co-chairs. However, each Working Group has a only single vote on the Executive Committee.
 
 #### [Click here to join a Working Group]({{< param working_group_request_form >}})
 
