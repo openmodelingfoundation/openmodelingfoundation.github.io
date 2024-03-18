@@ -256,7 +256,7 @@ identifies a substitute from the EC if unable to do so.
 
 Voting members of the Executive Committee are composed of:
 
-- no more than two co-chairs of each Working Group and
+- one voting representative (chair or co-chair) of each Working Group and
 - three representatives elected from the Members Council.
 
 Elected representatives to the EC from the Members Council serve staggered three-year terms.
