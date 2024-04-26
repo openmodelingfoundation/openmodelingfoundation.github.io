@@ -3,15 +3,22 @@ title: "Executive Committee Meeting Agendas"
 linkTitle: "Meetings"
 ---
 
-Archived Executive Committee Meeting Agendas
+Recent Executive Committee Meeting Agenda Documents
 
-- [2023-02 OMF EC Meeting Agenda](/executive-committee/2023-02-meeting-agenda.pdf)
-- [2023-01 OMF EC Meeting Agenda](/executive-committee/2023-01-meeting-agenda.pdf)
-- [2022-12 OMF EC Meeting Agenda](/executive-committee/2022-12-meeting-agenda.pdf)
-- [2022-11 OMF EC Meeting Agenda](/executive-committee/2022-11-meeting-agenda.pdf)
-- [2022-10 OMF EC Meeting Agenda](/executive-committee/2022-10-meeting-agenda.pdf)
-- [2022-08 OMF EC Meeting Agenda](/executive-committee/2022-08-meeting-agenda.pdf)
-- [2022-06 OMF EC Meeting Agenda](/executive-committee/2022-06-meeting-agenda.pdf)
-- [2022-04 OMF EC Meeting Agenda](/executive-committee/2022-04-meeting-agenda.pdf)
-- [2022-03 OMF EC Meeting Agenda](/executive-committee/2022-03-meeting-agenda.pdf)
-- [2022-02 OMF EC Meeting Agenda](/executive-committee/2022-02-meeting-agenda.pdf)
+2024
+
+- [2024 Meeting 1 January](https://osf.io/rpg5k)
+- [2024 Meeting 2 Feburary](https://osf.io/5pcev)
+- [2024 Meeting 3 March](https://osf.io/3gkhx)
+- [2024 Meeting 4 April](https://osf.io/xfk8z)
+
+2023
+
+- [2023 Meeting 1 January](https://osf.io/vje3u)
+- [2023 Meeting 2 February](https://osf.io/gwzf6)
+- [2023 Meeting 3 April](https://osf.io/b4psa)
+- [2023 Meeting 4 May](https://osf.io/tehgn)
+- [2023 Meeting 5 June](https://osf.io/yr54f)
+- [2023 Meeting 6 September](https://osf.io/625mv)
+- [2023 Meeting 7 November](https://osf.io/8qeyf)
+- [2023 Meeting 8 December](https://osf.io/nvewj)
