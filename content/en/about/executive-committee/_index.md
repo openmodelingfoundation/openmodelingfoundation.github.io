@@ -10,7 +10,7 @@ Elected members of the EC serve staggered three-year terms.
 
 ## Non-voting Members
 
-##### **Executive Director**
+#### **Executive Director**
 
 <div class="card-deck">
 
@@ -25,7 +25,7 @@ Elected members of the EC serve staggered three-year terms.
 
 </div>
 
-##### **Administrative Coordinator**
+#### **Administrative Coordinator**
 
 <div class="card-deck">
 
@@ -40,7 +40,7 @@ Elected members of the EC serve staggered three-year terms.
 
 </div>
 
-##### **Cyberinfrastructure Representative**
+#### **Cyberinfrastructure Representative**
 
 <div class="card-deck">
 
@@ -49,12 +49,12 @@ Elected members of the EC serve staggered three-year terms.
 {{< /imgproc >}}
 
 <div class="card mb-4 border-0">
-<p class='mt-4'>Allen Lee is a full stack software engineer who has been building cyberinfrastructure for computational social science at Arizona State University since 2006; projects include <a href="https://www.tdar.org">the Digital Archaeological Record</a>, <a href="https://commons.asu.edu">the Virtual Commons</a>, <a href="https://seslibrary.asu.edu">the Social Ecological Systems Library</a>, <a href="https://openskope.org">Synthesizing Knowledge of Past Environments (SKOPE)</a>, <a href="https://interplanetary.asu.edu/port-of-mars">the Port of Mars</a>, and <a href="https://comses.net">CoMSES Net</a>, where he serves as co-director and technical lead. He also works to improve the state of open, transparent, reusable, and reproducible computational science as a <a href="https://carpentries.org">Carpentries certified instructor</a> and maintainer for the <a href="https://github.com/swcarpentry/python-novice-gapminder">Python Novice Gapminder lesson</a>, and member of the <a href="https://github.com/force11/force11-sciwg">Force 11 Software Citation Implementation Working Group</a> and <a href="https://github.com/scicodes">Consortium of Scientific Software Registries and Repositories</a>. </p>
+<p class='mt-4'>Allen Lee is a research software engineer who has been building cyberinfrastructure for computational social science and complex adaptive systems at Arizona State University since 2006; projects include <a href="https://www.tdar.org">the Digital Archaeological Record</a>, <a href="https://seslibrary.asu.edu">the Social Ecological Systems Library</a>, <a href="https://openskope.org">Synthesizing Knowledge of Past Environments (SKOPE)</a>, <a href="https://interplanetary.asu.edu/port-of-mars">the Port of Mars</a>, and <a href="https://comses.net">CoMSES Net</a>, where he serves as co-director and technical lead. He works to improve the state of open, transparent, reusable, and reproducible computational science as a <a href="https://carpentries.org">Carpentries instructor</a> and maintainer for the <a href="https://github.com/swcarpentry/python-novice-gapminder">Plotting and Programming in Python</a> and <a href='https://github.com/carpentries-lab/good-enough-practices'>Good Enough Practices in Scientific Computing</a> lessons, and currently serves on the <a href='https://datacite.org/stsg/'>DataCite Services and Technology Steering Group</a> and as a co-chair for the <a href="https://scicodes.net/">Consortium of Scientific Software Registries and Repositories</a>.</p>
 </div>
 
 </div>
 
-##### __Early Career Scholars Representative__
+#### __Early Career Scholars Representatives__
 
 <div class="card-deck">
 
@@ -82,7 +82,7 @@ Elected members of the EC serve staggered three-year terms.
 
 ## Voting Members
 
-##### **Members Council Representatives**
+#### **Members Council Representatives**
 
 <div class="card-deck">
 
@@ -103,8 +103,7 @@ Elected members of the EC serve staggered three-year terms.
 
 <div class="card mb-4 border-0">
 
-<p class='mt-4'>Stefan Reis is currently president of iEMSs and has very much enjoyed forming closer links to other learned societies and
-organisations, including building the links to OMF, MSSANZ, ISESS and others over the past years. Stefans background is in integrated assessment modelling of air pollution and climate change effects on human and ecosystem health. Stefan holds a position as head of unit for environment and sustainability at the DLR Project Management Agency currently and has been an active researcher in the field of environmental modelling, with a particular focus on the interfaces between environment and health for more than 25 years. Stefan holds a visiting professorship at the University of Edinburgh, School of Chemistry and fellowships of the international Environmental Modelling and Software Society (iEMSs), as well as the Modelling and Simulation Society of Australia and New Zealand (MSSANZ).</p>
+<p class='mt-4'>Stefan Reis is currently president of <a href='https://iemss.org/'>International Environmental Modelling and Software Society (iEMSs)</a> and has very much enjoyed forming closer links to other learned societies and organisations, including building links to OMF, the Modelling and Simulation Society of Australia and New Zealand (MSSANZ), the International Symposium on Environmental Software Systems (ISESS) and others over the past years. Stefans background is in integrated assessment modelling of air pollution and climate change effects on human and ecosystem health. Stefan holds a position as head of unit for environment and sustainability at the DLR Project Management Agency currently and has been an active researcher in the field of environmental modelling, with a particular focus on the interfaces between environment and health for more than 25 years. Stefan holds a visiting professorship at the University of Edinburgh, School of Chemistry and fellowships with iEMSs and MSSANZ.</p>
 </div>
 </div>
 
@@ -119,9 +118,9 @@ organisations, including building the links to OMF, MSSANZ, ISESS and others ove
 </div>
 </div>
 
-##### **Working Group Chairs**
+### **Working Group Chairs**
 
-###### **Standards Working Group**
+#### **Standards Working Group**
 
 <div class="card-deck">
 
@@ -168,7 +167,7 @@ transdisciplinary research, and identifying and promoting best practices in mode
 </div>
 </div>
 
- ###### **Certification Working Group**
+#### **Certification Working Group**
 
 <div class="card-deck">
 {{< imgproc chris-erdmann Resize "200x" >}}
@@ -201,7 +200,7 @@ Prior to the position at DPI, she was an associate research professor in the Dep
 </div>
 </div>
 
-###### **Education and Outreach Working Group**
+#### **Education and Outreach Working Group**
 
 <div class="card-deck">
 
@@ -225,7 +224,7 @@ Prior to the position at DPI, she was an associate research professor in the Dep
 </div>
 </div>
 
-###### **Members Council Alumni**
+#### **Members Council Alumni**
 
 <div class="card-deck">
 
