@@ -18,19 +18,19 @@ commands :
 
 ## build            : build files but do not run a server.
 build : 
-	docker-compose build --pull
+	docker compose build --pull
 
 ## serve            : start and run a local server.
 serve : build
-	@docker-compose run --rm --service-ports --user="${UID}:${GID}" hugo
+	@docker compose up -d
 
 ## shell            : open a hugo shell
 shell : build
-	docker-compose run --rm --user="${UID}:${GID}" hugo shell
+	docker compose run --rm hugo shell
 
 ## stop             : stop the docker server and clean up
 stop :
-	docker-compose down -v
+	docker compose down -v
 
 ## clean            : clean up junk files.
 clean :
