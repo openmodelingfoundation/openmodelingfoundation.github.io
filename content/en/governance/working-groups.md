@@ -6,11 +6,13 @@ weight: 100
 
 ## Working Groups
 
-Open Modeling Foundation Working Groups coordinate key activities, enabling a diverse spectrum of modeling scientists to participate directly in OMF activities and self-governance and ensuring that it can fulfill its vision, mission, and goals. Three Working Groups are initially established and described below; additional Working Groups may be established with approval of the Members Council.
+Open Modeling Foundation Working Groups coordinate key activities, enabling a diverse spectrum of modeling scientists to participate directly in OMF activities and self-governance and ensuring that it can fulfill its vision, mission, and goals. Five Working Groups are established and described below; additional Working Groups may be established with approval of the Members Council.
 
-Any modeling scientist can join a Working Group. Working Groups self organize, with support from the Executive Committee, and nominate a Working Group Chair for approval by the Members Council. Working Group Chairs serve for a three-year, renewable term.
+Any modeling scientist can join a Working Group. Working Groups self organize, with support from the Executive Committee, and nominate a Working Group Chair for approval by the Members Council. Working Group Chairs serve for a three-year, renewable term. Each working group may also choose to nominate any number of Co-Chairs as appropriate - each with the same term length and responsibilities as the Chair.
 
-Working Groups meet as needed at least once per year either virtually or in person.  
+Working Groups self-organize and meet as needed at least once per year either virtually or in person.  
+
+Working Groups are led by their chair(s), nominated by the Executive Committee, and approved by the Members Council. Working Groups can be led by multiple co-chairs. However, each Working Group only has a single vote within the Executive Committee.
 
 #### [Click here to join a Working Group]({{< param working_group_request_form >}})
 
@@ -31,6 +33,12 @@ The Education and Outreach Working Group (EOWG) helps OMF member organizations r
 ### Cyberinfrastructure Working Group
 
 The Cyberinfrastructure Working Group (CYWG) coordinates development and management of the OMF Science Gateway, an online platform for collaborative governance and standards. CYWG works to to identify, develop, and enhance tools and processes that lower the technical barriers towards adoption of OMF standards and facilitate their use by modeling scientists. CYWG staff assist the EOWG in developing online training modules and making them available on the OMF Science Gateway.
+
+### Early Career Scholars Working Group
+
+The Early Career Scholars (ECSWG) helps the Open Modeling Foundation to support student and early career development. The ECSWG is
+open to any student enrolled in an institution of higher learning (e.g., college or university) or early career scholar (recent graduate).
+The ECSWG provides input to the Executive Committee. The ECS can organize student-focused programs, manuscripts, and events, assisted by the Administrative Coordinator and other OMF WG's as appropriate. 
 
 ### Additional Working Groups
 

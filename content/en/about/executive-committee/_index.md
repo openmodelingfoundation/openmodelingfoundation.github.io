@@ -40,46 +40,6 @@ Elected members of the EC serve staggered three-year terms.
 
 </div>
 
-#### **Cyberinfrastructure Representative**
-
-<div class="card-deck">
-
-{{< imgproc allen-lee Resize "200x" >}}
-<center><strong>Allen Lee</strong></center>
-{{< /imgproc >}}
-
-<div class="card mb-4 border-0">
-<p class='mt-4'>Allen Lee is a research software engineer who has been building cyberinfrastructure for computational social science and complex adaptive systems at Arizona State University since 2006; projects include <a href="https://www.tdar.org">the Digital Archaeological Record</a>, <a href="https://seslibrary.asu.edu">the Social Ecological Systems Library</a>, <a href="https://openskope.org">Synthesizing Knowledge of Past Environments (SKOPE)</a>, <a href="https://interplanetary.asu.edu/port-of-mars">the Port of Mars</a>, and <a href="https://comses.net">CoMSES Net</a>, where he serves as co-director and technical lead. He works to improve the state of open, transparent, reusable, and reproducible computational science as a <a href="https://carpentries.org">Carpentries instructor</a> and maintainer for the <a href="https://github.com/swcarpentry/python-novice-gapminder">Plotting and Programming in Python</a> and <a href='https://github.com/carpentries-lab/good-enough-practices'>Good Enough Practices in Scientific Computing</a> lessons, and currently serves on the <a href='https://datacite.org/stsg/'>DataCite Services and Technology Steering Group</a> and as a co-chair for the <a href="https://scicodes.net/">Consortium of Scientific Software Registries and Repositories</a>.</p>
-</div>
-
-</div>
-
-#### __Early Career Scholars Representatives__
-
-<div class="card-deck">
-
-{{< imgproc takuya-iwanaga Resize "200x" >}}
-<center><strong>Takuya Iwanaga</strong></center>
-{{< /imgproc >}}
-
-<div class="card mb-4 border-0">
-<p class='mt-4'>Dr. Takuya Iwanaga is a Research Software Developer with the Institute of Water Futures. His research investigates methods and approaches for the development of integrated socio-environmental models for decision making and policy development under deep uncertainty. He has worked in a range of interdisciplinary contexts combining software and model development expertise and is an active contributor to several open-source software for scientific research. Takuya was recently awarded the Early Career Researcher Excellence Prize from the International Environmental Modeling and Software Society for his work.
-</p>
-</div>
-</div>
-
-<div class="card-deck">
-
-{{< imgproc jazmin-salazar Resize "200x" >}}
-<center><strong>Jazmin Zatarain Salazar</strong></center>
-{{< /imgproc >}}
-
-<div class="card mb-4 border-0">
-<p class='mt-4'>Dr. Jazmin Zatarain Salazar is an Assistant Professor in the Faculty of Technology Policy and Management in the Policy Analysis at Delft University of Technology, where she leads an artificial intelligence lab to support policy analysis. Her research interests lie in advancing multiobjective decision support for environmental and water systems under climate and socio-economic uncertainty. This work requires bridging hydrologic and climate sciences, artificial intelligence, high performance computing, economics, control theory, visual analytics and participatory policy design. She holds a PhD in Civil and Environmental Engineering from Cornell University, U.S.A., with an emphasis in Environmental and Water Resources Systems Engineering.
-</p>
-</div>
-</div>
-
 ## Voting Members
 
 #### **Members Council Representatives**
@@ -221,6 +181,46 @@ Prior to the position at DPI, she was an associate research professor in the Dep
 
 <div class="card mb-4 border-0">
 <p class='mt-4'>Iestyn Woolway is a Reader at Bangor University, School of Ocean Sciences in Wales. His research focuses on the physical interactions between climate and water, with a particular interest in the physics and hydrology of lakes worldwide. This includes aspects such as climate-induced variations in lake evaporation, water temperature, ice cover and energy fluxes. Using a combination of in-situ, satellite, and modelled data, his research aims to answer key questions that relate to climate-related changes of inland waters. Dr. Woolway graduated from University College London in 2015 with a PhD in Physical Limnology.</p>
+</div>
+</div>
+
+#### **Cyberinfrastructure Working Group**
+
+<div class="card-deck">
+
+{{< imgproc allen-lee Resize "200x" >}}
+<center><strong>Allen Lee</strong></center>
+{{< /imgproc >}}
+
+<div class="card mb-4 border-0">
+<p class='mt-4'>Allen Lee is a research software engineer who has been building cyberinfrastructure for computational social science and complex adaptive systems at Arizona State University since 2006; projects include <a href="https://www.tdar.org">the Digital Archaeological Record</a>, <a href="https://seslibrary.asu.edu">the Social Ecological Systems Library</a>, <a href="https://openskope.org">Synthesizing Knowledge of Past Environments (SKOPE)</a>, <a href="https://interplanetary.asu.edu/port-of-mars">the Port of Mars</a>, and <a href="https://comses.net">CoMSES Net</a>, where he serves as co-director and technical lead. He works to improve the state of open, transparent, reusable, and reproducible computational science as a <a href="https://carpentries.org">Carpentries instructor</a> and maintainer for the <a href="https://github.com/swcarpentry/python-novice-gapminder">Plotting and Programming in Python</a> and <a href='https://github.com/carpentries-lab/good-enough-practices'>Good Enough Practices in Scientific Computing</a> lessons, and currently serves on the <a href='https://datacite.org/stsg/'>DataCite Services and Technology Steering Group</a> and as a co-chair for the <a href="https://scicodes.net/">Consortium of Scientific Software Registries and Repositories</a>.</p>
+</div>
+
+</div>
+
+#### **Early Career Scholars Working Group**
+
+<div class="card-deck">
+
+{{< imgproc takuya-iwanaga Resize "200x" >}}
+<center><strong>Takuya Iwanaga</strong></center>
+{{< /imgproc >}}
+
+<div class="card mb-4 border-0">
+<p class='mt-4'>Dr. Takuya Iwanaga is a Research Software Developer with the Institute of Water Futures. His research investigates methods and approaches for the development of integrated socio-environmental models for decision making and policy development under deep uncertainty. He has worked in a range of interdisciplinary contexts combining software and model development expertise and is an active contributor to several open-source software for scientific research. Takuya was recently awarded the Early Career Researcher Excellence Prize from the International Environmental Modeling and Software Society for his work.
+</p>
+</div>
+</div>
+
+<div class="card-deck">
+
+{{< imgproc jazmin-salazar Resize "200x" >}}
+<center><strong>Jazmin Zatarain Salazar</strong></center>
+{{< /imgproc >}}
+
+<div class="card mb-4 border-0">
+<p class='mt-4'>Dr. Jazmin Zatarain Salazar is an Assistant Professor in the Faculty of Technology Policy and Management in the Policy Analysis at Delft University of Technology, where she leads an artificial intelligence lab to support policy analysis. Her research interests lie in advancing multiobjective decision support for environmental and water systems under climate and socio-economic uncertainty. This work requires bridging hydrologic and climate sciences, artificial intelligence, high performance computing, economics, control theory, visual analytics and participatory policy design. She holds a PhD in Civil and Environmental Engineering from Cornell University, U.S.A., with an emphasis in Environmental and Water Resources Systems Engineering.
+</p>
 </div>
 </div>
 
