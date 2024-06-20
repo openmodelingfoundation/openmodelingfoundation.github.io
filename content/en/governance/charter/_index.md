@@ -7,6 +7,7 @@ weight: 1
 ---
 
 _Adopted December 8, 2021_
+_Last Updated June 14 2024_
 
 ## Vision
 
@@ -61,8 +62,8 @@ human well-being.
 ### Activities
 
 The Open Modeling Foundation carries out a series of coordinated activities to further its vision, mission, and goals
-under the guidance and with the support of the OMF Executive Committee, Members Council, Working Groups, and member
-organizations. These activities include, but are not limited to the following.
+under the guidance and with the support of the OMF Executive Committee, Members Council, Working Groups, and Member
+Organizations. These activities include, but are not limited to the following:
 
 #### Community Standards for Modeling Science
 
@@ -119,7 +120,7 @@ web services, or to add a standardized API to models. Related to this, the OMF m
 maintain a common ontology database to facilitate interoperability.
 
 The OMF may also adopt and promote common metadata standards for model code repositories to improve discoverability and
-access for models located across diverse, internationl archives.
+access for models located across diverse, international archives.
 
 It may also develop and maintain a global, online index to non-computational models (e.g., numerical, and conceptual)
 that meet OMF standards for documentation, reuse, and transparency.
@@ -148,7 +149,7 @@ work, and assigning digital badges or other public recognition of authors who do
 
 #### Seeking Funding
 
-The Open Modeling Foundation, through its Executive Committee, Working Groups, and its member organizations, will seek
+The Open Modeling Foundation, through its Executive Committee, Working Groups, and its Member Organizations, will seek
 external funding to support the activities of the foundation.
 
 #### Additional Activities
@@ -179,12 +180,10 @@ The policies and activities of Open Modeling Foundation are administered by shar
 an **Executive Director** (ED), an **Executive Committee** (EC), a **Members Council** (MC), and several **Working
 Groups**. The Members Council is the primary OMF governing body, responsible for approving policies, procedures, and
 standards. The Executive Committee manages and administers OMF activities, following policies, procedures, and standards
-approved by the Members Council. The Director and Executive committee are assisted by a Project Coordinator and a
-Cyberinfrastructure Support team. The working groups will organize key activity sets of the OMF. Additionally, early
-career next-generation scientists can participate in the activities of the OMF through the **OMF Early Career
-Scholars**. Organizations that do not wish to become full members, and individuals who do not wish to join a working
-group can still be associated with the OMF to a more limited extent as OMF **Affiliates**. This organization is
-represented schematically in the 
+approved by the Members Council. The Director and Executive Committee are assisted by the Administrative Coordinator.
+The Working Groups will organize key activity sets of the OMF. Organizations that do not wish to become full members,
+and individuals who do not wish to join a Working Group can still be associated with the OMF to a more limited extent as
+OMF **Affiliates**. This organization is represented schematically in the
 [attached diagram](https://docs.google.com/viewer?url=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/files/6462528/OMF_org.pdf).
 
 ### Members Council
@@ -249,24 +248,22 @@ will be considered like any new request to join the Open Modeling Foundation.
 The Executive Director must be a member of an OMF member organization and is elected by a majority vote of the Members
 Council to serve for renewable five year terms. The Executive Director oversees and administers the daily activities and
 fiscal management of the Open Modeling Foundation. These Executive Director responsibilities are shared with the
-Executive Committee. The Executive Director calls and chairs meetings of the Executive Committee and Members Council, or
+Executive Committee (EC). The Executive Director calls and chairs meetings of the Executive Committee and Members Council, or
 identifies a substitute from the EC if unable to do so.
 
 ### Executive Committee
 
 Voting members of the Executive Committee are composed of:
 
-- the leaders of each Working Group and
+- one voting representative (Chair or Co-Chair) of each Working Group and
 - three representatives elected from the Members Council.
 
-Elected members of the EC serve staggered three-year terms.
+Elected representatives to the EC from the Members Council serve staggered three-year terms.
 
 Non-voting members of the Executive Committee are composed of:
 
 - the Executive Director (who may vote to break ties in the EC),
-- the Administrative Coordinator,
-- a representative of the Cyberinfrastructure and Education Support team, and
-- a representative from the OMF Early Career Scholars
+- the Administrative Coordinator
 
 The Executive Committee ensures that the activities of the Open Modeling Foundation further its vision, mission, and
 goals as expressed in this charter. It oversees all elections and any other selection of individuals involved in OMF
@@ -286,7 +283,7 @@ including an Administrative Coordinator and technical staff.
 
 The Executive Director and EC are supported by an Administrative Coordinator (AC) who coordinates OMF activities and
 helps the ED evaluate their effectiveness. The AC is appointed by the ED, with approval from the EC. The AC facilitates
-communication among OMF member organizations, including organizing in-person and virtual meetings, and disseminates the
+communication among OMF Member Organizations, including organizing in-person and virtual meetings, and disseminates the
 results of these meetings. They also disseminate OMF draft and final approved documents (e.g., modeling standards) and
 compile information about OMF activities for dissemination on the OMF Science Gateway. The AC helps the ED to compile
 evaluation metrics to report to the MC, and facilitates communication between Working Groups, the EC, the MC, and
@@ -295,18 +292,18 @@ stakeholders.
 ### Working Groups
 
 Open Modeling Foundation Working Groups coordinate key activities, enabling a diverse spectrum of modeling scientists to
-participate directly in OMF activities and self-governance and ensuring that it can fullfill its vision, mission, and
+participate directly in OMF activities and self-governance and ensuring that it can fulfill its vision, mission, and
 goals. Working Groups and their activities are described in a separate document. 
 
 Any modeling scientist can join a Working Group. Working Groups self organize, with support from the Executive
-Committee, and nominate at least two Working Group Co-Chairs, for approval by the Members Council. Working Group Chairs
-serve for a three-year, renewable term. Working Groups meet as needed, at least annually, in person and/or via
-videoconferencing.
+Committee, and can nominate Working Group Co-Chairs on an as-needed basis as group priorities develop and Working Group
+membership changes, for approval by the Members Council. Working Group Chairs serve a three-year, renewable term.
+Working Groups meet as needed, at least once annually, in person and/or via videoconferencing.
 
 #### Proposing and Disbanding Working Groups
 
 Working Groups may be proposed by the Executive Committee to oversee and coordinate OMF activities. The establishment of
-any new working groups must be approved by the Members Council. Working Groups can also be disbanded by proposal by the
+any new Working Groups must be approved by the Members Council. Working Groups can also be disbanded by proposal by the
 Executive Committee and approval by the Members Council.
 
 #### Limited Term Task Groups
@@ -326,7 +323,7 @@ Group should notify Working Group leaders in writing of this intent. Working Gro
 up-to-date listing of Working Group membership. 
 
 An individual can be suspended or permanently removed from an Open Modeling Foundation Working Group if they are found
-to engage in illegal or unethical practice, violate the Open Modeling Foundation Values, or become inactive by failing
+to engage in illegal or unethical practice, violate the [Open Modeling Foundation Values]({{< relref "values" >}}), or become inactive by failing
 to participate in Working Group meetings for two consecutive years without excused absence. A request to consider
 removing a Working Group member can be made by the Working Group leaders in the form of a letter to the Executive
 Committee, describing the reasons why removal should be considered. The Executive Committee will review the request,
@@ -337,44 +334,6 @@ Open Modeling Foundation Working Group. If the Members Council votes to remove a
 removal is effective immediately. There is no appeal to this vote of removal. However, after a period of not less than
 one year, an individual can request to rejoin an Open Modeling Foundation Working Group. Such a request will be
 considered like any new request to join a Working Group.
-
-### Cyberinfrastructure and Technical Support Staff
-
-The Cyberinfrastructure and Technical Support (CTS) staff coordinates development and management of the OMF Science
-Gateway, and online platform for collaborative governance and standards. CTS works to identify or develop tools and
-processes which serve to lower the technical barriers towards adoption of OMF standards, and ways to best deploy these
-tools to enable their use by modeling scientists. CTS staff assist the EOWG in developing online training modules and
-disseminating them on the OMF Gateway.
-
-### Early Career Scholars
-
-The Early Career Scholars helps the Open Modeling Foundation to support student and early career development. The ECS is
-open to any student enrolled in an institution of higher learning (e.g., college or university) or early career scholar.
-The ECS provides input to Working Groups and the Executive Committee. The ECS can organize student-focused programs and
-events, assisted by the Administrative Coordinator and EOWG. Members of the ECS elect a leader to represent the ECS on
-the Executive Committee.
-
-#### Joining and Leaving the Early Career Scholars
-
-Individuals may request to become a member of the Open Modeling Foundation Early Career Scholars by a 
-[written notification of request]({{< param working_group_request_form >}}) to the OMF Administrative Coordinator, with
-approval of the Executive Committee. Any individuals seeking to join the ECS must agree to support the mission, goals,
-ethics, and values of the OMF, as described in this charter and the OMF values statement, to promote OMF approved
-standards, and to provide professional recognition to researchers engaged in standards-based modeling. An individual
-intending to leave the ECS should notify the Administrative Coordinator in writing of this intent.
-
-An individual can be suspended or permanently removed from the Open Modeling Foundation ECS if they are found to engage
-in illegal or unethical practice, violate the Open Modeling Foundation Values, become inactive by failing to participate
-in ECS meetings or other activities for two consecutive years without excused absence, or becoming no longer qualified
-for membership as an ECS. A request to consider removing an ECS member can be made by the ECS leadership in the form of
-a letter to the Executive Committee, describing the reasons why removal should be considered. The Executive Committee
-will review the request, compile relevant information from all parties, and refer the matter to a vote of the Members
-Council with a recommendation to approve or deny the request. A vote of the majority of at least two-thirds of the valid
-votes cast in a meeting at which at least two-thirds of the Members Council participates is needed to remove an
-individual from the Open Modeling Foundation ECS. If the Members Council votes to remove an individual from the ECS,
-removal is effective immediately. There is no appeal to this vote of removal. However, after a period of not less than
-one year, an individual can request to rejoin the Open Modeling Foundation ECS. Such a request will be considered like
-any new request to join the ECS.
 
 ### Open Modeling Foundation Affiliates
 
@@ -396,7 +355,7 @@ professional recognition to researchers engaged in standards-based modeling. An 
 the Affiliates should notify the Administrative Coordinator in writing of this intent. 
 
 An individual can be suspended or permanently removed from the Open Modeling Foundation Affiliates if they are found to
-engage in illegal or unethical practice or violate the Open Modeling Foundation Values. A request to consider removing
+engage in illegal or unethical practice or violate the [Open Modeling Foundation Values]({{< relref "values" >}}). A request to consider removing
 an Affiliate can be made by any OMF member in good standing in the form of a letter to the Executive Committee,
 describing the reasons why removal should be considered. The Executive Committee will review the request, compile
 relevant information from all parties, and decide to remove the individual from the Affiliates list. A removal is
