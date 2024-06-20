@@ -8,7 +8,7 @@ weight: 100
 
 Open Modeling Foundation Working Groups coordinate key activities, enabling a diverse spectrum of modeling scientists to participate directly in OMF activities and self-governance and ensuring that it can fulfill its vision, mission, and goals. Five Working Groups are established and described below; additional Working Groups may be established with approval of the Members Council.
 
-Any modeling scientist can join a Working Group. Working Groups self organize, with support from the Executive Committee, and nominate a Working Group Chair for approval by the Members Council. Working Group Chairs serve for a three-year, renewable term. Each working group may also choose to nominate any number of Co-Chairs as appropriate - each with the same term length and responsibilities as the Chair.
+Any modeling scientist can join a Working Group. Working Groups self organize, with support from the Executive Committee, and nominate a Working Group Chair for approval by the Members Council. Working Group Chairs serve for a three-year, renewable term. Each Working Group may also choose to nominate any number of Co-Chairs as appropriate - each with the same term length and responsibilities as the Chair.
 
 Working Groups self-organize and meet as needed at least once per year either virtually or in person.  
 
@@ -24,7 +24,7 @@ The Standards Working Group (SWG) oversees the adoption, dissemination, and admi
 
 ### Certification Working Group
 
-The Certification Working Group (CWG) develops and administers programs to certify model code that meets OMF standards for modeling best practices, and officially recognize model developers who apply these standards. CWG activities include developing and administering a community-wide program for model code peer review, establishing metrics for standards compliance, creating and assigning digital certification badges that follow guidelines being developed by the National Information Standards Organization (NISO). The CWG helps OMF member (and other) code repositories to ensure that models meeting OMF standards are clearly identified and developers who create standards-based models are publicly recognized. The CWG coordinates collaborative efforts with journals, funding agencies, societies, institutions/labs, other software/modeling consortia, and professional bodies to diseminate and administer OMF standards across the community of modeling science, and to promote recognition of OMF standards.
+The Certification Working Group (CWG) develops and administers programs to certify model code that meets OMF standards for modeling best practices, and officially recognize model developers who apply these standards. CWG activities include developing and administering a community-wide program for model code peer review, establishing metrics for standards compliance, creating and assigning digital certification badges that follow guidelines being developed by the National Information Standards Organization (NISO). The CWG helps OMF member (and other) code repositories to ensure that models meeting OMF standards are clearly identified and developers who create standards-based models are publicly recognized. The CWG coordinates collaborative efforts with journals, funding agencies, societies, institutions/labs, other software/modeling consortia, and professional bodies to disseminate and administer OMF standards across the community of modeling science, and to promote recognition of OMF standards.
 
 ### Education and Outreach Working Group
 
@@ -38,7 +38,7 @@ The Cyberinfrastructure Working Group (CYWG) coordinates development and managem
 
 The Early Career Scholars (ECSWG) helps the Open Modeling Foundation to support student and early career development. The ECSWG is
 open to any student enrolled in an institution of higher learning (e.g., college or university) or early career scholar (recent graduate).
-The ECSWG provides input to the Executive Committee. The ECS can organize student-focused programs, manuscripts, and events, assisted by the Administrative Coordinator and other OMF WG's as appropriate. 
+The ECSWG provides input to the Executive Committee. The ECSWG can organize student-focused programs, manuscripts, and events, assisted by the Administrative Coordinator and other OMF WG's as appropriate. 
 
 ### Additional Working Groups
 

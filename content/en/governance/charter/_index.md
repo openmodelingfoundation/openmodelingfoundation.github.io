@@ -120,7 +120,7 @@ web services, or to add a standardized API to models. Related to this, the OMF m
 maintain a common ontology database to facilitate interoperability.
 
 The OMF may also adopt and promote common metadata standards for model code repositories to improve discoverability and
-access for models located across diverse, internationl archives.
+access for models located across diverse, international archives.
 
 It may also develop and maintain a global, online index to non-computational models (e.g., numerical, and conceptual)
 that meet OMF standards for documentation, reuse, and transparency.
@@ -180,8 +180,10 @@ The policies and activities of Open Modeling Foundation are administered by shar
 an **Executive Director** (ED), an **Executive Committee** (EC), a **Members Council** (MC), and several **Working
 Groups**. The Members Council is the primary OMF governing body, responsible for approving policies, procedures, and
 standards. The Executive Committee manages and administers OMF activities, following policies, procedures, and standards
-approved by the Members Council. The Director and Executive committee are assisted by the Administrative Coordinator. The working groups will organize key activity sets of the OMF. Organizations that do not wish to become full members, and individuals who do not wish to join a working group can still be associated with the OMF to a more limited extent as OMF **Affiliates**. This organization is
-represented schematically in the 
+approved by the Members Council. The Director and Executive Committee are assisted by the Administrative Coordinator.
+The Working Groups will organize key activity sets of the OMF. Organizations that do not wish to become full members,
+and individuals who do not wish to join a Working Group can still be associated with the OMF to a more limited extent as
+OMF **Affiliates**. This organization is represented schematically in the
 [attached diagram](https://docs.google.com/viewer?url=https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/files/6462528/OMF_org.pdf).
 
 ### Members Council
@@ -253,7 +255,7 @@ identifies a substitute from the EC if unable to do so.
 
 Voting members of the Executive Committee are composed of:
 
-- one voting representative (Chair or Co-Chair) of each working group and
+- one voting representative (Chair or Co-Chair) of each Working Group and
 - three representatives elected from the Members Council.
 
 Elected representatives to the EC from the Members Council serve staggered three-year terms.
@@ -290,16 +292,18 @@ stakeholders.
 ### Working Groups
 
 Open Modeling Foundation Working Groups coordinate key activities, enabling a diverse spectrum of modeling scientists to
-participate directly in OMF activities and self-governance and ensuring that it can fullfill its vision, mission, and
+participate directly in OMF activities and self-governance and ensuring that it can fulfill its vision, mission, and
 goals. Working Groups and their activities are described in a separate document. 
 
 Any modeling scientist can join a Working Group. Working Groups self organize, with support from the Executive
-Committee, and can nominate Working Group Co-Chairs on an as needed basis as group priorities develope and Working Group membership changes, for approval by the Members Council. Working Group Chairs serve a three-year, renewable term. Working Groups meet as needed, at least annually, in person and/or via videoconferencing.
+Committee, and can nominate Working Group Co-Chairs on an as-needed basis as group priorities develop and Working Group
+membership changes, for approval by the Members Council. Working Group Chairs serve a three-year, renewable term.
+Working Groups meet as needed, at least once annually, in person and/or via videoconferencing.
 
 #### Proposing and Disbanding Working Groups
 
 Working Groups may be proposed by the Executive Committee to oversee and coordinate OMF activities. The establishment of
-any new working groups must be approved by the Members Council. Working Groups can also be disbanded by proposal by the
+any new Working Groups must be approved by the Members Council. Working Groups can also be disbanded by proposal by the
 Executive Committee and approval by the Members Council.
 
 #### Limited Term Task Groups
@@ -319,7 +323,7 @@ Group should notify Working Group leaders in writing of this intent. Working Gro
 up-to-date listing of Working Group membership. 
 
 An individual can be suspended or permanently removed from an Open Modeling Foundation Working Group if they are found
-to engage in illegal or unethical practice, violate the Open Modeling Foundation Values, or become inactive by failing
+to engage in illegal or unethical practice, violate the [Open Modeling Foundation Values]({{< relref "values" >}}), or become inactive by failing
 to participate in Working Group meetings for two consecutive years without excused absence. A request to consider
 removing a Working Group member can be made by the Working Group leaders in the form of a letter to the Executive
 Committee, describing the reasons why removal should be considered. The Executive Committee will review the request,
@@ -351,7 +355,7 @@ professional recognition to researchers engaged in standards-based modeling. An 
 the Affiliates should notify the Administrative Coordinator in writing of this intent. 
 
 An individual can be suspended or permanently removed from the Open Modeling Foundation Affiliates if they are found to
-engage in illegal or unethical practice or violate the Open Modeling Foundation Values. A request to consider removing
+engage in illegal or unethical practice or violate the [Open Modeling Foundation Values]({{< relref "values" >}}). A request to consider removing
 an Affiliate can be made by any OMF member in good standing in the form of a letter to the Executive Committee,
 describing the reasons why removal should be considered. The Executive Committee will review the request, compile
 relevant information from all parties, and decide to remove the individual from the Affiliates list. A removal is
