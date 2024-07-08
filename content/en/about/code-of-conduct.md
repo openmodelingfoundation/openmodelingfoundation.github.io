@@ -4,7 +4,7 @@ date: 2023-02-28T19:20:23Z
 weight: 104
 ---
 
-{{% alert title="Rattified: October 2023" color="warning" %}}
+{{% alert title="Ratified: October 2023" color="warning" %}}
 This Code of Conduct was approved October 20th 2023 by the Members Council of the Open Modeling Foundation.
 {{% /alert %}}
 
@@ -97,7 +97,7 @@ The following outlines the process for community members to report a Code of Con
 
 ### Making a Report
 
-The Executive Committee will serve as the OMF Code of Conduct Committee. If you’re experiencing or observing unacceptable behavior that is coutradicts this Code of Conduct, please contact the OMF Code of Conduct Committee at charlotte.till@asu.edu. At this time the OMF administrative coordinator is the individual contact for the Code of Conduct Committee.
+The Executive Committee will serve as the OMF Code of Conduct Committee. If you experience or observe unacceptable behavior that is counter to this Code of Conduct, please contact the OMF Code of Conduct Committee at [conduct@openmodelingfoundation.org](mailto:conduct@openmodelingfoundation.org). At this time the OMF administrative coordinator is the individual contact for the Code of Conduct Committee.
 
 The reporting party does not need to be directly involved in a Code of Conduct violation incident. You are encouraged to report incidents where someone has engaged in behavior that is potentially illegal or makes you or someone else feel unsafe, unwelcome, or uncomfortable as explained in these guidelines. Please make a bystander report if you observe a potentially dangerous situation, someone in distress, or violations of these guidelines, even if the situation is not happening to you. 
 
