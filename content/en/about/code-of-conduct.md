@@ -4,8 +4,8 @@ date: 2023-02-28T19:20:23Z
 weight: 104
 ---
 
-{{% alert title="Draft (February 2023)" color="warning" %}}
-This Code of Conduct was last updated on February 25, 2023.
+{{% alert title="Ratified: October 2023" color="warning" %}}
+This Code of Conduct was approved October 20th 2023 by the Members Council of the Open Modeling Foundation.
 {{% /alert %}}
 
 The Open Modeling Foundation (OMF) is an international open science community of diverse scientists and teams from around the world seeking to meet the planetary, social, and environmental challenges we face in our complex and rapidly changing world. As members of the Open Modeling Foundation, we champion collaborative and open science. We strengthen our community and mission through diverse perspectives and exchanging ideas in an inclusive environment.
@@ -22,7 +22,7 @@ These guidelines outline the behaviors expected from the members of the OMF com
 
 ## Expected Behavior
 
-### Appreciate and Accommodate Our Similarities and Differences
+### Appreciate and Accommodate our Similarities and Differences
 
 OMF members come from many cultures and backgrounds. Be respectful of people with different cultural practices and beliefs. Work to acknowledge your own biases, prejudices, and discriminatory practices. Think of others’ needs and learn to appreciate their point of view. Use preferred titles (including preferred pronouns). Respect people’s right to privacy and confidentiality. Be open to both learning from and educating others.
 
@@ -30,11 +30,9 @@ OMF members come from many cultures and backgrounds. Be respectful of people wit
 
 Being inclusive means the following:
 
-Be curious and manage your assumptions. Seek diverse perspectives: diversity of views and people powers innovation, even if it is not always comfortable. Be proactive and help new perspectives be heard and listen actively. If you find yourself dominating a discussion, it is especially important to step back and encourage other voices to join in. Be aware of how much time is taken up by dominant members of the group. Provide alternative ways to contribute or participate when possible—for example, using the Zoom chat or allowing people to ask anonymous questions. Avoid slang or idioms that might not translate across cultures or be deliberate in explaining them to share our diverse cultures and languages. Speak plainly and avoid or define acronyms and jargon that not everyone may understand. Be an ally to others when you see a need.
+Be curious and manage your assumptions. Seek diverse perspectives: diversity of views and people powers innovation, even if it is not always comfortable. Be proactive and help new perspectives be heard and listen actively. If you find yourself dominating a discussion, it is especially important to step back and encourage other voices to join in. Be aware of how much time is taken up by dominant members of the group. Provide alternative ways to contribute or participate when possible—for example, using the chat functions within video conferencing software or allowing people to ask anonymous questions. Avoid slang or idioms that might not translate across cultures or be deliberate in explaining them to share our diverse cultures and languages. Speak plainly and avoid or define acronyms and jargon that not everyone may understand. Be an ally to others when you see a need.
 
 Be inclusive of everyone in an interaction, respecting and facilitating people’s participation, whether they are:
-
-
 
 * Remote (on video or phone only)
 * Not a native English speaker
@@ -93,23 +91,19 @@ Violence and threats of violence are not acceptable—online or offline. This in
 
 ### Code of Conduct Violations During Open Modeling Foundation Meetings
 
-If there is a clear violation of the Code of Conduct during an OMF meeting—for example, a meeting is Zoom bombed or an OMF member is verbally abusing another participant—an OMF Executive Committee member may choose to expel the violator from the meeting or close the meeting early. If they do so, they will follow up with the Code of Conduct Committee to determine if further action is needed.
+If there is a clear violation of the Code of Conduct during an OMF meeting — for example, a meeting in an online environment is "bombed", or an OMF member is verbally abusing another participant, — an OMF Executive Committee member may choose to expel the violator from the meeting or close the meeting early. If they do so, they will follow up with the Code of Conduct Committee to determine if further action is needed.
 
 The following outlines the process for community members to report a Code of Conduct violation after it has occurred.
 
 ### Making a Report
 
-If you believe you’re experiencing unacceptable behavior that is counter to this Code of Conduct, please contact a member of the OMF Code of Conduct Committee:
+The Executive Committee will serve as the OMF Code of Conduct Committee. If you experience or observe unacceptable behavior that is counter to this Code of Conduct, please contact the OMF Code of Conduct Committee at [conduct@openmodelingfoundation.org](mailto:conduct@openmodelingfoundation.org). At this time the OMF administrative coordinator is the individual contact for the Code of Conduct Committee.
 
+The reporting party does not need to be directly involved in a Code of Conduct violation incident. You are encouraged to report incidents where someone has engaged in behavior that is potentially illegal or makes you or someone else feel unsafe, unwelcome, or uncomfortable as explained in these guidelines. Please make a bystander report if you observe a potentially dangerous situation, someone in distress, or violations of these guidelines, even if the situation is not happening to you. 
 
+A Code of Conduct committee member will work with you to find a time to complete an incident report, including a concise description of the situation. If a conflict of interest is present between you and any Code of Conduct committee member, or the Code of Conduct committee member and the person/people being reported, please request for another committee member to take your report.
 
-* TBD
-
-The committee member will work with you to find a time to take an incident report, which includes a concise description of the situation. If a conflict of interest is present between you and the committee member, or the committee member and the person/people being reported, they will recommend another committee member to take your report.
-
-If you would prefer to make a report via email rather than discussing it with a committee member, please include:
-
-
+If you prefer to make a report via email rather than discussing it with a committee member, please include:
 
 * Your contact information (so we can get in touch with you if we need to follow up).
 * Date and time of the incident.
@@ -118,22 +112,22 @@ If you would prefer to make a report via email rather than discussing it with a 
 * Description of the incident.
 * Name of the reported person(s).
 * Any additional circumstances surrounding the incident.
-* Any additional circumstances surrounding your relationship with the people involved in the incident (e.g., whether the person is a coworker, a boss, etc.— see the [Conflicts of Interest](#bookmark=id.2et92p0) section below).
+* Any additional circumstances surrounding your relationship with the people involved in the incident (e.g., whether the person is a coworker, a boss, etc. — see the Conflicts of Interest section below).
 * Other people involved or witnesses to the incident and their contact information (if applicable).
 
-The reporting party does not need to be directly involved in a Code of Conduct violation incident. Please make a bystander report if you observe a potentially dangerous situation, someone in distress, or violations of these guidelines, even if the situation is not happening to you.
+### False Reporting
+
+Any participants who abuse the reporting process will be considered in violation of these guidelines and subject to the same consequences. False reporting, especially to retaliate or exclude, will not be accepted or tolerated. Intentional false reports will be considered a violation of these guidelines and will result in removal of membership from the OMF.
 
 ### Confidentiality
 
 The OMF and the Code of Conduct Committee will keep reports as confidential as possible. When we discuss incidents with people who are reported, we will anonymize details as much as possible to protect reporter privacy. In some cases, even if the details are anonymized, the reported person may be able to guess who made the report. If you have concerns about retaliation or your personal safety, please note that in your report. We still encourage you to report, so that we can support you while keeping OMF members safe. In some cases, we can compile several anonymized reports into a pattern of behavior and take action on that pattern.
 
-### What Happens After a Report Is Filed
+### What Happens After a Report is Filed
 
 After a member of the Code of Conduct Committee takes your report, they will consult with the committee within two business days to determine an appropriate response. The Code of Conduct Committee makes decisions by consensus.
 
 During the committee meeting, members will:
-
-
 
 * Review the report documentation to determine what happened.
 * Consult any documentation of past incidents for patterns of behavior, if there are any.
@@ -144,17 +138,27 @@ During the committee meeting, members will:
 
 After the meeting, a committee member may communicate with the reported person to:
 
-
-
 * Explain what happened and the impact of their behavior.
 * Offer concrete examples of how to improve their behavior.
 * Explain the consequences of their behavior, or future consequences if the behavior is repeated.
 
-## Possible Consequences of Code of Conduct Violations
+### Conflicts of Interest
 
-What follows are examples of possible responses to an incident report. This list is not inclusive, and the OMF reserves the right to take any action it deems necessary. The strongest response the OMF may take is to completely ban a user from the OMF platform and, as is required, to report a person to their home institution. If the committee feels that law enforcement should be involved, they will recommend that the reporter make that contact.
+If a committee member has a conflict of interest for a report, they will recuse themselves from the discussion and handling of the incident. The incident documentation will not be available to them, and they will excuse themselves from any conversations involving handling the incident. Examples of conflict of interest include:
 
-* A verbal discussion in person or via phone/Zoom followed by documentation of the conversation via email.
+* The reporter or reported person is their advisor and/or committee member, student, professor, or manager.
+* They have a romantic or platonic relationship with either the reporter or the reported person (Committee members may participate if they are an acquaintance).
+* The reporter or reported person is their family member.
+* The reporter or reported person is their direct client or grantee.
+* The reporter or reported person is someone
+
+Committee members do not need to state why they have a conflict of interest, only that one exists. Other committee members should not ask why the person has a conflict of interest.
+
+### Possible Consequences of Code of Conduct Violations
+
+What follows are examples of possible responses to an incident report. This list is not inclusive, and the OMF reserves the right to take any action it deems necessary. The strongest response the OMF may take is to completely ban a user from the OMF platform and, as if required, to report a person to their home institution. If the committee feels that law enforcement should be involved, they will recommend that the reporter make that contact.
+
+* A verbal discussion in person or via phone/online formats followed by documentation of the conversation via email.
 * Not publishing the video or slides of a talk that violated the Code of Conduct.
 * Not allowing a speaker who violated the Code of Conduct to give (further) talks at the OMF.
 * Immediately ending any team leadership or other responsibilities and privileges that a person holds.
@@ -170,33 +174,15 @@ Appeals to a Code of Conduct violation decision can be made by contacting a memb
 
 Within one week of an incident report, a Code of Conduct Committee member will follow up with the person who made the report. The follow-up may include:
 
-
-
 * Acknowledgement that the committee discussed the situation.
 * A determination of whether the incident was a violation of the Code of Conduct.
 * What actions (if any) were taken to correct the reported behavior.
 
 In some cases, it may take longer to resolve a Code of Conduct violation. In this case, a Code of Conduct Committee member will follow up with the person who made the report weekly to keep them informed.
 
-### Conflicts of Interest
-
-If a committee member has a conflict of interest for a report, they will recuse themselves from the discussion and handling of the incident. The incident documentation will not be available to them, and they will excuse themselves from any conversations involving handling the incident. Examples of conflict of interest include:
-
-* The reporter or reported person is their advisor and/or committee member, student, professor, or manager.
-* They have a romantic or platonic relationship with either the reporter or the reported person (Committee members may participate if they are an acquaintance).
-* The reporter or reported person is their family member.
-* The reporter or reported person is their direct client or grantee.
-* The reporter or reported person is someone they work closely with—e.g., works on their team or on the same project.
-
-Committee members do not need to state why they have a conflict of interest, only that one exists. Other committee members should not ask why the person has a conflict of interest.
-
 ### Addressing Behavior Directly
 
-For incidents that might be settled with a brief conversation, the reporter can choose to contact the person in question or set up a video chat to discuss how the person’s behavior or words affected them. Please use this approach only if you feel comfortable; you do not have to carry the weight of addressing these issues yourself. If you’re interested in this option but unsure how to go about it, try discussing it with the OMF Director first—they will have advice on how to make the conversation happen and can also join you in a conversation if requested.
-
-### False Reporting
-
-Any participants who abuse the reporting process will be considered in violation of these guidelines and subject to the same consequences. False reporting, especially to retaliate or exclude, will not be accepted or tolerated.
+For incidents that might be settled with a brief conversation, the reporter can choose to contact the person in question or set up a video chat to discuss how the person’s behavior or words affected them. Please use this approach only if you feel comfortable; you do not have to carry the weight of addressing these issues yourself. If you’re interested in this option but unsure how to go about it, try discussing it with the OMF Director first — they will have advice on how to make the conversation happen and can also join you in a conversation if requested.
 
 ## *License and Attribution*
 
