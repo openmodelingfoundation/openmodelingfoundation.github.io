@@ -11,6 +11,9 @@ Recent Executive Committee Meeting Agenda Documents
 - [2024 Meeting 2 February](https://osf.io/5pcev)
 - [2024 Meeting 3 March](https://osf.io/3gkhx)
 - [2024 Meeting 4 April](https://osf.io/xfk8z)
+- [2024 Meeting 5 May](https://osf.io/h32tf)
+- [2024 Meeting 6 July](https://osf.io/deghm)
+- [2024 Meeting 7 September](https://osf.io/5ahwe)
 
 2023
 
