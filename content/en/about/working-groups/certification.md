@@ -14,7 +14,7 @@ If you are interested in joining the Certification Working Group, [please use th
 - Is a community advocate, developer, and experimenter in the areas of Open Science and FAIR
 
 #### [Sandra Gesing](http://sandra-gesing.com/)
-- Holds dual roles as Executive Director of the US Research Software Engineer Association (U-RSE) and as a Senior Researcher at the San Diego Supercomputer Center, focusing on science gateways, computational workflows, and distributed computing in interdisciplinary contexts
+- Holds dual roles as Executive Director of the US Research Software Engineer Association (US-RSE) and as a Senior Researcher at the San Diego Supercomputer Center, focusing on science gateways, computational workflows, and distributed computing in interdisciplinary contexts
 - Directs the Center of Excellence for Science Gateways
 - Performs advocacy work through US-RSE to promote career paths and recognition for research software engineers
 - Has held academic and industry positions in the US, UK, and Germany
@@ -25,9 +25,8 @@ If you are interested in joining the Certification Working Group, [please use th
 - He holds both a bachelor’s in business administration and management, and a master’s in philosophy of the social sciences
 
 ### **Current Developments**
-The nearly 30 members of the Certification WG are taking a short break from projects after the monumental efforts put into their recent manuscript. New projects and directions will be discussed in the first quarter of 2025
-
+The nearly 30 members of the Certification WG are taking a short break from projects after the monumental efforts put into their recent manuscript. New projects and directions will be discussed in the first quarter of 2025.
 
 ### **Previous Projects**
-- Manuscript preparation 'Ten Simple Rules to Promote Good Model-Sharing Practices'. Preprint avaliable through [zenodo](https://zenodo.org/records/12665701).
-- Feb-May 2024: Seven part [ModelShare](https://www.youtube.com/channel/UC17zWxzjmfvNV_bCYhOZrsQ) workshop serise. Learn more about this project [here](https://share.openmodelingfoundation.org/).
+- Manuscript preparation 'Ten Simple Rules to Promote Good Model-Sharing Practices'. Preprint available through [Zenodo](https://zenodo.org/records/12665701).
+- Feb-May 2024: Seven part [ModelShare](https://www.youtube.com/channel/UC17zWxzjmfvNV_bCYhOZrsQ) workshop series. Learn more about this project [here](https://share.openmodelingfoundation.org/).
