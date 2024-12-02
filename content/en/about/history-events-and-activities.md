@@ -1,14 +1,21 @@
 ---
-title: "History"
-linkTitle: "History"
+title: "Events and Activities"
+linkTitle: "Events and Activities"
 date: 2020-05-07T10:34:28-07:00
 weight: 101
 ---
 
 ## Upcoming Activities
-**Setting up Working Groups**
+
+Information on activities or projects of individual OMF Working Groups can be found within their individual pages accessed via the [Working Groups page]({{< ref "/about/working-groups#working-groups" >}}).
+
+**December 2024 Virtual Members Council Meeting**
+
+**May 2025 Members Council Meeting**
 
 ## Past Activities
+##### **May 2024 Members Council Meeting**
+
 ##### **Election of initial Executive Committee representatives (January 2022)**
 
 ##### **Founding Meeting of the Open Modeling Foundation**

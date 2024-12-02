@@ -156,7 +156,9 @@ weight: 100
 <!-- ROW 5 -->
 <div class="card-deck">
 
-{{< imgproc blank Fit "200x200" >}}
+<a style=color:inherit
+   href="https://www.georoundtable.xyz/">
+{{< imgproc georoundtable Fit "200x200" >}}
 
 <center><p><strong>GeoRoundtable</strong></p></center>
 {{< /imgproc >}}
