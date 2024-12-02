@@ -11,14 +11,15 @@ If you are interested in joining the Early Career Scholars Working Group, [pleas
 [Contribute to the Early Career Scholars Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/early-career-scholars)
 
 ### **Early Career Scholars Chair**
-Takuya Iwanaga
+#### [Takuya Iwanaga](https://www.researchgate.net/profile/Takuya-Iwanaga-2)
+- Senior Research Scientist within the Australian Institute of Marine Science 
+- Research Software Developer with the Institute of Water Futures
 
 
 ### **Current Developments**
+The amlost 40 strong group of Early Career Scholars within the OMF are focused on developing the following:
+- Manuscript for publication of the topic of Good Modeling Practices is currently being revised based upon reviewer feedback
+
 
 ### **Previous Projects**
-
-
-##### **Friends of the Standards Working Group**
-
-People and organizations who have supported WG efforts, projects, or have otherwise been directly or indirectly involved in WG projects or efforts
+Not applicable yet - works are sill in development "Watch this space!"

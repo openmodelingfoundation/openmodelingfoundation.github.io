@@ -9,14 +9,9 @@ If you are interested in joining the Cyberinfrastructure Working Group, [please 
 [Contribute to the Cyberinfrastructure Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/cyberinfrastructure)
 
 ### **Cyberinfrastructure Chair**
-Allen Lee
+#### [Allen Lee]()
 
 
 ### **Current Developments**
 
 ### **Previous Projects**
-
-
-##### **Friends of the Standards Working Group**
-
-People and organizations who have supported WG efforts, projects, or have otherwise been directly or indirectly involved in WG projects or efforts
