@@ -17,7 +17,7 @@ If you are interested in joining the Early Career Scholars Working Group, [pleas
 
 
 ### **Current Developments**
-The amlost 40 strong group of Early Career Scholars within the OMF are focused on developing the following:
+The almost 40 strong group of OMF Early Career Scholars are focused on developing the following:
 - Manuscript for publication of the topic of Good Modeling Practices is currently being revised based upon reviewer feedback
 
 
