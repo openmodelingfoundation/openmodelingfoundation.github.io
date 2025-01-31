@@ -17,29 +17,7 @@ We recognize that our efforts will need to evolve. We pledge to continuously imp
 
 ## Code of Conduct
 
-Behaviors that help create a positive environment include:
-
-- Use welcoming and inclusive language
-- Be respectful of differing viewpoints and experiences
-- Gracefully accept constructive criticism
-- Focus on what is best for the community
-- Show empathy towards other community members
-
-Examples of unacceptable behavior include:
-
-- The use of sexualized language or imagery and unwelcome sexual attention or advances
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or electronic address, without explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
-
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by [contacting OMF support](mailto:support@openmodelingfoundation.org). The OMF Leadership will review and investigate all complaints and will respond in a way that it deems appropriate to the circumstances. The OMF Leadership is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
-
-OMF Leadership and members who do not follow or enforce this statement of Values in good faith may face temporary or permanent repercussions as determined by other members of the OMF Leadership.
-
-OMF Leadership are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
-
-OMF Leadership have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this statement of Values, or to temporarily or permanently ban any contributor for other behaviors they deem inappropriate, threatening, offensive, or harmful.
+The ratified Code of Conduct for the OMF can be accessed *[HERE]({{< ref "/about/code-of-conduct" >}})*
 
 ## Scope
 

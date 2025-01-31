@@ -15,6 +15,10 @@ If you are interested in joining the Early Career Scholars Working Group, [pleas
 - Senior Research Scientist within the Australian Institute of Marine Science 
 - Research Software Developer with the Institute of Water Futures
 
+#### [Tati Micheletti](https://micheletti.science/)
+- Works on ecological forecasting and landscape modeling
+- Expertise in invasive species management and currently working on predictive validation
+- Active in open science initiatives, including the Open Modeling Foundation
 
 ### **Current Developments**
 The almost 40 strong group of OMF Early Career Scholars are focused on developing the following:
