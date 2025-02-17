@@ -10,14 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Check out code using git
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           submodules: "recursive"
           fetch-depth: 0
 
       # Install node with yarn
       - name: Setup Yarn
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
       - run: yarn install
 
       # Run list-reactions.js with Node and pass the authentication token
