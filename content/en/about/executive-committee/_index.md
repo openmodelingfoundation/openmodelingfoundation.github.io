@@ -101,18 +101,18 @@ Elected members of the EC serve staggered three-year terms.
 
 <div class="card mb-4 border-0">
 <p class='mt-4'>Serena Hamilton is a senior research fellow at the Fenner School of Environment & Society and Institute for Water Futures at the Australian National University (ANU). Her research focuses on the use of model-based approaches to make better informed decisions about socio-environmental problems. She is particularly interested in integrated assessment and modelling for co-production of knowledge in
-transdisciplinary research, and identifying and promoting best practices in modelling development and evaluation. Her recent work includes: designing integrated models for understanding socially inclusive and sustainable pathways in agricultural development in developing countries; and developing and using future scenarios in participatory processes to improve decision making in water.Dr Hamilton is also the managing editor of the open access journal Socio-Environmental Systems Modelling (SESMO).</p>
+transdisciplinary research, and identifying and promoting best practices in modelling development and evaluation. Her recent work includes: designing integrated models for understanding socially inclusive and sustainable pathways in agricultural development in developing countries; and developing and using future scenarios in participatory processes to improve decision making in water. Dr Hamilton is also the managing editor of the open access journal Socio-Environmental Systems Modelling (SESMO).</p>
 </div>
 </div>
 
 <div class="card-deck">
 
-{{< imgproc andrew-bell Resize "200x" >}}
-<center><strong>Andrew Bell</strong></center>
+{{< imgproc maria-pierce Resize "200x" >}}
+<center><strong>Maria Pierce</strong></center>
 {{< /imgproc >}}
 
 <div class="card mb-4 border-0">
-<p class='mt-4'>Andrew Bell is an assistant professor in the Department of Earth & Environment at Boston University.  His research profile is focused on co-producing agent-based models of resource systems (irrigation, deforestation, ranching, migration) with non-academic stakeholders and informing them with expert knowledge, surveys, and behavioral experiments. He is also coordinating an initiative to encourage the sharing of reusable building blocks for agent-based models.</p>
+<p class='mt-4'>Maria E. Pierce is a researcher at the Thuenen Institute of Baltic Sea Fisheries. Thuenen is a Federal Research Institute which performs extensive monitoring, conducts both applied and fundamental research and, on this basis, contributes to scientific policy advice. The latter predominantly takes place within ICES – the International Council for the Exploration of the Sea. Her research supports this work from three perspectives: Using Individual Based Modelling as a tool to gain insights into Complex Adaptive Systems, particularly with regard to changing dynamics of ecosystems under anthropogenic pressures. Using the process of modelling as a tool to align and update mental models for socio-ecological systems through group and participatory modelling. Working towards modelling practices which provide the required transparency for policy makers to make informed decisions. She is also an external research associate at the Modeling and Simulation Group at the University of Rostock.</p>
 </div>
 </div>
 
@@ -214,12 +214,12 @@ Prior to the position at DPI, she was an associate research professor in the Dep
 
 <div class="card-deck">
 
-{{< imgproc jazmin-salazar Resize "200x" >}}
-<center><strong>Jazmin Zatarain Salazar</strong></center>
+{{< imgproc tati-micheletti Resize "200x" >}}
+<center><strong>Tati Micheletti</strong></center>
 {{< /imgproc >}}
 
 <div class="card mb-4 border-0">
-<p class='mt-4'>Dr. Jazmin Zatarain Salazar is an Assistant Professor in the Faculty of Technology Policy and Management in the Policy Analysis at Delft University of Technology, where she leads an artificial intelligence lab to support policy analysis. Her research interests lie in advancing multiobjective decision support for environmental and water systems under climate and socio-economic uncertainty. This work requires bridging hydrologic and climate sciences, artificial intelligence, high performance computing, economics, control theory, visual analytics and participatory policy design. She holds a PhD in Civil and Environmental Engineering from Cornell University, U.S.A., with an emphasis in Environmental and Water Resources Systems Engineering.
+<p class='mt-4'>Tati Micheletti is a computational ecologist specializing in ecological forecasting, landscape modeling, and invasive species management. She earned her Ph.D. in Natural Sciences from TU Dresden and has extensive experience working with large-scale ecological data. Tati's research integrates predictive modeling with conservation, focusing on wildlife and forest management under climate change. Currently a Research Associate at TU Dresden, she develops tools for iterative model improvement. She is an advocate for open science and collaborates actively within global ecological modeling initiatives, including the Open Modeling Foundation.
 </p>
 </div>
 </div>

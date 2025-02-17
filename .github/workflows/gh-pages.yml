@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Read .env hugo version
         id: hugo-version
@@ -19,13 +19,13 @@ jobs:
           echo "::set-output name=DOCSY_VERSION::${DOCSY_VERSION}"
 
       - name: Add hugo nodejs dependencies
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: "18"
           cache: 'npm'
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           # sync versions with docker-compose .env ala
           # https://github.com/marketplace/actions/hugo-setup#%EF%B8%8F-read-hugo-version-from-file
@@ -41,7 +41,7 @@ jobs:
 
       - name: Deploy to Pages
         if: github.event_name == 'push'
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         env:
           HUGO_ENV: "production"
         with:
