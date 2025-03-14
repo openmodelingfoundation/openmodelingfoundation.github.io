@@ -4,9 +4,7 @@ linkTitle: "Members Council"
 weight: 100
 ---
 
-<!-- ROW 1 -->
-
-<div class="card-deck">
+<div class="d-flex flex-wrap align-items-stretch justify-content-center" style="gap: 0.5rem">
 
 <a style=color:inherit
    href="https://agmip.org/">
@@ -40,11 +38,6 @@ weight: 100
 {{< /imgproc >}}
 </a>
 
-</div>
-
-<!-- ROW 2 -->
-<div class="card-deck">
-
 <a style=color:inherit
    href="https://www.usgs.gov/centers/community-for-data-integration-cdi">
 {{< imgproc usgs-cdi Fit "200x200" >}}
@@ -76,11 +69,6 @@ weight: 100
 <center><p><strong>Center for Open Science (COS)</strong></p></center>
 {{< /imgproc >}}
 </a>
-
-</div>
-
-<!-- ROW 3 -->
-<div class="card-deck">
 
 <a style=color:inherit
    href="https://csdms.colorado.edu">
@@ -114,11 +102,6 @@ weight: 100
 {{< /imgproc >}}
 </a>
 
-</div>
-
-<!-- ROW 4 -->
-<div class="card-deck">
-
 <a style=color:inherit
    href="https://dssat.net/">
 {{< imgproc dssat Fit "200x200" >}}
@@ -151,11 +134,6 @@ weight: 100
 {{< /imgproc >}}
 </a>
 
-</div>
-
-<!-- ROW 5 -->
-<div class="card-deck">
-
 <a style=color:inherit
    href="https://www.georoundtable.xyz/">
 {{< imgproc georoundtable Fit "200x200" >}}
@@ -186,11 +164,6 @@ weight: 100
 <center><p><strong>NSF Institute for Geospatial Understanding through an Integrative Discovery Environment (I-GUIDE)</strong></p></center>
 {{< /imgproc >}}
 </a>
-
-</div>
-
-<!-- ROW 6 -->
-<div class="card-deck">
 
 <a style=color:inherit
    href="https://fennerschool.anu.edu.au/research/affiliated-research-groups/integrated-catchment-assessment-and-management-centre-icam">
@@ -225,11 +198,6 @@ weight: 100
 {{< /imgproc >}}
 </a>
 
-</div>
-
-<!-- ROW 7 -->
-<div class="card-deck">
-
 <a style=color:inherit
    href="https://www.isss.org/home/">
 {{< imgproc isss Fit "200x200" >}}
@@ -261,11 +229,6 @@ weight: 100
 <center><p><strong>State Key Laboratory of Resources & Environmental Information System, Institute of Geographic Sciences & Natural Resources Research, Chinese Academy of Sciences (LREIS)</strong></p></center>
 {{< /imgproc >}}
 </a>
-
-</div>
-
-<!-- ROW 8 -->
-<div class="card-deck">
 
 <a style=color:inherit
    href="http://www.igu-geomodeling.com/">
@@ -299,11 +262,6 @@ weight: 100
 {{< /imgproc >}}
 </a>
 
-</div>
-
-<!-- ROW 9 -->
-<div class="card-deck">
-
 <a style=color:inherit
    href="https://www.pnnl.gov/">
 {{< imgproc pnnl Fit "200x200" >}}
@@ -336,11 +294,6 @@ weight: 100
 {{< /imgproc >}}
 </a>
 
-</div>
-
-<!-- ROW 10 -->
-<div class="card-deck">
-
 <a style=color:inherit
    href="https://idrt.tamug.edu/">
 {{< imgproc tamu-resilience Fit "200x200" >}}
@@ -369,11 +322,6 @@ weight: 100
 <center><p><strong>Social Complexity and System Transformation at the Wegener Center, University of Graz (WEGC)</strong></p></center>
 {{< /imgproc >}}
 </a>
-
-</div>
-
-<!-- ROW 11 -->
-<div class="card-deck">
 
 <a style=color:inherit
    href="http://www.wici.ca ">

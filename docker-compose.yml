@@ -18,4 +18,3 @@ services:
       - ./.git:/src/.git
       - /src/themes
       - /src/node_modules
-      - ./yarn.lock:/src/yarn.lock

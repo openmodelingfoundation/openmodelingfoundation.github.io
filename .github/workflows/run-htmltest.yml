@@ -36,7 +36,7 @@ jobs:
         env:
           HUGO_ENV: "production"
         run: |
-          yarn install
+          npm install
           hugo --minify --gc -d $GITHUB_WORKSPACE/dist
       - name: run htmltest
         continue-on-error: true

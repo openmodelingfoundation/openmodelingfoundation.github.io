@@ -12,7 +12,7 @@ This GitHub pages site is generated with [hugo](https://gohugo.io) using the [do
 
 ### Setup
 
-To create a local setup of this site you can install `Docker` and `docker-compose` or `hugo` and `yarn` on your local operating system.
+To create a local setup of this site you can install `Docker` and `docker-compose` or `hugo` and `npm` on your local operating system.
 
 Clone this repository via `git clone --recurse-submodules -j8 https://github.com/openmodelingfoundation/openmodelingfoundation.github.io.git`
 
@@ -31,17 +31,18 @@ Open a hugo shell in the docker container
 % make shell
 ```
 
+#### Install hugo and npm locally
 
-
-#### Install hugo and yarn locally
 If you don't have docker installed and don't mind installing things in your operating system, you can do the following:
 
 - Install the extended version of hugo from the [releases page](https://github.com/gohugoio/hugo/releases).
-- Install yarn via your operating system's package manager or from the [yarn site](https://yarnpkg.com/getting-started/install).
-- Run `yarn install` in the base directory
-- Use hugo commands to render the site.
+- Install npm via your operating system's package manager or from the [npm site](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- Use hugo commands and npm to build/render the site.
 
 ```bash
+% hugo mod get
+% npm install
 % hugo serve     # dev server without drafts
+# OR
 % hugo serve -D  # dev server with drafts
 ```
