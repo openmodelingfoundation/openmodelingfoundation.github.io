@@ -13,7 +13,7 @@
     {{ $issueURL := (printf "%s/issues/new?%s" $gh_repo $queryString) }}
     {{ $github_discuss_category := ($.Param "github_discuss_category" | default "general") }}
 
-    <div class="td-page-meta ml-2 pb-1 pt-2 mb-0 mt-auto">
+    <div class="td-page-meta ms-2 pb-1 pt-2 mb-0 mt-auto">
     {{ if $gh_repo }}
         {{ $discussionURL := (printf "%s/discussions/categories/%s" $gh_repo $github_discuss_category) }}
         {{ $newDiscussionURL := (printf "%s/discussions/new?category=%s" $gh_repo $github_discuss_category) }}

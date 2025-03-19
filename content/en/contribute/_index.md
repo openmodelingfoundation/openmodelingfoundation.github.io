@@ -59,7 +59,7 @@ OMF Members Council Representatives are eligible to `vote` on proposed changes. 
 
 ## How to Find a Specific Pull Request
 
-1.	All pull requests submitted to the OMF GitHub site can be viewed [on the `Pull requests` tab](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/pulls).
+1.	All pull requests submitted to the OMF GitHub site can be viewed on the [Pull requests tab](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/pulls).
 2.	By default this page only displays open requests, ordered by the most recent at the top.
 3.	You can sort and filter the pull requests table by clicking on the table header names (Author, Label, Projects, etc.). For example, clicking on **_Author_** will allow you to select pull requests by a specific author. The **_sort_** menu lets you sort pull requests chronologically or by the number of comments or reactions.
 

@@ -1,35 +1,5 @@
-@import "support/functions";
-@import "variables_project";
-@import "variables";
-@import "support/mixins";
-
-@import "../vendor/bootstrap/scss/bootstrap";
-
-@import "../vendor/Font-Awesome/scss/fontawesome.scss";
-@import "../vendor/Font-Awesome/scss/solid.scss";
-@import "../vendor/Font-Awesome/scss/brands.scss";
-
-@import "support/utilities";
-@import "colors";
-@import "boxes";
-@import "blog";
-@import "code";
-@import "nav";
-@import "sidebar-tree";
-@import "sidebar-toc";
-@import "sidebar-tree-with-links";
-@import "buttons";
-@import "breadcrumb";
-@import "alerts";
-@import "content";
-@import "search";
-@import "main-container";
-@import "blocks/blocks";
-@import "section-index";
-@import "pageinfo";
-
-@if $td-enable-google-fonts {
-    @import url($web-font-path);
+a {
+    text-decoration: none;
 }
 
 footer {
@@ -51,6 +21,22 @@ footer {
 
     @include media-breakpoint-down(md) {
          min-height: 200px;
+    }
+}
+
+.person-entry {
+    display: flex;
+
+    &__portrait {
+        flex-shrink: 0;
+        margin-right: 1.5rem;
+        width: 200px;
+    }
+
+    &__bio {
+        flex-shrink: 1;
+        margin-top: 1.5rem;
+        max-width: 70%;
     }
 }
 
@@ -114,5 +100,3 @@ footer {
         visibility: hidden;
     }
 }
-
-@import "styles_project";

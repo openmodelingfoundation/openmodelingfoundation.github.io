@@ -4,13 +4,13 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "autoprefixer": "^10.2.5",
-    "postcss": "^8.4.14",
-    "postcss-cli": "^8.3.1"
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.0"
   },
   "dependencies": {
     "@octokit/action": "^3.18.0",
-    "bootstrap": "^5.0.0",
+    "bootstrap": "^5.3.3",
     "jquery": "^3.0",
-    "popper.js": "^1.16.0"
+    "@popperjs/core": "^2.11.8"
   }
 }
