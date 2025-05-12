@@ -347,18 +347,13 @@ have voting rights and are not represented in the Executive Committee.
 
 #### Joining and Leaving the Open Modeling Foundation Affiliates
 
-Individuals may request to become a member of the Open Modeling Foundation Affiliates by a 
-[written notification of request](mailto:support@openmodelingfoundation.org) to the OMF Administrative Coordinator. Any
-individuals seeking to join the OMF Affiliates, must agree to support the mission, goals, ethics, and values of the OMF,
-as described in this charter and the OMF values statement, to promote OMF approved standards, and to provide
+Individuals may request to become a member of the Open Modeling Foundation Affiliates group by [completing a short request form](https://asu.questionpro.com/omf-wg-joinrequest). Requests will be reviewed by the Administrative Coordinator and applicants added to the Affiliate group list. Any individuals seeking to join the OMF Affiliates, must agree to support the mission, goals, ethics, and values of the OMF, as described in this charter and the OMF values statement, to promote OMF approved standards, and to provide
 professional recognition to researchers engaged in standards-based modeling. An individual intending to formally leave
 the Affiliates should notify the Administrative Coordinator in writing of this intent. 
 
 An individual can be suspended or permanently removed from the Open Modeling Foundation Affiliates if they are found to
-engage in illegal or unethical practice or violate the [Open Modeling Foundation Values]({{< relref "values" >}}). A request to consider removing
-an Affiliate can be made by any OMF member in good standing in the form of a letter to the Executive Committee,
+engage in illegal or unethical practice or violate the [Open Modeling Foundation Values]({{< relref "values" >}}). A request to consider removing an Affiliate can be made by any OMF member in good standing in the form of a letter to the Executive Committee,
 describing the reasons why removal should be considered. The Executive Committee will review the request, compile
 relevant information from all parties, and decide to remove the individual from the Affiliates list. A removal is
 effective immediately without appeal. However, after a period of not less than one year, an individual can request to
-rejoin the Open Modeling Foundation Affiliates. Such a request will be considered like any new request to join the
-Affiliates.
+rejoin the Open Modeling Foundation Affiliates. Such a request will be considered like any new request to join.
