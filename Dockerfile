@@ -11,7 +11,6 @@ COPY . /src/
 
 RUN git config --global --add safe.directory /src
 
-RUN hugo mod get
 RUN npm install
 
 CMD ["server"]
