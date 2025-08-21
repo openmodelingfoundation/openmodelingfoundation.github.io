@@ -40,7 +40,6 @@ If you don't have docker installed and don't mind installing things in your oper
 - Use hugo commands and npm to build/render the site.
 
 ```bash
-% hugo mod get
 % npm install
 % hugo serve     # dev server without drafts
 # OR
