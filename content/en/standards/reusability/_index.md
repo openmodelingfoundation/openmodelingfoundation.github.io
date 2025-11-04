@@ -76,4 +76,4 @@ OMF may consider developing scaffolding for common modeling frameworks that redu
 
 ## Issues / Errata
 
-Dependencies on commercial / closed source products are fine so long as they are clearly qualified with version and operating system e.g., MATLAB R2016b (Windows 10), AnyLogic 8.7 (Windows 10), ArcGIS 10.8.1 (macOS 10.15), NetLogo 6.2.1 (Ubuntu 20.04LTS)
+Dependencies on commercial / closed source products are fine so long as they are clearly qualified with version and operating system e.g., MATLAB R2016b (Windows 10), AnyLogic 8.7 (Windows 10), ArcGIS 10.8.1 (macOS 10.15)
