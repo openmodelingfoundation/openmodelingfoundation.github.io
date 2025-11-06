@@ -6,7 +6,7 @@ The Education and Outreach Working Group (EOWG) helps OMF member organizations r
 
 If you are interested in joining the Education and Outreach Working Group, [please use this link]({{< param working_group_request_form >}}) or reach out to any of the group Co-Chairs for further information.
 
-[Contribute to the Education and Outreach discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-education-and-outreach)
+- [Contribute to the Education and Outreach discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-education-and-outreach)
 
 ### **Education & Outreach Co-Chairs**
 #### [Junzhi Liu](https://scholar.google.com/citations?user=eOB7FswAAAAJ&hl=en)

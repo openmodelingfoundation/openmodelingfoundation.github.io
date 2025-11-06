@@ -27,4 +27,4 @@ The Executive Committee ensures that the activities of the Open Modeling Foundat
 Membership in the Open Modeling Foundation Affiliates group offers a formal way for *individuals*, not represented by a member organization, to stay informed about and engage with OMF activities.
 
 ##### __[More information on OMF Affiliates]({{< ref "/governance/charter/#open-modeling-foundation-affiliates" >}})__
-##### __[Request to Join the OMF Affiliates Group](https://asu.questionpro.com/omf-wg-joinrequest)
+##### __[Request to Join the OMF Affiliates Group]({{< param working_group_request_form >}})
