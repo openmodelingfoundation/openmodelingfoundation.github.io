@@ -8,7 +8,7 @@ The ECSWG provides input to the Executive Committee. The ECSWG can organize stud
 
 If you are interested in joining the Early Career Scholars Working Group, [please use this link]({{< param working_group_request_form >}}) or reach out to the group Chair for further information.
 
-[Contribute to the Early Career Scholars Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/early-career-scholars)
+- [Contribute to the Early Career Scholars Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/early-career-scholars)
 
 ### **Early Career Scholars Chair**
 #### [Takuya Iwanaga](https://www.researchgate.net/profile/Takuya-Iwanaga-2)

@@ -6,7 +6,7 @@ The Cyberinfrastructure Working Group (CYWG) coordinates development and managem
 
 If you are interested in joining the Cyberinfrastructure Working Group, [please use this link]({{< param working_group_request_form >}}) or reach our to the group Chair for further information.
 
-[Contribute to the Cyberinfrastructure Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/cyberinfrastructure)
+- [Contribute to the Cyberinfrastructure Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/cyberinfrastructure)
 
 ### **Cyberinfrastructure Chair**
 #### [Allen Lee](https://github.com/alee)
@@ -28,15 +28,14 @@ as well as research software quality efforts like the [EVERSE Research Software 
   metadata completeness, documentation, tests, interoperability, and model analysis (e.g., sensitivity analysis, 
   uncertainty quantification, model optimization and calibration)
 
-We welcome new contributors, and are also **[actively searching for additional co-chairs](https://asu.questionpro.com/omf-wg-joinrequest)**.
+We welcome new contributors, and are also **[actively searching for additional co-chairs]({{< param working_group_request_form >}})**.
 
 Some example work streams we'd love to have more hands on deck for include:
 
 - improve the UI/UX of the OMF site
 - improve the workflows for upgrading and deploying changes to the OMF site
 - set up a parallel staging server where we can test changes to the OMF site on GitHub Pages
-- and last but not least, [please consider applying to serve as a co-chair](https://asu.questionpro.com/omf-wg-joinrequest)
-on the CYWG to help prioritize, coordinate, and manage current and future work streams
+- [please consider applying to serve as a co-chair]({{< param working_group_request_form >}}) to help prioritize, coordinate, and manage current and future work streams
 
 ### **Previous Projects**
 
