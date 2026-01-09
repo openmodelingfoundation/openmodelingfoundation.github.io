@@ -82,7 +82,7 @@ weight: 100
 
 <a style=color:inherit
    href="https://sites.usp.br/scx/en/apresentacao/">
-{{< imgproc >}}
+{{< imgproc blank Fit "200x200" >}}
 
 <center><p><strong>Complex Systems Modeling (SCX) Masters Program at the University of São Paulo</strong></p></center>
 {{< /imgproc >}}
