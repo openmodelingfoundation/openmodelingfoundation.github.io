@@ -12,14 +12,14 @@ If you are interested in joining the Certification Working Group, [please use th
 
 *We are currently seeking new Certification Working Group Co-Chairs to continue advancing this work.*
 
-If you are interested or know someone who might be a good fit, please [contact us]({{< param working_group_request_form >}}).
+If you are interested or know someone who might be a good fit, please [contact us](support@openmodelingfoundation.org).
 
 
 ### **Current Developments**
 
 *We are currently seeking new Certification Working Group Co-Chairs to continue advancing this work.*
 
-If you are interested or know someone who might be a good fit, please [contact us]({{< param working_group_request_form >}}).
+If you are interested or know someone who might be a good fit, please [contact us](support@openmodelingfoundation.org).
 
 ### **Previous Projects**
 - [Ten simple rules for good model-sharing practices](https://doi.org/10.1371/journal.pcbi.1012702)
