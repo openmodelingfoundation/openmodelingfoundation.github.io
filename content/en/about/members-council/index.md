@@ -326,12 +326,14 @@ weight: 100
 
 <center><p><strong>The UK Centre for Ecology & Hydrology (UKCEH)</strong></p></center>
 {{< /imgproc >}}
-</a
+</a>
 
-{{< imgproc blank Fit "200x200" >}}
+<a style='color:inherit' href="https://www.utwente.nl/">
+{{< imgproc utwente Fit "200x200" >}}
 
 <center><p><strong>University of Twente and the Participatory Modeling Community of Practice</strong></p></center>
 {{< /imgproc >}}
+</a>
 
 <a style=color:inherit
    href="https://wegcenter.uni-graz.at/en/research/research-group-soco/field-of-research/">
