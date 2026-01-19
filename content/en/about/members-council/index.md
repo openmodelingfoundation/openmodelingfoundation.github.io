@@ -48,10 +48,10 @@ weight: 100
 </a>
 
 <a style=color:inherit
-   href="https://www.mmu.ac.uk/business-school/research/research-centres/centre-for-policy-modelling/">
-{{< imgproc blank Fit "200x200" >}}
+   href="http://cfpm.org">
+{{< imgproc cfpm Fit "200x200" >}}
 
-<center><p><strong>Centre for Policy Modelling, Manchester Metropolitan University Business School</strong></p></center>
+<center><p><strong>Centre for Policy Modelling</strong></p></center>
 {{< /imgproc >}}
 </a>
 
@@ -89,14 +89,6 @@ weight: 100
 </a>
 
 <a style=color:inherit
-   href="https://www.csh.ac.at/">
-{{< imgproc csh Fit "200x200" >}}
-
-<center><p><strong>Complexity Science Hub Vienna (CSH)</strong></p></center>
-{{< /imgproc >}}
-</a>
-
-<a style=color:inherit
    href="https://www.cuahsi.org/">
 {{< imgproc cuahsi Fit "200x200" >}}
 
@@ -122,7 +114,7 @@ weight: 100
 
 <a style=color:inherit
    href="https://www.sciencedirect.com/journal/environmental-modelling-and-software">
-{{< imgproc blank Fit "200x200" >}}
+{{< imgproc enso Fit "200x200" >}}
 
 <center><p><strong>Environmental Modelling and Software Journal</strong></p></center>
 {{< /imgproc >}}
@@ -145,13 +137,6 @@ weight: 100
 </a>
 
 <a style=color:inherit
-   href="https://www.georoundtable.xyz/">
-{{< imgproc georoundtable Fit "200x200" >}}
-
-<center><p><strong>GeoRoundtable</strong></p></center>
-{{< /imgproc >}}
-
-<a style=color:inherit
    href="https://www.hereon.de">
 {{< imgproc hereon Fit "200x200" >}}
 
@@ -161,7 +146,7 @@ weight: 100
 
 <a style=color:inherit
    href="https://www.hrwallingford.com/">
-{{< imgproc hrwallingford Fit "200x200" >}}
+{{< imgproc hrw-blue Fit "200x200" >}}
 
 <center><p><strong>HR Wallingford (HRW)</strong></p></center>
 {{< /imgproc >}}
@@ -265,6 +250,14 @@ weight: 100
 </a>
 
 <a style=color:inherit
+   href="https://geomodeling.njnu.edu.cn/">
+{{< imgproc opengms Fit "200x200" >}}
+
+<center><p><strong>Open Geographic Modeling and Simulation (OpenGMS)</strong></p></center>
+{{< /imgproc >}}
+</a>
+
+<a style=color:inherit
    href="https://www.pik-potsdam.de/en">
 {{< imgproc pik Fit "200x200" >}}
 
@@ -298,7 +291,7 @@ weight: 100
 
 <a style=color:inherit
    href="https://ese.sustech.edu.cn/index.html?locale=en_US">
-{{< imgproc blank Fit "200x200" >}}
+{{< imgproc sz-enviot Fit "200x200" >}}
 
 <center><p><strong>Shenzhen Municipal Engineering Lab of Environmental IoT Technologies, Southern University of Science and Technology, China (SZ-EnvIoT)</strong></p></center>
 {{< /imgproc >}}
@@ -328,10 +321,11 @@ weight: 100
 {{< /imgproc >}}
 </a>
 
-<a style='color:inherit' href="https://www.utwente.nl/">
-{{< imgproc utwente Fit "200x200" >}}
+<a style=color:inherit
+href="https://participatorymodeling.org/ ">
+{{< imgproc blank Fit "200x200" >}}
 
-<center><p><strong>University of Twente and the Participatory Modeling Community of Practice</strong></p></center>
+<center><p><strong>Participatory Modeling Community of Practice</strong></p></center>
 {{< /imgproc >}}
 </a>
 
@@ -353,9 +347,9 @@ weight: 100
 
 <a style=color:inherit
    href="http://www.wur.eu/ ">
-{{< imgproc blank Fit "200x200" >}}
+{{< imgproc wur Fit "200x200" >}}
 
-<center><p><strong>Wageningen Data Competence Center, Wageningen University and Research (WUR)</strong></p></center>
+<center><p><strong>Wageningen University and Research (WUR)</strong></p></center>
 {{< /imgproc >}}
 </a>
 
@@ -364,6 +358,32 @@ weight: 100
 {{< imgproc blank Fit "200x200" >}}
 
 <center><p><strong>Young Geographer Working Group of AGA (Asian Geographical Association)</strong></p></center>
+{{< /imgproc >}}
+</a>
+
+
+##### **OMF Affiliate Organizations**
+
+<a style=color:inherit
+   href="https://www.csh.ac.at/">
+{{< imgproc csh Fit "200x200" >}}
+
+<center><p><strong>Complexity Science Hub Vienna (CSH)</strong></p></center>
+{{< /imgproc >}}
+</a>
+
+<a style=color:inherit
+   href="https://www.georoundtable.xyz/">
+{{< imgproc georoundtable Fit "200x200" >}}
+
+<center><p><strong>GeoRoundtable</strong></p></center>
+{{< /imgproc >}}
+
+<a style=color:inherit
+   href="https://www.rd-alliance.org/groups/rda-americas">
+{{< imgproc rda Fit "200x200" >}}
+
+<center><p><strong>Research Data Alliance US</strong></p></center>
 {{< /imgproc >}}
 </a>
 
