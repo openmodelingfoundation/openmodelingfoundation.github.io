@@ -8,13 +8,4 @@ services:
     ports:
       - "127.0.0.1:1313:1313"
     volumes:
-      - ./archetypes:/src/archetypes
-      - ./assets:/src/assets
-      - ./content:/src/content
-      - ./i18n:/src/i18n
-      - ./layouts:/src/layouts
-      - ./resources:/src/resources
-      - ./static:/src/static
-      - ./.git:/src/.git
-      - /src/themes
-      - /src/node_modules
+      - .:/src
