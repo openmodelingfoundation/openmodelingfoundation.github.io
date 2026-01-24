@@ -1,16 +1,12 @@
-ARG HUGO_VERSION=0.133.1
+ARG HUGO_VERSION=0.154.5
 ARG DIST_TAG=-ext-ubuntu
 FROM floryn90/hugo:${HUGO_VERSION}${DIST_TAG}
 
-ARG DOCSY_VERSION=v0.11.0
+ARG DOCSY_VERSION=v0.13.0
 
 LABEL maintainer="CoMSES Net <support@comses.net>"
 
-WORKDIR /src
-COPY . /src/
-
 RUN git config --global --add safe.directory /src
 
-RUN npm install
-
+USER root
 CMD ["server"]
