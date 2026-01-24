@@ -1,6 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on The Open Modeling Foundation</title><link>/about/</link><description>Recent content in About on The Open Modeling Foundation</description><generator>Hugo</generator><language>en</language><atom:link href="/about/index.xml" rel="self" type="application/rss+xml"/><item><title>Community</title><link>/about/community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/community/</guid><description>Member Organizations and Representatives Representatives of member organizations make up the Members Council, the primary governing body of the Open Modeling Foundation. They are responsible for approving policies, procedures, and standards.
-Any formally constituted organization composed of or representing an active community of modelers in the social and natural sciences may request to become a member of the Open Modeling Foundation and join the Members Council by addressing a letter of request to the Executive Committee.</description></item><item><title>Members Council</title><link>/about/members-council/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/members-council/</guid><description>Agricultural Model Intercomparison and Improvement Project (AgMIP) American Geophysical Union (AGU) Analysis, Integration, and Modeling of the Earth System, Future Earth (AIMES) SDSU Center for Climate and Sustainability Studies (C2S2) Center for Open Science (COS) Centre for Policy Modelling Community for Data Integration and Model Catalog, US Geological Survey (CDI-USGS) Community Surface Dynamics Modeling System (CSDMS) Network for Computational Modeling in Social and Ecological Systems (CoMSES) Complex Systems Modeling (SCX) Masters Program at the University of São Paulo Consortium of Universities for the Advancement of Hydrologic Science, Inc.</description></item><item><title>Events and Activities</title><link>/about/history-events-and-activities/</link><pubDate>Thu, 07 May 2020 10:34:28 -0700</pubDate><guid>/about/history-events-and-activities/</guid><description>Upcoming Activities Information on activities or projects of individual OMF Working Groups can be found within their individual pages accessed via the Working Groups page.
-December 2024 Virtual Members Council Meeting
-May 2025 Members Council Meeting
-Past Activities May 2024 Members Council Meeting Election of initial Executive Committee representatives (January 2022) Founding Meeting of the Open Modeling Foundation Meeting to formally establish the Open Modeling Foundation
-2021, December 6 - 8: Hybrid meeting at ASU in Washington DC and online videoconference</description></item><item><title>Open Modeling Foundation Values</title><link>/about/values/</link><pubDate>Thu, 07 May 2020 10:34:28 -0700</pubDate><guid>/about/values/</guid><description>Our Values The Open Modeling Foundation is an international open science community made up of diverse scientists and teams from around the world who seek to meet the planetary, social, and environmental challenges we face in our complex and rapidly changing world. As members of the Open Modeling Foundation, we champion collaborative and open science. Our community and our mission are strengthened through diverse perspectives and the exchange of ideas in an inclusive environment.</description></item><item><title>Code of Conduct</title><link>/about/code-of-conduct/</link><pubDate>Tue, 28 Feb 2023 19:20:23 +0000</pubDate><guid>/about/code-of-conduct/</guid><description>Ratified: October 2023 This Code of Conduct was approved October 20th 2023 by the Members Council of the Open Modeling Foundation. The Open Modeling Foundation (OMF) is an international open science community of diverse scientists and teams from around the world seeking to meet the planetary, social, and environmental challenges we face in our complex and rapidly changing world. As members of the Open Modeling Foundation, we champion collaborative and open science.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on The Open Modeling Foundation</title><link>/about/</link><description>Recent content in About on The Open Modeling Foundation</description><generator>Hugo</generator><language>en</language><atom:link href="/about/index.xml" rel="self" type="application/rss+xml"/><item><title>Community</title><link>/about/community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/community/</guid><description>&lt;h2 id="member-organizations-and-representatives"&gt;Member Organizations and Representatives&lt;a class="td-heading-self-link" href="#member-organizations-and-representatives" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Representatives of member organizations make up the Members Council, the primary governing body of the Open Modeling Foundation. They are responsible for approving policies, procedures, and standards.&lt;/p&gt;
+&lt;p&gt;Any formally constituted organization composed of or representing an active community of modelers in the social and natural sciences may request to become a member of the Open Modeling Foundation and join the Members Council by addressing a letter of request to the Executive Committee. Letters requesting membership can be sent to &lt;strong&gt;
+&lt;a href="mailto:support@openmodelingfoundation.org"&gt;support@openmodelingfoundation.org&lt;/a&gt;&lt;/strong&gt;. All requests for membership must be submitted to the Members Council for review and approval.&lt;/p&gt;</description></item><item><title>Members Council</title><link>/about/members-council/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/members-council/</guid><description>&lt;div class="d-flex flex-wrap align-items-stretch justify-content-left cards-equal-width gap-3"&gt;
+&lt;div class='card members-council-card'&gt;
+ &lt;a target="_blank" href="https://agmip.org/"&gt;
+ &lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 210px"&gt;
+&lt;img class="card-img-top" src="/about/members-council/agmip2_hu_d35a194f525bed12.jpg" width="200" height="100"&gt;
+&lt;figcaption class="card-body px-0 pt-2 pb-0"&gt;
+&lt;p class="card-text"&gt;
+
+
+ &lt;div class='card-body'&gt;Agricultural Model Intercomparison and Improvement Project (AgMIP)&lt;/div&gt;
+ 
+&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+ &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class='card members-council-card'&gt;
+&lt;a target="_blank" href="https://www.agu.org/"&gt;
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 210px"&gt;
+&lt;img class="card-img-top" src="/about/members-council/agu_hu_328aea7ed77dcfe0.png" width="200" height="144"&gt;
+&lt;figcaption class="card-body px-0 pt-2 pb-0"&gt;
+&lt;p class="card-text"&gt;
+
+
+&lt;div class='card-body'&gt;American Geophysical Union (AGU)&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class='card members-council-card'&gt;
+&lt;a target="_blank" href="https://aimesproject.org/"&gt;
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 210px"&gt;
+&lt;img class="card-img-top" src="/about/members-council/aimes_hu_bae0eeaa164cde2f.png" width="200" height="75"&gt;
+&lt;figcaption class="card-body px-0 pt-2 pb-0"&gt;
+&lt;p class="card-text"&gt;
+
+
+&lt;div class='card-body'&gt;Analysis, Integration, and Modeling of the Earth System, Future Earth (AIMES)&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class='card members-council-card'&gt;
+&lt;a target="_blank" href="https://c2s2.sdsu.edu/"&gt;
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 210px"&gt;
+&lt;img class="card-img-top" src="/about/members-council/blank_hu_8ceec29b07eb1d6a.png" width="200" height="74"&gt;
+&lt;figcaption class="card-body px-0 pt-2 pb-0"&gt;
+&lt;p class="card-text"&gt;
+
+
+&lt;div class='card-body'&gt;SDSU Center for Climate and Sustainability Studies (C2S2)&lt;/div&gt;
+
+&lt;/p&gt;</description></item><item><title>Events and Activities</title><link>/about/history-events-and-activities/</link><pubDate>Thu, 07 May 2020 10:34:28 -0700</pubDate><guid>/about/history-events-and-activities/</guid><description>&lt;h2 id="upcoming-activities"&gt;Upcoming Activities&lt;a class="td-heading-self-link" href="#upcoming-activities" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Information on activities or projects of individual OMF Working Groups can be found within their individual pages accessed via the 
+&lt;a href="/about/working-groups/#working-groups"&gt;Working Groups page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;December 2024 Virtual Members Council Meeting&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;May 2025 Members Council Meeting&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id="past-activities"&gt;Past Activities&lt;a class="td-heading-self-link" href="#past-activities" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h5 id="may-2024-members-council-meeting"&gt;&lt;strong&gt;May 2024 Members Council Meeting&lt;/strong&gt;&lt;a class="td-heading-self-link" href="#may-2024-members-council-meeting" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h5&gt;
+&lt;h5 id="election-of-initial-executive-committee-representatives-january-2022"&gt;&lt;strong&gt;Election of initial Executive Committee representatives (January 2022)&lt;/strong&gt;&lt;a class="td-heading-self-link" href="#election-of-initial-executive-committee-representatives-january-2022" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h5&gt;
+&lt;h5 id="founding-meeting-of-the-open-modeling-foundation"&gt;&lt;strong&gt;Founding Meeting of the Open Modeling Foundation&lt;/strong&gt;&lt;a class="td-heading-self-link" href="#founding-meeting-of-the-open-modeling-foundation" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;&lt;em&gt;Meeting to formally establish the Open Modeling Foundation&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Open Modeling Foundation Values</title><link>/about/values/</link><pubDate>Thu, 07 May 2020 10:34:28 -0700</pubDate><guid>/about/values/</guid><description>&lt;h2 id="our-values"&gt;Our Values&lt;a class="td-heading-self-link" href="#our-values" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Open Modeling Foundation is an international open science community made up of diverse scientists and teams from around the world who seek to meet the planetary, social, and environmental challenges we face in our complex and rapidly changing world. As members of the Open Modeling Foundation, we champion collaborative and open science. Our community and our mission are strengthened through diverse perspectives and the exchange of ideas in an inclusive environment.&lt;/p&gt;</description></item><item><title>Code of Conduct</title><link>/about/code-of-conduct/</link><pubDate>Tue, 28 Feb 2023 19:20:23 +0000</pubDate><guid>/about/code-of-conduct/</guid><description>&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Ratified: October 2023&lt;/div&gt;
+&lt;p&gt;This Code of Conduct was approved October 20th 2023 by the Members Council of the Open Modeling Foundation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The Open Modeling Foundation (OMF) is an international open science community of diverse scientists and teams from around the world seeking to meet the planetary, social, and environmental challenges we face in our complex and rapidly changing world. As members of the Open Modeling Foundation, we champion collaborative and open science. We strengthen our community and mission through diverse perspectives and exchanging ideas in an inclusive environment.&lt;/p&gt;</description></item></channel></rss>
