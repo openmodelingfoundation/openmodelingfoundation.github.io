@@ -124,8 +124,7 @@ weight: 100
 </div>
 
 <div class='card members-council-card'>
-<a target="_blank"
-   href="https://eesa.lbl.gov/program-domains/earth-systems-society/">
+<a target="_blank" href="https://climatesciences.lbl.gov/">
 {{< imgproc blank Fit "200x200" >}}
 <div class='card-body'>Earth Systems and Society Program, Lawrence Berkeley National Laboratory (ESS at LBNL)</div>
 {{< /imgproc >}}
