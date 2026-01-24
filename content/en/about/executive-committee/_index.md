@@ -123,38 +123,11 @@ Elected members of the EC serve staggered three-year terms.
 
 #### **Certification Working Group**
 
-<div class="person-entry">
-  <div class="person-entry__portrait">
-    {{< imgproc chris-erdmann Resize "200x" >}}
-    <center><strong>Christopher Erdmann</strong></center>
-    {{< /imgproc >}}
-  </div>
-  <p class="person-entry__bio">
-    Christopher Erdmann is an author, developer, and experimenter in the areas of digital libraries, social networking, library UX, interactive technologies, bibliometrics, and data services in libraries. Prior to joining SciLifeLab as the Head of Open Science, he was the Associate Director for Open Science at the Michael J. Fox Foundation. He has previously worked for organizations such as the American Geophysical Union, Renaissance Computing Institute at UNC, California Digital Library (Library Carpentry), North Carolina State University, Harvard-Smithsonian Center for Astrophysics, European Southern Observatory, Supreme Court of the US, United Nations, University of Washington, Smithsonian, and CNET. Christopher holds an MLIS from the University of Washington iSchool and a BA from the University of California, Davis.</p>
-  </p>
-</div>
+Certification Working Group Chairs and Co-Chairs are members of the Executive Committee with full voting rights but
+these positions are currently unfilled. 
 
-<div class="person-entry">
-  <div class="person-entry__portrait">
-    {{< imgproc sandra-gesing Resize "200x" >}}
-    <center><strong>Sandra Gesing</strong></center>
-    {{< /imgproc >}}
-  </div>
-  <p class="person-entry__bio">
-    Sandra Gesing is a senior research scientist, the Scientific Outreach and DEI Lead at the Discovery Partners Institute at University of Illinois System, Chicago. She is especially interested in sustainability of research software, usability of computational methods and reproducibility of research results. Prior to the position at DPI, she was an associate research professor in the Department of Computer Science and Engineering and a computational scientist in the Center for Research Computing at the University of Notre Dame, Indiana, US. Before she moved to the US, she was a research associate at the University of Edinburgh, UK, and in the Applied Bioinformatics Group at the University of Tübingen, Germany. Additionally, she has perennial experience as a project manager and system developer in industry in the US and Germany. She received her German diploma (equivalent to a Master’s degree) in computer science from extramural studies at the FernUniversität Hagen and her PhD in computer science from the University of Tübingen, Germany.
-  </p>
-</div>
-
-<div class="person-entry">
-  <div class="person-entry__portrait">
-    {{< imgproc ismael-kherroubi-garcia Resize "200x" >}}
-    <center><strong>Ismael Kherroubi Garcia</strong></center>
-    {{< /imgproc >}}
-  </div>
-  <p class="person-entry__bio">
-    Ismael Kherroubi Garcia is the Founder and CEO of Kairoi, the AI Ethics and Research Governance consultancy. He holds a bachelor’s in Business Management and Administration, and a Master’s in Philosophy of the Social Sciences. His philosophical studies have focused on the conditions that enable multidisciplinarity in scientific projects. Prior to establishing Kairoi in 2022 and joining the Open Modeling Foundation in 2023, he established the Turing Research Ethics Committee (TREx) and processes at the Alan Turing Institute in 2021. He has also worked in finance, sales and human resources, and currently leads the Responsible Artificial Intelligence Network at the RSA (Royal Society of Arts, Manufactures and Commerce), enabling civil society’s engagement in discussions about cutting-edge technologies. Within the OMF Ismael has been instrumental in facilitating workshops for the ModelShare initiative.
-  </p>
-</div>
+Please send any expressions of interest to serve in the Certification Working Group to
+support@openmodelingfoundation.org
 
 #### **Education and Outreach Working Group**
 
