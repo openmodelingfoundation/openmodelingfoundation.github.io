@@ -3,14 +3,12 @@ title: "Early Career Scholars WG Meeting Minutes"
 linkTitle: "Meeting Minutes"
 ---
 
-### Dec 10, 2025 8:00 AM GMT+1
+## Dec 10, 2025 8:00 AM GMT+1
 
 Attendees:
 Tati Micheletti, Takuya Iwanaga, Pedro Almeida, Vitor Hirata Sanches, Zhu Zhiyi, Mahnaz Ahmadi
 
-#### Notes
-
-##### OMF Meeting in Adelaide:
+### OMF Meeting in Adelaide
 
 Takuya provided a recap of the recent meeting.
 
@@ -18,7 +16,7 @@ Takuya provided a recap of the recent meeting.
 
 - The group discussed the mechanics of how these methods work in practice.
 
-##### Dublin Hackathon:
+### Dublin Hackathon
 
 Pedro is interested in co-leading the event.
 
@@ -26,7 +24,7 @@ Pedro is interested in co-leading the event.
 - Funding for Pedro to attend is currently uncertain (see Action Items).
 - Planning will primarily take place via the online document to facilitate asynchronous collaboration. If specific planning meetings are required, Tati can assist in setting them up.
 
-##### "Awesome List" and Website Resources
+### "Awesome List" and Website Resources
 
 - A link to the "Awesome List" will be added to the minutes to encourage collaboration. Please add to the list any interesting and helpful material you have crossed paths with.
 
@@ -35,14 +33,14 @@ Pedro is interested in co-leading the event.
 - Tati will provide AI Lecture material to kick-start this section.
 - There is a need to clarify how these materials are included on the official website (see Action Items).
 
-##### Next Meeting
+### Next Meeting
 
 Proposed for the end of March 2026.
 
 - 8:00 AM CET was agreed upon as a suitable time by those present.
 - Tati will circulate a Doodle poll. If you wish to join but this time is problematic, please contact Tati directly.
 
-**Action items**
+### Action items
 
 1. **HACKATHON:** Tati will check with Charlotte to see if OMF can support funding for the event for Pedro to attend.
 
@@ -50,11 +48,11 @@ Proposed for the end of March 2026.
 
 3. **WEBSITE:** Tati will ask Charlotte and Allen about the inclusion of the awesome list on the website (perhaps via new tab as ‘Resources’) and the update workflow from the website.
 
-4. **AWESOME LIST: **Tati will provide AI Lecture material to kick-start the AI-guided science section.
+4. **AWESOME LIST:** Tati will provide AI Lecture material to kick-start the AI-guided science section.
 
 5. **AWESOME LIST:** Pedro will lead the creation of the AI-guided science section.
 
-6. **RESOURCES:** Tati will upload the available material for the Scientific Programing and Reproducible Workflow Workshop.
+6. **RESOURCES:** Tati will upload the available material for the Scientific Programming and Reproducible Workflow Workshop.
 
 7. **NEXT MEETING:** Tati will send the Doodle poll for the end of March.
 
@@ -63,7 +61,7 @@ Proposed for the end of March 2026.
 Attendees:
 Takuya Iwanaga, Tati Micheletti, Pedro Almeida, Vitor Hirata Sanches, Caroline Rosello, Jonas Letschert
 
-Notes
+### Notes
 
 - Interesting Upcoming Conferences:
 
@@ -71,9 +69,7 @@ Notes
 
 - MODSIM2025: [https://www.mssanz.org.au/modsim2025/](https://www.mssanz.org.au/modsim2025/)
 
-- Introducing Jonas Letschert:
-
-Works on ABMs in fisheries / bio-economic models
+- Introducing Jonas Letschert: Works on ABMs in fisheries / bio-economic models
 
 - In this context, lots of data available on fish catch
 
@@ -98,13 +94,13 @@ Works on ABMs in fisheries / bio-economic models
 - Posting on OMF’s website (need to check with Allen – **See action items**) \
 
 
-Action items
+### Action Items
 
 - **PAPER:** Takuya will send out reviewer comments. Interested parties can get in touch with him.
 
 - **EVENTS**:
 
-1. Ask iEMSs Office requirements for hosting a workshop (Question sent, waiting on answer – **Takuya **leading**, Pedro **offered to help)
+1. Ask iEMSs Office requirements for hosting a workshop (Question sent, waiting on answer – **Takuya leading, Pedro offered to help**)
 
 2. Tati and Takuya will coordinate to sending email with meetings minutes (Document created: https://docs.google.com/document/d/1HI5I-90EUXXmWiz7a5yEJAustCcp55H35HYXF3ETSqY/edit?usp=sharing)
 
