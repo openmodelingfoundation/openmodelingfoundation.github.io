@@ -143,6 +143,8 @@ params:
     sidebar_search_disable: false
     # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top nav bar
     navbar_logo: true
+    # Restore dark navbar (Docsy 0.14.0 changed the default to light)
+    navbar_theme: dark
     # Set to true to disable the About link in the site footer
     footer_about_disable: true
     # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.

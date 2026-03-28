@@ -27,6 +27,12 @@ Agent-generated artifacts must be written under `.agent/`.
 3. For long tasks, save progress snapshots in `.agent/checkpoints/`.
 4. Before pausing or transferring work, create a handoff in `.agent/handoffs/`.
 
+## Command execution environment
+
+- Run project commands in containers only; do not assume local `go`, `hugo`, `node`, or `npm` are installed on the host.
+- Use Docker Compose with the `hugo` service for build/test/update tasks (for example: `docker compose run --rm hugo <command>`).
+- If a command cannot run in the current container setup, document the limitation and propose a container-based alternative.
+
 ## Artifact guidance
 
 - Keep notes concise, factual, and actionable.
@@ -37,7 +43,7 @@ Agent-generated artifacts must be written under `.agent/`.
 ## Important dependency versions
 
 - Hugo (Docker build arg): `0.133.1` (`Dockerfile`)
-- Docsy module: `v0.11.0` (`go.mod` and `Dockerfile`)
+- Docsy module: `v0.14.3` (`go.mod` and `Dockerfile`)
 - Go toolchain declaration: `1.18` (`go.mod`)
 - npm package manifest version: `1.0.0` (`package.json`)
 - Frontend/build packages in `package.json` use semver ranges (`^`), including:

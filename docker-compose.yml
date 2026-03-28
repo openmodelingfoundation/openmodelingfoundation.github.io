@@ -7,5 +7,6 @@ services:
         HUGO_VERSION: ${HUGO_VERSION}
     ports:
       - "127.0.0.1:1313:1313"
+    working_dir: /src
     volumes:
       - .:/src
