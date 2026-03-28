@@ -6,6 +6,19 @@ This repository is for establishing and disseminating standards related to acces
 
 You can contribute to this site by following the directions at https://openmodelingfoundation.org/contribute/ - the process of proposing and accepting changes to OMF standards will be finalized once we have established our [governance structure](https://openmodelingfoundation.org/governance/).
 
+## Agent Harness
+
+This repository includes an agent collaboration harness for AI-assisted work.
+
+- Canonical policy: `AGENTS.md` is the source of truth for agent behavior.
+- Agent notes: `.github/copilot-instructions.md` and `CLAUDE.md` are adapter files that defer to `AGENTS.md`.
+- Agent artifacts: `.agent/` stores generated working context and transfer records.
+	- `.agent/working-memory/` for in-progress notes
+	- `.agent/checkpoints/` for progress snapshots
+	- `.agent/handoffs/` for transfer summaries
+
+Agents should read `AGENTS.md` first and use the templates under `.agent/checkpoints/` and `.agent/handoffs/` when creating artifacts.
+
 ## About
 
 This GitHub pages site is generated with [hugo](https://gohugo.io) using the [docsy](https://www.docsy.dev) theme and can be built locally by following these instructions:

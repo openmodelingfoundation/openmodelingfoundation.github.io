@@ -91,7 +91,7 @@ Takuya Iwanaga, Tati Micheletti, Pedro Almeida, Vitor Hirata Sanches, Caroline R
 
 - Google Docs / similar: problematic for our Chinese colleagues
 
-- Posting on OMF’s website (need to check with Allen – **See action items**) \
+- Posting on OMF’s website (need to check with Allen – **See action items**)
 
 
 ### Action Items
