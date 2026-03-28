@@ -42,7 +42,7 @@ Agent-generated artifacts must be written under `.agent/`.
 
 ## Important dependency versions
 
-- Hugo (Docker build arg): `0.133.1` (`Dockerfile`)
+- Hugo (Docker build arg): `0.159.1` (`Dockerfile`)
 - Docsy module: `v0.14.3` (`go.mod` and `Dockerfile`)
 - Go toolchain declaration: `1.18` (`go.mod`)
 - npm package manifest version: `1.0.0` (`package.json`)

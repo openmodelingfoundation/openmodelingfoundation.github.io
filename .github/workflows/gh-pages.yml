@@ -5,46 +5,67 @@ on:
     branches:
       - develop
 
+# Required for GitHub Pages OIDC deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment; queue the next, cancel any in-between
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # full history for Hugo .GitInfo / .Lastmod
 
-      - name: Read .env hugo version
+      - name: Read Hugo version from .env
         id: hugo-version
         run: |
           . ./.env
-          echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
-          echo "::set-output name=DOCSY_VERSION::${DOCSY_VERSION}"
+          echo "HUGO_VERSION=${HUGO_VERSION}" >> $GITHUB_OUTPUT
 
-      - name: Add hugo nodejs dependencies
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: 'npm'
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          # sync versions with docker-compose .env ala
-          # https://github.com/marketplace/actions/hugo-setup#%EF%B8%8F-read-hugo-version-from-file
+          # sync version with .env / Dockerfile
           hugo-version: "${{ steps.hugo-version.outputs.HUGO_VERSION }}"
           extended: true
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install npm dependencies
+        run: npm ci
 
       - name: Build Hugo site
         env:
           HUGO_ENV: "production"
-        run: |
-          npm install
-          hugo --minify --gc
+        run: hugo --minify --gc
 
-      - name: Deploy to Pages
-        if: github.event_name == 'push'
-        uses: peaceiris/actions-gh-pages@v4
-        env:
-          HUGO_ENV: "production"
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: main
+          path: ./public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

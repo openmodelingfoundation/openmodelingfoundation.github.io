@@ -19,6 +19,21 @@ This repository includes an agent collaboration harness for AI-assisted work.
 
 Agents should read `AGENTS.md` first and use the templates under `.agent/checkpoints/` and `.agent/handoffs/` when creating artifacts.
 
+## Deployment
+
+The site is deployed to GitHub Pages via the workflow at `.github/workflows/gh-pages.yml`. Pushes to the `develop` branch trigger an automated build-and-deploy.
+
+### How it works
+
+1. The `build` job checks out `develop`, installs Node.js 22 and Hugo (extended), runs `npm ci` and `hugo --minify --gc`, then uploads the built `public/` directory as a Pages artifact.
+2. The `deploy` job receives that artifact and publishes it directly to GitHub Pages via GitHub's OIDC-based Pages API (`actions/deploy-pages`).
+
+**No "built" branch is used.** The old approach pushed compiled HTML to a `main` branch using `peaceiris/actions-gh-pages`. That is no longer the case — the deployment artifact goes straight to GitHub's Pages infrastructure. The `main` branch (if it still exists in the remote) is a leftover and is no longer updated.
+
+### Repository Pages setting
+
+The repository's Pages source must be set to **GitHub Actions** (not "Deploy from a branch"). In repository Settings → Pages → Build and deployment, select **Source: GitHub Actions**. Using "Branch: main" will not work with the current workflow.
+
 ## About
 
 This GitHub pages site is generated with [hugo](https://gohugo.io) using the [docsy](https://www.docsy.dev) theme and can be built locally by following these instructions:
