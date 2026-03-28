@@ -4,48 +4,43 @@ on:
     branches: [ "develop" ]
   pull_request:
     branches: [ "develop" ]
+  workflow_dispatch:
 
 jobs:
   htmltest:
     runs-on: ubuntu-latest
+    env:
+      HUGO_CACHE_HOST_DIR: ./.hugo_cache
+      HUGO_CACHE_CONTAINER_DIR: /src/.hugo_cache
     steps:
       - uses: actions/checkout@v4
-
-      - name: Read .env hugo version
-        id: hugo-version
-        run: |
-          . ./.env
-          echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
-          echo "::set-output name=DOCSY_VERSION::${DOCSY_VERSION}"
-
-      - name: Add hugo nodejs dependencies
-        uses: actions/setup-node@v4
         with:
-          node-version: "18"
-          cache: 'npm'
+          fetch-depth: 0
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          # sync versions with docker-compose .env ala
-          # https://github.com/marketplace/actions/hugo-setup#%EF%B8%8F-read-hugo-version-from-file
-          hugo-version: "${{ steps.hugo-version.outputs.HUGO_VERSION }}"
-          extended: true
-
-      - name: Build Hugo site
+      - name: Build Hugo site in Docker Compose
         env:
           HUGO_ENV: "production"
         run: |
-          npm install
-          hugo --minify --gc -d $GITHUB_WORKSPACE/dist
+          docker compose build --pull hugo
+          docker compose run --rm --no-deps \
+            --entrypoint sh \
+            --user "$(id -u):$(id -g)" \
+            -e HOME=/tmp \
+            -e npm_config_cache=/tmp/.npm \
+            -e HUGO_CACHEDIR="${HUGO_CACHE_CONTAINER_DIR}" \
+            -e HUGO_ENV="${HUGO_ENV}" \
+            hugo -lc 'git config --global --add safe.directory /src && git config --global core.quotepath false && hugo build --gc --minify --cacheDir "${HUGO_CACHEDIR}" -d /src/dist'
+
       - name: run htmltest
         continue-on-error: true
         uses: wjdp/htmltest-action@master
         with:
           config: .htmltest.yml
+
       - name: archive htmltest results
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: htmltest-report
-          path: tmp/.htmltest/htmltest.log
+          path: tmp/.htmltest/
           retention-days: 5

@@ -25,7 +25,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_CACHEDIR: ./.hugo_cache
+      HUGO_CACHE_HOST_DIR: ./.hugo_cache
+      HUGO_CACHE_CONTAINER_DIR: /src/.hugo_cache
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -43,7 +44,7 @@ jobs:
       - name: Restore build cache
         uses: actions/cache/restore@v4
         with:
-          path: ${{ env.HUGO_CACHEDIR }}
+          path: ${{ env.HUGO_CACHE_HOST_DIR }}
           key: hugo-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
             hugo-${{ runner.os }}-
@@ -54,17 +55,20 @@ jobs:
         run: |
           docker compose build --pull hugo
           docker compose run --rm --no-deps \
+            --entrypoint sh \
             --user "$(id -u):$(id -g)" \
+            -e HOME=/tmp \
+            -e npm_config_cache=/tmp/.npm \
             -e HUGO_ENV=production \
-            -e HUGO_CACHEDIR="${HUGO_CACHEDIR}" \
+            -e HUGO_CACHEDIR="${HUGO_CACHE_CONTAINER_DIR}" \
             -e BASE_URL="${BASE_URL}" \
-            hugo sh -lc 'git config --global --add safe.directory /src && git config --global core.quotepath false && hugo build --gc --minify --baseURL "${BASE_URL%/}/" --cacheDir "${HUGO_CACHEDIR}"'
+            hugo -lc 'git config --global --add safe.directory /src && git config --global core.quotepath false && hugo build --gc --minify --baseURL "${BASE_URL%/}/" --cacheDir "${HUGO_CACHEDIR}"'
 
       - name: Save build cache
         if: always()
         uses: actions/cache/save@v4
         with:
-          path: ${{ env.HUGO_CACHEDIR }}
+          path: ${{ env.HUGO_CACHE_HOST_DIR }}
           key: hugo-${{ runner.os }}-${{ github.run_id }}
 
       - name: Upload artifact

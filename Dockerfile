@@ -10,7 +10,7 @@ USER root
 RUN git config --global --add safe.directory /src
 
 # Install Node.js and npm for PostCSS (required by Docsy)
-RUN apk add --no-cache nodejs npm
+RUN apk add --no-cache nodejs npm go
 
 # Install front-end tooling.
 # Layer is invalidated only when package.json or package-lock.json changes.
