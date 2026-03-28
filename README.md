@@ -25,7 +25,7 @@ The site is deployed to GitHub Pages via the workflow at `.github/workflows/gh-p
 
 ### How it works
 
-1. The `build` job checks out `develop`, installs Node.js 22 and Hugo (extended), runs `npm ci` and `hugo --minify --gc`, then uploads the built `public/` directory as a Pages artifact.
+1. The `build` job checks out `develop`, configures the Pages base URL, then builds the site inside the same Docker Compose `hugo` service used for local development (`docker compose build hugo` + `docker compose run hugo ...`). This mirrors local toolchain versions and container behavior in CI.
 2. The `deploy` job receives that artifact and publishes it directly to GitHub Pages via GitHub's OIDC-based Pages API (`actions/deploy-pages`).
 
 **No "built" branch is used.** The old approach pushed compiled HTML to a `main` branch using `peaceiris/actions-gh-pages`. That is no longer the case — the deployment artifact goes straight to GitHub's Pages infrastructure. The `main` branch (if it still exists in the remote) is a leftover and is no longer updated.

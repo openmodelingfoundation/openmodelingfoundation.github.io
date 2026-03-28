@@ -11,7 +11,7 @@
 
 - Workflow: `.github/workflows/gh-pages.yml`
 - Trigger: push to `develop` branch
-- Build: Hugo v0.159.1 (extended), Node.js 22, `npm ci`, `hugo --minify --gc`
+- Build: containerized via Docker Compose (`docker compose build hugo` + `docker compose run hugo hugo build --gc --minify`), mirroring local deployment toolchain and image
 - Deploy method: `actions/upload-pages-artifact` + `actions/deploy-pages` (OIDC, no branch write)
 - **No `main` branch is used for deployment.** The old `peaceiris/actions-gh-pages` approach that pushed to `main` has been replaced. The `main` branch is obsolete.
 - Required repo setting: Settings → Pages → Source must be **GitHub Actions** (not "Deploy from a branch").
