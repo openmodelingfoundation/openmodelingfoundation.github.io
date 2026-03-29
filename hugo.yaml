@@ -48,10 +48,8 @@ module:
   # mount ISSUE_TEMPLATE to content/issue_templates to re-use the templates in the site
     - source: "content/en"
       target: "content"
-      lang: "en"
     - source: ".github/ISSUE_TEMPLATE"
       target: "content/issue_templates"
-      lang: "en"
 
 # Configure how URLs look like per section.
 permalinks:

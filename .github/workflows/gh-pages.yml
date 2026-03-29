@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - develop
+  workflow_dispatch:
 
 # Required for GitHub Pages OIDC deployment
 permissions:
@@ -13,48 +14,57 @@ permissions:
 
 # Allow only one concurrent deployment; queue the next, cancel any in-between
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      HUGO_CACHE_HOST_DIR: ./.hugo_cache
+      HUGO_CACHE_CONTAINER_DIR: /src/.hugo_cache
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0  # full history for Hugo .GitInfo / .Lastmod
 
-      - name: Read Hugo version from .env
-        id: hugo-version
-        run: |
-          . ./.env
-          echo "HUGO_VERSION=${HUGO_VERSION}" >> $GITHUB_OUTPUT
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-          cache: 'npm'
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          # sync version with .env / Dockerfile
-          hugo-version: "${{ steps.hugo-version.outputs.HUGO_VERSION }}"
-          extended: true
-
-      - name: Configure Pages
+      - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v5
 
-      - name: Install npm dependencies
-        run: npm ci
+      - name: Restore build cache
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ env.HUGO_CACHE_HOST_DIR }}
+          key: hugo-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            hugo-${{ runner.os }}-
 
-      - name: Build Hugo site
+      - name: Build in Docker Compose
         env:
-          HUGO_ENV: "production"
-        run: hugo --minify --gc
+          BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          docker compose build --pull hugo
+          docker compose run --rm --no-deps \
+            --entrypoint sh \
+            --user "$(id -u):$(id -g)" \
+            -e HUGO_CACHEDIR="${HUGO_CACHE_CONTAINER_DIR}" \
+            -e BASE_URL="${BASE_URL}" \
+            hugo -c '.github/scripts/build-site.sh'
 
-      - name: Upload Pages artifact
+      - name: Save build cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ env.HUGO_CACHE_HOST_DIR }}
+          key: hugo-${{ runner.os }}-${{ github.run_id }}
+
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
