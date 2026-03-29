@@ -10,7 +10,6 @@ jobs:
   htmltest:
     runs-on: ubuntu-latest
     env:
-      HUGO_CACHE_HOST_DIR: ./.hugo_cache
       HUGO_CACHE_CONTAINER_DIR: /src/.hugo_cache
     steps:
       - uses: actions/checkout@v4
@@ -18,18 +17,14 @@ jobs:
           fetch-depth: 0
 
       - name: Build Hugo site in Docker Compose
-        env:
-          HUGO_ENV: "production"
         run: |
           docker compose build --pull hugo
           docker compose run --rm --no-deps \
             --entrypoint sh \
             --user "$(id -u):$(id -g)" \
-            -e HOME=/tmp \
-            -e npm_config_cache=/tmp/.npm \
             -e HUGO_CACHEDIR="${HUGO_CACHE_CONTAINER_DIR}" \
-            -e HUGO_ENV="${HUGO_ENV}" \
-            hugo -lc 'git config --global --add safe.directory /src && git config --global core.quotepath false && hugo build --gc --minify --cacheDir "${HUGO_CACHEDIR}" -d /src/dist'
+            -e OUTPUT_DIR=/src/dist \
+            hugo -c '.github/scripts/build-site.sh'
 
       - name: run htmltest
         continue-on-error: true

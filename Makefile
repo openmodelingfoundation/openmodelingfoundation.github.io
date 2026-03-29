@@ -8,7 +8,7 @@ UID=$(shell id -u)
 GID=$(shell id -g)
 
 # Controls
-.PHONY : commands clean stop serve
+.PHONY : commands clean stop serve render
 .NOTPARALLEL:
 all : commands
 
@@ -23,6 +23,19 @@ build :
 ## serve            : start and run a local server.
 serve : build
 	@docker compose up -d
+
+## render           : run the production-style site render locally.
+render : build
+	docker compose run --rm --no-deps \
+		--entrypoint sh \
+		hugo -c 'rm -f /src/.hugo_build.lock && rm -rf /src/public /src/resources/_gen'
+	docker compose run --rm --no-deps \
+		--entrypoint sh \
+		--user "$(UID):$(GID)" \
+		-e HOME=/tmp \
+		-e npm_config_cache=/tmp/.npm \
+		-e HUGO_CACHEDIR=/src/.hugo_cache \
+		hugo -c '.github/scripts/build-site.sh'
 
 ## shell            : open a hugo shell
 shell : build

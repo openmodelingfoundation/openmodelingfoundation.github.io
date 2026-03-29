@@ -18,8 +18,11 @@ RUN apk add --no-cache nodejs npm go
 # packages are never re-fetched from the network unnecessarily.
 COPY package.json package-lock.json /tmp/
 RUN --mount=type=cache,target=/root/.npm \
-    cd /tmp && npm ci
+    cd /tmp && npm ci && \
+    ln -sf /tmp/node_modules/.bin/postcss /usr/local/bin/postcss && \
+    ln -sf /tmp/node_modules/.bin/autoprefixer /usr/local/bin/autoprefixer
 
+ENV NODE_PATH="/tmp/node_modules"
 ENV PATH="/tmp/node_modules/.bin:${PATH}"
 
 CMD ["server", "--bind", "0.0.0.0"]

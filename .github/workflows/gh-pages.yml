@@ -37,10 +37,6 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Configure Git
-        run: |
-          git config core.quotepath false
-
       - name: Restore build cache
         uses: actions/cache/restore@v4
         with:
@@ -57,12 +53,9 @@ jobs:
           docker compose run --rm --no-deps \
             --entrypoint sh \
             --user "$(id -u):$(id -g)" \
-            -e HOME=/tmp \
-            -e npm_config_cache=/tmp/.npm \
-            -e HUGO_ENV=production \
             -e HUGO_CACHEDIR="${HUGO_CACHE_CONTAINER_DIR}" \
             -e BASE_URL="${BASE_URL}" \
-            hugo -lc 'git config --global --add safe.directory /src && git config --global core.quotepath false && hugo build --gc --minify --baseURL "${BASE_URL%/}/" --cacheDir "${HUGO_CACHEDIR}"'
+            hugo -c '.github/scripts/build-site.sh'
 
       - name: Save build cache
         if: always()

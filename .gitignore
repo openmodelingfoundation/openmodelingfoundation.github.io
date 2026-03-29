@@ -6,6 +6,8 @@ node_modules
 /public/
 /resources/_gen/
 .hugo_build.lock
+/.hugo_cache/
+/dist/
 
 # Executable may be added to repository
 hugo.exe
