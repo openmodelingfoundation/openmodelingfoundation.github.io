@@ -1,38 +1,25 @@
 # Working Memory
 
-## Active tasks
+## Active task
 
-- Task: Plan for dynamically embedding awesome-modeling-practices README into a Hugo page
-- Current status: Plan written (see .agent/working-memory/plan-awesome-list.md)
-- Open questions: None at this stage; ready to implement on request
-- Next actions: Implement plan steps on user approval
+- awesome-modeling-practices embed plan is ready: `.agent/working-memory/plan-awesome-list.md`.
+- Next step on request: implement the planned integration.
 
-## Deployment context (updated 2026-03-28)
+## Notes by date (newest first)
 
-- Workflow: `.github/workflows/gh-pages.yml`
-- Trigger: push to `develop` branch
-- Build: containerized via Docker Compose (`docker compose build hugo` + `docker compose run hugo hugo build --gc --minify`), mirroring local deployment toolchain and image
-- Deploy method: `actions/upload-pages-artifact` + `actions/deploy-pages` (OIDC, no branch write)
-- **No `main` branch is used for deployment.** The old `peaceiris/actions-gh-pages` approach that pushed to `main` has been replaced. The `main` branch is obsolete.
-- Required repo setting: Settings → Pages → Source must be **GitHub Actions** (not "Deploy from a branch").
+### 2026-03-31
 
-## CI troubleshooting (updated 2026-03-29)
+- `Makefile` maintenance completed: fixed `make shell`, refactored shared Docker Compose flags, removed global `.NOTPARALLEL`, and simplified `clean` with a merged `find`.
+- Validation: `make -n` checks passed for `build`, `serve`, `render`, `shell`, `stop`, and `clean`.
 
-- Hugo module/cache paths inside the container must resolve to absolute directories for the current CI image/version.
-- For Docker Compose workflows, use separate variables for host and container cache paths:
-	- host path for GitHub Actions cache: `./.hugo_cache`
-	- container path for Hugo `--cacheDir`: `/src/.hugo_cache`
-- Running the container as `--user "$(id -u):$(id -g)"` avoids root-owned workspace files, but it also means default cache locations like `/cache/modules` may be unwritable.
+### 2026-03-29
 
-## Shared build entrypoint planning (updated 2026-03-29)
+- CI/cache troubleshooting: keep host cache at `./.hugo_cache` and container cache at `/src/.hugo_cache`; `--user "$(id -u):$(id -g)"` avoids root-owned files.
+- Shared build entrypoint plan: `.agent/working-memory/plan-shared-build-entrypoint.md`.
+- Checkpoint: `.agent/checkpoints/checkpoint-20260329-0824.md`.
 
-- Plan created: `.agent/working-memory/plan-shared-build-entrypoint.md`
-- Objective: route local production render, htmltest render, and GitHub Pages build through one repository-owned build script.
-- Preferred shape: keep workflow orchestration in YAML, move only the canonical Hugo build logic into a shared container-executed shell script.
+### 2026-03-28
 
-## Checkpoint and docs sync (updated 2026-03-29)
-
-- Checkpoint added: `.agent/checkpoints/checkpoint-20260329-0824.md`.
-- Contributor docs synced: `README.md` now documents shared build entrypoint and `make render`.
-- Agent docs synced: `AGENTS.md` now references `.github/scripts/build-site.sh` and local production-style render guidance.
-- Repo hygiene: `.gitignore` now ignores generated `/.hugo_cache/` and `/dist/` build outputs.
+- Deployment workflow: `.github/workflows/gh-pages.yml` on `develop`.
+- Build/deploy path: Docker Compose `hugo` service + `.github/scripts/build-site.sh`, then `actions/upload-pages-artifact` and `actions/deploy-pages`.
+- Pages source requirement: GitHub Actions (not branch deployment); no `main` branch publishing.

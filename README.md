@@ -12,6 +12,7 @@ This repository includes an agent collaboration harness for AI-assisted work.
 
 - Canonical policy: `AGENTS.md` is the source of truth for agent behavior.
 - Agent notes: `.github/copilot-instructions.md` and `CLAUDE.md` are adapter files that defer to `AGENTS.md`.
+- Command environment for agents: run project commands in containers via Docker Compose (`hugo` service).
 - Agent artifacts: `.agent/` stores generated working context and transfer records.
 	- `.agent/working-memory/` for in-progress notes
 	- `.agent/checkpoints/` for progress snapshots
@@ -25,7 +26,7 @@ The site is deployed to GitHub Pages via the workflow at `.github/workflows/gh-p
 
 ### How it works
 
-1. The `build` job checks out `develop`, configures the Pages base URL, then builds the site inside the same Docker Compose `hugo` service used for local development (`docker compose build hugo` + `docker compose run hugo ...`). The Hugo invocation itself is centralized in `.github/scripts/build-site.sh`, which is shared across local production-style rendering and CI workflows.
+1. The `build` job checks out `develop`, configures the Pages base URL, then builds the site inside the same Docker Compose `hugo` service used for local development (`docker compose build --pull hugo` + `docker compose run --rm --no-deps --entrypoint sh hugo -c ...`). The Hugo invocation itself is centralized in `.github/scripts/build-site.sh`, which is shared across local production-style rendering and CI workflows.
 2. The `deploy` job receives that artifact and publishes it directly to GitHub Pages via GitHub's OIDC-based Pages API (`actions/deploy-pages`).
 
 **No "built" branch is used.** The old approach pushed compiled HTML to a `main` branch using `peaceiris/actions-gh-pages`. That is no longer the case — the deployment artifact goes straight to GitHub's Pages infrastructure. The `main` branch (if it still exists in the remote) is a leftover and is no longer updated.
