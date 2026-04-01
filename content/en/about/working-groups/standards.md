@@ -10,7 +10,7 @@ The Standards Working Group (SWG) oversees the adoption, dissemination, and admi
 
 If you are interested in joining the Standards Working Group, [please use this link]({{< param working_group_request_form >}}) or reach out to any of the group Co-Chairs for further information.
 
-- [Contribute to the Standards Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-standards)
+{{< working-group-actions github-discussions-url="https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-standards" >}}
 
 ### **Standards Co-Chairs**
 #### [Volker Grimm](https://www.ufz.de/index.php?en=36522)
