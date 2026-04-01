@@ -6,7 +6,7 @@ The Certification Working Group (CWG) develops and administers programs to certi
 
 If you are interested in joining the Certification Working Group, [please fill out this brief interest form]({{< param working_group_request_form >}}).
 
-- [Contribute to the Certification Working Group discussion on GitHub](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-certification)
+{{< working-group-actions github-discussions-url="https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-certification" >}}
 
 ### **Certification Co-Chairs**
 
