@@ -7,7 +7,7 @@ cascade:
 - github_issue_filter: label:"OMF site info"
 menu:
   main:
-    weight: 20
+    weight: 60
 ---
 
 The Open Modeling Foundation is using GitHub as a platform for members to contribute and modify content. With this platform, we hope to encourage collaboration and accessibility.

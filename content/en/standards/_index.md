@@ -5,7 +5,7 @@ cascade:
   - type: docs
 menu:
   main:
-    weight: 20
+    weight: 40
 ---
 
 These pages present current standards in development or adopted by the Open Modeling Foundation. Select a topic to see standards documents relevant to that topic. See the "How to Contribute" pages for details on how to participate in the development of community modeling standards. 

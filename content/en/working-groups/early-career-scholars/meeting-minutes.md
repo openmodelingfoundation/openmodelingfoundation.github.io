@@ -1,6 +1,8 @@
 ---
 title: "Early Career Scholars WG Meeting Minutes"
 linkTitle: "Meeting Minutes"
+aliases:
+  - /about/working-groups/early-career-scholars/meeting-minutes/
 ---
 
 ## Dec 10, 2025 8:00 AM GMT+1

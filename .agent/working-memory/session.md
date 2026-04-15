@@ -3,6 +3,7 @@
 ## Active task
 
 - awesome-modeling-practices embed plan is ready: `.agent/working-memory/plan-awesome-list.md`.
+- navigation/resources refactor issue plan is ready: `.agent/working-memory/plan-navigation-resources-refactor.md`.
 - Next step on request: implement the planned integration.
 
 ## Notes by date (newest first)
