@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 linkTitle: "Publications"
-weight: 10
+weight: 20
 ---
 
 Publications and documents resulting from Open Modeling Foundation Working Group activities.

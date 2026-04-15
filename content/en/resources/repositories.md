@@ -5,7 +5,8 @@ type: "docs"
 weight: 30
 ---
 
-Repository-based resources make OMF outputs easier to browse, reuse, and extend.
+The following OMF repositories and open infrastructure welcome community contributions and oversight.
 
-- [openmodelingfoundation/openmodelingfoundation.github.io](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io)
-- [Awesome Modeling Practices page](/resources/awesome-modeling-practices/) (source: [openmodelingfoundation/awesome-modeling-practices](https://github.com/openmodelingfoundation/awesome-modeling-practices))
+- This website's source: [openmodelingfoundation/openmodelingfoundation.github.io](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io)
+- [Awesome Modeling Practices](/resources/awesome-modeling-practices/) (source: [openmodelingfoundation/awesome-modeling-practices](https://github.com/openmodelingfoundation/awesome-modeling-practices))
+- [OMF Agent Skills](https://github.com/openmodelingfoundation/skills) **coming soon**
