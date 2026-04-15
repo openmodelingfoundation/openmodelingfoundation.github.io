@@ -84,6 +84,13 @@ outputs:
     - "HTML"
     - "RSS"
 
+security:
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - '^CI$'
+      - '^BUILD_TIMESTAMP_UTC$'
+
 params:
   working_group_request_form: "https://asu.questionpro.com/omf-wg-joinrequest"
   copyright: "Open Modeling Foundation"

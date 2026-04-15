@@ -4,15 +4,25 @@
   {{ $blobRoot := "https://github.com/openmodelingfoundation/awesome-modeling-practices/blob/main/" }}
   {{ $rawRoot := "https://raw.githubusercontent.com/openmodelingfoundation/awesome-modeling-practices/main/" }}
   {{ $opts := dict "headers" (dict "User-Agent" "OMF-Hugo") }}
+  {{ $buildTimestampRaw := getenv "BUILD_TIMESTAMP_UTC" }}
+  {{ $buildTimestamp := now.UTC }}
+  {{ with $buildTimestampRaw }}
+    {{ $buildTimestamp = time . }}
+  {{ end }}
 
   <div class="td-content awesome-list-content">
     <h1>{{ .Title }}</h1>
     <div class="awesome-list-meta card border-0 shadow-sm mb-4">
       <div class="card-body">
         {{ with .Description }}
-          <p class="awesome-list-intro">{{ . }} 
-            This page is generated from <a href="{{ $sourceRepo }}" target="_blank" rel="noopener">openmodelingfoundation/awesome-modeling-practices</a>
+          <p class="awesome-list-intro">{{ . }}</p>
         {{ end }}
+        <p class="awesome-list-updated">
+          This page is generated from
+          <a href="{{ $sourceRepo }}" target="_blank" rel="noopener">openmodelingfoundation/awesome-modeling-practices</a>
+          <br>
+          <strong>Last updated:</strong> {{ $buildTimestamp.Format "January 2, 2006 15:04 MST" }}
+        </p>
       </div>
     </div>
 
@@ -76,7 +86,6 @@
         {{ $html = replaceRE `src="\./([^"]+)"` (printf `src="%s$1"` $rawRoot) $html }}
         {{ $html = replaceRE `src="\.\./([^"]+)"` (printf `src="%s../$1"` $rawRoot) $html }}
         {{ $html = replaceRE `src="([A-Za-z0-9][^":#]*)"` (printf `src="%s$1"` $rawRoot) $html }}
-
 
         <div class="awesome-list-rendered">
           {{ $html | safeHTML }}
