@@ -5,7 +5,7 @@ cascade:
 - type: "docs"
 menu:
   main:
-    weight: 20
+    weight: 10
 ---
 
 The Open Modeling Foundation (OMF) is an international open science community that works to enable the next generation modeling of human and natural systems. It is an alliance of modeling organizations that coordinates and administers a common, community developed body of standards and best practices among diverse communities of modeling scientists. The OMF also provides informational, data, and technological resources to facilitate the implementation of common standards and best practices among the scientific communities it serves.

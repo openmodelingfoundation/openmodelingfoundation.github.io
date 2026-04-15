@@ -1,6 +1,8 @@
 ---
 title: "Cyberinfrastructure Working Group"
 linkTitle: "Cyberinfrastructure"
+aliases:
+  - /about/working-groups/cyberinfrastructure/
 ---
 The Cyberinfrastructure Working Group (CYWG) coordinates development and management of the OMF Science Gateway, an online platform for collaborative governance and standards. CYWG works to to identify, develop, and enhance tools and processes that lower the technical barriers towards adoption of OMF standards and facilitate their use by modeling scientists. CYWG staff assist the EOWG in developing online training modules and making them available on the OMF Science Gateway.
 

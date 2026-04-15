@@ -1,6 +1,13 @@
 ---
 title: "Working Groups"
 linkTitle: "Working Groups"
+cascade:
+  - type: "docs"
+aliases:
+  - /about/working-groups/
+menu:
+  main:
+    weight: 30
 weight: 100
 ---
 

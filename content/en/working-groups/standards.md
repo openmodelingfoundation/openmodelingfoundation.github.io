@@ -1,6 +1,8 @@
 ---
 title: "Standards Working Group"
 linkTitle: "Standards"
+aliases:
+  - /about/working-groups/standards/
 ---
 ## **Overview**
 

@@ -49,12 +49,14 @@ jobs:
         env:
           BASE_URL: ${{ steps.pages.outputs.base_url }}
         run: |
+          BUILD_TIMESTAMP_UTC="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
           docker compose build --pull hugo
           docker compose run --rm --no-deps \
             --entrypoint sh \
             --user "$(id -u):$(id -g)" \
             -e HUGO_CACHEDIR="${HUGO_CACHE_CONTAINER_DIR}" \
             -e BASE_URL="${BASE_URL}" \
+            -e BUILD_TIMESTAMP_UTC="${BUILD_TIMESTAMP_UTC}" \
             hugo -c '.github/scripts/build-site.sh'
 
       - name: Save build cache

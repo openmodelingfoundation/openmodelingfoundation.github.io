@@ -24,21 +24,12 @@ enableMissingTranslationPlaceholders: true
 disableKinds:
   - taxonomy
 
-# Highlighting config
-pygmentsCodeFences: true
-pygmentsUseClasses: false
-# Use the new Chroma Go highlighter in Hugo.
-pygmentsUseClassic: false
-# pygmentsOptions: "linenos=table"
-# See https://help.farbox.com/pygments.html
-pygmentsStyle: "tango"
-
 # module settings
 module:
   proxy: "direct"
   hugoVersion:
     extended: true
-    min: "0.110.0"
+    min: "0.160.1"
   imports:
     - path: "github.com/google/docsy"
       disable: false
@@ -54,13 +45,6 @@ module:
 # Configure how URLs look like per section.
 permalinks:
   blog: "/:section/:year/:month/:day/:slug/"
-
-## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
-blackfriday:
-  plainIDAnchors: true
-  hrefTargetBlank: true
-  angledQuotes: false
-  latexDashes: true
 
 # Image processing configuration.
 imaging:
@@ -86,6 +70,10 @@ languages:
       time_format_blog: "02.01.2006"
 
 markup:
+  highlight:
+    codeFences: true
+    noClasses: true
+    style: "tango"
   goldmark:
     renderer:
       unsafe: true
@@ -95,6 +83,13 @@ outputs:
   section:
     - "HTML"
     - "RSS"
+
+security:
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - '^CI$'
+      - '^BUILD_TIMESTAMP_UTC$'
 
 params:
   working_group_request_form: "https://asu.questionpro.com/omf-wg-joinrequest"
@@ -112,7 +107,7 @@ params:
   # The version number for the version of the docs represented in this doc set.
   # Used in the "version-banner" partial to display a version number for the 
   # current doc set.
-  version: "0.4"
+  version: "0.5"
   # A link to latest version of the docs. Used in the "version-banner" partial to
   # point people to the main doc site.
   url_latest_version: "https://www.openmodelingfoundation.org"
