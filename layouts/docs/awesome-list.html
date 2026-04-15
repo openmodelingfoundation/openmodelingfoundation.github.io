@@ -61,8 +61,10 @@
         {{ $html = replaceRE `(?is)<style(?:\s[^>]*)?>.*?</style>` "" $html }}
         {{ $html = replaceRE `(?is)<(?:input|button|textarea|select|meta|link)(?:\s[^>]*)?/?>` "" $html }}
         {{ $html = replaceRE `(?i)\s+on[a-z]+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)` "" $html }}
-        {{ $html = replaceRE `(?i)(href|src)\s*=\s*"\s*javascript:[^"]*"` `$1="#"` $html }}
-        {{ $html = replaceRE `(?i)(href|src)\s*=\s*'\s*javascript:[^']*'` `$1='#'` $html }}
+        {{ $html = replaceRE `(?i)\s+style\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)` "" $html }}
+        {{ $html = replaceRE `(?i)(href|src|xlink:href|formaction|poster)\s*=\s*"\s*(?:javascript|vbscript|data)\s*:[^"]*"` `$1="#"` $html }}
+        {{ $html = replaceRE `(?i)(href|src|xlink:href|formaction|poster)\s*=\s*'\s*(?:javascript|vbscript|data)\s*:[^']*'` `$1='#'` $html }}
+        {{ $html = replaceRE `(?i)(href|src|xlink:href|formaction|poster)\s*=\s*(?:javascript|vbscript|data)\s*:[^\s>]+` `$1="#"` $html }}
 
         {{/* Rewrite relative links after Markdown rendering for better GitHub parity. */}}
         {{ $html = replaceRE `href="/openmodelingfoundation/awesome-modeling-practices([^"]*)"` `href="https://github.com/openmodelingfoundation/awesome-modeling-practices$1"` $html }}
