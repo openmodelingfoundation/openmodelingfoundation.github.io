@@ -30,11 +30,11 @@ The Resources section highlights concrete Open Modeling Foundation outputs and r
     </div>
   </div>
   <div class="col">
-    <div class="card h-100 shadow-sm">
+    <div class="card h-100 shadow-sm border-primary-subtle">
       <div class="card-body">
-        <h2 class="h4 card-title">Best Practices</h2>
-        <p class="card-text">Find practical guidance and curated materials for reusable, well-documented modeling workflows.</p>
-        <a class="btn btn-outline-primary" href="{{< relref "best-practices" >}}">Explore best practices</a>
+        <h2 class="h4 card-title">Awesome Modeling Practices</h2>
+        <p class="card-text">Useful modeling resources curated by the OMF Early Career Scholars Working Group.</p>
+        <a class="btn btn-outline-primary" href="{{< relref "awesome-modeling-practices" >}}">Open awesome list</a>
       </div>
     </div>
   </div>
@@ -42,7 +42,7 @@ The Resources section highlights concrete Open Modeling Foundation outputs and r
     <div class="card h-100 shadow-sm">
       <div class="card-body">
         <h2 class="h4 card-title">Repositories</h2>
-        <p class="card-text">Explore OMF-maintained and community-facing code and list resources.</p>
+        <p class="card-text">Explore OMF's GitHub repositories.</p>
         <a class="btn btn-outline-primary" href="{{< relref "repositories" >}}">Browse repositories</a>
       </div>
     </div>

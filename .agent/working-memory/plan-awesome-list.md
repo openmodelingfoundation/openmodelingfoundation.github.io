@@ -2,7 +2,7 @@
 
 **Date:** 2026-03-28  
 **Source repo:** https://github.com/openmodelingfoundation/awesome-modeling-practices  
-**Target page:** `/resources/awesome-modeling-practices/` (new section, or under `/standards/`)
+**Target page:** `/resources/awesome-modeling-practices/`
 
 ---
 

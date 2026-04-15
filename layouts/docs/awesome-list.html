@@ -1,0 +1,95 @@
+{{ define "main" }}
+  {{ $sourceRepo := "https://github.com/openmodelingfoundation/awesome-modeling-practices" }}
+  {{ $rawURL := "https://raw.githubusercontent.com/openmodelingfoundation/awesome-modeling-practices/main/README.md" }}
+  {{ $blobRoot := "https://github.com/openmodelingfoundation/awesome-modeling-practices/blob/main/" }}
+  {{ $rawRoot := "https://raw.githubusercontent.com/openmodelingfoundation/awesome-modeling-practices/main/" }}
+  {{ $opts := dict "headers" (dict "User-Agent" "OMF-Hugo") }}
+
+  <div class="td-content awesome-list-content">
+    <h1>{{ .Title }}</h1>
+    <div class="awesome-list-meta card border-0 shadow-sm mb-4">
+      <div class="card-body">
+        {{ with .Description }}
+          <p class="awesome-list-intro">{{ . }} 
+            This page is generated from <a href="{{ $sourceRepo }}" target="_blank" rel="noopener">openmodelingfoundation/awesome-modeling-practices</a>
+        {{ end }}
+      </div>
+    </div>
+
+    {{ with try (resources.GetRemote $rawURL $opts) }}
+      {{ with .Err }}
+        <div class="alert alert-warning" role="alert">
+          <strong>Live list unavailable.</strong> We could not load the latest list during this build.
+          Please visit <a href="{{ $sourceRepo }}" target="_blank" rel="noopener">openmodelingfoundation/awesome-modeling-practices</a> directly.
+        </div>
+      {{ else with .Value }}
+        {{ $content := string .Content }}
+        {{ $content = replaceRE `(?m)^#\s+[^\n]+\n` "" $content }}
+        {{ $content = replaceRE `\]\((/openmodelingfoundation/awesome-modeling-practices[^)]*)\)` "](https://github.com$1)" $content }}
+
+        {{ $html := $content | markdownify }}
+
+        {{/*
+          Content handling policy (intentional lightweight processing):
+
+          Rewritten:
+          - Repo-root href values like /openmodelingfoundation/awesome-modeling-practices...
+            to full github.com links.
+          - Relative href values (/, ./, ../, and bare relative paths) to $blobRoot.
+          - Relative src values (/, ./, ../, and bare relative paths) to $rawRoot.
+          - javascript: href/src URLs to safe no-op (#).
+
+          Sanitized:
+          - Removes high-risk tag blocks: script, iframe, object, embed, form, style.
+          - Removes standalone interactive/metadata tags: input, button, textarea,
+            select, meta, link.
+          - Removes inline event handlers (onclick, onload, etc.).
+
+          Left untouched:
+          - Absolute links (http:, https:, mailto:, tel:).
+          - Fragment-only links (#...).
+          - Markdown semantics/content structure not related to URL rewriting.
+          - Advanced HTML sanitization beyond these patterns (this is intentionally
+            trust-based because OMF controls the upstream repository).
+        */}}
+        {{/* Lightweight sanitization for remote HTML blocks and URL protocols. */}}
+        {{ $html = replaceRE `(?is)<script(?:\s[^>]*)?>.*?</script>` "" $html }}
+        {{ $html = replaceRE `(?is)<iframe(?:\s[^>]*)?>.*?</iframe>` "" $html }}
+        {{ $html = replaceRE `(?is)<object(?:\s[^>]*)?>.*?</object>` "" $html }}
+        {{ $html = replaceRE `(?is)<embed(?:\s[^>]*)?>.*?</embed>` "" $html }}
+        {{ $html = replaceRE `(?is)<form(?:\s[^>]*)?>.*?</form>` "" $html }}
+        {{ $html = replaceRE `(?is)<style(?:\s[^>]*)?>.*?</style>` "" $html }}
+        {{ $html = replaceRE `(?is)<(?:input|button|textarea|select|meta|link)(?:\s[^>]*)?/?>` "" $html }}
+        {{ $html = replaceRE `(?i)\s+on[a-z]+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)` "" $html }}
+        {{ $html = replaceRE `(?i)(href|src)\s*=\s*"\s*javascript:[^"]*"` `$1="#"` $html }}
+        {{ $html = replaceRE `(?i)(href|src)\s*=\s*'\s*javascript:[^']*'` `$1='#'` $html }}
+
+        {{/* Rewrite relative links after Markdown rendering for better GitHub parity. */}}
+        {{ $html = replaceRE `href="/openmodelingfoundation/awesome-modeling-practices([^"]*)"` `href="https://github.com/openmodelingfoundation/awesome-modeling-practices$1"` $html }}
+        {{ $html = replaceRE `href="/([^"][^"]*)"` `href="https://github.com/openmodelingfoundation/awesome-modeling-practices/blob/main/$1"` $html }}
+        {{ $html = replaceRE `href="\./([^"]+)"` (printf `href="%s$1"` $blobRoot) $html }}
+        {{ $html = replaceRE `href="\.\./([^"]+)"` (printf `href="%s../$1"` $blobRoot) $html }}
+        {{ $html = replaceRE `href="([A-Za-z0-9][^":#]*)"` (printf `href="%s$1"` $blobRoot) $html }}
+        {{ $html = replaceRE `src="/([^"]+)"` `src="https://raw.githubusercontent.com/openmodelingfoundation/awesome-modeling-practices/main/$1"` $html }}
+        {{ $html = replaceRE `src="\./([^"]+)"` (printf `src="%s$1"` $rawRoot) $html }}
+        {{ $html = replaceRE `src="\.\./([^"]+)"` (printf `src="%s../$1"` $rawRoot) $html }}
+        {{ $html = replaceRE `src="([A-Za-z0-9][^":#]*)"` (printf `src="%s$1"` $rawRoot) $html }}
+
+
+        <div class="awesome-list-rendered">
+          {{ $html | safeHTML }}
+        </div>
+      {{ else }}
+        <div class="alert alert-warning" role="alert">
+          <strong>Live list unavailable.</strong> Please visit
+          <a href="{{ $sourceRepo }}" target="_blank" rel="noopener">openmodelingfoundation/awesome-modeling-practices</a> directly.
+        </div>
+      {{ end }}
+    {{ else }}
+      <div class="alert alert-warning" role="alert">
+        <strong>Live list unavailable.</strong> Please visit
+        <a href="{{ $sourceRepo }}" target="_blank" rel="noopener">openmodelingfoundation/awesome-modeling-practices</a> directly.
+      </div>
+    {{ end }}
+  </div>
+{{ end }}
