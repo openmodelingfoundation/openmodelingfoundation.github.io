@@ -7,10 +7,11 @@ body {
 }
 
 .td-main {
-    h1,
-    h2,
-    h3,
-    h4 {
+    h1, .h1,
+    h2, .h2,
+    h3, .h3,
+    h4, .h4,
+    .td-alert-heading {
         color: $primary;
         letter-spacing: 0.01em;
         text-wrap: balance;
@@ -22,8 +23,6 @@ body {
         line-height: 1.72;
     }
 }
-
-
 
 a,
 .td-content a {
@@ -53,9 +52,11 @@ textarea:focus-visible,
         letter-spacing: 0.01em;
     }
 
-    .nav-link:hover,
-    .nav-link:focus-visible {
-        color: $orange;
+    .nav-link {
+        &:hover,
+        &:focus-visible {
+            color: $orange;
+        }
     }
 }
 
@@ -80,9 +81,11 @@ textarea:focus-visible,
 .td-box--primary {
     background: linear-gradient(140deg, $primary 0%, mix($primary, #14355b, 70%) 70%, #193f67 100%);
 
-    h1,
-    h2,
-    h3,
+    h1, .h1,
+    h2, .h2,
+    h3, .h3,
+    h4, .h4,
+    .td-alert-heading,
     p,
     li {
         color: rgba($white, 0.94);
@@ -144,6 +147,62 @@ textarea:focus-visible,
     background:
         linear-gradient(178deg, rgba($white, 0.64), rgba($white, 0.64)),
         repeating-linear-gradient(45deg, rgba($primary, 0.03), rgba($primary, 0.03) 8px, transparent 8px, transparent 16px);
+
+    .col-lg-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        padding: 1.45rem 1.2rem 1.25rem;
+        border: 1px solid rgba($primary, 0.12);
+        border-radius: 1rem;
+        background: linear-gradient(180deg, rgba($white, 0.9), rgba($white, 0.74));
+        box-shadow: 0 14px 28px -24px rgba($primary, 0.38);
+
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .td-alert-heading,
+        p {
+            margin-bottom: 0;
+        }
+
+        .mb-0 {
+            flex: 1 1 auto;
+            color: var(--omf-text);
+        }
+
+        > p:last-child {
+            margin-top: auto;
+        }
+
+        > p:last-child a {
+            display: inline-block;
+            min-width: 9.5rem;
+            padding: 0.44rem 1rem;
+            border-radius: 999px;
+            border: 1px solid rgba($secondary, 0.42);
+            background: rgba($secondary, 0.14);
+            color: $primary;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+        }
+
+        > p:last-child a:hover,
+        > p:last-child a:focus-visible {
+            background: rgba($secondary, 0.24);
+            border-color: rgba($secondary, 0.58);
+            color: mix($primary, $dark, 75%);
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        .col-lg-4 {
+            margin-bottom: 1rem !important;
+        }
+    }
 }
 
 footer {
@@ -158,16 +217,17 @@ footer {
 
     a {
         color: rgba($orange, 0.96) !important;
-    }
+        transition: color 0.2s ease, text-decoration 0.2s ease;
 
-    a:hover,
-    a:focus-visible {
-        color: $white !important;
-        text-decoration: underline;
+        &:hover,
+        &:focus-visible {
+            color: $white !important;
+            text-decoration: underline;
+        }
     }
 
     @include media-breakpoint-down(md) {
-         min-height: 200px;
+        min-height: 200px;
     }
 }
 
@@ -175,12 +235,12 @@ footer {
     border: 1px solid rgba($primary, 0.08);
     box-shadow: 0 14px 28px -24px rgba($primary, 0.55);
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-}
 
-.card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 20px 30px -22px rgba($primary, 0.48);
-    border-color: rgba($secondary, 0.4);
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 20px 30px -22px rgba($primary, 0.48);
+        border-color: rgba($secondary, 0.4);
+    }
 }
 
 .d-flex.cards-equal-width {
@@ -199,7 +259,7 @@ footer {
     word-wrap: break-word;
 
     .card-body {
-        font-weight: bold;
+        font-weight: $font-weight-bold;
         padding: 0;
     }
 
@@ -262,13 +322,7 @@ footer {
 
 // normalize links that appear to be top-level regardless of whether they are
 // one page or a section with 1 index page
-.td-sidebar-nav .td-sidebar-link__page {
-    font-weight: 400;
-    color: var(--omf-text);
-    line-height: 1.35;
-    padding-bottom: 0.75rem;
-}
-
+.td-sidebar-nav .td-sidebar-link__page,
 .td-sidebar-nav .td-sidebar-link__section {
     font-weight: 400;
     color: var(--omf-text);
@@ -293,13 +347,13 @@ footer {
     .td-sidebar-link {
         border-radius: 0.35rem;
         transition: background-color 0.2s ease, color 0.2s ease;
-    }
 
-    .td-sidebar-link:hover,
-    .td-sidebar-link:focus-visible {
-        background-color: rgba($secondary, 0.1);
-        color: $primary;
-        text-decoration: none;
+        &:hover,
+        &:focus-visible {
+            background-color: rgba($secondary, 0.1);
+            color: $primary;
+            text-decoration: none;
+        }
     }
 }
 
@@ -376,36 +430,34 @@ footer {
                 border-radius: 999px;
                 padding: 0.35rem 0.7rem;
                 transition: all 0.2s ease;
-            }
+                text-underline-offset: 0.14em;
 
-            a:hover,
-            a:focus-visible {
-                background: rgba($secondary, 0.22);
-                border-color: rgba($secondary, 0.55);
-                outline: none;
+                &:hover,
+                &:hover {
+                    background: rgba($secondary, 0.22);
+                    border-color: rgba($secondary, 0.55);
+                }
+
+                &:focus-visible {
+                    background: rgba($secondary, 0.22);
+                    border-color: rgba($secondary, 0.55);
+                    outline: 2px solid rgba($secondary, 0.8);
+                    outline-offset: 2px;
+                    border-radius: 2px;
+                }
             }
         }
 
         ul {
             padding-left: 1.25rem;
-        }
 
-        ul li {
-            margin-bottom: 0.55rem;
-        }
+            li {
+                margin-bottom: 0.55rem;
 
-        ul li::marker {
-            color: $secondary;
-        }
-
-        a {
-            text-underline-offset: 0.14em;
-        }
-
-        a:focus-visible {
-            outline: 2px solid rgba($secondary, 0.8);
-            outline-offset: 2px;
-            border-radius: 2px;
+                &::marker {
+                    color: $secondary;
+                }
+            }
         }
     }
 
