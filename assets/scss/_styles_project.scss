@@ -1,5 +1,155 @@
+body {
+    color: var(--omf-text);
+    background:
+        radial-gradient(circle at 12% -8%, rgba($secondary, 0.11), transparent 45%),
+        radial-gradient(circle at 87% 0%, rgba($primary, 0.08), transparent 42%),
+        var(--omf-surface-1);
+}
+
+.td-main {
+    h1,
+    h2,
+    h3,
+    h4 {
+        color: $primary;
+        letter-spacing: 0.01em;
+        text-wrap: balance;
+    }
+
+    p,
+    li {
+        color: var(--omf-text);
+        line-height: 1.72;
+    }
+}
+
+
+
+a,
+.td-content a {
+    text-underline-offset: 0.12em;
+    text-decoration-thickness: 0.08em;
+}
+
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[role="button"]:focus-visible,
+[tabindex]:focus-visible {
+    outline: 3px solid rgba($orange, 0.72);
+    outline-offset: 2px;
+    box-shadow: none;
+}
+
+.td-navbar {
+    background: linear-gradient(98deg, $primary 5%, mix($primary, $dark, 70%) 55%, $dark 100%);
+    box-shadow: 0 10px 24px rgba($primary, 0.24);
+
+    .nav-link,
+    .navbar-brand {
+        letter-spacing: 0.01em;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus-visible {
+        color: $orange;
+    }
+}
+
+.td-box {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background: linear-gradient(130deg, rgba($white, 0.09), transparent 46%);
+    }
+
+    .container,
+    .row {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.td-box--primary {
+    background: linear-gradient(140deg, $primary 0%, mix($primary, #14355b, 70%) 70%, #193f67 100%);
+
+    h1,
+    h2,
+    h3,
+    p,
+    li {
+        color: rgba($white, 0.94);
+    }
+}
+
+.td-box--dark {
+    background: linear-gradient(120deg, #0b2038 0%, #102945 70%, #12324f 100%);
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    li,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    i {
+        color: rgba($white, 0.94);
+    }
+
+    .col-sm-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.85rem;
+        padding: 1.5rem 1.2rem 1.35rem;
+        border: 1px solid rgba($white, 0.1);
+        border-radius: 1rem;
+        background: linear-gradient(180deg, rgba($white, 0.06), rgba($white, 0.025));
+        box-shadow: 0 18px 32px -28px rgba($black, 0.72);
+        backdrop-filter: blur(2px);
+    }
+
+    .col-sm-6 .h1,
+    .col-sm-6 .h2,
+    .col-sm-6 .h3,
+    .col-sm-6 .h4,
+    .col-sm-6 .td-alert-heading,
+    .col-sm-6 p {
+        margin-bottom: 0;
+    }
+
+    .col-sm-6 .mb-0 {
+        flex: 1 1 auto;
+    }
+
+    .col-sm-6 .btn {
+        margin-top: auto;
+        min-width: 9.5rem;
+        border-radius: 999px;
+        font-weight: 600;
+    }
+}
+
+.td-box--light {
+    background:
+        linear-gradient(178deg, rgba($white, 0.64), rgba($white, 0.64)),
+        repeating-linear-gradient(45deg, rgba($primary, 0.03), rgba($primary, 0.03) 8px, transparent 8px, transparent 16px);
+}
+
 footer {
     min-height: 160px;
+    background: linear-gradient(175deg, #0b1b31, #0a1627 70%);
+    border-top: 2px solid rgba($secondary, 0.35);
 
     .logo {
         max-width: 60%;
@@ -7,17 +157,30 @@ footer {
     }
 
     a {
-        color: orange !important;
+        color: rgba($orange, 0.96) !important;
     }
 
-    a:hover {
-        color: white !important;
+    a:hover,
+    a:focus-visible {
+        color: $white !important;
         text-decoration: underline;
     }
 
     @include media-breakpoint-down(md) {
          min-height: 200px;
     }
+}
+
+.card {
+    border: 1px solid rgba($primary, 0.08);
+    box-shadow: 0 14px 28px -24px rgba($primary, 0.55);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 30px -22px rgba($primary, 0.48);
+    border-color: rgba($secondary, 0.4);
 }
 
 .d-flex.cards-equal-width {
@@ -77,20 +240,23 @@ footer {
 
 .td-toc a {
     font-size: 0.9rem;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 1.35;
     padding-bottom: 0.5rem;
+    color: var(--omf-text-muted);
 }
 
 // active page indicator
 .td-sidebar-nav-active-item {
     color: $primary;
+    font-weight: 600;
+
     &:before {
-        position: relative;
-        left: -0.5rem;
+        position: absolute;
+        left: -0.65rem;
         content: "";
-        border-left: 3px solid $btn-primary;
-        margin-left: -3px;
+        height: 1.1rem;
+        border-left: 3px solid $orange;
     }
 }
 
@@ -98,24 +264,43 @@ footer {
 // one page or a section with 1 index page
 .td-sidebar-nav .td-sidebar-link__page {
     font-weight: 400;
-    color: #222;
+    color: var(--omf-text);
     line-height: 1.35;
     padding-bottom: 0.75rem;
 }
 
 .td-sidebar-nav .td-sidebar-link__section {
     font-weight: 400;
-    color: #222;
+    color: var(--omf-text);
     line-height: 1.35;
     padding-bottom: 0.75rem;
 }
 
 .foldable .td-sidebar-link {
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .td-search {
     width: 100%;
+}
+
+.td-sidebar {
+    background: linear-gradient(180deg, rgba($white, 0.92), rgba($omf-surface-2, 0.86));
+    border-right: 1px solid rgba($primary, 0.08);
+}
+
+.td-sidebar-nav {
+    .td-sidebar-link {
+        border-radius: 0.35rem;
+        transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .td-sidebar-link:hover,
+    .td-sidebar-link:focus-visible {
+        background-color: rgba($secondary, 0.1);
+        color: $primary;
+        text-decoration: none;
+    }
 }
 
 // Adjust anchors vs the fixed menu.
@@ -137,16 +322,14 @@ footer {
 }
 
 .awesome-list-content {
-    max-width: 78ch;
-
     .awesome-list-intro {
-        color: $gray-700;
+        color: var(--omf-text-muted);
         font-size: 1.05rem;
         margin-bottom: 1.25rem;
     }
 
     .awesome-list-meta {
-        border-left: 4px solid $secondary;
+        border-left: 4px solid $orange;
         background: rgba($secondary, 0.06);
     }
 
@@ -235,5 +418,12 @@ footer {
                 padding: 0.3rem 0.58rem;
             }
         }
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+        animation: none !important;
     }
 }

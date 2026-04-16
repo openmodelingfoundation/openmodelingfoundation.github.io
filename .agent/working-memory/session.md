@@ -4,9 +4,19 @@
 
 - awesome-modeling-practices embed plan is ready: `.agent/working-memory/plan-awesome-list.md`.
 - navigation/resources refactor issue plan is ready: `.agent/working-memory/plan-navigation-resources-refactor.md`.
-- Next step on request: implement the planned integration.
+- UI refactor plan artifact is ready: `.agent/working-memory/plan-ui-refactor-docsy-theme.md`.
+- Next step on request: complete visual QA pass for key pages and tune any contrast/spacing edge cases.
 
 ## Notes by date (newest first)
+
+### 2026-04-15
+
+- Resumed UI theme refactor handoff and implemented Phase 1 + Phase 2 baseline in SCSS:
+	- `assets/scss/_variables_project.scss`: tokenized Scientific Editorial palette, typography stacks, Bootstrap variable remap, focus ring tuning, reduced-motion handling.
+	- `assets/scss/_styles_project.scss`: global readability/focus updates, navbar/section backgrounds, footer restyle, card and sidebar interaction polish, awesome-list alignment.
+	- `assets/scss/_sidebar-tree-with-links.scss`: page-meta link contrast, hover/focus states, and typography weight adjustments.
+- Validation run completed with containerized workflow: `make render` succeeded on 2026-04-15 22:45 UTC.
+- Build warning observed (pre-existing): Hugo deprecation for `.Site.AllPages` in theme/template code, unrelated to this SCSS refactor.
 
 ### 2026-03-31
 

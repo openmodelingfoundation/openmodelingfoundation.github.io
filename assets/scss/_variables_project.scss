@@ -1,42 +1,80 @@
 $enable-gradients: false;
-$enable-shadows: false;
+$enable-shadows: true;
 
 //
-// Color system
+// OMF Scientific Editorial palette
 //
 
-$white:           #fff;
-$black:           #000;
-$orange:          #ff9800;
-$primary:         #18182b;
-$secondary:       #03a9f4;
-$light:           #f5fafd;
-$dark:            #2F415B;
-$btn-primary:     #03a9f4;
+$white: #fff;
+$black: #000;
 
-$link-color:      $secondary;
+$omf-primary: #0f2742;
+$omf-secondary: #0e7490;
+$omf-accent: #f59e0b;
+$omf-surface-1: #f7fafc;
+$omf-surface-2: #eaf1f6;
+$omf-text: #1f2937;
+$omf-text-muted: #4b5563;
+$omf-border: #cbd5e1;
+
+$primary: $omf-primary;
+$secondary: $omf-secondary;
+$light: $omf-surface-1;
+$dark: #0c1f34;
+$btn-primary: $omf-secondary;
+$orange: $omf-accent;
+
+$body-bg: $omf-surface-1;
+$body-color: $omf-text;
+$border-color: $omf-border;
+
+$link-color: $omf-secondary;
+$link-hover-color: darken($omf-secondary, 8%);
 $link-decoration: underline;
 
-$font-weight-light: 200;
+$font-family-sans-serif: "Public Sans", "Avenir Next", "Segoe UI", sans-serif;
+$headings-font-family: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", serif;
+$font-family-monospace: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+
+$font-weight-light: 300;
 $font-weight-normal: 400;
-$font-weight-bold: 550;
+$font-weight-bold: 600;
+$headings-font-weight: 650;
+
+$navbar-dark-color: rgba($white, 0.92);
+$navbar-dark-hover-color: $white;
+$navbar-dark-active-color: $white;
+
+$card-border-radius: 0.9rem;
+$card-cap-bg: $omf-surface-2;
+
+$focus-ring-color: rgba($omf-accent, 0.42);
+
+:root {
+  --omf-primary: #{$omf-primary};
+  --omf-secondary: #{$omf-secondary};
+  --omf-accent: #{$omf-accent};
+  --omf-surface-1: #{$omf-surface-1};
+  --omf-surface-2: #{$omf-surface-2};
+  --omf-text: #{$omf-text};
+  --omf-text-muted: #{$omf-text-muted};
+  --omf-border: #{$omf-border};
+}
 
 html {
   scroll-behavior: smooth;
 }
 
-
 .title {
-  font-size: 4rem;
+  font-size: clamp(2.5rem, 4vw, 4rem);
 }
 
 .subtitle {
-  font-size: 2.35rem;
+  font-size: clamp(1.45rem, 2.5vw, 2.35rem);
 }
 
 .arrow-scroll {
-  animation: fade-slide-up 1s 1s ease-out forwards,
-  pulse 3s 3s ease-out infinite;
+  animation: fade-slide-up 1s 1s ease-out forwards, pulse 3s 3s ease-out infinite;
   opacity: 0;
 }
 
@@ -45,6 +83,7 @@ html {
     opacity: 0;
     transform: translateY(4rem);
   }
+
   100% {
     opacity: 1;
     transform: none;
@@ -56,12 +95,25 @@ html {
     opacity: 1;
     transform: none;
   }
+
   50% {
-    opacity: .8;
-    transform: scale(.9);
+    opacity: 0.8;
+    transform: scale(0.9);
   }
+
   100% {
     opacity: 1;
     transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .arrow-scroll {
+    animation: none;
+    opacity: 1;
   }
 }
