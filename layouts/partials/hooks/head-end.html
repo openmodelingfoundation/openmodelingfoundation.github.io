@@ -2,3 +2,16 @@
 {{ template "_internal/google_analytics.html" . }}
 {{ end }}
 
+{{- $fontPreloads := slice
+	"fonts/public-sans/public-sans-latin-400-normal.woff2"
+	"fonts/public-sans/public-sans-latin-600-normal.woff2"
+	"fonts/source-serif-4/source-serif-4-latin-600-normal.woff2"
+	"fonts/ibm-plex-mono/ibm-plex-mono-latin-400-normal.woff2"
+-}}
+
+{{- range $path := $fontPreloads -}}
+	{{- if fileExists (printf "static/%s" $path) -}}
+<link rel="preload" href="/{{ $path }}" as="font" type="font/woff2" crossorigin>
+	{{- end -}}
+{{- end -}}
+
