@@ -1,0 +1,21 @@
+{{/*
+  Keep this shortcode aligned with upstream Docsy to minimize drift.
+  Upstream reference: layouts/_shortcodes/blocks/feature.html (docsy v0.14.3).
+  Intentional local delta: add `omf-feature-card` on the wrapper div for
+  maintainable, semantic styling hooks independent of grid utility classes.
+*/ -}}
+
+{{ $icon := .Get "icon" | default "fa-lightbulb" -}}
+{{ $url_text := .Get "url_text" -}}
+<div class="col-lg-4 mb-5 mb-lg-0 text-center omf-feature-card">
+  <div class="mb-4 h1">
+    <i class="{{ if not (or (hasPrefix $icon "fas ") (hasPrefix $icon "fab ")) }}fas {{ end }}{{ $icon }}"></i>
+  </div>
+  <h4 class="h3">
+    {{- .Get "title" | markdownify -}}
+  </h4>
+  <div class="mb-0">
+    {{ .Inner }}
+  </div>
+  {{ with .Get "url" }}<p><a href="{{ . }}">{{ with $.Get "url_text" }}{{ . }}{{ else }}{{ T "ui_read_more" }}{{ end }}</a></p>{{ end }}
+</div>

@@ -30,6 +30,26 @@ a,
     text-decoration-thickness: 0.08em;
 }
 
+.omf-skip-link {
+    position: absolute;
+    left: 0.75rem;
+    top: -3rem;
+    z-index: 1100;
+    padding: 0.55rem 0.9rem;
+    border-radius: 0.35rem;
+    background: $primary;
+    color: $white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: top 0.15s ease;
+
+    &:focus-visible {
+        top: 0.75rem;
+        outline: 3px solid rgba($orange, 0.72);
+        outline-offset: 2px;
+    }
+}
+
 a:focus-visible,
 button:focus-visible,
 .btn:focus-visible,
@@ -109,7 +129,7 @@ textarea:focus-visible,
         color: rgba($white, 0.94);
     }
 
-    .col-sm-6 {
+    .omf-standard-card {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -122,20 +142,20 @@ textarea:focus-visible,
         backdrop-filter: blur(2px);
     }
 
-    .col-sm-6 .h1,
-    .col-sm-6 .h2,
-    .col-sm-6 .h3,
-    .col-sm-6 .h4,
-    .col-sm-6 .td-alert-heading,
-    .col-sm-6 p {
+    .omf-standard-card .h1,
+    .omf-standard-card .h2,
+    .omf-standard-card .h3,
+    .omf-standard-card .h4,
+    .omf-standard-card .td-alert-heading,
+    .omf-standard-card p {
         margin-bottom: 0;
     }
 
-    .col-sm-6 .mb-0 {
+    .omf-standard-card .mb-0 {
         flex: 1 1 auto;
     }
 
-    .col-sm-6 .btn {
+    .omf-standard-card .btn {
         margin-top: auto;
         min-width: 9.5rem;
         border-radius: 999px;
@@ -148,7 +168,7 @@ textarea:focus-visible,
         linear-gradient(178deg, rgba($white, 0.64), rgba($white, 0.64)),
         repeating-linear-gradient(45deg, rgba($primary, 0.03), rgba($primary, 0.03) 8px, transparent 8px, transparent 16px);
 
-    .col-lg-4 {
+    .omf-feature-card {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -199,7 +219,7 @@ textarea:focus-visible,
     }
 
     @include media-breakpoint-down(md) {
-        .col-lg-4 {
+        .omf-feature-card {
             margin-bottom: 1rem !important;
         }
     }
@@ -429,11 +449,11 @@ footer {
                 border: 1px solid rgba($secondary, 0.35);
                 border-radius: 999px;
                 padding: 0.35rem 0.7rem;
-                transition: all 0.2s ease;
+                transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
                 text-underline-offset: 0.14em;
 
                 &:hover,
-                &:hover {
+                &:focus-visible {
                     background: rgba($secondary, 0.22);
                     border-color: rgba($secondary, 0.55);
                 }
@@ -469,6 +489,50 @@ footer {
                 font-size: 0.8rem;
                 padding: 0.3rem 0.58rem;
             }
+        }
+    }
+}
+
+.omf-minutes-page {
+    .td-content > h2 {
+        margin-top: 2.1rem;
+        margin-bottom: 1rem;
+        padding: 0.7rem 0.9rem;
+        border-left: 4px solid rgba($secondary, 0.52);
+        border-radius: 0.35rem;
+        background: linear-gradient(90deg, rgba($secondary, 0.11), rgba($secondary, 0.03) 62%, transparent);
+        font-size: clamp(1.15rem, 1.5vw, 1.35rem);
+        line-height: 1.35;
+    }
+
+    .td-content > h3 {
+        margin-top: 1.45rem;
+        margin-bottom: 0.45rem;
+        font-size: clamp(1.02rem, 1.15vw, 1.13rem);
+        text-wrap: pretty;
+    }
+
+    .td-content p,
+    .td-content li {
+        line-height: 1.75;
+    }
+
+    .td-content hr {
+        margin: 2rem 0 1.5rem;
+        border-color: rgba($primary, 0.2);
+    }
+
+    .td-content ul {
+        margin-bottom: 0.8rem;
+    }
+
+    .td-content li {
+        margin-bottom: 0.34rem;
+    }
+
+    @include media-breakpoint-down(md) {
+        .td-content > h2 {
+            padding: 0.62rem 0.72rem;
         }
     }
 }
