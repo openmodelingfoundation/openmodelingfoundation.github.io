@@ -36,8 +36,6 @@
         {{ $content := string .Content }}
         {{ $content = replaceRE `(?m)^#\s+[^\n]+\n` "" $content }}
         {{ $content = replaceRE `\]\((/openmodelingfoundation/awesome-modeling-practices[^)]*)\)` "](https://github.com$1)" $content }}
-        {{ $papers := readFile "assets/shared/papers.md" | markdownify }}
-        {{ $content = replace $content "OMF_CANONICAL_PAPERS" $papers }}
         
         {{ $html := $content | markdownify }}
 

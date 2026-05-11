@@ -5,6 +5,4 @@ description: "Published artifacts from OMF activities (reports, manuscripts, pre
 weight: 20
 ---
 
-{{< include-md "assets/shared/papers.md" >}}
-
-- Standards-related manuscripts and reports developed by OMF working groups will be added here as they are published.
+The publications list is generated dynamically from the OMF bibliography database.
