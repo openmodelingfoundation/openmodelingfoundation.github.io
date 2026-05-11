@@ -1,0 +1,26 @@
+<ul class="publications-list">
+{{ range site.Data.publications }}
+  <li>
+    {{ range $index, $author := .author }}
+      {{ if $index }}, {{ end }}
+      {{ $author.family }}, {{ $author.given }}
+    {{ end }}
+    ({{ .issued.date-parts | index 0 | index 0 }}).
+    
+    <strong>{{ .title }}</strong>.
+    
+    {{ .container-title }}.
+    
+    {{ with .volume }}Vol. {{ . }}.{{ end }}
+    
+    {{ with .page }} pp. {{ . }}.{{ end }}
+    
+    {{ with .DOI }}
+      DOI:
+      <a href="https://doi.org/{{ . }}">
+        {{ . }}
+      </a>
+    {{ end }}
+  </li>
+{{ end }}
+</ul>
