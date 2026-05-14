@@ -8,7 +8,7 @@ menu:
     weight: 50
 ---
 
-The Resources section highlights concrete Open Modeling Foundation outputs and related materials. Use it to find standards, publications, practical guidance, and repository-based resources without duplicating the main standards section.
+Explore Open Modeling Foundation Working Group outputs and supporting materials. Community contributions and feedback are welcome.
 
 <div class="row row-cols-1 row-cols-md-2 g-4 mt-1">
   <div class="col">
