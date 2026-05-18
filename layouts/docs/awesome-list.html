@@ -36,10 +36,12 @@
         {{ $content := string .Content }}
         {{ $content = replaceRE `(?m)^#\s+[^\n]+\n` "" $content }}
         {{ $content = replaceRE `\]\((/openmodelingfoundation/awesome-modeling-practices[^)]*)\)` "](https://github.com$1)" $content }}
-        {{ $pubs := partial "publications-list.html" . }}
-        {{ $content = replace $content "OMF_PUBLICATIONS_LIST" $pubs }}
-
+        
         {{ $html := $content | markdownify }}
+        
+        {{ $pubs := partial "publications-list.html" . }}
+        {{ $content = replace $content "<p>OMF_PUBLICATIONS_LIST</p>" $pubs }}
+
 
         {{/*
           Content handling policy (intentional lightweight processing):
