@@ -6,9 +6,28 @@
 - Publications rendering is shared via `layouts/partials/publications-list.html` and consumed by both publications and awesome pages.
 - Awesome page inserts publications in the `Papers` section and uses fallback rendering when remote README fetch fails.
 - Publications are sorted by year descending and BibTeX brace/escape cleanup is applied for display text.
-- Next step on request: finalize commit scope and commit message.
+- Remote README helper partial now uses a single return statement while preserving the warning/rendered payload contract.
+- Isolated containerized build validation passed (`hugo build --gc --minify --cacheDir /tmp/.hugo_cache -d /tmp/public --noBuildLock`) in ~23s.
+- Next step on request: finalize scoped commit prep.
 
 ## Notes by date (newest first)
+
+### 2026-05-22 (cleanup + docs sync)
+
+- Cleanup pass:
+	- Scanned repository for common stale artifacts (`*.bak`, `*.orig`, `*.tmp`, `*.swp`, `*~`, `.DS_Store`, `Thumbs.db`).
+	- No unnecessary temporary/backup files found.
+- Agent docs sync:
+	- Updated working-memory active task and status after single-return refactor in `layouts/partials/render-remote-readme.html`.
+	- Updated latest checkpoint scope to reflect current state.
+- Validation status:
+	- Template diagnostics remain clean for:
+		- `layouts/partials/render-remote-readme.html`
+		- `layouts/docs/awesome-list.html`
+	- Isolated containerized build re-validation passed:
+		- Command: `docker run --rm --entrypoint sh -v "$PWD":/workspace:ro -w /tmp openmodelingfoundation/omf:latest -lc 'cp -a /workspace /tmp/src && git config --global --add safe.directory /tmp/src && cd /tmp/src && hugo build --gc --minify --cacheDir /tmp/.hugo_cache -d /tmp/public --noBuildLock'`
+		- Result: success (exit 0), total ~23s.
+		- Residual warnings: Hugo deprecations (`.Language.LanguageDirection`, `.Site.AllPages`) from theme/template code.
 
 ### 2026-05-22 (sync pass)
 

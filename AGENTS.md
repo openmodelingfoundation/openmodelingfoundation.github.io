@@ -34,6 +34,7 @@ Agent-generated artifacts must be written under `.agent/`.
 - Use Docker Compose with the `hugo` service for build/test/update tasks (for example: `docker compose run --rm --no-deps --entrypoint sh hugo -c '<command>'`).
 - Prefer the shared Hugo production build entrypoint `.github/scripts/build-site.sh` for render operations used by CI and local production-style checks.
 - Use `make render` for the local production-style render path and `make serve` for local hot-reload preview.
+- Use `make render-site-isolated` when another local Hugo container/session is running or host lock/permission conflicts are present; this runs in a one-off isolated container workspace and reuses the host cache directory `.hugo_cache` for module/cache reuse.
 - If a command cannot run in the current container setup, document the limitation and propose a container-based alternative.
 
 ## Artifact guidance

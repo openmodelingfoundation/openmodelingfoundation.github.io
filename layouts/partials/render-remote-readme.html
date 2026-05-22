@@ -1,0 +1,101 @@
+{{- $sourceRepo := .sourceRepo -}}
+{{- $rawURL := .rawURL -}}
+{{- $blobRoot := .blobRoot -}}
+{{- $rawRoot := .rawRoot -}}
+{{- $opts := .opts -}}
+{{- $pubs := .pubs -}}
+
+{{- $warningMsg := "Live list unavailable. Please visit the source repository directly." -}}
+{{- $marker := "OMF_PUBLICATIONS_LIST" -}}
+{{- $warning := $warningMsg -}}
+{{- $rendered := "" -}}
+
+
+{{- $remote := try (resources.GetRemote $rawURL $opts) -}}
+{{- if and $remote (not $remote.Err) -}}
+  {{- with $remote.Value -}}
+  {{- $content := string .Content -}}
+
+  {{- $content = replaceRE `(?m)^#\s+[^\n]+\n` "" $content -}}
+  {{- $content = replaceRE `\]\((/openmodelingfoundation/awesome-modeling-practices[^)]*)\)` "](https://github.com$1)" $content -}}
+
+  {{- if in $content "Publications list generated dynamically on the OMF website" -}}
+    {{- $content = replaceRE `(?m)^[\-\*]\s*Publications list generated dynamically on the OMF website\s*$` $marker $content -}}
+  {{- end -}}
+
+  {{- if not (in $content $marker) -}}
+    {{- if in $content "## Papers" -}}
+      {{- $content = replace $content "## Papers" (printf "## Papers\n\n%s" $marker) -}}
+    {{- else -}}
+      {{- $content = printf "%s\n\n## OMF Publications\n\n%s" $content $marker -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $html := $content | markdownify -}}
+  {{- $html = replace $html (printf "<p>%s</p>" $marker) $pubs -}}
+  {{- $html = replace $html $marker $pubs -}}
+
+  {{/*
+  Sanitize potentially unsafe embedded HTML from the upstream README.
+
+  Removes:
+  - Active content tags (<script>, <iframe>, <object>, etc.)
+  - Interactive/form elements
+  - Inline event handlers (onclick, onload, ...)
+  - Inline styles
+  - Dangerous URL protocols (javascript:, vbscript:, data:)
+
+  This is intentionally lightweight because the upstream repository is trusted.
+  */}}
+
+  {{- $sanitizers := slice
+    (dict "pattern" `(?is)<script(?:\s[^>]*)?>.*?</script>` "replacement" "")
+    (dict "pattern" `(?is)<iframe(?:\s[^>]*)?>.*?</iframe>` "replacement" "")
+    (dict "pattern" `(?is)<object(?:\s[^>]*)?>.*?</object>` "replacement" "")
+    (dict "pattern" `(?is)<embed(?:\s[^>]*)?>.*?</embed>` "replacement" "")
+    (dict "pattern" `(?is)<form(?:\s[^>]*)?>.*?</form>` "replacement" "")
+    (dict "pattern" `(?is)<style(?:\s[^>]*)?>.*?</style>` "replacement" "")
+    (dict "pattern" `(?is)<(?:input|button|textarea|select|meta|link)(?:\s[^>]*)?/?>` "replacement" "")
+    (dict "pattern" `(?i)\s+on[a-z]+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)` "replacement" "")
+    (dict "pattern" `(?i)\s+style\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)` "replacement" "")
+    (dict "pattern" `(?i)(href|src|xlink:href|formaction|poster)\s*=\s*"\s*(?:javascript|vbscript|data)\s*:[^"]*"` "replacement" `$1="#"`)
+    (dict "pattern" `(?i)(href|src|xlink:href|formaction|poster)\s*=\s*'\s*(?:javascript|vbscript|data)\s*:[^']*'` "replacement" `$1='#'`)
+    (dict "pattern" `(?i)(href|src|xlink:href|formaction|poster)\s*=\s*(?:javascript|vbscript|data)\s*:[^\s>]+` "replacement" `$1="#"`)
+  -}}
+  {{- range $sanitizers -}}
+    {{- $html = replaceRE .pattern .replacement $html -}}
+  {{- end -}}
+
+  {{/*
+  Rewrite relative GitHub-style links after markdown rendering.
+
+  Converts:
+  - Repo-relative links (/path) -> GitHub blob/raw URLs
+  - Relative paths (./foo, ../foo, foo/bar) -> absolute URLs
+  - Image src paths -> raw.githubusercontent.com URLs
+
+  Leaves untouched:
+  - Absolute URLs (https:, mailto:, tel:)
+  - Fragment links (#section)
+  */}}
+
+  {{- $rewrites := slice
+    (dict "pattern" `href="/openmodelingfoundation/awesome-modeling-practices([^"]*)"` "replacement" (printf `href="%s$1"` $sourceRepo))
+    (dict "pattern" `href="/([^"][^"]*)"` "replacement" (printf `href="%s/blob/main/$1"` $sourceRepo))
+    (dict "pattern" `href="\./([^"]+)"` "replacement" (printf `href="%s$1"` $blobRoot))
+    (dict "pattern" `href="\.\./([^"]+)"` "replacement" (printf `href="%s../$1"` $blobRoot))
+    (dict "pattern" `href="([A-Za-z0-9][^":#]*)"` "replacement" (printf `href="%s$1"` $blobRoot))
+    (dict "pattern" `src="/([^"]+)"` "replacement" (printf `src="%s$1"` $rawRoot))
+    (dict "pattern" `src="\./([^"]+)"` "replacement" (printf `src="%s$1"` $rawRoot))
+    (dict "pattern" `src="\.\./([^"]+)"` "replacement" (printf `src="%s../$1"` $rawRoot))
+    (dict "pattern" `src="([A-Za-z0-9][^":#]*)"` "replacement" (printf `src="%s$1"` $rawRoot))
+  -}}
+  {{- range $rewrites -}}
+    {{- $html = replaceRE .pattern .replacement $html -}}
+  {{- end -}}
+  {{- $rendered = $html -}}
+  {{- $warning = "" -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return (dict "warning" $warning "rendered" $rendered) -}}
