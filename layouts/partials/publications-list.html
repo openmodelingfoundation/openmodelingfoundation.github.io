@@ -24,7 +24,13 @@
       {{- $entry = dict "key" $entryKey "type" $entryType -}}
 
     {{- else if and $inEntry (eq $line "}") -}}
-      {{- $entry = merge $entry (dict "fields" $fields "fieldMap" $fieldMap) -}}
+      {{- $yearRaw := printf "%v" (index $fieldMap "year") -}}
+      {{- $yearDigits := replaceRE `[^0-9]` "" $yearRaw -}}
+      {{- $sortYear := 0 -}}
+      {{- if ne $yearDigits "" -}}
+        {{- $sortYear = int $yearDigits -}}
+      {{- end -}}
+      {{- $entry = merge $entry (dict "fields" $fields "fieldMap" $fieldMap "sortYear" $sortYear) -}}
       {{- $publications = $publications | append $entry -}}
       {{- $inEntry = false -}}
 
@@ -41,10 +47,17 @@
         {{- $fieldValue = strings.TrimSuffix "\"" $fieldValue -}}
       {{- end -}}
 
+      {{- /* BibTeX uses braces for case protection/grouping and backslash escapes for symbols. */ -}}
+      {{- $fieldValue = replace $fieldValue "{" "" -}}
+      {{- $fieldValue = replace $fieldValue "}" "" -}}
+      {{- $fieldValue = replaceRE `\\([&%_$#])` `$1` $fieldValue -}}
+
       {{- $fields = $fields | append (dict "name" $fieldName "value" $fieldValue) -}}
       {{- $fieldMap = merge $fieldMap (dict $fieldName $fieldValue) -}}
     {{- end -}}
   {{- end -}}
+
+  {{- $publications = sort $publications "sortYear" "desc" -}}
 
   <ul class="publications-list compact-publications-list">
   {{- range $publications }}
@@ -71,14 +84,13 @@
           <p class="publication-annotation">{{ . }}</p>
         {{- end -}}
 
-        <p class="publication-links">
-          {{- with $doi -}}
-            <a href="https://doi.org/{{ . }}">DOI: {{ . }}</a>
-          {{- end -}}
-          {{- with $url -}}
-            <a href="{{ . }}">Source</a>
-          {{- end -}}
-        </p>
+        {{- if or $doi $url -}}
+          <p class="publication-links">
+            {{- with $doi -}}
+              <a href="https://doi.org/{{ . }}">DOI: {{ . }}</a>
+            {{- end -}}
+          </p>
+        {{- end -}}
 
         <details class="publication-details">
           <summary>Full record</summary>

@@ -5,9 +5,22 @@
 - Publications pipeline is now BibTeX-driven from `assets/bibliographies/publications.bib`.
 - Publications rendering is shared via `layouts/partials/publications-list.html` and consumed by both publications and awesome pages.
 - Awesome page inserts publications in the `Papers` section and uses fallback rendering when remote README fetch fails.
-- Next step on request: commit-ready QA and final content/link review.
+- Publications are sorted by year descending and BibTeX brace/escape cleanup is applied for display text.
+- Next step on request: finalize commit scope and commit message.
 
 ## Notes by date (newest first)
+
+### 2026-05-22 (sync pass)
+
+- Rendering consistency refinements completed:
+	- Awesome fallback markup deduplicated in `layouts/docs/awesome-list.html`.
+	- Fallback section title aligned to `Papers` for content consistency.
+	- Empty metadata link rows removed when DOI/URL are absent.
+- Bibliography output quality updates:
+	- Publications sorted by year descending in `layouts/partials/publications-list.html`.
+	- Curly brace artifacts removed from rendered BibTeX values and common escaped symbols normalized.
+- Validation:
+	- Containerized production build path (`.github/scripts/build-site.sh`) passed after each update.
 
 ### 2026-05-22
 

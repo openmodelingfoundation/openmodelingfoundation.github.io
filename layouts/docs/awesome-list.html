@@ -10,6 +10,7 @@
     {{ $buildTimestamp = time . }}
   {{ end }}
   {{ $pubs := partial "publications-list.html" . }}
+  {{ $pubsFallback := printf "<section class=\"awesome-publications-fallback\"><h2>Papers</h2>%s</section>" $pubs | safeHTML }}
 
   <div class="td-content awesome-list-content">
     <h1>{{ .Title }}</h1>
@@ -33,10 +34,7 @@
           <strong>Live list unavailable.</strong> We could not load the latest list during this build.
           Please visit <a href="{{ $sourceRepo }}" target="_blank" rel="noopener">openmodelingfoundation/awesome-modeling-practices</a> directly.
         </div>
-        <section class="awesome-publications-fallback">
-          <h2>OMF Publications</h2>
-          {{ $pubs }}
-        </section>
+        {{ $pubsFallback }}
       {{ else with .Value }}
         {{ $content := string .Content }}
         {{ $content = replaceRE `(?m)^#\s+[^\n]+\n` "" $content }}
@@ -115,20 +113,14 @@
           <strong>Live list unavailable.</strong> Please visit
           <a href="{{ $sourceRepo }}" target="_blank" rel="noopener">openmodelingfoundation/awesome-modeling-practices</a> directly.
         </div>
-        <section class="awesome-publications-fallback">
-          <h2>OMF Publications</h2>
-          {{ $pubs }}
-        </section>
+        {{ $pubsFallback }}
       {{ end }}
     {{ else }}
       <div class="alert alert-warning" role="alert">
         <strong>Live list unavailable.</strong> Please visit
         <a href="{{ $sourceRepo }}" target="_blank" rel="noopener">openmodelingfoundation/awesome-modeling-practices</a> directly.
       </div>
-      <section class="awesome-publications-fallback">
-        <h2>OMF Publications</h2>
-        {{ $pubs }}
-      </section>
+      {{ $pubsFallback }}
     {{ end }}
   </div>
 {{ end }}
