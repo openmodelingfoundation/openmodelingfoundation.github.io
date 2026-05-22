@@ -2,12 +2,28 @@
 
 ## Active task
 
-- awesome-modeling-practices embed plan is ready: `.agent/working-memory/plan-awesome-list.md`.
-- navigation/resources refactor issue plan is ready: `.agent/working-memory/plan-navigation-resources-refactor.md`.
-- UI refactor plan artifact is ready: `.agent/working-memory/plan-ui-refactor-docsy-theme.md`.
-- Next step on request: complete visual QA pass for key pages and tune any contrast/spacing edge cases.
+- Publications pipeline is now BibTeX-driven from `assets/bibliographies/publications.bib`.
+- Publications rendering is shared via `layouts/partials/publications-list.html` and consumed by both publications and awesome pages.
+- Awesome page inserts publications in the `Papers` section and uses fallback rendering when remote README fetch fails.
+- Next step on request: commit-ready QA and final content/link review.
 
 ## Notes by date (newest first)
+
+### 2026-05-22
+
+- Synced publications architecture:
+	- Canonical bibliography source: `assets/bibliographies/publications.bib`.
+	- Removed stale `data/publications.json` path and old `layouts/resources/publications.html` override.
+	- `layouts/docs/publications.html` is now the canonical publications template.
+- Static BibTeX exposure now uses Hugo module mount:
+	- `hugo.yaml` mount: `assets/bibliographies` -> `static/bibliographies`.
+	- Publications page links BibTeX via static URL (`bibliographies/publications.bib`).
+- Awesome list integration updates:
+	- Publications block renders under `Papers`.
+	- Compact publication card UI with expandable full metadata.
+	- Fallback path retains publications visibility when remote README retrieval fails.
+- Validation:
+	- Containerized production build path (`.github/scripts/build-site.sh`) passed after each major step.
 
 ### 2026-04-15
 

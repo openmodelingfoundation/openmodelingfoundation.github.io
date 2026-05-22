@@ -1,26 +1,111 @@
-<ul class="publications-list">
-{{ range site.Data.publications }}
-  <li>
-    {{ range $index, $author := .author }}
-      {{ if $index }}, {{ end }}
-      {{ $author.family }}, {{ $author.given }}
-    {{ end }}
-    ({{ index (index .issued "date-parts") 0 0 }}).
-    
-    <strong>{{ .title }}</strong>.
-    
-    {{ index . "container-title" }}.
-    
-    {{ with .volume }}Vol. {{ . }}.{{ end }}
-    
-    {{ with .page }} pp. {{ . }}.{{ end }}
-    
-    {{ with .DOI }}
-      DOI:
-      <a href="https://doi.org/{{ . }}">
-        {{ . }}
-      </a>
-    {{ end }}
-  </li>
-{{ end }}
-</ul>
+{{- $bib := resources.Get "bibliographies/publications.bib" -}}
+
+{{- if not $bib -}}
+  <div class="alert alert-warning" role="alert">
+    <strong>Bibliography unavailable.</strong> The file <code>assets/bibliographies/publications.bib</code> could not be loaded.
+  </div>
+{{- else -}}
+  {{- $lines := split (string $bib.Content) "\n" -}}
+  {{- $publications := slice -}}
+  {{- $inEntry := false -}}
+  {{- $entry := dict -}}
+  {{- $fields := slice -}}
+  {{- $fieldMap := dict -}}
+
+  {{- range $lines -}}
+    {{- $line := trim . " \t\r" -}}
+
+    {{- if and (not $inEntry) (hasPrefix $line "@") -}}
+      {{- $inEntry = true -}}
+      {{- $fields = slice -}}
+      {{- $fieldMap = dict -}}
+      {{- $entryKey := replaceRE `^@\w+\{([^,]+),\s*$` `$1` $line -}}
+      {{- $entryType := lower (replaceRE `^@(\w+)\{[^,]+,\s*$` `$1` $line) -}}
+      {{- $entry = dict "key" $entryKey "type" $entryType -}}
+
+    {{- else if and $inEntry (eq $line "}") -}}
+      {{- $entry = merge $entry (dict "fields" $fields "fieldMap" $fieldMap) -}}
+      {{- $publications = $publications | append $entry -}}
+      {{- $inEntry = false -}}
+
+    {{- else if and $inEntry (in $line "=") -}}
+      {{- $fieldName := replaceRE `^([A-Za-z0-9_-]+)\s*=.*$` `$1` $line -}}
+      {{- $fieldValue := replaceRE `^[A-Za-z0-9_-]+\s*=\s*(.+?)\s*,?\s*$` `$1` $line -}}
+      {{- $fieldValue = trim $fieldValue " \t" -}}
+
+      {{- if and (hasPrefix $fieldValue "{") (hasSuffix $fieldValue "}") -}}
+        {{- $fieldValue = strings.TrimPrefix "{" $fieldValue -}}
+        {{- $fieldValue = strings.TrimSuffix "}" $fieldValue -}}
+      {{- else if and (hasPrefix $fieldValue "\"") (hasSuffix $fieldValue "\"") -}}
+        {{- $fieldValue = strings.TrimPrefix "\"" $fieldValue -}}
+        {{- $fieldValue = strings.TrimSuffix "\"" $fieldValue -}}
+      {{- end -}}
+
+      {{- $fields = $fields | append (dict "name" $fieldName "value" $fieldValue) -}}
+      {{- $fieldMap = merge $fieldMap (dict $fieldName $fieldValue) -}}
+    {{- end -}}
+  {{- end -}}
+
+  <ul class="publications-list compact-publications-list">
+  {{- range $publications }}
+    {{- $title := or (index .fieldMap "title") .key -}}
+    {{- $year := index .fieldMap "year" -}}
+    {{- $journal := index .fieldMap "journal" -}}
+    {{- $volume := index .fieldMap "volume" -}}
+    {{- $pages := index .fieldMap "pages" -}}
+    {{- $doi := index .fieldMap "doi" -}}
+    {{- $url := index .fieldMap "url" -}}
+    {{- $annotation := index .fieldMap "annotation" -}}
+    <li class="publication-item">
+      <article class="publication-card">
+        <h3 class="publication-title">{{ $title }}</h3>
+
+        <p class="publication-meta">
+          {{- with $year }}<span class="publication-chip">{{ . }}</span>{{ end -}}
+          {{- with $journal }}<span class="publication-chip">{{ . }}</span>{{ end -}}
+          {{- with $volume }}<span class="publication-chip">Vol. {{ . }}</span>{{ end -}}
+          {{- with $pages }}<span class="publication-chip">pp. {{ . }}</span>{{ end -}}
+        </p>
+
+        {{- with $annotation -}}
+          <p class="publication-annotation">{{ . }}</p>
+        {{- end -}}
+
+        <p class="publication-links">
+          {{- with $doi -}}
+            <a href="https://doi.org/{{ . }}">DOI: {{ . }}</a>
+          {{- end -}}
+          {{- with $url -}}
+            <a href="{{ . }}">Source</a>
+          {{- end -}}
+        </p>
+
+        <details class="publication-details">
+          <summary>Full record</summary>
+          <dl class="publication-fields">
+            <dt>key</dt>
+            <dd>{{ .key }}</dd>
+
+            <dt>entrytype</dt>
+            <dd>{{ .type }}</dd>
+
+            {{- range .fields -}}
+              <dt>{{ .name }}</dt>
+              <dd>
+                {{- $name := lower .name -}}
+                {{- if eq $name "doi" -}}
+                  <a href="https://doi.org/{{ .value }}">{{ .value }}</a>
+                {{- else if eq $name "url" -}}
+                  <a href="{{ .value }}">{{ .value }}</a>
+                {{- else -}}
+                  {{ .value }}
+                {{- end -}}
+              </dd>
+            {{- end -}}
+          </dl>
+        </details>
+      </article>
+    </li>
+  {{- end }}
+  </ul>
+{{- end -}}

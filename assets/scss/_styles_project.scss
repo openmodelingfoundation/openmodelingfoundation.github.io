@@ -537,6 +537,130 @@ footer {
     }
 }
 
+.compact-publications-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 1.25rem 0 0;
+    display: grid;
+    gap: 0.95rem;
+
+    .publication-item {
+        margin: 0;
+    }
+
+    .publication-card {
+        padding: 0.95rem 1rem;
+        border: 1px solid rgba($primary, 0.16);
+        border-left: 4px solid rgba($secondary, 0.65);
+        border-radius: 0.8rem;
+        background: linear-gradient(160deg, rgba($white, 0.95), rgba($secondary, 0.06));
+        box-shadow: 0 12px 22px -20px rgba($primary, 0.45);
+    }
+
+    .publication-title {
+        margin: 0;
+        color: $primary;
+        font-family: "Source Serif 4", Georgia, serif;
+        font-size: clamp(1.05rem, 1.35vw, 1.28rem);
+        line-height: 1.35;
+        letter-spacing: 0.01em;
+    }
+
+    .publication-meta {
+        margin: 0.48rem 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+    }
+
+    .publication-chip {
+        display: inline-block;
+        padding: 0.16rem 0.5rem;
+        border-radius: 999px;
+        border: 1px solid rgba($secondary, 0.42);
+        background: rgba($secondary, 0.12);
+        color: mix($primary, $dark, 80%);
+        font-size: 0.8rem;
+        line-height: 1.25;
+    }
+
+    .publication-annotation {
+        margin: 0.62rem 0 0;
+        color: var(--omf-text);
+        font-size: 0.94rem;
+        line-height: 1.55;
+    }
+
+    .publication-links {
+        margin: 0.6rem 0 0;
+        display: flex;
+        gap: 0.8rem;
+        flex-wrap: wrap;
+
+        a {
+            font-size: 0.84rem;
+            font-weight: 600;
+            text-decoration: none;
+
+            &:hover,
+            &:focus-visible {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .publication-details {
+        margin-top: 0.58rem;
+
+        summary {
+            cursor: pointer;
+            color: var(--omf-text-muted);
+            font-size: 0.84rem;
+            font-weight: 600;
+            width: fit-content;
+        }
+    }
+
+    .publication-fields {
+        margin: 0.65rem 0 0;
+        display: grid;
+        grid-template-columns: minmax(110px, auto) 1fr;
+        gap: 0.12rem 0.7rem;
+
+        dt,
+        dd {
+            margin: 0;
+            font-size: 0.83rem;
+            line-height: 1.4;
+            word-break: break-word;
+        }
+
+        dt {
+            color: var(--omf-text-muted);
+            font-family: "IBM Plex Mono", monospace;
+        }
+    }
+}
+
+.awesome-publications-fallback {
+    margin-top: 1.25rem;
+}
+
+@include media-breakpoint-down(md) {
+    .compact-publications-list {
+        gap: 0.75rem;
+
+        .publication-card {
+            padding: 0.86rem 0.82rem;
+        }
+
+        .publication-fields {
+            grid-template-columns: 1fr;
+            gap: 0.08rem;
+        }
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     * {
         transition: none !important;

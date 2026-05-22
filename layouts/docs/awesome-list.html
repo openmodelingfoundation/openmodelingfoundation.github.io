@@ -9,6 +9,7 @@
   {{ with $buildTimestampRaw }}
     {{ $buildTimestamp = time . }}
   {{ end }}
+  {{ $pubs := partial "publications-list.html" . }}
 
   <div class="td-content awesome-list-content">
     <h1>{{ .Title }}</h1>
@@ -32,15 +33,30 @@
           <strong>Live list unavailable.</strong> We could not load the latest list during this build.
           Please visit <a href="{{ $sourceRepo }}" target="_blank" rel="noopener">openmodelingfoundation/awesome-modeling-practices</a> directly.
         </div>
+        <section class="awesome-publications-fallback">
+          <h2>OMF Publications</h2>
+          {{ $pubs }}
+        </section>
       {{ else with .Value }}
         {{ $content := string .Content }}
         {{ $content = replaceRE `(?m)^#\s+[^\n]+\n` "" $content }}
         {{ $content = replaceRE `\]\((/openmodelingfoundation/awesome-modeling-practices[^)]*)\)` "](https://github.com$1)" $content }}
-        
+
+        {{ if in $content "Publications list generated dynamically on the OMF website" }}
+          {{ $content = replaceRE `(?m)^[\-\*]\s*Publications list generated dynamically on the OMF website\s*$` "OMF_PUBLICATIONS_LIST" $content }}
+        {{ end }}
+
+        {{ if not (in $content "OMF_PUBLICATIONS_LIST") }}
+          {{ if in $content "## Papers" }}
+            {{ $content = replace $content "## Papers" "## Papers\n\nOMF_PUBLICATIONS_LIST" }}
+          {{ else }}
+            {{ $content = printf "%s\n\n## OMF Publications\n\nOMF_PUBLICATIONS_LIST" $content }}
+          {{ end }}
+        {{ end }}
+
         {{ $html := $content | markdownify }}
-        
-        {{ $pubs := partial "publications-list.html" . }}
-        {{ $content = replace $content "<p>OMF_PUBLICATIONS_LIST</p>" $pubs }}
+        {{ $html = replace $html "<p>OMF_PUBLICATIONS_LIST</p>" $pubs }}
+        {{ $html = replace $html "OMF_PUBLICATIONS_LIST" $pubs }}
 
 
         {{/*
@@ -99,12 +115,20 @@
           <strong>Live list unavailable.</strong> Please visit
           <a href="{{ $sourceRepo }}" target="_blank" rel="noopener">openmodelingfoundation/awesome-modeling-practices</a> directly.
         </div>
+        <section class="awesome-publications-fallback">
+          <h2>OMF Publications</h2>
+          {{ $pubs }}
+        </section>
       {{ end }}
     {{ else }}
       <div class="alert alert-warning" role="alert">
         <strong>Live list unavailable.</strong> Please visit
         <a href="{{ $sourceRepo }}" target="_blank" rel="noopener">openmodelingfoundation/awesome-modeling-practices</a> directly.
       </div>
+      <section class="awesome-publications-fallback">
+        <h2>OMF Publications</h2>
+        {{ $pubs }}
+      </section>
     {{ end }}
   </div>
 {{ end }}

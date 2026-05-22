@@ -29,7 +29,7 @@ module:
   proxy: "direct"
   hugoVersion:
     extended: true
-    min: "0.160.1"
+    min: "0.161.1"
   imports:
     - path: "github.com/google/docsy"
       disable: false
@@ -41,6 +41,8 @@ module:
       target: "content"
     - source: ".github/ISSUE_TEMPLATE"
       target: "content/issue_templates"
+    - source: "assets/bibliographies"
+      target: "static/bibliographies"
 
 # Configure how URLs look like per section.
 permalinks:
@@ -90,6 +92,10 @@ security:
       - '^HUGO_'
       - '^CI$'
       - '^BUILD_TIMESTAMP_UTC$'
+  node:
+    permissions:
+      allowRead:
+        - '*'
 
 params:
   working_group_request_form: "https://asu.questionpro.com/omf-wg-joinrequest"

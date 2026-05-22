@@ -15,8 +15,8 @@ The Resources section highlights concrete Open Modeling Foundation outputs and r
     <div class="card h-100 shadow-sm">
       <div class="card-body">
         <h2 class="h4 card-title">Standards</h2>
-        <p class="card-text">View OMF standards and guidance in the dedicated standards section.</p>
-        <a class="btn btn-primary" href="/standards/">View OMF standards</a>
+        <p class="card-text">OMF standards are still under active development by individual Working Groups and are works-in-progress.</p>
+        <a class="btn btn-primary" href="{{< relref "standards" >}}">View Workshop Discussions on OMF standards</a>
       </div>
     </div>
   </div>
