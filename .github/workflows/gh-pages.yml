@@ -38,13 +38,10 @@ jobs:
       - name: Setup uv
         uses: astral-sh/setup-uv@v8.1.0
 
-      - name: Install BibTeX parser
-        run: uv pip install --system bibtexparser
-
       - name: Generate Hugo data from BibTeX
         run: |
           mkdir -p data
-          python .github/scripts/bibtex_to_json.py \
+          uv run .github/scripts/bibtex_to_json.py \
             --input assets/bibliographies/publications.bib \
             --output data/publications.json
 

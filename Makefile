@@ -60,7 +60,7 @@ render-site-isolated : build
 
 ## publications-json: generate Hugo data/publications.json from BibTeX.
 publications-json : build
-	$(HUGO_RUN_SH) $(HUGO_USER_ENV) $(HUGO_SERVICE) -c 'python3 .github/scripts/bibtex_to_json.py --input "$(PUBLICATIONS_BIB_PATH)" --output "$(PUBLICATIONS_JSON_PATH)"'
+	$(HUGO_RUN_SH) $(HUGO_USER_ENV) $(HUGO_SERVICE) -c 'uv run .github/scripts/bibtex_to_json.py --input "$(PUBLICATIONS_BIB_PATH)" --output "$(PUBLICATIONS_JSON_PATH)"'
 
 ## shell            : open a hugo shell
 shell : build

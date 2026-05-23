@@ -1,4 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#   "bibtexparser>=2.0.0b9",
+# ]
+# ///
 """Convert a BibTeX bibliography into Hugo-friendly JSON.
 
 This script is intentionally small and deterministic:
