@@ -49,6 +49,8 @@ Agent-generated artifacts must be written under `.agent/`.
 ## Static asset paths
 
 - Prefer base-path-safe asset references (`relURL`, relative paths, or equivalent template-aware indirection) over hardcoded root-relative paths like `/images/...` or `/fonts/...` for deployable site assets.
+- **Hugo module mounts and the `static` component**: whenever any mount in `hugo.yaml` targets the `static` component (even a partial path like `static/bibliographies`), Hugo drops the implicit `static/ → static/` default mount. Always include an explicit `- source: "static" / target: "static"` entry when defining custom mounts, or `public/` will silently omit everything under `static/` (fonts, images, CNAME, etc.).
+- Font `@font-face` declarations belong in a Hugo partial (e.g. `layouts/partials/hooks/head-end.html`) rather than in SCSS, because Hugo template functions such as `relURL` are not available inside the `toCSS` pipeline.
 
 ## Important dependency versions
 

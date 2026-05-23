@@ -41,6 +41,10 @@ module:
       target: "content"
     - source: ".github/ISSUE_TEMPLATE"
       target: "content/issue_templates"
+  # restore default static mount (required when any mount targets the static component,
+  # otherwise Hugo drops the project static/ → public/ copy entirely)
+    - source: "static"
+      target: "static"
     - source: "assets/bibliographies"
       target: "static/bibliographies"
 

@@ -2,14 +2,11 @@
 
 ## Active task
 
-- Publications pipeline is now BibTeX-driven from `assets/bibliographies/publications.bib`.
-- Publications rendering is shared via `layouts/partials/publications-list.html` and consumed by both publications and awesome pages.
-- Awesome page inserts publications in the `Papers` section and uses fallback rendering when remote README fetch fails.
-- Publications are sorted by year descending and BibTeX brace/escape cleanup is applied for display text.
-- Remote README helper partial now uses a single return statement while preserving the warning/rendered payload contract.
-- Cleanup + formatting/linting pass completed with containerized validations.
-- Shared production build entrypoint (`.github/scripts/build-site.sh`) passed with writable cache override.
-- Next step on request: stage/commit the intended documentation and generated JSON updates.
+- Static asset 404s on deployed site (fonts, logos) are fixed.
+- Root cause: Hugo drops the `static/ → static/` default mount whenever any custom mount targets the `static` component. `hugo.yaml` had `assets/bibliographies → static/bibliographies` with no explicit `static → static` entry, silently excluding all of `static/` from `public/`.
+- Fix: added `- source: "static" / target: "static"` to `hugo.yaml` module mounts. Build validated: 64 static files, `public/fonts/`, `public/images/`, `public/CNAME` all present.
+- Next step: push to `develop` to trigger CI deployment and confirm live site.
+
 
 ## Notes by date (newest first)
 
