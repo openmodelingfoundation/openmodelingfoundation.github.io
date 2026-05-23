@@ -8,6 +8,7 @@ node_modules
 .hugo_build.lock
 /.hugo_cache/
 /dist/
+data/publications.json
 
 # Executable may be added to repository
 hugo.exe

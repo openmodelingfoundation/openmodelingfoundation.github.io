@@ -1,0 +1,84 @@
+{{- $publications := .Site.Data.publications -}}
+
+{{- if not $publications -}}
+  <div class="alert alert-warning" role="alert">
+    <strong>Bibliography unavailable.</strong>
+    The file <code>data/publications.json</code> could not be loaded.
+  </div>
+{{- else -}}
+  <ul class="publications-list compact-publications-list">
+    {{- range $publications }}
+      {{- $title := or .fieldMap.title .key -}}
+      {{- $year := .fieldMap.year -}}
+      {{- $journal := .fieldMap.journal -}}
+      {{- $volume := .fieldMap.volume -}}
+      {{- $pages := .fieldMap.pages -}}
+      {{- $doi := .fieldMap.doi -}}
+      {{- $url := .fieldMap.url -}}
+      {{- $annotation := .fieldMap.annotation -}}
+
+      <li class="publication-item">
+        <article class="publication-card">
+          <h3 class="publication-title">{{ $title }}</h3>
+          {{- with .authorList -}}
+  {{- $authors := . -}}
+  {{- if gt (len .) 5 -}}
+    {{- $authors = first 5 . | append "et al." -}}
+  {{- end -}}
+  <p class="publication-authors">{{ delimit $authors ", " }}</p>
+{{- end -}}
+          <p class="publication-meta">
+            {{- with $year }}<span class="publication-chip">{{ . }}</span>{{ end -}}
+            {{- with $journal }}<span class="publication-chip">{{ . }}</span>{{ end -}}
+            {{- with $volume }}<span class="publication-chip">Vol. {{ . }}</span>{{ end -}}
+            {{- with $pages }}<span class="publication-chip">pp. {{ replace . "--" "–" }}</span>{{ end -}}
+          </p>
+
+          {{- with $annotation }}
+            <p class="publication-annotation">{{ . }}</p>
+          {{- end }}
+
+          {{- if $doi }}
+            <p class="publication-links">
+              <a href="https://doi.org/{{ $doi }}">DOI: {{ $doi }}</a>
+              {{- with $url }}
+                <span class="ms-2"><a href="{{ . }}">URL</a></span>
+              {{- end }}
+            </p>
+          {{- else if $url }}
+            <p class="publication-links">
+              <a href="{{ $url }}">URL</a>
+            </p>
+          {{- end }}
+
+          <details class="publication-details">
+            <summary>Full record</summary>
+            <dl class="publication-fields">
+              <dt>key</dt>
+              <dd>{{ .key }}</dd>
+
+              <dt>entry type</dt>
+              <dd>{{ .type }}</dd>
+
+              {{- range .fields }}
+                {{- $name := lower .name -}}
+                {{- if not (in (slice "title" "year" "journal" "volume" "pages" "annotation") $name) }}
+                  <dt>{{ .name }}</dt>
+                  <dd>
+                    {{- if eq $name "doi" -}}
+                      <a href="https://doi.org/{{ .value }}">{{ .value }}</a>
+                    {{- else if eq $name "url" -}}
+                      <a href="{{ .value }}">{{ .value }}</a>
+                    {{- else -}}
+                      {{ .value }}
+                    {{- end -}}
+                  </dd>
+                {{- end }}
+              {{- end }}
+            </dl>
+          </details>
+        </article>
+      </li>
+    {{- end }}
+  </ul>
+{{- end -}}

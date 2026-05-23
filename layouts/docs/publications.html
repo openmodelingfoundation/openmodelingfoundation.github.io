@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="td-content">
+  <h1>{{ .Title }}</h1>
+
+  {{ with .Description }}
+    <p>{{ . }}</p>
+  {{ end }}
+
+  <p>
+    Download all references in BibTeX:
+    <a href="{{ "bibliographies/publications.bib" | relURL }}">publications.bib</a>
+  </p>
+
+  {{ partial "publications-list.html" . }}
+</div>
+{{ end }}

@@ -9,13 +9,18 @@ GID=$(shell id -g)
 DOCKER_COMPOSE=docker compose
 HUGO_SERVICE=hugo
 HUGO_RUN_SH=$(DOCKER_COMPOSE) run --rm --no-deps --entrypoint sh
+HUGO_IMAGE=openmodelingfoundation/omf:latest
 HUGO_CACHE_CONTAINER_DIR ?= /src/.hugo_cache
+HUGO_ISOLATED_CACHE_HOST_DIR ?= $(CURDIR)/.hugo_cache
+HUGO_ISOLATED_CACHE_CONTAINER_DIR ?= /tmp/.hugo_cache
 RENDER_OUTPUT_DIR ?= /src/public
 RENDER_BASE_URL ?=
 HUGO_USER_ENV=--user "$(UID):$(GID)" -e HOME=/tmp -e npm_config_cache=/tmp/.npm
+PUBLICATIONS_BIB_PATH ?= assets/bibliographies/publications.bib
+PUBLICATIONS_JSON_PATH ?= data/publications.json
 
 # Controls
-.PHONY : all commands build clean stop serve render render-site shell
+.PHONY : all commands build clean stop serve render render-site render-site-isolated shell publications-json
 all : commands
 
 ## commands         : show all commands.
@@ -42,6 +47,20 @@ render-site : build
 		-e OUTPUT_DIR="$(RENDER_OUTPUT_DIR)" \
 		-e BASE_URL="$(RENDER_BASE_URL)" \
 		$(HUGO_SERVICE) -c '.github/scripts/build-site.sh'
+
+## render-site-isolated : run production-style render in isolated container workspace with persistent cache.
+render-site-isolated : build
+	@mkdir -p "$(HUGO_ISOLATED_CACHE_HOST_DIR)"
+	docker run --rm --entrypoint sh \
+		-v "$(CURDIR)":/workspace:ro \
+		-v "$(HUGO_ISOLATED_CACHE_HOST_DIR)":"$(HUGO_ISOLATED_CACHE_CONTAINER_DIR)":rw \
+		-w /tmp \
+		$(HUGO_IMAGE) \
+		-lc 'cp -a /workspace /tmp/src && git config --global --add safe.directory /tmp/src && cd /tmp/src && hugo build --gc --minify --cacheDir "$(HUGO_ISOLATED_CACHE_CONTAINER_DIR)" -d /tmp/public --noBuildLock'
+
+## publications-json: generate Hugo data/publications.json from BibTeX.
+publications-json : build
+	$(HUGO_RUN_SH) $(HUGO_USER_ENV) $(HUGO_SERVICE) -c 'python3 .github/scripts/bibtex_to_json.py --input "$(PUBLICATIONS_BIB_PATH)" --output "$(PUBLICATIONS_JSON_PATH)"'
 
 ## shell            : open a hugo shell
 shell : build

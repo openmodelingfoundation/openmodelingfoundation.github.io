@@ -27,6 +27,7 @@ Agent-generated artifacts must be written under `.agent/`.
 2. Record in-progress context in `.agent/working-memory/session.md`.
 3. For long tasks, save progress snapshots in `.agent/checkpoints/`.
 4. Before pausing or transferring work, create a handoff in `.agent/handoffs/`.
+5. When a user requests a cleanup pass, review and update this file (`AGENTS.md`) as part of that pass, even if the update is only a brief synchronization note.
 
 ## Command execution environment
 
@@ -34,6 +35,8 @@ Agent-generated artifacts must be written under `.agent/`.
 - Use Docker Compose with the `hugo` service for build/test/update tasks (for example: `docker compose run --rm --no-deps --entrypoint sh hugo -c '<command>'`).
 - Prefer the shared Hugo production build entrypoint `.github/scripts/build-site.sh` for render operations used by CI and local production-style checks.
 - Use `make render` for the local production-style render path and `make serve` for local hot-reload preview.
+- Use `make publications-json` to regenerate `data/publications.json` from `assets/bibliographies/publications.bib` when bibliography data changes.
+- Use `make render-site-isolated` when another local Hugo container/session is running or host lock/permission conflicts are present; this runs in a one-off isolated container workspace and reuses the host cache directory `.hugo_cache` for module/cache reuse.
 - If a command cannot run in the current container setup, document the limitation and propose a container-based alternative.
 
 ## Artifact guidance
@@ -45,7 +48,9 @@ Agent-generated artifacts must be written under `.agent/`.
 
 ## Important dependency versions
 
-- Hugo (Docker build arg): `0.160.1` (`Dockerfile`)
+- Hugo (Docker build arg): `0.161.1` (`Dockerfile`)
+- UV (Docker build arg): `0.11.16` (`Dockerfile`)
+- BibTeX parser floor (Docker build arg): `2.0.0b9` (`Dockerfile`)
 - Docsy module: `v0.14.3` (`go.mod` and `Dockerfile`)
 - Go toolchain declaration: `1.18` (`go.mod`)
 - npm package manifest version: `1.0.0` (`package.json`)
