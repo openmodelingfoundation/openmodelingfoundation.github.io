@@ -1,10 +1,10 @@
 ### JS ###
-node_modules
+node_modules/
 
 ### Hugo ###
 # Generated files by hugo
-/public/
-/resources/_gen/
+public/
+resources/
 .hugo_build.lock
 
 ### git things

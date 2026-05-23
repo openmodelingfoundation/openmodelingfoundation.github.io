@@ -16,9 +16,11 @@ HUGO_ISOLATED_CACHE_CONTAINER_DIR ?= /tmp/.hugo_cache
 RENDER_OUTPUT_DIR ?= /src/public
 RENDER_BASE_URL ?=
 HUGO_USER_ENV=--user "$(UID):$(GID)" -e HOME=/tmp -e npm_config_cache=/tmp/.npm
+PUBLICATIONS_BIB_PATH ?= assets/bibliographies/publications.bib
+PUBLICATIONS_JSON_PATH ?= data/publications.json
 
 # Controls
-.PHONY : all commands build clean stop serve render render-site render-site-isolated shell
+.PHONY : all commands build clean stop serve render render-site render-site-isolated shell publications-json
 all : commands
 
 ## commands         : show all commands.
@@ -55,6 +57,10 @@ render-site-isolated : build
 		-w /tmp \
 		$(HUGO_IMAGE) \
 		-lc 'cp -a /workspace /tmp/src && git config --global --add safe.directory /tmp/src && cd /tmp/src && hugo build --gc --minify --cacheDir "$(HUGO_ISOLATED_CACHE_CONTAINER_DIR)" -d /tmp/public --noBuildLock'
+
+## publications-json: generate Hugo data/publications.json from BibTeX.
+publications-json : build
+	$(HUGO_RUN_SH) $(HUGO_USER_ENV) $(HUGO_SERVICE) -c 'python3 .github/scripts/bibtex_to_json.py --input "$(PUBLICATIONS_BIB_PATH)" --output "$(PUBLICATIONS_JSON_PATH)"'
 
 ## shell            : open a hugo shell
 shell : build

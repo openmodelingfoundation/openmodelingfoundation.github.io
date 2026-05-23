@@ -1,123 +1,84 @@
-{{- $bib := resources.Get "bibliographies/publications.bib" -}}
+{{- $publications := .Site.Data.publications -}}
 
-{{- if not $bib -}}
+{{- if not $publications -}}
   <div class="alert alert-warning" role="alert">
-    <strong>Bibliography unavailable.</strong> The file <code>assets/bibliographies/publications.bib</code> could not be loaded.
+    <strong>Bibliography unavailable.</strong>
+    The file <code>data/publications.json</code> could not be loaded.
   </div>
 {{- else -}}
-  {{- $lines := split (string $bib.Content) "\n" -}}
-  {{- $publications := slice -}}
-  {{- $inEntry := false -}}
-  {{- $entry := dict -}}
-  {{- $fields := slice -}}
-  {{- $fieldMap := dict -}}
-
-  {{- range $lines -}}
-    {{- $line := trim . " \t\r" -}}
-
-    {{- if and (not $inEntry) (hasPrefix $line "@") -}}
-      {{- $inEntry = true -}}
-      {{- $fields = slice -}}
-      {{- $fieldMap = dict -}}
-      {{- $entryKey := replaceRE `^@\w+\{([^,]+),\s*$` `$1` $line -}}
-      {{- $entryType := lower (replaceRE `^@(\w+)\{[^,]+,\s*$` `$1` $line) -}}
-      {{- $entry = dict "key" $entryKey "type" $entryType -}}
-
-    {{- else if and $inEntry (eq $line "}") -}}
-      {{- $yearRaw := printf "%v" (index $fieldMap "year") -}}
-      {{- $yearDigits := replaceRE `[^0-9]` "" $yearRaw -}}
-      {{- $sortYear := 0 -}}
-      {{- if ne $yearDigits "" -}}
-        {{- $sortYear = int $yearDigits -}}
-      {{- end -}}
-      {{- $entry = merge $entry (dict "fields" $fields "fieldMap" $fieldMap "sortYear" $sortYear) -}}
-      {{- $publications = $publications | append $entry -}}
-      {{- $inEntry = false -}}
-
-    {{- else if and $inEntry (in $line "=") -}}
-      {{- $fieldName := replaceRE `^([A-Za-z0-9_-]+)\s*=.*$` `$1` $line -}}
-      {{- $fieldValue := replaceRE `^[A-Za-z0-9_-]+\s*=\s*(.+?)\s*,?\s*$` `$1` $line -}}
-      {{- $fieldValue = trim $fieldValue " \t" -}}
-
-      {{- if and (hasPrefix $fieldValue "{") (hasSuffix $fieldValue "}") -}}
-        {{- $fieldValue = strings.TrimPrefix "{" $fieldValue -}}
-        {{- $fieldValue = strings.TrimSuffix "}" $fieldValue -}}
-      {{- else if and (hasPrefix $fieldValue "\"") (hasSuffix $fieldValue "\"") -}}
-        {{- $fieldValue = strings.TrimPrefix "\"" $fieldValue -}}
-        {{- $fieldValue = strings.TrimSuffix "\"" $fieldValue -}}
-      {{- end -}}
-
-      {{- /* BibTeX uses braces for case protection/grouping and backslash escapes for symbols. */ -}}
-      {{- $fieldValue = replace $fieldValue "{" "" -}}
-      {{- $fieldValue = replace $fieldValue "}" "" -}}
-      {{- $fieldValue = replaceRE `\\([&%_$#])` `$1` $fieldValue -}}
-
-      {{- $fields = $fields | append (dict "name" $fieldName "value" $fieldValue) -}}
-      {{- $fieldMap = merge $fieldMap (dict $fieldName $fieldValue) -}}
-    {{- end -}}
-  {{- end -}}
-
-  {{- $publications = sort $publications "sortYear" "desc" -}}
-
   <ul class="publications-list compact-publications-list">
-  {{- range $publications }}
-    {{- $title := or (index .fieldMap "title") .key -}}
-    {{- $year := index .fieldMap "year" -}}
-    {{- $journal := index .fieldMap "journal" -}}
-    {{- $volume := index .fieldMap "volume" -}}
-    {{- $pages := index .fieldMap "pages" -}}
-    {{- $doi := index .fieldMap "doi" -}}
-    {{- $url := index .fieldMap "url" -}}
-    {{- $annotation := index .fieldMap "annotation" -}}
-    <li class="publication-item">
-      <article class="publication-card">
-        <h3 class="publication-title">{{ $title }}</h3>
+    {{- range $publications }}
+      {{- $title := or .fieldMap.title .key -}}
+      {{- $year := .fieldMap.year -}}
+      {{- $journal := .fieldMap.journal -}}
+      {{- $volume := .fieldMap.volume -}}
+      {{- $pages := .fieldMap.pages -}}
+      {{- $doi := .fieldMap.doi -}}
+      {{- $url := .fieldMap.url -}}
+      {{- $annotation := .fieldMap.annotation -}}
 
-        <p class="publication-meta">
-          {{- with $year }}<span class="publication-chip">{{ . }}</span>{{ end -}}
-          {{- with $journal }}<span class="publication-chip">{{ . }}</span>{{ end -}}
-          {{- with $volume }}<span class="publication-chip">Vol. {{ . }}</span>{{ end -}}
-          {{- with $pages }}<span class="publication-chip">pp. {{ . }}</span>{{ end -}}
-        </p>
-
-        {{- with $annotation -}}
-          <p class="publication-annotation">{{ . }}</p>
-        {{- end -}}
-
-        {{- if or $doi $url -}}
-          <p class="publication-links">
-            {{- with $doi -}}
-              <a href="https://doi.org/{{ . }}">DOI: {{ . }}</a>
-            {{- end -}}
+      <li class="publication-item">
+        <article class="publication-card">
+          <h3 class="publication-title">{{ $title }}</h3>
+          {{- with .authorList -}}
+  {{- $authors := . -}}
+  {{- if gt (len .) 5 -}}
+    {{- $authors = first 5 . | append "et al." -}}
+  {{- end -}}
+  <p class="publication-authors">{{ delimit $authors ", " }}</p>
+{{- end -}}
+          <p class="publication-meta">
+            {{- with $year }}<span class="publication-chip">{{ . }}</span>{{ end -}}
+            {{- with $journal }}<span class="publication-chip">{{ . }}</span>{{ end -}}
+            {{- with $volume }}<span class="publication-chip">Vol. {{ . }}</span>{{ end -}}
+            {{- with $pages }}<span class="publication-chip">pp. {{ replace . "--" "–" }}</span>{{ end -}}
           </p>
-        {{- end -}}
 
-        <details class="publication-details">
-          <summary>Full record</summary>
-          <dl class="publication-fields">
-            <dt>key</dt>
-            <dd>{{ .key }}</dd>
+          {{- with $annotation }}
+            <p class="publication-annotation">{{ . }}</p>
+          {{- end }}
 
-            <dt>entrytype</dt>
-            <dd>{{ .type }}</dd>
+          {{- if $doi }}
+            <p class="publication-links">
+              <a href="https://doi.org/{{ $doi }}">DOI: {{ $doi }}</a>
+              {{- with $url }}
+                <span class="ms-2"><a href="{{ . }}">URL</a></span>
+              {{- end }}
+            </p>
+          {{- else if $url }}
+            <p class="publication-links">
+              <a href="{{ $url }}">URL</a>
+            </p>
+          {{- end }}
 
-            {{- range .fields -}}
-              <dt>{{ .name }}</dt>
-              <dd>
+          <details class="publication-details">
+            <summary>Full record</summary>
+            <dl class="publication-fields">
+              <dt>key</dt>
+              <dd>{{ .key }}</dd>
+
+              <dt>entry type</dt>
+              <dd>{{ .type }}</dd>
+
+              {{- range .fields }}
                 {{- $name := lower .name -}}
-                {{- if eq $name "doi" -}}
-                  <a href="https://doi.org/{{ .value }}">{{ .value }}</a>
-                {{- else if eq $name "url" -}}
-                  <a href="{{ .value }}">{{ .value }}</a>
-                {{- else -}}
-                  {{ .value }}
-                {{- end -}}
-              </dd>
-            {{- end -}}
-          </dl>
-        </details>
-      </article>
-    </li>
-  {{- end }}
+                {{- if not (in (slice "title" "year" "journal" "volume" "pages" "annotation") $name) }}
+                  <dt>{{ .name }}</dt>
+                  <dd>
+                    {{- if eq $name "doi" -}}
+                      <a href="https://doi.org/{{ .value }}">{{ .value }}</a>
+                    {{- else if eq $name "url" -}}
+                      <a href="{{ .value }}">{{ .value }}</a>
+                    {{- else -}}
+                      {{ .value }}
+                    {{- end -}}
+                  </dd>
+                {{- end }}
+              {{- end }}
+            </dl>
+          </details>
+        </article>
+      </li>
+    {{- end }}
   </ul>
 {{- end -}}

@@ -7,10 +7,24 @@
 - Awesome page inserts publications in the `Papers` section and uses fallback rendering when remote README fetch fails.
 - Publications are sorted by year descending and BibTeX brace/escape cleanup is applied for display text.
 - Remote README helper partial now uses a single return statement while preserving the warning/rendered payload contract.
-- Isolated containerized build validation passed (`hugo build --gc --minify --cacheDir /tmp/.hugo_cache -d /tmp/public --noBuildLock`) in ~23s.
-- Next step on request: finalize scoped commit prep.
+- Cleanup + formatting/linting pass completed with containerized validations.
+- Shared production build entrypoint (`.github/scripts/build-site.sh`) passed with writable cache override.
+- Next step on request: stage/commit the intended documentation and generated JSON updates.
 
 ## Notes by date (newest first)
+
+### 2026-05-23 (cleanup + formatting/lint pass)
+
+- Cleanup pass:
+	- Scanned repository for common stale artifacts (`*.bak`, `*.orig`, `*.rej`, `*.tmp`, `*.swp`, `*~`, `.DS_Store`, `Thumbs.db`).
+	- No stale artifacts were found.
+- Formatting/linting pass:
+	- Publications template was kept in formatted state (`layouts/partials/publications-list.html`).
+	- Regenerated bibliography data with `.github/scripts/bibtex_to_json.py` to ensure `data/publications.json` is current.
+	- Executed `.github/scripts/build-site.sh` in the Hugo container as a production-style lint gate.
+- Validation status:
+	- Build completed successfully after setting writable cache/output env vars and clearing a stale lock file.
+	- Residual non-blocking Hugo deprecation warnings persist (`.Language.LanguageDirection`, `.Site.AllPages`, `.Site.Data`).
 
 ### 2026-05-22 (cleanup + docs sync)
 
