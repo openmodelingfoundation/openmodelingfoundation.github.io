@@ -9,9 +9,23 @@
 	"fonts/ibm-plex-mono/ibm-plex-mono-latin-400-normal.woff2"
 -}}
 
+<style>
+	:root {
+		--omf-public-sans-300-src: url("{{ "fonts/public-sans/public-sans-latin-300-normal.woff2" | relURL }}") format("woff2");
+		--omf-public-sans-400-src: url("{{ "fonts/public-sans/public-sans-latin-400-normal.woff2" | relURL }}") format("woff2");
+		--omf-public-sans-600-src: url("{{ "fonts/public-sans/public-sans-latin-600-normal.woff2" | relURL }}") format("woff2");
+		--omf-source-serif-4-400-src: url("{{ "fonts/source-serif-4/source-serif-4-latin-400-normal.woff2" | relURL }}") format("woff2");
+		--omf-source-serif-4-600-src: url("{{ "fonts/source-serif-4/source-serif-4-latin-600-normal.woff2" | relURL }}") format("woff2");
+		--omf-source-serif-4-700-src: url("{{ "fonts/source-serif-4/source-serif-4-latin-700-normal.woff2" | relURL }}") format("woff2");
+		--omf-ibm-plex-mono-400-src: url("{{ "fonts/ibm-plex-mono/ibm-plex-mono-latin-400-normal.woff2" | relURL }}") format("woff2");
+		--omf-ibm-plex-mono-500-src: url("{{ "fonts/ibm-plex-mono/ibm-plex-mono-latin-500-normal.woff2" | relURL }}") format("woff2");
+		--omf-ibm-plex-mono-600-src: url("{{ "fonts/ibm-plex-mono/ibm-plex-mono-latin-600-normal.woff2" | relURL }}") format("woff2");
+	}
+</style>
+
 {{- range $path := $fontPreloads -}}
 	{{- if fileExists (printf "static/%s" $path) -}}
-<link rel="preload" href="/{{ $path }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ $path | relURL }}" as="font" type="font/woff2" crossorigin>
 	{{- end -}}
 {{- end -}}
 

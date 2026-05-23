@@ -20,7 +20,7 @@ $black: #000;
   src:
     local("Public Sans Light"),
     local("PublicSans-Light"),
-    url("/fonts/public-sans/public-sans-latin-300-normal.woff2") format("woff2");
+    var(--omf-public-sans-300-src);
 }
 
 @font-face {
@@ -31,7 +31,7 @@ $black: #000;
   src:
     local("Public Sans Regular"),
     local("PublicSans-Regular"),
-    url("/fonts/public-sans/public-sans-latin-400-normal.woff2") format("woff2");
+    var(--omf-public-sans-400-src);
 }
 
 @font-face {
@@ -42,7 +42,7 @@ $black: #000;
   src:
     local("Public Sans SemiBold"),
     local("PublicSans-SemiBold"),
-    url("/fonts/public-sans/public-sans-latin-600-normal.woff2") format("woff2");
+    var(--omf-public-sans-600-src);
 }
 
 @font-face {
@@ -53,7 +53,7 @@ $black: #000;
   src:
     local("Source Serif 4 Regular"),
     local("SourceSerif4-Regular"),
-    url("/fonts/source-serif-4/source-serif-4-latin-400-normal.woff2") format("woff2");
+    var(--omf-source-serif-4-400-src);
 }
 
 @font-face {
@@ -64,7 +64,7 @@ $black: #000;
   src:
     local("Source Serif 4 SemiBold"),
     local("SourceSerif4-SemiBold"),
-    url("/fonts/source-serif-4/source-serif-4-latin-600-normal.woff2") format("woff2");
+    var(--omf-source-serif-4-600-src);
 }
 
 @font-face {
@@ -75,7 +75,7 @@ $black: #000;
   src:
     local("Source Serif 4 Bold"),
     local("SourceSerif4-Bold"),
-    url("/fonts/source-serif-4/source-serif-4-latin-700-normal.woff2") format("woff2");
+    var(--omf-source-serif-4-700-src);
 }
 
 @font-face {
@@ -86,7 +86,7 @@ $black: #000;
   src:
     local("IBM Plex Mono"),
     local("IBMPlexMono-Regular"),
-    url("/fonts/ibm-plex-mono/ibm-plex-mono-latin-400-normal.woff2") format("woff2");
+    var(--omf-ibm-plex-mono-400-src);
 }
 
 @font-face {
@@ -97,7 +97,7 @@ $black: #000;
   src:
     local("IBM Plex Mono Medium"),
     local("IBMPlexMono-Medium"),
-    url("/fonts/ibm-plex-mono/ibm-plex-mono-latin-500-normal.woff2") format("woff2");
+    var(--omf-ibm-plex-mono-500-src);
 }
 
 @font-face {
@@ -108,7 +108,7 @@ $black: #000;
   src:
     local("IBM Plex Mono SemiBold"),
     local("IBMPlexMono-SemiBold"),
-    url("/fonts/ibm-plex-mono/ibm-plex-mono-latin-600-normal.woff2") format("woff2");
+    var(--omf-ibm-plex-mono-600-src);
 }
 
 $omf-primary: #0f2742;

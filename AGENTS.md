@@ -46,6 +46,10 @@ Agent-generated artifacts must be written under `.agent/`.
 - Do not store secrets, tokens, or private credentials.
 - Use UTC timestamps in checkpoints and handoffs when possible.
 
+## Static asset paths
+
+- Prefer base-path-safe asset references (`relURL`, relative paths, or equivalent template-aware indirection) over hardcoded root-relative paths like `/images/...` or `/fonts/...` for deployable site assets.
+
 ## Important dependency versions
 
 - Hugo (Docker build arg): `0.161.1` (`Dockerfile`)
