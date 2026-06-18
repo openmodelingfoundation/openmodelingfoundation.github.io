@@ -160,6 +160,7 @@ textarea:focus-visible,
 
     .omf-standard-card .mb-0 {
         flex: 1 1 auto;
+        text-align: left;
     }
 
     .omf-standard-card .btn {
@@ -198,6 +199,7 @@ textarea:focus-visible,
         .mb-0 {
             flex: 1 1 auto;
             color: var(--omf-text);
+            text-align: left;
         }
 
         > p:last-child {
