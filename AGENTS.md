@@ -54,10 +54,10 @@ Agent-generated artifacts must be written under `.agent/`.
 
 ## Important dependency versions
 
-- Hugo (Docker build arg): `0.161.1` (`Dockerfile`)
+- Hugo (Docker build arg): `0.163.3` (`Dockerfile`)
 - UV (Docker build arg): `0.11.16` (`Dockerfile`)
 - BibTeX parser floor: `>=2.0.0b9` (PEP 723 inline metadata in `.github/scripts/bibtex_to_json.py` — single source of truth)
-- Docsy module: `v0.14.3` (`go.mod` and `Dockerfile`)
+- Docsy module: `v0.15.0` (`go.mod` and `Dockerfile`)
 - Go toolchain declaration: `1.18` (`go.mod`)
 - npm package manifest version: `1.0.0` (`package.json`)
 - Frontend/build packages in `package.json` use semver ranges (`^`), including:

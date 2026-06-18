@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.7
 
-ARG HUGO_VERSION=v0.161.1
+ARG HUGO_VERSION=v0.163.3
 ARG UV_VERSION=0.11.16
 
 # Stage 1: preprocess BibTeX into Hugo data.
