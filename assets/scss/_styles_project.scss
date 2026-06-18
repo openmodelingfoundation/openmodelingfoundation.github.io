@@ -15,6 +15,7 @@ body {
         color: $primary;
         letter-spacing: 0.01em;
         text-wrap: balance;
+        font-optical-sizing: auto;
     }
 
     p,
@@ -109,6 +110,12 @@ textarea:focus-visible,
     p,
     li {
         color: rgba($white, 0.94);
+        font-optical-sizing: auto;
+    }
+
+    // Override Bootstrap text-secondary so it's legible on the dark primary background
+    .text-secondary {
+        color: $omf-accent !important;
     }
 }
 
