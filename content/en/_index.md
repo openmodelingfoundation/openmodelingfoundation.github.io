@@ -19,22 +19,19 @@ linkTitle = "Open Modeling Foundation"
 {{< blocks/section color="dark" type="row" >}}
   <div class="col-12 text-center mb-5"><h2><b>Standards</b></h2></div>
   {{% blocks/standard icon="fas fa-search" title="Accessibility" url="/standards/accessibility" %}}
-  Support best practices for discovery and access to model code, documentation, and metadata.
+  Support best practices for discovering and accessing model code, documentation, and metadata.
   {{% /blocks/standard %}}
 
   {{% blocks/standard icon="fas fa-book" title="Documentation" url="/standards/documentation" %}}
-  Help others understand a model, replicate its results, reuse or extend it with a combination of narrative
-  documentation protocols and visual diagrams that clearly and comprehensively describe the model, how it works, its
-  assumptions and limitations, etc.
+  Describe model code, design, and assumptions clearly with narrative documentation and visual diagrams to support understanding, replication, and reuse.
   {{% /blocks/standard %}}
 
   {{% blocks/standard icon="fas fa-circle-nodes" title="Interoperability" url="/standards/interoperability" %}}
-  Enable models to be composed or integrated into larger scale models while maintaining scientific rigor.
+  Enable models to be composed or integrated into larger systems while maintaining scientific rigor.
   {{% /blocks/standard %}}
 
   {{% blocks/standard icon="fas fa-recycle" title="Reusability" url="/standards/reusability" %}}
-  Facilitate reuse of high quality model code for reproducibility, replication, extension, and integration into larger
-  scale models.
+  Facilitate reuse of high quality model code for reproducibility, replication, and extension.
   {{% /blocks/standard %}}
 {{< /blocks/section >}}
 
