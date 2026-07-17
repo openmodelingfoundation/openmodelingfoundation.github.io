@@ -1,78 +1,97 @@
 # AGENTS
 
-This repository powers the Open Modeling Foundation science gateway, implemented with Hugo and Docsy, and published on GitHub Pages.
+This repository powers the Open Modeling Foundation science gateway, built with Hugo and Docsy and published via GitHub Pages.
 
-This document is the canonical source of truth for agent behavior in this repository.
+This file intentionally documents repository-specific decisions and constraints that are not obvious from the codebase itself.
 
-For a contributor-facing overview, see the Agent Harness section in [README.md](README.md#agent-harness).
+Contributor documentation lives in `README.md`. Agent harness documentation lives under `.agent/`.
 
 ## Scope and precedence
 
-- This file defines the shared operating contract for all AI agents.
-- If guidance in `.github/copilot-instructions.md` or `CLAUDE.md` differs, follow this file.
-- `README.md` provides contributor-facing context; this file remains authoritative for agent behavior.
-- Agent-specific files should provide adapter notes only and link back here.
+If instructions conflict, follow this order:
 
-## Agent harness
+1. `AGENTS.md`
+2. Agent-specific adapter files (`CLAUDE.md`, `.github/copilot-instructions.md`, etc.)
+3. `README.md`
 
-Agent-generated artifacts must be written under `.agent/`.
+Adapter files provide agent-specific configuration only and should not override repository conventions defined here.
 
-- Working memory: `.agent/working-memory/`
-- Checkpoints: `.agent/checkpoints/`
-- Handoffs: `.agent/handoffs/`
+## Operating principles
 
-## Standard workflow
+- Make the smallest correct change.
+- Preserve existing architecture and conventions unless the task explicitly requires otherwise.
+- Prefer extending existing patterns over introducing new abstractions.
+- If requirements are ambiguous, choose the simplest correct solution and state any assumptions.
+- Do not introduce new dependencies without clear justification.
 
-1. Read this file before starting substantial work.
-2. Record in-progress context in `.agent/working-memory/session.md`.
-3. For long tasks, save progress snapshots in `.agent/checkpoints/`.
-4. Before pausing or transferring work, create a handoff in `.agent/handoffs/`.
-5. When a user requests a cleanup pass, review and update this file (`AGENTS.md`) as part of that pass, even if the update is only a brief synchronization note.
+## Agent workflow
 
-## Command execution environment
+For substantial tasks:
 
-- Run project commands in containers only; do not assume local `go`, `hugo`, `node`, or `npm` are installed on the host.
-- Use Docker Compose with the `hugo` service for build/test/update tasks (for example: `docker compose run --rm --no-deps --entrypoint sh hugo -c '<command>'`).
-- Prefer the shared Hugo production build entrypoint `.github/scripts/build-site.sh` for render operations used by CI and local production-style checks.
-- Use `make render` for the local production-style render path and `make serve` for local hot-reload preview.
-- Use `make publications-json` to regenerate `data/publications.json` from `assets/bibliographies/publications.bib` when bibliography data changes.
-- Use `make render-site-isolated` when another local Hugo container/session is running or host lock/permission conflicts are present; this runs in a one-off isolated container workspace and reuses the host cache directory `.hugo_cache` for module/cache reuse.
-- If a command cannot run in the current container setup, document the limitation and propose a container-based alternative.
+- Record working context under `.agent/working-memory/`.
+- Save checkpoints for long-running work.
+- Create a handoff before pausing or transferring work.
+- When performing a documentation or cleanup pass, update this file if repository-specific guidance has changed.
 
-## Artifact guidance
+See `.agent/README.md` for workflow details, templates, and naming conventions.
 
-- Keep notes concise, factual, and actionable.
-- Include file paths, decisions, and validation outcomes.
-- Do not store secrets, tokens, or private credentials.
-- Use UTC timestamps in checkpoints and handoffs when possible.
+## Project invariants
 
-## Static asset paths
+These constraints should never be violated.
 
-- Prefer base-path-safe asset references (`relURL`, relative paths, or equivalent template-aware indirection) over hardcoded root-relative paths like `/images/...` or `/fonts/...` for deployable site assets.
-- **Hugo module mounts and the `static` component**: whenever any mount in `hugo.yaml` targets the `static` component (even a partial path like `static/bibliographies`), Hugo drops the implicit `static/ → static/` default mount. Always include an explicit `- source: "static" / target: "static"` entry when defining custom mounts, or `public/` will silently omit everything under `static/` (fonts, images, CNAME, etc.).
-- Font `@font-face` declarations belong in a Hugo partial (e.g. `layouts/partials/hooks/head-end.html`) rather than in SCSS, because Hugo template functions such as `relURL` are not available inside the `toCSS` pipeline.
+- All project commands should execute inside the project's container environment.
+- Edit the authoritative source, then regenerate generated artifacts.
+- `data/publications.json` is generated from `assets/bibliographies/publications.bib`.
+- `public/` is build output and should never be edited directly.
+- Documentation under `.agent/` is operational state, not project documentation.
+- Never commit deploy credentials, API tokens, or analytics keys. GitHub Pages deployment secrets live in GitHub Actions repository secrets, not in tracked files.
 
-## Important dependency versions
+## Common decisions
 
-- Hugo (Docker build arg): `0.163.3` (`Dockerfile`)
-- UV (Docker build arg): `0.11.16` (`Dockerfile`)
-- BibTeX parser floor: `>=2.0.0b9` (PEP 723 inline metadata in `.github/scripts/bibtex_to_json.py` — single source of truth)
-- Docsy module: `v0.15.0` (`go.mod` and `Dockerfile`)
-- Go toolchain declaration: `1.18` (`go.mod`)
-- npm package manifest version: `1.0.0` (`package.json`)
-- Frontend/build packages in `package.json` use semver ranges (`^`), including:
-	- `bootstrap` `^5.3.3`
-	- `@popperjs/core` `^2.11.8`
-	- `autoprefixer` `^10.2.5`
-	- `postcss` `^8.5.3`
-	- `postcss-cli` `^11.0.0`
+Prefer repository `make` targets whenever one exists. Invoke Docker Compose or project tools directly only when no suitable `make` target exists or when debugging the build system.
 
-## Suggested naming
+| Need                                            | Use                              |
+| ------------------------------------------------ | --------------------------------- |
+| Preview site locally                              | `make serve`                      |
+| Production-style render                           | `make render`                     |
+| Render while another Hugo container is running    | `make render-site-isolated`       |
+| Bibliography changed                              | `make publications-json`          |
+| CI-equivalent production build                    | `.github/scripts/build-site.sh`   |
 
-- Checkpoints: `checkpoint-YYYYMMDD-HHMM.md`
-- Handoffs: `handoff-YYYYMMDD-HHMM.md`
+If a command cannot run in the current container environment, explain why and propose a container-based alternative rather than switching to host-installed tooling.
 
-## Templates
+## Repository gotchas
 
-- Checkpoint template: `.agent/checkpoints/checkpoint-template.md`
-- Handoff template: `.agent/handoffs/handoff-template.md`
+### Hugo module mounts
+
+When modifying `hugo.yaml` mounts:
+
+- Always include an explicit `static -> static` mount.
+- Do not define only partial `static` mounts.
+
+Why: Hugo disables the implicit default mount. The build succeeds, but assets silently disappear from `public/`. Check `public/` for the expected files directly.
+
+### Font declarations
+
+When adding or modifying `@font-face` declarations:
+
+- Place them in a Hugo template partial such as `layouts/partials/hooks/head-end.html`.
+- Do not define `@font-face` rules in SCSS processed through Hugo's `toCSS` pipeline.
+
+Why: Hugo template functions such as `relURL` are unavailable inside the SCSS pipeline. Defining `@font-face` in a template partial ensures asset URLs are generated correctly for all deployment base paths.
+
+### Asset paths
+
+When referencing site assets:
+
+- Prefer Hugo URL helpers such as `relURL`.
+- Do not hardcode root-relative paths.
+
+Why: The site may be deployed under different base paths. Template-aware URLs remain portable.
+
+## Validation expectations
+
+- Validate changes before considering work complete.
+- Prefer the smallest validation that demonstrates correctness.
+- For bibliography changes, regenerate `data/publications.json` and confirm entry counts match the `.bib` source — malformed BibTeX entries are dropped silently rather than raising an error.
+- For rendering or template changes, perform a production-style render and check `public/` directly for expected output. A successful `make render` exit code does not guarantee content is present (see static mounts gotcha above) — Hugo's failure modes here are silent, not loud.
