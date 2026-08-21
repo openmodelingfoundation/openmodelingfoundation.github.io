@@ -11,14 +11,7 @@ You can contribute to this site by following the directions at https://openmodel
 This repository includes an agent collaboration harness for AI-assisted work.
 
 - Canonical policy: `AGENTS.md` is the source of truth for agent behavior.
-- Agent notes: `.github/copilot-instructions.md` and `CLAUDE.md` are adapter files that defer to `AGENTS.md`.
-- Command environment for agents: run project commands in containers via Docker Compose (`hugo` service).
-- Agent artifacts: `.agent/` stores generated working context and transfer records.
-	- `.agent/working-memory/` for in-progress notes
-	- `.agent/checkpoints/` for progress snapshots
-	- `.agent/handoffs/` for transfer summaries
-
-Agents should read `AGENTS.md` first and use the templates under `.agent/checkpoints/` and `.agent/handoffs/` when creating artifacts.
+- Command environment for agents: run project commands in containers: look for make targets first, then the Docker Compose `hugo` service
 
 ## Deployment
 
