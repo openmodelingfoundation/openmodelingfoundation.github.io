@@ -36,6 +36,14 @@ mkdir -p "$HUGO_CACHEDIR" "$OUTPUT_DIR" "$npm_config_cache"
 git config --global --add safe.directory /src
 git config --global core.quotepath false
 
+# Docsy 0.16.0 theme module mounts expect node_modules/ at the project root
+# (e.g. node_modules/bootstrap -> assets/vendor/bootstrap).  PostCSS tooling
+# and theme dependencies are installed at /tmp/node_modules by the Dockerfile;
+# symlink so Hugo module mounts resolve them at the project root.
+if [ ! -e node_modules ]; then
+  ln -s /tmp/node_modules node_modules
+fi
+
 set -- build \
   --gc \
   --minify \

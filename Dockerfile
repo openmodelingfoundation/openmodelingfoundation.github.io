@@ -35,8 +35,13 @@ RUN git config --global --add safe.directory /src
 # python3 is required for uv to create a venv when running scripts with inline metadata.
 RUN apk add --no-cache nodejs npm go python3
 
-# Install front-end tooling.
+# Install front-end tooling and Docsy theme npm dependencies (Bootstrap, Font
+# Awesome) into /tmp/node_modules.  The packages/ workspace directory is
+# required so npm ci processes the hugoautogen workspace that Hugo generates
+# via "hugo mod npm pack"; without it @fortawesome/fontawesome-free is missing
+# and Docsy 0.16.0's module mounts fail.
 COPY package.json package-lock.json /tmp/
+COPY packages/ /tmp/packages/
 RUN --mount=type=cache,target=/root/.npm \
     cd /tmp && npm ci
 

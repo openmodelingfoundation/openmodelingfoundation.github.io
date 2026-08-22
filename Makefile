@@ -56,7 +56,7 @@ render-site-isolated : build
 		-v "$(HUGO_ISOLATED_CACHE_HOST_DIR)":"$(HUGO_ISOLATED_CACHE_CONTAINER_DIR)":rw \
 		-w /tmp \
 		$(HUGO_IMAGE) \
-		-lc 'cp -a /workspace /tmp/src && git config --global --add safe.directory /tmp/src && cd /tmp/src && hugo build --gc --minify --cacheDir "$(HUGO_ISOLATED_CACHE_CONTAINER_DIR)" -d /tmp/public --noBuildLock'
+		-lc 'cp -a /workspace /tmp/src && git config --global --add safe.directory /tmp/src && cd /tmp/src && ln -s /tmp/node_modules node_modules && hugo build --gc --minify --cacheDir "$(HUGO_ISOLATED_CACHE_CONTAINER_DIR)" -d /tmp/public --noBuildLock'
 
 ## publications-json: generate Hugo data/publications.json from BibTeX.
 publications-json : build
