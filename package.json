@@ -12,5 +12,8 @@
     "bootstrap": "^5.3.3",
     "jquery": "^3.0",
     "@popperjs/core": "^2.11.8"
-  }
+  },
+  "workspaces": [
+    "packages/hugoautogen"
+  ]
 }

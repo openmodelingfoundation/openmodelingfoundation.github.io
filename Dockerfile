@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1.7
 
-ARG HUGO_VERSION=v0.163.3
-ARG UV_VERSION=0.11.16
+ARG HUGO_VERSION=v0.165.0
+ARG UV_VERSION=0.12.5
 
 # Stage 1: preprocess BibTeX into Hugo data.
 FROM ghcr.io/astral-sh/uv:${UV_VERSION} AS uv

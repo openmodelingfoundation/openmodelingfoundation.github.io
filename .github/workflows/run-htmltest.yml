@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
 
@@ -24,13 +24,13 @@ jobs:
 
       - name: Run htmltest
         continue-on-error: true
-        uses: wjdp/htmltest-action@master
+        uses: wjdp/htmltest-action@670ec9b79a149d30f4f5122e20cea1dfe82f8276 # v0.13.0-rc1
         with:
           config: .htmltest.yml
 
       - name: Archive htmltest results
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: htmltest-report
           path: tmp/.htmltest/

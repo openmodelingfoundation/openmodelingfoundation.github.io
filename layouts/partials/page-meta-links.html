@@ -17,10 +17,10 @@
         {{ $discussionURL := (printf "%s/discussions/categories/%s" $gh_repo $github_discuss_category) }}
         {{ $newDiscussionURL := (printf "%s/discussions/new?category=%s" $gh_repo $github_discuss_category) }}
         {{ $editURL := printf "%s/edit/%s/content/%s" $gh_repo $gh_branch $pathFormatted }}
-        {{ if and ($gh_subdir) (.Site.Language.Lang) }}
-            {{ $editURL = printf "%s/edit/%s/%s/content/%s/%s" $gh_repo $gh_branch $gh_subdir ($.Site.Language.Lang) $pathFormatted }}
-        {{ else if .Site.Language.Lang }}
-            {{ $editURL = printf "%s/edit/%s/content/%s/%s" $gh_repo $gh_branch ($.Site.Language.Lang) $pathFormatted }}
+        {{ if and ($gh_subdir) (.Site.Language.Name) }}
+            {{ $editURL = printf "%s/edit/%s/%s/content/%s/%s" $gh_repo $gh_branch $gh_subdir ($.Site.Language.Name) $pathFormatted }}
+        {{ else if .Site.Language.Name }}
+            {{ $editURL = printf "%s/edit/%s/content/%s/%s" $gh_repo $gh_branch ($.Site.Language.Name) $pathFormatted }}
         {{ else if $gh_subdir }}
             {{ $editURL = printf "%s/edit/%s/%s/content/%s" $gh_repo $gh_branch $gh_subdir $pathFormatted }}
         {{ end -}}
