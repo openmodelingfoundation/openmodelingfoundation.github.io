@@ -10,30 +10,30 @@ If you are interested in joining the Certification Working Group, [please fill o
 
 {{< working-group-actions github-discussions-url="https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-certification" >}}
 
-### **Acting Certification Co-Chairs**
-#### [Maria Pierce](https://www.thuenen.de/en/institutes/baltic-sea-fisheries/staff/scientific/pierce-maria-e)
-- Ecological modeller and works on modelling and simulation workflows
+## **Acting Certification Co-Chairs**
+### [Maria Pierce](https://www.thuenen.de/en/institutes/baltic-sea-fisheries/staff/scientific/pierce-maria-e)
+- Ecological modeller working on modelling and simulation workflows
 - Currently develops the work area Modelling Systems at the Thünen Institute of Baltic Sea Fisheries
 - Participates in expert groups of the International Council for the Exploration of the Sea (ICES)
 
-#### [Irene Garousi-Nejad](https://www.linkedin.com/in/irene-garousi-nejad-phd-0809a047/)
-- Hydrologic and scientific computing researcher with expertise in reproducible modeling workflows, model evaluation, and large-scale environmental data systems. 
-- Contributor to Cooperative Institute for Research to Operations in Hydrology (CIROH) community efforts focused on interoperable, FAIR-aligned, and reusable hydrologic modeling and data practices.
-- Develops metadata, benchmarking, and validation approaches that support transparent assessment, traceability, and standard-based scientific software. 
+### [Irene Garousi-Nejad](https://www.linkedin.com/in/irene-garousi-nejad-phd-0809a047/)
+- Hydrologic and scientific computing researcher with expertise in reproducible modeling workflows, model evaluation, and large-scale environmental data systems
+- Contributes to Cooperative Institute for Research to Operations in Hydrology (CIROH) community efforts focused on interoperable, FAIR-aligned, and reusable hydrologic modeling and data practices
+- Develops metadata, benchmarking, and validation approaches that support transparent assessment, traceability, and standards-based scientific software
 
-*We are currently seeking expressions of interest for full Certification Working Group Co-Chairs to continue advancing this work.*
+{{% alert title="Help lead the Certification Working Group" color="primary" %}}
+We are seeking expressions of interest for Certification Working Group Co-Chairs to continue advancing this work. If you are interested or know someone who might be a good fit, please [contact us](mailto:support@openmodelingfoundation.org).
+{{% /alert %}}
 
-If you are interested or know someone who might be a good fit, please [contact us](support@openmodelingfoundation.org).
+## **Current Developments**
 
-### **Current Developments**
+Rebooting the CWG and restarting work on certification projects.
 
-Re-Booting the CWG as a whole and kickstarting progress in Certification Projects
-
-### **Previous Projects**
+## **Previous Projects**
 - [Ten simple rules for good model-sharing practices](https://doi.org/10.1371/journal.pcbi.1012702)
-- Feb-May 2024: Seven part [ModelShare](https://www.youtube.com/channel/UC17zWxzjmfvNV_bCYhOZrsQ) workshop series. Learn more about this project [here](https://share.openmodelingfoundation.org/).
+- February-May 2024: Seven-part [ModelShare](https://www.youtube.com/channel/UC17zWxzjmfvNV_bCYhOZrsQ) workshop series. Learn more about this project [here](https://share.openmodelingfoundation.org/).
 
-### **Certification Working Group Co-Chair Alumni**
+## **Certification Working Group Co-Chair Alumni**
 
 We are grateful to all our co-chair alumni for their diligent and capable service.
 

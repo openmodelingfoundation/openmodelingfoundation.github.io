@@ -10,16 +10,16 @@ If you are interested in joining the Education and Outreach Working Group, [plea
 
 {{< working-group-actions github-discussions-url="https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/discussions/categories/wg-education-and-outreach" >}}
 
-### **Education & Outreach Co-Chairs**
-#### [Junzhi Liu](https://scholar.google.com/citations?user=eOB7FswAAAAJ&hl=en)
+## **Education & Outreach Co-Chairs**
+### [Junzhi Liu](https://scholar.google.com/citations?user=eOB7FswAAAAJ&hl=en)
 - Professor in the Center for the Pan-Third Pole Environment, Lanzhou University, China. 
 - He and his team developed the SEIMS (Spatially Explicit Integrated Modeling System) watershed modeling framework and the WISE (Watershed-based Integrated Simulator for the Environment) watershed model.
 
-#### [Iestyn Woolway](https://www.bangor.ac.uk/staff/sos/iestyn-woolway-050578/en)
+### [Iestyn Woolway](https://www.bangor.ac.uk/staff/sos/iestyn-woolway-050578/en)
 - Climate scientist at Bangor University in Wales
 - Research focusses on modelling the earth system, with a specific focus on freshwater systems.
 
-### **Current Developments**
+## **Current Developments**
 The nearly 40 members of the Education and Outreach WG are currently working towards a number of goals:
 - Help communicate between OMF member organizations via OMF News Letter Development
 - Coordinates with the OMF Early Career Scholars to develop programs to support early-career scientists, thus assisting with training the next generation of scholars with an interest in modelling human and natural systems.
@@ -27,13 +27,13 @@ The nearly 40 members of the Education and Outreach WG are currently working tow
 - Development of tutorials on how to implement the FAIR principles
 - Implementing FAIR Principles in Lake Watershed Modelling to Tackle Water Resource and Ecosystem Challenges
 
-### **Previous Projects**
+## **Previous Projects**
 - Newsletter design and preparation
 
 
 
 
 
-##### **Friends of the Education and Outreach Working Group**
-We would like to thank and acknolodge the following People and Organizations who have supported WG efforts, projects, or have otherwise been directly or indirectly involved in WG projects or efforts.
-- [CPGIS](https://www.cpgis.org/) 
+## **Friends of the Education and Outreach Working Group**
+We would like to thank and acknowledge the following people and organizations that have supported or participated in working group projects and activities.
+- [CPGIS](https://www.cpgis.org/)

@@ -1,0 +1,18 @@
+{{- $title := .Get "title" -}}
+{{- $url := .Get "url" -}}
+{{- $action := .Get "action" | default "Learn more and contribute" -}}
+{{- $label := .Get "label" | default "Current project" -}}
+{{- $headingID := printf "working-group-highlight-%s" ($title | anchorize) -}}
+
+<aside class="working-group-highlight" aria-labelledby="{{ $headingID }}">
+  <div class="working-group-highlight__content">
+    <p class="working-group-highlight__label">{{ $label }}</p>
+    <h3 id="{{ $headingID }}" class="working-group-highlight__title">{{ $title }}</h3>
+    <div class="working-group-highlight__description">
+      {{ .Inner | .Page.RenderString }}
+    </div>
+  </div>
+  <a class="btn btn-secondary working-group-highlight__action" href="{{ $url }}">
+    {{ $action }} <span aria-hidden="true">&rarr;</span>
+  </a>
+</aside>
