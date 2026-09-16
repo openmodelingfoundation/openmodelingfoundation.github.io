@@ -27,6 +27,8 @@ Prefer `make` targets. Use Docker Compose directly only when debugging the build
 | Regenerate publications JSON from BibTeX | `make publications-json` |
 | CI-equivalent production build | `.github/scripts/build-site.sh` |
 
+Never run `make render` while `make serve` or another Hugo container is running: it deletes shared build state and disrupts the live server. Use `make render-site-isolated` instead.
+
 ## Deployment
 
 Pushes to `develop` trigger the GitHub Pages workflow (`.github/workflows/gh-pages.yml`). The repository Pages source must be set to **GitHub Actions**, not a branch.
@@ -48,4 +50,4 @@ Use Hugo URL helpers (`relURL`, `absURL`) in templates. Do not hardcode root-rel
 ## Validation
 
 - Bibliography changes: run `make publications-json` and confirm entry counts match the `.bib` source. Malformed BibTeX entries are silently dropped, not errored.
-- Rendering or template changes: run `make render` and check `public/` directly for expected output. A successful exit code does not guarantee content is present (see module mounts gotcha above).
+- Rendering or template changes: run `make render` and check `public/` directly, or use `make render-site-isolated` if a Hugo container is running. A successful exit code does not guarantee content is present (see module mounts gotcha above).
