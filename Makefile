@@ -20,7 +20,7 @@ PUBLICATIONS_BIB_PATH ?= assets/bibliographies/publications.bib
 PUBLICATIONS_JSON_PATH ?= data/publications.json
 
 # Controls
-.PHONY : all commands build clean stop serve render render-site render-site-isolated shell publications-json
+.PHONY : all commands build clean stop serve render render-site render-site-isolated shell publications-json deps-docsy deps-pack deps-lock deps-fonts
 all : commands
 
 ## commands         : show all commands.
@@ -61,6 +61,23 @@ render-site-isolated : build
 ## publications-json: generate Hugo data/publications.json from BibTeX.
 publications-json : build
 	$(HUGO_RUN_SH) $(HUGO_USER_ENV) $(HUGO_SERVICE) -c 'uv run .github/scripts/bibtex_to_json.py --input "$(PUBLICATIONS_BIB_PATH)" --output "$(PUBLICATIONS_JSON_PATH)"'
+
+## deps-docsy       : update the Docsy Hugo module; set DOCSY_VERSION=vX.Y.Z.
+deps-docsy :
+	@test -n "$(DOCSY_VERSION)" || { echo 'Set DOCSY_VERSION=vX.Y.Z'; exit 1; }
+	$(HUGO_RUN_SH) $(HUGO_USER_ENV) $(HUGO_SERVICE) -c 'git config --global --add safe.directory /src && hugo mod get github.com/google/docsy/theme@$(DOCSY_VERSION)'
+
+## deps-pack        : regenerate Hugo module npm workspace using the existing image.
+deps-pack :
+	$(HUGO_RUN_SH) $(HUGO_USER_ENV) $(HUGO_SERVICE) -c 'git config --global --add safe.directory /src && hugo mod npm pack'
+
+## deps-lock        : update npm lockfile using the existing image.
+deps-lock :
+	$(HUGO_RUN_SH) $(HUGO_USER_ENV) $(HUGO_SERVICE) -c 'npm install --package-lock-only --ignore-scripts --no-audit --no-fund'
+
+## deps-fonts       : regenerate pinned self-hosted fonts in the Hugo container.
+deps-fonts :
+	$(HUGO_RUN_SH) $(HUGO_SERVICE) -c 'apk add --no-cache bash curl openssl su-exec && su-exec "$(UID):$(GID)" env HOME=/tmp npm_config_cache=/tmp/.npm bash .github/scripts/download-fonts.sh'
 
 ## shell            : open a hugo shell
 shell : build

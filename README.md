@@ -13,6 +13,8 @@ This repository includes an agent collaboration harness for AI-assisted work.
 - Canonical policy: `AGENTS.md` is the source of truth for agent behavior.
 - Command environment for agents: run project commands in containers: look for make targets first, then the Docker Compose `hugo` service
 
+For Hugo, Docsy, JavaScript, and other dependency updates, follow the [dependency upgrade runbook](docs/dependency-upgrades.md).
+
 ## Deployment
 
 The site is deployed to GitHub Pages via the workflow at `.github/workflows/gh-pages.yml`. Pushes to the `develop` branch trigger an automated build-and-deploy.
