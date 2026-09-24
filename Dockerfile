@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.7
 
-ARG HUGO_VERSION=v0.165.0
+ARG HUGO_VERSION=v0.166.0
 ARG UV_VERSION=0.12.5
 
 # Stage 1: preprocess BibTeX into Hugo data.
@@ -35,15 +35,21 @@ RUN git config --global --add safe.directory /src
 # python3 is required for uv to create a venv when running scripts with inline metadata.
 RUN apk add --no-cache nodejs npm go python3
 
-# Install front-end tooling and Docsy theme npm dependencies (Bootstrap, Font
-# Awesome) into /tmp/node_modules.  The packages/ workspace directory is
-# required so npm ci processes the hugoautogen workspace that Hugo generates
-# via "hugo mod npm pack"; without it @fortawesome/fontawesome-free is missing
-# and Docsy 0.16.0's module mounts fail.
+# Install front-end tooling and Docsy theme npm dependencies into
+# /tmp/node_modules. The packages/ directory contains Hugo's generated npm
+# workspace, which npm ci requires because package.json lists it as a workspace.
 COPY package.json package-lock.json /tmp/
 COPY packages/ /tmp/packages/
 RUN --mount=type=cache,target=/root/.npm \
     cd /tmp && npm ci
+
+# The sass-embedded package provides the native Dart Sass binary that Hugo's
+# TOCSS-DART needs (via the embedded Sass protocol).  The pure-JS sass package
+# is also installed as a transitive dependency of sass-embedded's fallback
+# platform packages, and npm resolves the .bin/sass symlink to it instead of
+# to sass-embedded.  Fix the symlink so Hugo uses the embedded Dart Sass.
+RUN chmod +x /tmp/node_modules/sass-embedded/dist/bin/sass.js && \
+    ln -sf ../sass-embedded/dist/bin/sass.js /tmp/node_modules/.bin/sass
 
 ENV PATH="/tmp/node_modules/.bin:${PATH}"
 

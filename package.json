@@ -5,13 +5,15 @@
   "devDependencies": {
     "autoprefixer": "^10.2.5",
     "postcss": "^8.5.15",
-    "postcss-cli": "^11.0.0"
+    "postcss-cli": "^11.0.0",
+    "sass-embedded": "1.102.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "7.3.1",
     "@octokit/action": "^8.0.2",
-    "bootstrap": "^5.3.3",
-    "jquery": "^3.0",
-    "@popperjs/core": "^2.11.8"
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "5.3.8",
+    "jquery": "^3.0"
   },
   "workspaces": [
     "packages/hugoautogen"
