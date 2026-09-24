@@ -1,12 +1,15 @@
-# AGENTS
+# Agent guidance
 
-Repository-specific constraints for AI agents working on the Open Modeling Foundation Hugo + Docsy site (GitHub Pages).
+## Maintaining this file
 
-Contributor documentation: `README.md`.
+Keep AGENTS.md focused on repository-specific guidance; avoid restating standard practices, and link to authoritative project documentation instead of duplicating it.
 
-## Precedence
+## Commit conventions
 
-If instructions conflict: `AGENTS.md` → adapter files (`CLAUDE.md`, `.github/copilot-instructions.md`) → `README.md`.
+Use Conventional Commits with imperative subjects of at most 72 characters.
+Use scopes only for established repository areas.
+For non-trivial changes, explain the rationale in the body.
+Reference related issues or PRs in the body or footer when known.
 
 ## Invariants
 
