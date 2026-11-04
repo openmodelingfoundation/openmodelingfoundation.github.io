@@ -19,19 +19,31 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Build Hugo site in Docker Compose
-        run: make render-site HUGO_CACHE_CONTAINER_DIR=/src/.hugo_cache RENDER_OUTPUT_DIR=/src/public
+      - name: Prepare cached build
+        id: build
+        uses: ./.github/actions/prepare-build
 
-      - name: Run htmltest
+      - name: Check internal HTML
+        run: make -o build html-check
+
+      - name: Check archive corruption and diagnostic tests
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        run: make -o build standards-test check-tests
+
+      - name: Check rendered navigation and downloads
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        run: make -o build site-check
+
+      - name: Check external links (advisory)
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
         continue-on-error: true
-        uses: wjdp/htmltest-action@670ec9b79a149d30f4f5122e20cea1dfe82f8276 # v0.13.0-rc1
-        with:
-          config: .htmltest.yml
+        run: make -o build html-check-external
 
       - name: Archive htmltest results
         if: always()
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: htmltest-report
-          path: tmp/.htmltest/
+          path: tmp/checks/
+          include-hidden-files: true
           retention-days: 5

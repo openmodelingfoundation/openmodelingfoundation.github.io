@@ -1,0 +1,25 @@
+name: Prepare cached Hugo build
+description: Restore Docker layers and Hugo modules, then build the Compose image once.
+runs:
+  using: composite
+  steps:
+    - name: Cache Docker layers
+      uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      with:
+        path: .buildx-cache
+        key: docker-v1-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('Dockerfile', '.env', 'package.json', 'package-lock.json', 'packages/**') }}-${{ github.sha }}
+        restore-keys: |
+          docker-v1-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('Dockerfile', '.env', 'package.json', 'package-lock.json', 'packages/**') }}-
+          docker-v1-${{ runner.os }}-${{ runner.arch }}-
+
+    - name: Cache Hugo modules and downloads
+      uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      with:
+        path: .hugo_cache
+        key: hugo-v2-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('.env', 'go.mod', 'go.sum') }}-${{ github.sha }}
+        restore-keys: |
+          hugo-v2-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('.env', 'go.mod', 'go.sum') }}-
+
+    - name: Build Compose image
+      shell: bash
+      run: make build-ci

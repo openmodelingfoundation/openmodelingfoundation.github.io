@@ -22,9 +22,6 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_CACHE_HOST_DIR: ./.hugo_cache
-      HUGO_CACHE_CONTAINER_DIR: /src/.hugo_cache
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -35,44 +32,18 @@ jobs:
         id: pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
 
-      - name: Setup uv
-        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+      - name: Prepare cached build
+        uses: ./.github/actions/prepare-build
 
       - name: Generate Hugo data from BibTeX
-        run: |
-          mkdir -p data
-          uv run .github/scripts/bibtex_to_json.py \
-            --input assets/bibliographies/publications.bib \
-            --output data/publications.json
+        run: make -o build publications-json
 
-      - name: Restore build cache
-        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
-        with:
-          path: ${{ env.HUGO_CACHE_HOST_DIR }}
-          key: hugo-${{ runner.os }}-${{ github.run_id }}
-          restore-keys: |
-            hugo-${{ runner.os }}-
-
-      - name: Build in Docker Compose
+      - name: Render site
         env:
-          BASE_URL: ${{ steps.pages.outputs.base_url }}
+          RENDER_BASE_URL: ${{ steps.pages.outputs.base_url }}
         run: |
-          BUILD_TIMESTAMP_UTC="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-          docker compose build --pull hugo
-          docker compose run --rm --no-deps \
-            --entrypoint sh \
-            --user "$(id -u):$(id -g)" \
-            -e HUGO_CACHEDIR="${HUGO_CACHE_CONTAINER_DIR}" \
-            -e BASE_URL="${BASE_URL}" \
-            -e BUILD_TIMESTAMP_UTC="${BUILD_TIMESTAMP_UTC}" \
-            hugo -c '.github/scripts/build-site.sh'
-
-      - name: Save build cache
-        if: always()
-        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
-        with:
-          path: ${{ env.HUGO_CACHE_HOST_DIR }}
-          key: hugo-${{ runner.os }}-${{ github.run_id }}
+          export BUILD_TIMESTAMP_UTC="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          make -o build render-site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0

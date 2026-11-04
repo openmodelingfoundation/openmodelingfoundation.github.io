@@ -8,7 +8,7 @@ Use this procedure for a coordinated Hugo, Docsy, and JavaScript upgrade. For a 
 | --- | --- | --- |
 | Hugo | `.env` (`HUGO_VERSION`) for Compose; Dockerfile `ARG HUGO_VERSION` for its standalone default | Docker base image |
 | Docsy | `go.mod`, imported as `github.com/google/docsy/theme` in `hugo.yaml` | `go.sum`; Hugo module cache |
-| Site JavaScript and CSS tools | Root `package.json` | Root `package-lock.json`; `/tmp/node_modules` in the image |
+| Site JavaScript and CSS tools | Root `package.json` | Root `package-lock.json`; `/src/node_modules` in the image |
 | JavaScript requested by Hugo modules | Module manifests, consolidated by `hugo mod npm pack` | `packages/hugoautogen/{package.json,hugo_packagemeta.json}` and root `package-lock.json` |
 | Container tools | Dockerfile base image and `UV_VERSION`; Alpine `apk add` packages | Docker image |
 | BibTeX parser | Inline dependency metadata in `.github/scripts/bibtex_to_json.py` | Resolved by `uv run` (there is no committed Python lockfile) |
@@ -55,3 +55,27 @@ For a JavaScript-only update, start with the existing image, then do this sectio
 4. Check `git diff --check`, `git diff --cached --check`, `git status --short`, and the diff for unexpected generated files or secrets. Commit the authoritative manifests, generated lockfiles/workspace metadata, documentation or template migrations, and any deliberately regenerated font assets. CI's Pages and htmltest workflows provide the final container-build checks.
 
 If an npm or Hugo module update unexpectedly changes many transitive packages, inspect why before committing. Keep exact versions for dependencies whose major release affects the theme's assets, and use the release notes rather than assuming a clean build means the appearance is unchanged.
+
+## Build caches
+
+Node and npm run inside the Hugo container. Dependencies are installed once at
+`/src/node_modules`; Compose populates an anonymous volume from the image to hide
+host packages. `make serve` renews that volume after rebuilding. Isolated checks
+link their temporary source tree to the same container dependency directory.
+
+Both Actions workflows use `.github/actions/prepare-build` to build once with
+`make build-ci`, then use `make -o build <target>` to reuse that image. Docker
+layers (including npm installation) and `.hugo_cache` are cached separately.
+Keys include platform, dependency inputs, and commit; prefix restoration reuses
+compatible previous builds. BuildKit verifies individual layer inputs, so a
+restored layer cache does not bypass dependency changes. No host `node_modules`
+is cached or required.
+
+The CI-only Compose override exports all build stages to a temporary local cache.
+Each successful build replaces the previous export to avoid accumulating unused
+blobs. GitHub saves caches after successful jobs; failed jobs do not publish new
+cache entries. Caches follow GitHub's branch access rules, so pull request caches
+cannot seed deployment builds. A cache miss remains a normal, complete build.
+Docker's npm/uv download cache mounts are builder-local; exported image layers
+provide reuse across runners, but changed dependency manifests may require fresh
+downloads. `.hugo_cache` is excluded from the Docker build context.

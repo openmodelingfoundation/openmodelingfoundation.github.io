@@ -49,3 +49,12 @@ Temporary Items
 *~
 # yarn things
 .config
+
+# Disposable validation reports
+tmp/checks/
+
+# Persistent build cache must not enter image layers.
+.hugo_cache/
+
+# Exported CI Docker layers
+.buildx-cache*/
