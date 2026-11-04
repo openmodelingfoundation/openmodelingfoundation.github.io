@@ -6,10 +6,11 @@ Keep AGENTS.md focused on repository-specific guidance; avoid restating standard
 
 ## Commit conventions
 
-Use Conventional Commits with imperative subjects of at most 72 characters.
-Use scopes only for established repository areas.
-For non-trivial changes, explain the rationale in the body.
-Reference related issues or PRs in the body or footer when known.
+- Use Conventional Commits with imperative subjects of at most 72 characters.
+- Use scopes only for established repository areas.
+- For non-trivial changes, use concise lowercase `-` bullets in the body to explain the rationale and operationally relevant details.
+- Keep each bullet concrete and independently legible; omit a body when the subject already explains the complete change.
+- Prefer branch-wide issue references in the pull request description. Do not repeat the same issue footer across every commit in a branch. Add a lowercase commit footer only when standalone traceability matters, such as for a direct fix, backport, or independently cherry-picked change.
 
 ## Invariants
 
@@ -28,6 +29,7 @@ Prefer `make` targets. Use Docker Compose directly only when debugging the build
 | Production-style render | `make render` |
 | Render while another Hugo container is running | `make render-site-isolated` |
 | Regenerate publications JSON from BibTeX | `make publications-json` |
+| Verify preserved standard editions | `make standards-check` |
 | CI-equivalent production build | `.github/scripts/build-site.sh` |
 
 Never run `make render` while `make serve` or another Hugo container is running: it deletes shared build state and disrupts the live server. Use `make render-site-isolated` instead.
@@ -52,5 +54,6 @@ Use Hugo URL helpers (`relURL`, `absURL`) in templates. Do not hardcode root-rel
 
 ## Validation
 
+- Standard editions: follow [the edition maintenance guide](docs/documentation-standard-page.md) and run `make standards-check` before rendering.
 - Bibliography changes: run `make publications-json` and confirm entry counts match the `.bib` source. Malformed BibTeX entries are silently dropped, not errored.
 - Rendering or template changes: run `make render` and check `public/` directly, or use `make render-site-isolated` if a Hugo container is running. A successful exit code does not guarantee content is present (see module mounts gotcha above).

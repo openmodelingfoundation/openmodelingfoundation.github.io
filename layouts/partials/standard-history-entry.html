@@ -1,0 +1,11 @@
+  <section>
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <p>{{ .Description }}</p>
+    <dl>
+      <dt>Status</dt><dd>{{ .Params.standard_status }}</dd>
+      {{ with .Params.finalized_date }}<dt>Workshop content finalized</dt><dd>{{ time.Format "January 2, 2006" . }}</dd>{{ end }}
+      {{ with .Params.announcement_date }}<dt>Review announced</dt><dd>{{ time.Format "January 2, 2006" . }}</dd>{{ end }}
+      <dt>Snapshot captured</dt><dd>{{ time.Format "January 2, 2006" .Params.snapshot_date }}</dd>
+    </dl>
+    <p><a href="{{ .RelPermalink }}">Read this version</a></p>
+  </section>

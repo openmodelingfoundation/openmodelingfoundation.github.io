@@ -1,99 +1,59 @@
 ---
-title: Documentation
+title: "OMF’s ODD protocol"
 linkTitle: Documentation
+description: "A proposed standard for describing dynamic and mechanistic models."
+layout: standard
+standard_revision: "Draft 1"
+edition_page: "/standards/documentation/versions/draft-1"
+standard_stage: "Community review"
+review_deadline: "2026-11-30"
+# Set the source RFC URL when available.
+rfc_url: ""
+discussion_url: "https://github.com/openmodelingfoundation/rfcs/discussions/2"
+weight: 2
 cascade:
   type: docs
-  github_issue_filter: "label:\"standards - documentation\""
-  github_issue_template: documentation.md
-  github_discuss_category: "documentation-standards"
-weight: 2
 ---
 
-{{% standards-preamble %}}
-These standards promote documentation needed for others to understand a model and reproduce its results.
-{{% /standards-preamble %}}
+OMF’s ODD protocol is a proposed common format for describing dynamic and mechanistic models. The Standards Working Group invites the community to review the draft definition and accompanying templates and examples.
 
-## Overview of Documentation Standards
+This page introduces the proposal and explains how to participate in its review. **Read the linked documents for the full proposed standard and its supporting guidance.**
 
-## Goals for Documentation Standards
+## Review documents
 
-Documentation of a model, together with the provided model code, needs to facilitate the understanding of the intentions of the developer, and make the model easier to test, use, and link to other models. It should also describe assumptions made about phenomena being modeled and what information is used to create and test the model.
+Please read **both the draft definition and its supplement** before submitting feedback.
 
-We suggest three main categories of documentation:
-- Metadata
-- Methods and theoretical foundation
-- Implementation
+| Document | PDF | Editable Word document |
+| :--- | :--- | :--- |
+| Draft definition of the standard | {{< standard-file "definition.pdf" "Read the definition (PDF)" >}} | {{< standard-file "definition.docx" "Definition (Word)" >}} |
+| Templates and examples supplement | {{< standard-file "supplement.pdf" "Read the supplement (PDF)" >}} | {{< standard-file "supplement.docx" "Supplement (Word)" >}} |
 
-## Minimal Documentation Standards
+The definition sets out the proposal’s scope, terminology, structure, and compliance expectations. The supplement provides templates and examples to read alongside it.
 
-### Overview
-- "1-pager"
-- Purpose
-- Summary of structure
-- Processes modeled
+If you cannot access these files, [contact the OMF Administrative Coordinator](mailto:Charlotte.Till@asu.edu?subject=OMF%20ODD%20review%20documents) to request copies.
 
-### General Metadata
-- Name and version of the model
-- Model project page (organizational website or repository, if available)
-- Description of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords
-- Name(s) and contact information of the developer(s)/author(s)
-- Date of release
-- [OSI-approved license](https://choosealicense.com/)
-- [How to cite the software](https://www.force11.org/software-citation-principles)
-- Location where the model is posted or published (e.g. PID or DOI)
-- Computer language or platform used for programming
-- Software and/or hardware requirements needed to run the model and replicate any published results
-- All data dependencies needed to run the model and replicate any published results
-- Information on how to install the model so that it can be run (e.g., compilation and/or execution instructions)
-- Use cases: References to reports or publications where the model is used
-- Changes since the last version (if the model is an update) including bug fixes, new features, or other substantive modifications, where appropriate.
-- [Harmonization with schema.org and codemeta metadata vocabularies](https://codemeta.github.io/)
-- Development status (e.g., experimental, deployed, peer-reviewed, ...)
-- Funding sources
+## Provide feedback
 
-### Sample applications
-- Get-started guide
-- Use case narratives
-- link to publications overview (automated, ideally)
+**Please send comments, questions, and suggestions by Monday, November 30, 2026; earlier feedback is encouraged.**
 
-### Model Documentation: Methods and theoretical foundation
-- Assumptions: What are the key assumptions made that define the dynamics of the model?
-- Model structure: provide a flow diagram of the model.
-- Equations and rules: What are the equations of the model? What are agents' precise behavioral rules (e.g. represented as a decision tree)?
-- Temporal resolution, time stepping, and units 
-- Spatial dimensionality, resolution, extent, grid type if relevant
-- Limitations, domain ranges: What is this model specifically NOT intended to do.
-- Links to open access resources
+[Join the GitHub Discussion](https://github.com/openmodelingfoundation/rfcs/discussions/2) or email [Volker Grimm](mailto:volker.grimm@ufz.de?subject=Comments%20and%20feedback%20on%20OMF%27s%20ODD).
 
-### Implementation 
+You may also request an in-person or virtual conversation; the working group will try to arrange individual or joint meetings to address questions.
 
-#### Interface: Input/Output and Variables 
-- Key input parameters and their values and domain ranges and units (minimum input requirements for model operation and default values, where appropriate) 
-- Initial conditions  
-- Forcing functions that affect the dynamics of the model.  
-- Control variables  
-- Key output variables and domain ranges
-- Provide sample runs that illustrate the dynamics of the model.
+## What happens after review
 
-#### Validating installation
-- Provide sample input and output files, including run script, such as a cookbook or benchmark
+1. The working group will use community feedback, and input from journal editors where possible, to revise the proposal and supporting materials.
+2. The OMF Executive Committee will check the final version again.
+3. The full OMF Members Council will vote on the proposal in **2027**.
 
-#### Model evaluation, uncertainty, and sensitivity
-- Provide data used for calibration and evaluation of the model, if data are public. 
-- Describe how calibration and evaluation to verify the accuracy of the model were performed. 
-- List of publications on evaluation, uncertainty, sensitivity analyses for your model
-- Describe or provide benchmarks for validation of your model
-- Links to open access resources
+If approved, the standard will receive a DOI and an accompanying publication will be prepared to formally announce it.
 
-## Ideal Documentation Standards
-- [ODD Protocol for Describing Agent-Based and Other Simulation Models](http://jasss.soc.surrey.ac.uk/23/2/7.html)
+The review timetable and process are described in the [November 2, 2026 announcement](https://github.com/openmodelingfoundation/rfcs/discussions/2) from the working group co-chairs and the [OMF Executive Committee]({{< relref "/about/executive-committee" >}}).
 
-## Cyberinfrastructure and Tools for Implementation of Documentation Standards
-- Cross-links between documentation sections
-- Bibliographic documentation / management system (e.g., Mendeley links)
-- Tagged content management system entry form (linkage between sections)
+## Versions and background
 
-## Examples and References for Documentation
-- TBD
+The currently linked documents are preserved in the [Draft 1 snapshot]({{< relref "/standards/documentation/versions/draft-1" >}}), captured on November 3, 2026. This [version history]({{< relref "/standards/documentation/versions" >}}) page will record all captured editions and their provenance.
+
+[2020 workshop outputs]({{< relref "/standards/documentation/versions/workshop-2020" >}}) records the initial work preceding this review draft.
 
 

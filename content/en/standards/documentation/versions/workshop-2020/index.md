@@ -1,0 +1,108 @@
+---
+title: "2020 workshop outputs"
+linkTitle: "2020 workshop outputs"
+description: "Initial workshop material on model metadata, methods, implementation, and reproducibility."
+type: docs
+layout: standard
+edition_id: "workshop-2020"
+standard_revision: "2020 workshop outputs"
+standard_stage: "Workshop material"
+standard_status: "Historical workshop material · Not an adopted standard"
+archived: true
+workshop_material: true
+date: "2020-10-06"
+finalized_date: "2020-10-06"
+source_commit: "9da8932066e7fcfffeac229d26a404c99a3bee35"
+snapshot_date: "2026-11-04"
+current_page: "/standards/documentation"
+weight: 100
+---
+
+These outputs record the initial documentation standards workshop. They were not an adopted standard or a released ODD review draft.
+
+This is the workshop’s final output, finalized by [Cheryl Porter](https://github.com/chporter) on October 6, 2020, in [commit 9da8932](https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/commit/9da8932066e7fcfffeac229d26a404c99a3bee35) with minor formatting changes applied later.
+
+See the [current documentation proposal]({{< relref "/standards/documentation" >}}) for the proposal now under review.
+
+These workshop notes explore documentation needed for others to understand a model and reproduce its results.
+
+## Goals for Documentation Standards
+
+Documentation of a model, together with the provided model code, needs to facilitate the understanding of the intentions of the developer, and make the model easier to test, use, and link to other models. It should also describe assumptions made about phenomena being modeled and what information is used to create and test the model.
+
+We suggest three main categories of documentation:
+- Metadata
+- Methods and theoretical foundation
+- Implementation
+
+## Minimal Documentation Standards
+
+### Overview
+- "1-pager"
+- Purpose
+- Summary of structure
+- Processes modeled
+
+### General Metadata
+- Name and version of the model
+- Model project page (organizational website or repository, if available)
+- Description of the model, including its purpose or goals and the type or formalism of the model (e.g., system dynamic, agent based model, machine learning), preferably accompanied by relevant keywords
+- Name(s) and contact information of the developer(s)/author(s)
+- Date of release
+- [OSI-approved license](https://choosealicense.com/)
+- [How to cite the software](https://www.force11.org/software-citation-principles)
+- Location where the model is posted or published (e.g. PID or DOI)
+- Computer language or platform used for programming
+- Software and/or hardware requirements needed to run the model and replicate any published results
+- All data dependencies needed to run the model and replicate any published results
+- Information on how to install the model so that it can be run (e.g., compilation and/or execution instructions)
+- Use cases: References to reports or publications where the model is used
+- Changes since the last version (if the model is an update) including bug fixes, new features, or other substantive modifications, where appropriate.
+- [Harmonization with schema.org and codemeta metadata vocabularies](https://codemeta.github.io/)
+- Development status (e.g., experimental, deployed, peer-reviewed, ...)
+- Funding sources
+
+### Sample applications
+- Get-started guide
+- Use case narratives
+- link to publications overview (automated, ideally)
+
+### Model Documentation: Methods and theoretical foundation
+- Assumptions: What are the key assumptions made that define the dynamics of the model?
+- Model structure: provide a flow diagram of the model.
+- Equations and rules: What are the equations of the model? What are agents' precise behavioral rules (e.g. represented as a decision tree)?
+- Temporal resolution, time stepping, and units 
+- Spatial dimensionality, resolution, extent, grid type if relevant
+- Limitations, domain ranges: What is this model specifically NOT intended to do.
+- Links to open access resources
+
+### Implementation 
+
+#### Interface: Input/Output and Variables 
+- Key input parameters and their values and domain ranges and units (minimum input requirements for model operation and default values, where appropriate) 
+- Initial conditions  
+- Forcing functions that affect the dynamics of the model.  
+- Control variables  
+- Key output variables and domain ranges
+- Provide sample runs that illustrate the dynamics of the model.
+
+#### Validating installation
+- Provide sample input and output files, including run script, such as a cookbook or benchmark
+
+#### Model evaluation, uncertainty, and sensitivity
+- Provide data used for calibration and evaluation of the model, if data are public. 
+- Describe how calibration and evaluation to verify the accuracy of the model were performed. 
+- List of publications on evaluation, uncertainty, sensitivity analyses for your model
+- Describe or provide benchmarks for validation of your model
+- Links to open access resources
+
+## Ideal Documentation Standards
+- [ODD Protocol for Describing Agent-Based and Other Simulation Models](http://jasss.soc.surrey.ac.uk/23/2/7.html)
+
+## Cyberinfrastructure and Tools for Implementation of Documentation Standards
+- Cross-links between documentation sections
+- Bibliographic documentation / management system (e.g., Mendeley links)
+- Tagged content management system entry form (linkage between sections)
+
+## Examples and References for Documentation
+- TBD

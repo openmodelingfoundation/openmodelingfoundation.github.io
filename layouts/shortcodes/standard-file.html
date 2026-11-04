@@ -1,0 +1,13 @@
+{{- $edition := .Page -}}
+{{- with .Page.Params.edition_page -}}
+  {{- $edition = $.Page.Site.GetPage . -}}
+{{- end -}}
+{{- if not $edition -}}
+  {{- errorf "Missing standard edition for %s" .Page.File.Path -}}
+{{- else -}}
+  {{- with $edition.Resources.GetMatch (.Get 0) -}}
+    <a href="{{ .RelPermalink }}">{{ $.Get 1 }}</a>
+  {{- else -}}
+    {{- errorf "Missing standard file %q for %s" (.Get 0) .Page.File.Path -}}
+  {{- end -}}
+{{- end -}}

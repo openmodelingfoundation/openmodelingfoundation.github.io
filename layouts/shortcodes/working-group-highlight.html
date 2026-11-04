@@ -1,5 +1,8 @@
 {{- $title := .Get "title" -}}
 {{- $url := .Get "url" -}}
+{{- with .Get "page" -}}
+  {{- $url = $.Page.RelRef (dict "path" .) -}}
+{{- end -}}
 {{- $action := .Get "action" | default "Learn more and contribute" -}}
 {{- $label := .Get "label" | default "Current project" -}}
 {{- $headingID := printf "working-group-highlight-%s" ($title | anchorize) -}}

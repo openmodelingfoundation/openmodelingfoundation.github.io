@@ -31,6 +31,9 @@ require_absolute_path() {
 require_absolute_path "$HUGO_CACHEDIR" HUGO_CACHEDIR
 require_absolute_path "$OUTPUT_DIR" OUTPUT_DIR
 
+# Preserve edition integrity before publishing any generated pages.
+python3 .github/scripts/check_standard_archives.py
+
 mkdir -p "$HUGO_CACHEDIR" "$OUTPUT_DIR" "$npm_config_cache"
 
 git config --global --add safe.directory /src

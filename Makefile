@@ -20,7 +20,7 @@ PUBLICATIONS_BIB_PATH ?= assets/bibliographies/publications.bib
 PUBLICATIONS_JSON_PATH ?= data/publications.json
 
 # Controls
-.PHONY : all commands build clean stop serve render render-site render-site-isolated shell publications-json deps-docsy deps-pack deps-lock deps-fonts
+.PHONY : all commands build clean stop serve render render-site render-site-isolated shell publications-json standards-check deps-docsy deps-pack deps-lock deps-fonts
 all : commands
 
 ## commands         : show all commands.
@@ -56,7 +56,11 @@ render-site-isolated : build
 		-v "$(HUGO_ISOLATED_CACHE_HOST_DIR)":"$(HUGO_ISOLATED_CACHE_CONTAINER_DIR)":rw \
 		-w /tmp \
 		$(HUGO_IMAGE) \
-		-lc 'cp -a /workspace /tmp/src && git config --global --add safe.directory /tmp/src && cd /tmp/src && ln -s /tmp/node_modules node_modules && hugo build --gc --minify --cacheDir "$(HUGO_ISOLATED_CACHE_CONTAINER_DIR)" -d /tmp/public --noBuildLock'
+		-lc 'cp -a /workspace /tmp/src && git config --global --add safe.directory /tmp/src && cd /tmp/src && ln -s /tmp/node_modules node_modules && python3 .github/scripts/check_standard_archives.py && hugo build --gc --minify --cacheDir "$(HUGO_ISOLATED_CACHE_CONTAINER_DIR)" -d /tmp/public --noBuildLock'
+
+## standards-check : verify preserved standard editions against their checksums.
+standards-check:
+	$(HUGO_RUN_SH) $(HUGO_USER_ENV) $(HUGO_SERVICE) -c 'python3 .github/scripts/check_standard_archives.py'
 
 ## publications-json: generate Hugo data/publications.json from BibTeX.
 publications-json : build

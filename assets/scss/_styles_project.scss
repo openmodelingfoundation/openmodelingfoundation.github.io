@@ -1,3 +1,5 @@
+@import "standard";
+
 body {
     color: var(--omf-text);
     background:
@@ -133,6 +135,19 @@ textarea:focus-visible,
         &:hover,
         &:focus-visible {
             color: $orange;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        .navbar-brand {
+            max-width: 100%;
+        }
+
+        .navbar-brand__name {
+            min-width: 0;
+            white-space: normal;
+            font-size: 1rem;
+            line-height: 1.3;
         }
     }
 }

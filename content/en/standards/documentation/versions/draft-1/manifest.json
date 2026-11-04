@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "standard": "OMF’s ODD protocol",
+  "edition_id": "draft-1",
+  "status": "review-draft",
+  "announcement_date": "2026-11-02",
+  "captured_on": "2026-11-03",
+  "review_deadline": "2026-11-30",
+  "discussion_url": "https://github.com/openmodelingfoundation/rfcs/discussions/2",
+  "rfc_number": null,
+  "doi": null,
+  "source_commit": null,
+  "provenance_note": "Source documents were retrieved from the announcement-linked destinations on the capture date. Historical bytes at the announcement date are not verified. No source Git revision was supplied. Word/PDF originals and the supplied Markdown are preserved separately; format equivalence has not been certified.",
+  "files": [
+    {
+      "path": "index.md",
+      "bytes": 15516,
+      "sha256": "f3b8c2d3298bb9962fddd55b71a47a828e54d46cd4f49e4e470cbb010bba1630",
+      "source": "Web transcription of the supplied draft with review context from Discussion #2; structural table reformatted as sections."
+    },
+    {
+      "path": "source-draft.txt",
+      "bytes": 16779,
+      "sha256": "8ea6ec756d3c3294753f89cb9004a893a36355458298a167cc56e2b2735b5998",
+      "source": "User-supplied OMF Standard Template draft 1.md; original bytes retained, served as a text resource with a Markdown download filename."
+    },
+    {
+      "path": "definition.docx",
+      "bytes": 3132061,
+      "sha256": "df862bf7c18678f9586de29e3911958d5a2fc210e76a1c3f0514e3b14ad11aa2",
+      "source_url": "https://www.questionpro.com/qp_userimages/sub-12/5453612/OMF-Standard-draft-definition-Nov-1-2026.docx",
+      "retrieved_on": "2026-11-03"
+    },
+    {
+      "path": "definition.pdf",
+      "bytes": 392135,
+      "sha256": "291b18d5bf502fffd5abc429fe216ea9337fdd079e94ee0396cb1984ed804dbb",
+      "source_url": "https://www.questionpro.com/qp_userimages/sub-12/5453612/OMF-Standard-draft-definition-Nov-1-2026.pdf",
+      "retrieved_on": "2026-11-03"
+    },
+    {
+      "path": "supplement.docx",
+      "bytes": 101638,
+      "sha256": "0e155d119797cde6c9ebeee98fb344a72cf413113f493554943fc1c3e9d4d803",
+      "source_url": "https://www.questionpro.com/qp_userimages/sub-12/5453612/OMFsODD-Supplement---Templates-and-Examples.docx",
+      "retrieved_on": "2026-11-03"
+    },
+    {
+      "path": "supplement.pdf",
+      "bytes": 812493,
+      "sha256": "3a90503029a7b1df6a5fe5ec50b5c7ea2eab01b012b918e1607a1642c6c76f7c",
+      "source_url": "https://www.questionpro.com/qp_userimages/sub-12/5453612/OMFsODD-Supplement---Templates-and-Examples.pdf",
+      "retrieved_on": "2026-11-03"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "edition_id": "workshop-2020",
+  "status": "workshop-material",
+  "captured_on": "2026-11-04",
+  "announcement_date": null,
+  "source_commit": "9da8932066e7fcfffeac229d26a404c99a3bee35",
+  "source_path": "content/en/standards/documentation/_index.md",
+  "source_url": "https://github.com/openmodelingfoundation/openmodelingfoundation.github.io/commit/9da8932066e7fcfffeac229d26a404c99a3bee35",
+  "finalized_on": "2020-10-06",
+  "finalized_by": {
+    "name": "Cheryl Porter",
+    "github_username": "chporter"
+  },
+  "commit_coauthors": [
+    "A Lee"
+  ],
+  "provenance_note": "The identified commit records the workshop's final output, finalized by Cheryl Porter, with A Lee credited as co-author. Minor formatting changes were applied afterward. Migrated from working-groups/standards/drafts/documentation with updated navigation and introductory framing. These are historical workshop outputs, not an adopted release. The finalization date is distinct from the workshop date (unknown) and the capture date.",
+  "files": [
+    {
+      "path": "index.md",
+      "bytes": 5422,
+      "sha256": "9c3c76d034b10b3e144b269d365211c0ce45dcdf6c3a154bc66d527914accd77"
+    }
+  ]
+}

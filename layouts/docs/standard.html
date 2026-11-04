@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{ $edition := . }}
+{{ with .Params.edition_page }}{{ $edition = $.Site.GetPage . }}{{ end }}
+<article class="td-content omf-standard">
+  <header class="omf-standard__header">
+    <h1>{{ .Title }}</h1>
+    <p class="omf-standard__lead">{{ .Description }}</p>
+    <div class="omf-standard__status">
+      <strong>{{ .Params.standard_status | default "Proposed standard · Not yet adopted" }}</strong>
+      <p>{{ .Params.standard_revision }} · {{ .Params.standard_stage | default "Prepared for RFC review" }}</p>
+      {{ with .Params.review_deadline }}<p>Feedback requested by <time datetime="{{ . }}">{{ time.Format "Monday, January 2, 2006" . }}</time></p>{{ end }}
+      <p>Steward: <a href="{{ with .Site.GetPage "/working-groups/standards" }}{{ .RelPermalink }}{{ end }}">Standards Working Group</a></p>
+      {{ if .Params.archived }}
+        <p><strong>Archived edition.</strong> Captured {{ time.Format "January 2, 2006" .Params.snapshot_date }}. This page preserves the text and context recorded at that time.</p>
+        <p><a href="{{ with .Site.GetPage .Params.current_page }}{{ .RelPermalink }}{{ end }}">Read the current standard page</a></p>
+      {{ end }}
+    </div>
+    <div class="omf-standard__actions">
+      {{ with .Params.discussion_url }}
+        <a class="btn btn-primary" href="{{ . }}">{{ if $.Params.archived }}Read the review discussion{{ else }}Give feedback on GitHub{{ end }}</a>
+      {{ else }}
+        {{ if not .Params.archived }}
+        <a class="btn btn-primary" href="#review-and-feedback">Review and feedback</a>
+        {{ end }}
+      {{ end }}
+      {{ with .Params.rfc_url }}<a href="{{ . }}">View source RFC</a>{{ end }}
+      {{ with $edition.Resources.GetMatch "definition.pdf" }}<a href="{{ .RelPermalink }}">Read the draft definition (PDF)</a>{{ end }}
+      {{ if .Params.archived }}{{ with $edition.Resources.GetMatch "source-draft.txt" }}<a href="{{ .RelPermalink }}" download="{{ $edition.Params.edition_id }}.md">Download supplied transcription (Markdown)</a>{{ end }}{{ end }}
+      {{ $current := . }}
+      {{ with .Params.current_page }}{{ $current = $.Site.GetPage . }}{{ end }}
+      {{ with .Site.GetPage (printf "%s/versions" $current.Path) }}<a href="{{ .RelPermalink }}">Version history</a>{{ end }}
+    </div>
+  </header>
+  <details class="omf-standard__mobile-toc d-xl-none">
+    <summary>On this page</summary>
+    {{ replace .TableOfContents "id=\"TableOfContents\"" "id=\"StandardMobileContents\"" | safeHTML }}
+  </details>
+  {{ if and .Params.archived (not .Params.workshop_material) }}
+    <p>The preserved web transcription below has not been verified against the Word and PDF documents. Please use the original review documents when assessing this draft.</p>
+  {{ end }}
+  <div class="omf-standard__text">{{ .Content }}</div>
+</article>
+{{ end }}

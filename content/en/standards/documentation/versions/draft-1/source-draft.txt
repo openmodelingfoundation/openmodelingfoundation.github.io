@@ -1,0 +1,124 @@
+# **OMF’s ODD protocol: a standard for model descriptions**
+
+![][image1]
+
+# Overview
+
+Goals and intent of the standard  
+**OMF’s ODD protocol is a standard format for describing models**. By introducing a common document structure and terminology, it provides a general language, or lingua franca, for modellers from all domains and for model clients and users. 
+
+Executive summary  
+**OMF’s ODD protocol is a standard for documenting models that are dynamic and mechanistic in the widest sense**. Its three purposes are: (1) provide a general non-technical language for communicating a model’s overall idea, purpose, and structure; (2) provide an overview of the rationale underlying the model’s design; (3) provide the details that are needed to fully understand and replicate the model. ODD is a tiered standard, where one or all three purposes are covered. 
+
+History and background  
+**The ODD protocol** was originally developed for describing agent-based models (ABMs, Grimm et al. 2006). It has been used for more than 4000 ABMs and **is one of the most widely used modelling standards**. The rationale of ODD has been used for other model types, for comparing models, and as a checklist  for supporting collaborative model development (Grimm et al. 2027)[^1].
+
+# Administrative
+
+OMF-Standard number: 1.0 \- Date: .. DOI: Owner/Authors: NN  
+When making use of this standard, please cite as: … \[TBD\]
+
+# Scope
+
+OMF’s ODD protocol covers the following dimensions of modelling standards:
+
+| Standard’s dimension1 | OMF’s ODD protocol |
+| :---- | :---- |
+| Type | Norm |
+| Principles relevant to FAIR-aligned modelling | Interoperability (informational), Transparency |
+| Function | Model transparency, Reusability of model |
+| Model life cycle contribution | Model documentation |
+| Stakeholders | All possible stakeholders |
+
+1 from Rosello et al. (2026), see Supplement S.1
+
+# Compliance
+
+How can authors tell if they have complied with the standard?   
+**OMF’s ODD protocol comes with a template** which introduces a document structure (Overview, Design concept, Details) and a certain terminology (e.g., entities, variables, processes, scheduling, design concepts). Using this terminology and the template is mandatory and can easily be checked. The glossary below makes sure that the terminology, which narrows down certain terms to a specific meaning, is used consistently. 
+
+How can others tell?   
+By using the template and the terminology/glossary as a checklist[^2]. 
+
+# The standard’s definition
+
+**OMF’s ODD protocol for standard model descriptions**
+
+The ODD protocol comprises three parts: Overview, Design Concepts, and Details. The **Overview** provides an overview of the model’s purpose, questions, validation criteria, state variables, processes, and scales. The **Design Concepts** part lists important concepts underlying the model’s design; it is meant to make sure these concepts are addressed explicitly. The **Details** part includes information about the model’s initialization, input data representing external drivers, and the details of the submodels implementing the model’s processes.
+
+ODD model descriptions include seven elements (Table 1).
+
+OMF’s ODD follows a tiered approach: 
+
+At the **base level**, only the O part is provided, but the remaining model description explicitly refers to the entities, state variables, processes and scales of the O part, by using the same names for variables etc. 
+
+At the **full level**, all three parts O, D, and D should be covered. Here, the O part follows the protocol, while for the two Details part, detailed instructions so far only exist for purely algorithmic models (agent-based, cellular automata-type models, etc.), while substandards for, e.g., purely equation-based models do not yet exist. Instead, the generic template of OMF’s ODD provides checklists, following the rationale of reporting guidelines in medical research[^3]. 
+
+**Table 1**: This is the main structure of a full ODD model description, comprised of seven elements.
+
+| ODD | ODD element | Content and purpose |  |
+| :---: | ----- | ----- | :---- |
+| **Overview** | *The Overview part allows us to understand what the model is about and how it conceptualizes the system of interest, and it allows us to zoom into the details of its rationale and implementation. The Overview can, if too long for the main of a publication, go the the supplement and be represented by a narrative summary (Box 1\)* |  |  |
+|  | 1\. Purpose and patterns | Explains the overall aim of the model, the research questions it addresses, and the data or  patterns observed in reality that are used to claim the model is realistic enough for its purpose. |  |
+|  | 2\. Entities, state variables, and scales | Describes the entities comprising the model world, their state variables or attributes, and the spatial and temporal scales of the model. |  |
+|  | 3\. Process overview and scheduling | Outlines the processes in the model and how they are scheduled within the model’s time step. They could be represented by a set of coupled equations, or by a sequence of submodels that are scheduled according to a certain algorithm. |  |
+| **Design Concepts** | *They describe important concepts, methods or approaches that underlie the model’s design. The approaches could include the programming language, software, or numerical solvers being used. For agent-based models there are ten concepts, here we list only those of them  which are likely to be relevant for most model types.* |  |  |
+|  |        4\. Design concepts | Basic principles | Describes the theoretical and empirical foundations underlying the model. |
+|  |  | Stochasticity | Explains the role of randomness in the model’s processes. |
+|  |  | Observation | Specifies what data are recorded from the model and how outputs are measured. |
+| **Details** | *The Details part is about transparency and reproducibility, i.e. the technical part of the model descriptions. Here, all details that are needed to replicate the model are specified, and linked, via cross-references, the code implementing the model and related scripts.* |  |  |
+|  | 5\. Initialization | Describes the initial definition of the model world, i.e. all entities present at the start and their state variables' settings. |  |
+|  | 6\. Input data | Specifies any external data used to drive the model during simulations. |  |
+|  |  7\. Submodels | Provides detailed descriptions of the rules and mechanisms governing changes of the model´s entities over time. Their names of variables and processes should correspond to the names used in the Overview part.  |  |
+
+# Glossary
+
+**Design concepts**: Concepts that underlie a model’s design. They are so important for a model’s scope and usefulness that their choice and use needs to be considered explicitly.   
+*Comment*: They differ between model types. For agent-based models, emergence (emergent behavior), learning, or interaction are examples. For other model types, using a grid of spatial units, assuming rationale behaviour, or the settings of a numerical solution are possible examples.
+
+**Entity**: An entity is a distinct object, organism, component, or unit of interest in the model that has an identity and may possess attributes and participate in processes or interactions.  
+*Examples*: organisms, collectives of organisms (packs), people, institutions; spatial units (cells in models which use a grid of cells to represent spatial heterogeneity and interactions); the environment (weather, market price). 
+
+**Initialization**: The initial setting of the number of all entities, and the initial value of all state variables of all entities. Per run, this happens only once, while the schedule of processes within a time step is repeated until a given stop condition is met. 
+
+**Input Data**: Data of external drivers of the modelled system, which change over time, are imported from external files.  
+	Examples: Weather, market price, etc.  
+*Comment*: “Input” here refers to input from data files, not from users via the Graphical User Interface.
+
+**Process**: A process is a mechanism or sequence of activities through which entities, their states, or relationships change over time. 
+
+**Scales**: Spatial and temporal scales specify the spatial and temporal dimensions at which a model represents a system, its entities, and its processes.   
+*Spatial extent*: The total area or geographical domain covered by the model.  
+*Spatial resolution*: The size of the smallest spatial units distinguished by the model, or the precision with which locations are represented.  
+*Temporal extent*: The total period covered by the model.  
+*Temporal resolution*: The duration of the time steps or the smallest time intervals at which changes are represented.  
+*Comment*: Note that large scale in geography is the opposite of large scale in ecology and other environmental sciences. 
+
+**Scheduling**: The sequence by which a model’s processes are executed. The sequence of processes within the time step by which the model moves on matters and therefore needs to be carefully designed and fully communicated. The same holds for models with coupled ODEs or PDEs, where the solvers often do not solve all equations in one step, but one after the other. 
+
+**State variable**: A variable or attribute that characterizes an entity.
+
+*Examples*: age, group size (packs), bold vs shy personality; vegetation cover, soil moisture  
+*Comment*: state variables are “elemental” in that they cannot be calculated from other state variables (biomass of a tree is a state variable, summed-up biomass of a forest is not). State variables allow to distinguish entities; they vary over time, or among entities, or both. Parameters, which are usually constant during a model run, can be state variables if they are, e.g. assigned stochastically to the entities during model initialization. 
+
+**Submodels**: Implementation of the processes listed in the process overview of the Overview part of ODD.   
+	*Comment*: This can be simple equations, complex algorithms, or a mix of both.
+
+# Template and examples
+
+See Supplement “OMFsODD Supplement \- Templates and Examples.docx”. 
+
+# References
+
+Grimm, V., Rosello, C., Hamilton, S., Gallagher, C., Micheletti, T., Szangolies, L., ... & Railsback, S. (2027). Twenty years of the ODD protocol: development, usage, extensions, and lessons learned about modelling standards development. Environmental Modelling & Software 207, 107203 
+
+Rosello  C, Hamilton SH, Grimm V, Barton MC, Edmonds B, Elsawah S, Grant WE, Hengeveld GM, Jakeman AJ, Koralewski TE, Lynch I, Lemmen C, Pierce MEj, Qin C-Z, Vincenot CE, Wang H-H. 2026\. FAIR principles for good modeling practice and standards. SSRN 6213393\. DOI: 10.2139/ssrn.6213393 
+
+[^1]:  Nov 1, 2026
+
+[^2]:  LLM-based tools will help testing for compliance.
+
+[^3]:  Reporting guidelines provide checklists where authors specify where in their article or report certain pieces of information are to be found, e.g. CONSORT for randomized trials in medical studies  (over 12,000 citations, see example in Supplemen S5).  
+
+
+[image1]: <data:image/png;base64,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>
