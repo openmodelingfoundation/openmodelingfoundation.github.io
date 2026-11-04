@@ -4,6 +4,14 @@ linkTitle: "Cyberinfrastructure"
 aliases:
   - /about/working-groups/cyberinfrastructure/
 ---
+{{< working-group-highlight
+  title="OMF Agent Skills"
+  url="https://github.com/openmodelingfoundation/skills"
+  action="Explore the skills and contribute"
+>}}
+An evolving collection of community-developed workflows and [agent skills](https://agentskills.io) to help computational modelers use coding agents effectively to build transparent, reviewable, reproducible, FAIR, and OMF standards-aligned models.
+{{< /working-group-highlight >}}
+
 The Cyberinfrastructure Working Group (CYWG) coordinates development and management of the OMF Science Gateway, an online platform for collaborative governance and standards. CYWG works to identify, develop, and enhance tools and processes that lower the technical barriers towards adoption of OMF standards and facilitate their use by modeling scientists. CYWG staff assist the EOWG in developing online training modules and making them available on the OMF Science Gateway.
 
 If you are interested in joining the Cyberinfrastructure Working Group, [please use this link]({{< param working_group_request_form >}}) or reach out to the group Chair for further information.
@@ -25,15 +33,7 @@ We welcome new contributors and are actively seeking additional co-chairs to hel
 
 ## **Current Developments**
 
-{{< working-group-highlight
-  title="OMF Agent Skills"
-  url="https://github.com/openmodelingfoundation/skills"
-  action="Explore the skills and contribute"
->}}
-An evolving collection of community-developed workflows and [agent skills](https://agentskills.io) to help computational modelers use coding agents effectively to build transparent, reviewable, reproducible, FAIR, and OMF standards-aligned models.
-{{< /working-group-highlight >}}
-
-Other current CYWG work includes:
+Current CYWG work also includes:
 
 - a collaborative effort with partners CSDMS and CUAHSI in performing and evaluating FAIR metadata assessments, e.g., [FAIRsoft indicators](https://inab.github.io/FAIRsoft_indicators/) and the [OpenEBench Observatory](https://openebench.bsc.es/observatory/) as well as research software quality efforts like the [EVERSE Research Software Quality Kit](https://everse.software/RSQKit/)
 
