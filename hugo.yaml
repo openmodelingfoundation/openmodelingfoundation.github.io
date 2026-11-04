@@ -53,7 +53,12 @@ permalinks:
 # Image processing configuration.
 imaging:
   resampleFilter: "CatmullRom"
-  quality: 75
+  jpeg:
+    quality: 75
+  webp:
+    quality: 75
+  avif:
+    quality: 75
   anchor: "smart"
 
 services:

@@ -104,6 +104,10 @@
     {{- range $rewrites -}}
       {{- $html = replaceRE .pattern .replacement $html -}}
     {{- end -}}
+    {{/* Preserve the upstream TOC's old anchor after its Model Libraries heading rename. */}}
+    {{- if and (strings.Contains $html `id="model-libraries-and-research-software-registries"`) (not (strings.Contains $html `id="model-libraries"`)) -}}
+      {{- $html = replace $html `<h2 id="model-libraries-and-research-software-registries"` `<span id="model-libraries"></span><h2 id="model-libraries-and-research-software-registries"` -}}
+    {{- end -}}
     {{- $rendered = $html -}}
     {{- $warning = "" -}}
   {{- else -}}
