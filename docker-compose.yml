@@ -10,3 +10,5 @@ services:
     working_dir: /src
     volumes:
       - .:/src
+      # Hide stale host packages with image-built dependencies.
+      - /src/node_modules

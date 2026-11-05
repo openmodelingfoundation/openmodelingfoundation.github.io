@@ -1,0 +1,61 @@
+// Standards extend the existing scientific editorial identity.
+.omf-standard {
+  max-width: 76ch;
+  margin-inline: auto;
+  padding-bottom: 3rem;
+
+  &__header {
+    padding-block: 1rem 2rem;
+
+    h1 { font-size: clamp(2rem, 3.5vw, 3.25rem); }
+  }
+
+  &__lead { font-size: 1.2rem; }
+
+  &__status {
+    padding-block: 1.15rem;
+    margin-block: 1.5rem;
+    border-block: 1px solid var(--omf-border);
+
+    strong { color: var(--omf-primary); }
+    p { margin: .35rem 0 0; }
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    align-items: center;
+  }
+
+  &__mobile-toc {
+    border-block: 1px solid var(--omf-border);
+    padding-block: 1rem;
+    margin-bottom: 2rem;
+
+    summary { cursor: pointer; font-weight: 600; color: var(--omf-primary); }
+    nav { margin-top: 1rem; }
+    ul { padding-left: 1.25rem; }
+  }
+
+  &__text {
+    overflow-wrap: anywhere;
+    h2 { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--omf-border); }
+    h3 { margin-top: 2rem; }
+    h4 { margin-top: 1.5rem; }
+    :is(h2, h3, h4) { scroll-margin-top: 6rem; }
+    table { width: 100%; }
+  }
+
+  ::selection { background: var(--omf-primary); color: white; }
+}
+
+@media (max-width: 575.98px) {
+  .omf-standard__actions { align-items: flex-start; flex-direction: column; }
+}
+
+@media print {
+  .omf-standard__actions,
+  .omf-standard__mobile-toc { display: none; }
+  .omf-standard { max-width: none; }
+}

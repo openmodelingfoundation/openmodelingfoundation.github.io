@@ -1,4 +1,10 @@
-{{ if .File }}
+{{ if in (slice "standard" "standard-history") .Params.layout }}
+  <div class="td-page-meta ms-2 pb-1 pt-2 mb-0 mt-auto">
+    {{ with .Params.discussion_url }}<a href="{{ . }}">{{ if $.Params.archived }}Read the review discussion{{ else }}Give feedback on GitHub{{ end }}</a>{{ end }}
+    {{ with .Params.rfc_url }}<a href="{{ . }}">View source RFC</a>{{ end }}
+    <a href="{{ with .Site.GetPage "/working-groups/standards" }}{{ .RelPermalink }}{{ end }}">Standards Working Group</a>
+  </div>
+{{ else if .File }}
     {{ $pathFormatted := replace .File.Path "\\" "/" }}
     {{ $gh_issue_template := ($.Param "github_issue_template") }}
     {{ $gh_issue_filter := ($.Param "github_issue_filter") }}

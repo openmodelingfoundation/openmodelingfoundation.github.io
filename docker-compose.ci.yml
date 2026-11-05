@@ -1,0 +1,8 @@
+# CI exports Docker layers separately from Hugo's runtime cache.
+services:
+  hugo:
+    build:
+      cache_from:
+        - type=local,src=.buildx-cache
+      cache_to:
+        - type=local,dest=.buildx-cache-new,mode=max

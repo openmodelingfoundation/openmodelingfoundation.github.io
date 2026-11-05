@@ -49,3 +49,9 @@ Temporary Items
 *~
 # yarn things
 .config
+
+# Disposable validation reports
+tmp/checks/
+
+# Exported CI Docker layers
+.buildx-cache*/

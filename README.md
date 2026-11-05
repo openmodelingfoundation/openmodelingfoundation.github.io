@@ -49,6 +49,11 @@ Build and start a docker container with a hot-reloading `hugo server` that you c
 % make serve
 ```
 
+The preview uses an image-populated dependency volume at `/src/node_modules`.
+`make serve` recreates the container and refreshes that volume after building,
+so stale host packages cannot shadow the image's Bootstrap or Font Awesome
+files. The host `node_modules` directory is left untouched.
+
 Run the local production-style render path (equivalent to the CI shared build entrypoint):
 
 ```

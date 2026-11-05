@@ -7,7 +7,7 @@ weight: 101
 
 ## Upcoming Activities
 
-Information on activities or projects of individual OMF Working Groups can be found within their individual pages accessed via the [Working Groups page]({{< ref "/working-groups#working-groups" >}}).
+Information on activities or projects of individual OMF Working Groups can be found within their individual pages accessed via the [Working Groups page]({{< ref "/working-groups" >}}).
 
 **December 2024 Virtual Members Council Meeting**
 

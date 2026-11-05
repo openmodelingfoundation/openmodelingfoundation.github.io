@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="td-content omf-standard">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .RegularPages.ByDate.Reverse }}
+    {{ if not .Params.workshop_material }}{{ partial "standard-history-entry.html" . }}{{ end }}
+  {{ end }}
+  {{ range .RegularPages }}
+    {{ if .Params.workshop_material }}{{ partial "standard-history-entry.html" . }}{{ end }}
+  {{ end }}
+</article>
+{{ end }}

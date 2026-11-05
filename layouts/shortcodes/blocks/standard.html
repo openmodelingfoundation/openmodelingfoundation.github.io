@@ -10,5 +10,9 @@
 <div class="mb-0">
 {{ .Inner }}
 </div>
-{{ with .Get "url" }}<a class="btn btn-warning" href="{{ . }}">{{ with $url_text }}{{ $url_text }}{{ else }}{{ T "ui_read_more" }}{{ end }}</a>{{ end }}
+{{ with .Get "url" }}
+  {{ $url := . }}
+  {{ with $.Page.Site.GetPage $url }}{{ $url = .RelPermalink }}{{ end }}
+  <a class="btn btn-warning" href="{{ $url }}">{{ with $url_text }}{{ . }}{{ else }}{{ T "ui_read_more" }}{{ end }}</a>
+{{ end }}
 </div>

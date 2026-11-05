@@ -4,6 +4,15 @@ linkTitle: "Standards"
 aliases:
   - /about/working-groups/standards/
 ---
+{{< working-group-highlight
+  title="OMF’s ODD documentation standard"
+  label="Request for comments · Community review"
+  page="/standards/documentation"
+  action="Read the proposal and review documents"
+>}}
+Help shape OMF’s proposed standard for describing dynamic and mechanistic models.
+{{< /working-group-highlight >}}
+
 ## **Overview**
 
 The Standards Working Group (SWG) oversees the adoption, dissemination, and administration of Open Modeling Foundation standards for access, documentation, reusability, and interoperability. It proposes standards to be reviewed, revised, and approved by the OMF Members Council. The SWG works with Administrative Coordinator to communicate proposed and adopted OMF standards to OMF member organizations and other stakeholders, and solicit input about proposed standards from the modeling community. In coordination with the Certification Working Group, it helps OMF member (and other) code repositories implement OMF standards for access, discoverability, and recognition of model developers who implement OMF best practice standards.
@@ -36,6 +45,7 @@ If you are interested in joining the Standards Working Group, [please use this l
 - Participates in expert groups of the International Council for the Exploration of the Sea (ICES)
 
 ## **Current Developments**
+
 SWG has more than 50 members. We are working, in sub-groups, on several manuscripts which are meant to prepare the first standards proposed by OMF:
 - A review of existing modelling standards to identify the main challenges in establishing standards and the main dimensions of the context in which standards are developed and needed (S. Hamilton, C. Rosello).
 - The development of a non-technical common language, or "lingua franca", for short but informative summary descriptions, which would facilitate communication and collaboration between different modelling communities, and with model users (V. Grimm).
